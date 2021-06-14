@@ -7,7 +7,7 @@ for image in $(curl -L -s 'https://registry.hub.docker.com/v2/repositories/libra
   echo "<details>" >> README.md
   echo "<summary> $image </summary>\n" >> README.md
   echo '```sh'>> README.md
-        for tag in $(curl -L -s https://registry.hub.docker.com/v2/repositories/library/$image/tags/|jq '."results"[]["name"]' | sed 's/"//g');do
+        for tag in $(curl -L -s https://registry.hub.docker.com/v2/repositories/library/$image/tags/?page_size=2049|jq '."results"[]["name"]' | sed 's/"//g');do
                 
         echo "$image:$tag" >> README.md
                  
@@ -17,3 +17,6 @@ for image in $(curl -L -s 'https://registry.hub.docker.com/v2/repositories/libra
   echo "\n" >> README.md
 done
 
+git add Readme.md
+git commit -m "$update"
+git push -u origen main
