@@ -1,0 +1,41 @@
+name: Run Generate List images docker
+
+on:
+  schedule:
+    - cron: '45 4 * * *'
+
+jobs:
+  notify:
+    
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: run script 
+      run: |
+           fecha=`date`
+           sudo apt install jq -y
+            echo "# Lista de imagenes docker con sus tags" > README.md
+            echo "Actualizado: $fecha" >> README.md
+            for image in $(curl -L -s 'https://registry.hub.docker.com/v2/repositories/library/?page_size=2049'|jq '."results"[]["name"]' |sed 's/"//g');do
+              echo "## $image" >> README.md
+              echo "<details>" >> README.md
+              echo -e "<summary> $image </summary>\n" >> README.md
+              echo '```sh'>> README.md
+                    for tag in $(curl -L -s https://registry.hub.docker.com/v2/repositories/library/$image/tags/?page_size=2049|jq '."results"[]["name"]' | sed 's/"//g');do
+                            
+                    echo "$image:$tag" >> README.md
+                            
+                    done
+              echo '```'>> README.md
+              echo "</details>" >> README.md
+              echo -e "\n" >> README.md
+            done 
+
+    - name: Config git and commit changes
+      run: |
+            git config --global user.name "Bot from Linux8a"
+            git config --global user.email "linux8a@mail.com"
+            git add -A .
+            git commit -m "[MOD] Add list images"
+            git push
