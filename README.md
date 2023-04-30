@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Apr 29 04:49:59 UTC 2023
+Actualizado: Sun Apr 30 04:50:15 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -1057,6 +1057,38 @@ mysql:8.0.11
 
 ```sh
 wordpress:latest
+wordpress:php8.2-fpm-alpine
+wordpress:php8.1-fpm-alpine
+wordpress:php8.0-fpm-alpine
+wordpress:fpm-alpine
+wordpress:cli-php8.2
+wordpress:cli-php8.1
+wordpress:cli-php8.0
+wordpress:cli-2.7.1-php8.2
+wordpress:cli-2.7.1-php8.1
+wordpress:cli-2.7.1-php8.0
+wordpress:cli-2.7.1
+wordpress:cli-2.7-php8.2
+wordpress:cli-2.7-php8.1
+wordpress:cli-2.7-php8.0
+wordpress:cli-2.7
+wordpress:cli-2-php8.2
+wordpress:cli-2-php8.1
+wordpress:cli-2-php8.0
+wordpress:cli-2
+wordpress:cli
+wordpress:6.2.0-php8.2-fpm-alpine
+wordpress:6.2.0-php8.1-fpm-alpine
+wordpress:6.2.0-php8.0-fpm-alpine
+wordpress:6.2.0-fpm-alpine
+wordpress:6.2-php8.2-fpm-alpine
+wordpress:6.2-php8.1-fpm-alpine
+wordpress:6.2-php8.0-fpm-alpine
+wordpress:6.2-fpm-alpine
+wordpress:6-php8.2-fpm-alpine
+wordpress:6-php8.1-fpm-alpine
+wordpress:6-php8.0-fpm-alpine
+wordpress:6-fpm-alpine
 wordpress:php8.2-fpm
 wordpress:php8.2-apache
 wordpress:php8.2
@@ -1081,22 +1113,6 @@ wordpress:6-php8.2
 wordpress:6-php8.1-fpm
 wordpress:6-php8.1-apache
 wordpress:6-php8.1
-wordpress:php8.2-fpm-alpine
-wordpress:php8.1-fpm-alpine
-wordpress:cli-php8.2
-wordpress:cli-php8.1
-wordpress:cli-2.7.1-php8.2
-wordpress:cli-2.7.1-php8.1
-wordpress:cli-2.7-php8.2
-wordpress:cli-2.7-php8.1
-wordpress:cli-2-php8.2
-wordpress:cli-2-php8.1
-wordpress:6.2.0-php8.2-fpm-alpine
-wordpress:6.2.0-php8.1-fpm-alpine
-wordpress:6.2-php8.2-fpm-alpine
-wordpress:6.2-php8.1-fpm-alpine
-wordpress:6-php8.2-fpm-alpine
-wordpress:6-php8.1-fpm-alpine
 wordpress:php8.0-fpm
 wordpress:php8.0-apache
 wordpress:php8.0
@@ -1120,22 +1136,6 @@ wordpress:6-php8.0
 wordpress:6-fpm
 wordpress:6-apache
 wordpress:6
-wordpress:php8.0-fpm-alpine
-wordpress:fpm-alpine
-wordpress:cli-php8.0
-wordpress:cli-2.7.1-php8.0
-wordpress:cli-2.7.1
-wordpress:cli-2.7-php8.0
-wordpress:cli-2.7
-wordpress:cli-2-php8.0
-wordpress:cli-2
-wordpress:cli
-wordpress:6.2.0-php8.0-fpm-alpine
-wordpress:6.2.0-fpm-alpine
-wordpress:6.2-php8.0-fpm-alpine
-wordpress:6.2-fpm-alpine
-wordpress:6-php8.0-fpm-alpine
-wordpress:6-fpm-alpine
 wordpress:beta-php8.2-fpm-alpine
 wordpress:beta-php8.2-fpm
 wordpress:beta-php8.2-apache
