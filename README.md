@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon May  8 04:50:04 UTC 2023
+Actualizado: Tue May  9 04:50:10 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -7909,11 +7909,12 @@ nuxeo:8.1
 
 ```sh
 photon:latest
+photon:4.0-20230506
+photon:4.0
 photon:5.0-GA
 photon:5.0-20230501
 photon:5.0
 photon:4.0-20230429
-photon:4.0
 photon:4.0-20230408
 photon:3.0-20230408
 photon:3.0
@@ -8007,7 +8008,6 @@ photon:2.0-20220520
 photon:2.0-20220513
 photon:3.0-20220506
 photon:2.0-20220506
-photon:3.0-20220429
 ```
 </details>
 
