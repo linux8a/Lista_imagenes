@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon May 15 04:50:11 UTC 2023
+Actualizado: Tue May 16 04:50:00 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -173,6 +173,13 @@ busybox:1.29.3-musl
 
 ```sh
 ubuntu:latest
+ubuntu:mantic-20230511.1
+ubuntu:mantic
+ubuntu:devel
+ubuntu:bionic-20230412
+ubuntu:bionic
+ubuntu:23.10
+ubuntu:18.04
 ubuntu:rolling
 ubuntu:lunar-20230420
 ubuntu:lunar
@@ -185,7 +192,6 @@ ubuntu:kinetic-20230412
 ubuntu:kinetic
 ubuntu:focal-20230412
 ubuntu:focal
-ubuntu:devel
 ubuntu:22.10
 ubuntu:20.04
 ubuntu:lunar-20230314
@@ -193,8 +199,6 @@ ubuntu:kinetic-20230308
 ubuntu:jammy-20230308
 ubuntu:focal-20230308
 ubuntu:bionic-20230308
-ubuntu:bionic
-ubuntu:18.04
 ubuntu:lunar-20230301
 ubuntu:kinetic-20230217
 ubuntu:jammy-20230301
@@ -268,10 +272,6 @@ ubuntu:focal-20220302
 ubuntu:bionic-20220301
 ubuntu:jammy-20220130
 ubuntu:impish-20220128
-ubuntu:hirsute-20220113
-ubuntu:hirsute
-ubuntu:focal-20220113
-ubuntu:bionic-20220128
 ```
 </details>
 
@@ -623,6 +623,12 @@ ubuntu-upstart:13.04
 
 ```sh
 buildpack-deps:latest
+buildpack-deps:bionic-scm
+buildpack-deps:bionic-curl
+buildpack-deps:bionic
+buildpack-deps:18.04-scm
+buildpack-deps:18.04-curl
+buildpack-deps:18.04
 buildpack-deps:unstable-scm
 buildpack-deps:unstable-curl
 buildpack-deps:unstable
@@ -667,18 +673,12 @@ buildpack-deps:kinetic
 buildpack-deps:focal-scm
 buildpack-deps:focal-curl
 buildpack-deps:focal
-buildpack-deps:bionic-scm
-buildpack-deps:bionic-curl
-buildpack-deps:bionic
 buildpack-deps:22.10-scm
 buildpack-deps:22.10-curl
 buildpack-deps:22.10
 buildpack-deps:20.04-scm
 buildpack-deps:20.04-curl
 buildpack-deps:20.04
-buildpack-deps:18.04-scm
-buildpack-deps:18.04-curl
-buildpack-deps:18.04
 buildpack-deps:16.04
 buildpack-deps:16.04-scm
 buildpack-deps:xenial-scm
@@ -1277,12 +1277,18 @@ postgres:10-alpine3.16
 
 ```sh
 redis:latest
+redis:7.2-rc2-bullseye
+redis:7.2-rc2-alpine3.18
+redis:7.2-rc2-alpine
+redis:7.2-rc2
+redis:7.2-rc-bullseye
+redis:7.2-rc-alpine3.18
+redis:7.2-rc-alpine
+redis:7.2-rc
 redis:alpine3.18
 redis:alpine
 redis:7.2-rc1-alpine3.18
 redis:7.2-rc1-alpine
-redis:7.2-rc-alpine3.18
-redis:7.2-rc-alpine
 redis:7.0.11-alpine3.18
 redis:7.0.11-alpine
 redis:7.0-alpine3.18
@@ -1304,9 +1310,7 @@ redis:alpine3.17
 redis:7.2-rc1-bullseye
 redis:7.2-rc1-alpine3.17
 redis:7.2-rc1
-redis:7.2-rc-bullseye
 redis:7.2-rc-alpine3.17
-redis:7.2-rc
 redis:7.0.11-bullseye
 redis:7.0.11-alpine3.17
 redis:7.0.11
@@ -1372,10 +1376,6 @@ redis:6.2.8-alpine
 redis:6.0.16-alpine3.17
 redis:6.0.16-alpine
 redis:7.0.6-bullseye
-redis:7.0.6-alpine3.17
-redis:7.0.6-alpine
-redis:7.0.6
-redis:7.0.5-bullseye
 ```
 </details>
 
@@ -1495,6 +1495,10 @@ java:openjdk-8u102-jdk
 
 ```sh
 mongo:latest
+mongo:4.2.24-bionic
+mongo:4.2.24
+mongo:4.2-bionic
+mongo:4.2
 mongo:windowsservercore-ltsc2022
 mongo:windowsservercore-1809
 mongo:windowsservercore
@@ -1563,14 +1567,12 @@ mongo:4.2.24-windowsservercore
 mongo:4.2.24-nanoserver-ltsc2022
 mongo:4.2.24-nanoserver-1809
 mongo:4.2.24-nanoserver
-mongo:4.2.24
 mongo:4.2-windowsservercore-ltsc2022
 mongo:4.2-windowsservercore-1809
 mongo:4.2-windowsservercore
 mongo:4.2-nanoserver-ltsc2022
 mongo:4.2-nanoserver-1809
 mongo:4.2-nanoserver
-mongo:4.2
 mongo:4-windowsservercore-ltsc2022
 mongo:4-windowsservercore-1809
 mongo:4-windowsservercore
@@ -1587,8 +1589,6 @@ mongo:5.0-focal
 mongo:5-focal
 mongo:4.4.21-focal
 mongo:4.4-focal
-mongo:4.2.24-bionic
-mongo:4.2-bionic
 mongo:4-focal
 mongo:5.0.16-focal
 mongo:5.0.16
@@ -1638,6 +1638,24 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:3.3.0-preview1-slim-buster
+ruby:3.3.0-preview1-slim-bullseye
+ruby:3.3.0-preview1-slim
+ruby:3.3.0-preview1-buster
+ruby:3.3.0-preview1-bullseye
+ruby:3.3.0-preview1-alpine3.18
+ruby:3.3.0-preview1-alpine3.17
+ruby:3.3.0-preview1-alpine
+ruby:3.3.0-preview1
+ruby:3.3-rc-slim-buster
+ruby:3.3-rc-slim-bullseye
+ruby:3.3-rc-slim
+ruby:3.3-rc-buster
+ruby:3.3-rc-bullseye
+ruby:3.3-rc-alpine3.18
+ruby:3.3-rc-alpine3.17
+ruby:3.3-rc-alpine
+ruby:3.3-rc
 ruby:alpine3.18
 ruby:alpine
 ruby:3.2.2-alpine3.18
@@ -1719,24 +1737,6 @@ ruby:3.0.6-alpine
 ruby:3.0-alpine3.16
 ruby:3.0-alpine
 ruby:3-alpine3.17
-ruby:3-alpine3.16
-ruby:2.7.8-alpine3.16
-ruby:2.7.8-alpine
-ruby:2.7-alpine3.16
-ruby:2.7-alpine
-ruby:2-alpine3.16
-ruby:2-alpine
-ruby:slim-buster
-ruby:3.2.2-slim-buster
-ruby:3.2-slim-buster
-ruby:3.1.4-slim-buster
-ruby:3.1-slim-buster
-ruby:3.0.6-slim-buster
-ruby:3.0-slim-buster
-ruby:3-slim-buster
-ruby:2.7.8-slim-buster
-ruby:2.7-slim-buster
-ruby:2-slim-buster
 ```
 </details>
 
@@ -2456,6 +2456,10 @@ golang:1.19.8-alpine3.17
 
 ```sh
 neurodebian:latest
+neurodebian:nd18.04-non-free
+neurodebian:nd18.04
+neurodebian:bionic-non-free
+neurodebian:bionic
 neurodebian:sid-non-free
 neurodebian:sid
 neurodebian:non-free
@@ -2481,10 +2485,6 @@ neurodebian:nd20.04-non-free
 neurodebian:nd20.04
 neurodebian:focal-non-free
 neurodebian:focal
-neurodebian:nd18.04-non-free
-neurodebian:nd18.04
-neurodebian:bionic-non-free
-neurodebian:bionic
 neurodebian:xenial-non-free
 neurodebian:xenial
 neurodebian:nd16.04-non-free
@@ -4209,21 +4209,25 @@ haproxy:2.5.13-alpine
 
 ```sh
 memcached:latest
+memcached:bullseye
 memcached:alpine3.18
 memcached:alpine
-memcached:1.6.19-alpine3.18
-memcached:1.6.19-alpine
+memcached:1.6.20-bullseye
+memcached:1.6.20-alpine3.18
+memcached:1.6.20-alpine
+memcached:1.6.20
+memcached:1.6-bullseye
 memcached:1.6-alpine3.18
 memcached:1.6-alpine
-memcached:1-alpine3.18
-memcached:1-alpine
-memcached:bullseye
-memcached:1.6.19-bullseye
-memcached:1.6.19
-memcached:1.6-bullseye
 memcached:1.6
 memcached:1-bullseye
+memcached:1-alpine3.18
+memcached:1-alpine
 memcached:1
+memcached:1.6.19-alpine3.18
+memcached:1.6.19-alpine
+memcached:1.6.19-bullseye
+memcached:1.6.19
 memcached:alpine3.17
 memcached:1.6.19-alpine3.17
 memcached:1.6-alpine3.17
@@ -4304,10 +4308,6 @@ memcached:1.5.22
 memcached:1.5
 memcached:1.5.22-alpine
 memcached:1.5-alpine
-memcached:1.5.21
-memcached:1.5.21-alpine
-memcached:1.5.20-alpine
-memcached:1.5.20
 ```
 </details>
 
@@ -4319,44 +4319,52 @@ memcached:1.5.20
 ```sh
 rabbitmq:latest
 rabbitmq:management-alpine
+rabbitmq:management
 rabbitmq:alpine
+rabbitmq:3.12.0-rc.2-management-alpine
+rabbitmq:3.12.0-rc.2-management
+rabbitmq:3.12.0-rc.2-alpine
+rabbitmq:3.12.0-rc.2
+rabbitmq:3.12-rc-management-alpine
+rabbitmq:3.12-rc-management
+rabbitmq:3.12-rc-alpine
+rabbitmq:3.12-rc
+rabbitmq:3.11.16-management-alpine
+rabbitmq:3.11.16-management
+rabbitmq:3.11.16-alpine
+rabbitmq:3.11.16
+rabbitmq:3.11-management-alpine
+rabbitmq:3.11-management
+rabbitmq:3.11-alpine
+rabbitmq:3.11
+rabbitmq:3-management-alpine
+rabbitmq:3-management
+rabbitmq:3-alpine
+rabbitmq:3
 rabbitmq:3.9.29-management-alpine
 rabbitmq:3.9.29-alpine
 rabbitmq:3.9-management-alpine
 rabbitmq:3.9-alpine
 rabbitmq:3.12.0-rc.1-management-alpine
 rabbitmq:3.12.0-rc.1-alpine
-rabbitmq:3.12-rc-management-alpine
-rabbitmq:3.12-rc-alpine
 rabbitmq:3.11.15-management-alpine
 rabbitmq:3.11.15-alpine
-rabbitmq:3.11-management-alpine
-rabbitmq:3.11-alpine
 rabbitmq:3.10.22-management-alpine
 rabbitmq:3.10.22-alpine
 rabbitmq:3.10-management-alpine
 rabbitmq:3.10-alpine
-rabbitmq:3-management-alpine
-rabbitmq:3-alpine
-rabbitmq:management
 rabbitmq:3.9.29-management
 rabbitmq:3.9.29
 rabbitmq:3.9-management
 rabbitmq:3.9
 rabbitmq:3.12.0-rc.1-management
 rabbitmq:3.12.0-rc.1
-rabbitmq:3.12-rc-management
-rabbitmq:3.12-rc
 rabbitmq:3.11.15-management
 rabbitmq:3.11.15
-rabbitmq:3.11-management
-rabbitmq:3.11
 rabbitmq:3.10.22-management
 rabbitmq:3.10.22
 rabbitmq:3.10-management
 rabbitmq:3.10
-rabbitmq:3-management
-rabbitmq:3
 rabbitmq:3.11.14-management-alpine
 rabbitmq:3.11.14-alpine
 rabbitmq:3.10.21-management-alpine
@@ -4409,14 +4417,6 @@ rabbitmq:3.11.10-management
 rabbitmq:3.11.10
 rabbitmq:3.12.0-beta.1-management-alpine
 rabbitmq:3.11.10-management-alpine
-rabbitmq:3.9.28-management-alpine
-rabbitmq:3.9.28-management
-rabbitmq:3.9.28-alpine
-rabbitmq:3.9.28
-rabbitmq:3.11.9-management
-rabbitmq:3.11.9
-rabbitmq:3.10.18-management
-rabbitmq:3.10.18
 ```
 </details>
 
@@ -5132,13 +5132,15 @@ jetty:9-jdk8-alpine-amazoncorretto
 
 ```sh
 ghost:latest
-ghost:5.47.1
+ghost:5.47.2
 ghost:5.47
 ghost:5
 ghost:alpine
-ghost:5.47.1-alpine
+ghost:5.47.2-alpine
 ghost:5.47-alpine
 ghost:5-alpine
+ghost:5.47.1
+ghost:5.47.1-alpine
 ghost:5.47.0
 ghost:5.47.0-alpine
 ghost:5.46.1
@@ -5229,8 +5231,6 @@ ghost:5.32.0-alpine
 ghost:5.32.0
 ghost:5.32-alpine
 ghost:5.32
-ghost:5.31.0-alpine
-ghost:5.31.0
 ```
 </details>
 
@@ -5597,27 +5597,35 @@ logstash:7.1.0
 
 ```sh
 julia:latest
+julia:alpine3.18
+julia:alpine
+julia:1.9.0-alpine3.18
+julia:1.9.0-alpine
+julia:1.9-alpine3.18
+julia:1.9-alpine
+julia:1.6.7-alpine3.18
+julia:1.6.7-alpine
+julia:1.6-alpine3.18
+julia:1.6-alpine
+julia:1-alpine3.18
+julia:1-alpine
 julia:1.9
 julia:1-alpine3.17
 julia:1-alpine3.16
-julia:1-alpine
 julia:1
 julia:buster
 julia:bullseye
 julia:alpine3.17
 julia:alpine3.16
-julia:alpine
 julia:1.9.0-buster
 julia:1.9.0-bullseye
 julia:1.9.0-alpine3.17
 julia:1.9.0-alpine3.16
-julia:1.9.0-alpine
 julia:1.9.0
 julia:1.9-buster
 julia:1.9-bullseye
 julia:1.9-alpine3.17
 julia:1.9-alpine3.16
-julia:1.9-alpine
 julia:1-buster
 julia:1-bullseye
 julia:windowsservercore-ltsc2022
@@ -5688,14 +5696,6 @@ julia:1.8.5-alpine
 julia:1.8-buster
 julia:1.8-alpine3.17
 julia:1.8-alpine3.16
-julia:1.8-alpine
-julia:1.6.7-alpine3.17
-julia:1.6.7-alpine3.16
-julia:1.6.7-alpine
-julia:1.6-alpine3.17
-julia:1.6-alpine3.16
-julia:1.6-alpine
-julia:1.9.0-rc2-buster
 ```
 </details>
 
@@ -5969,12 +5969,13 @@ drupal:php8.1-apache-buster
 
 ```sh
 cassandra:latest
+cassandra:3.0.29
+cassandra:3.0
 cassandra:3.11.15
 cassandra:3.11
 cassandra:3
 cassandra:3.11.14
 cassandra:3.0.28
-cassandra:3.0
 cassandra:4.1.1
 cassandra:4.1
 cassandra:4.0.9
@@ -6067,7 +6068,6 @@ cassandra:3.4
 cassandra:3.3
 cassandra:3.2
 cassandra:3.2.1
-cassandra:3.1
 ```
 </details>
 
@@ -6187,6 +6187,7 @@ sonarqube:8.9.9-datacenter-search
 
 ```sh
 couchbase:latest
+couchbase:community-6.6.0
 couchbase:enterprise-7.1.4
 couchbase:enterprise-7.0.5
 couchbase:enterprise-6.6.6
@@ -6197,7 +6198,6 @@ couchbase:community
 couchbase:7.1.4
 couchbase:7.0.5
 couchbase:6.6.6
-couchbase:community-6.6.0
 couchbase:enterprise-7.1.3
 couchbase:7.1.3
 couchbase:enterprise-7.0.4
@@ -6296,6 +6296,15 @@ couchbase:enterprise-4.6.1
 
 ```sh
 ros:latest
+ros:melodic-ros-core-bionic
+ros:melodic-ros-core
+ros:melodic-ros-base-bionic
+ros:melodic-ros-base
+ros:melodic-robot-bionic
+ros:melodic-robot
+ros:melodic-perception-bionic
+ros:melodic-perception
+ros:melodic
 ros:rolling-ros-core-jammy
 ros:rolling-ros-core
 ros:rolling-ros-base-jammy
@@ -6330,15 +6339,6 @@ ros:foxy-ros-core
 ros:foxy-ros-base-focal
 ros:foxy-ros-base
 ros:foxy
-ros:melodic-ros-core-bionic
-ros:melodic-ros-core
-ros:melodic-ros-base-bionic
-ros:melodic-ros-base
-ros:melodic-robot-bionic
-ros:melodic-robot
-ros:melodic-perception-bionic
-ros:melodic-perception
-ros:melodic
 ros:galactic-ros1-bridge-focal
 ros:galactic-ros1-bridge
 ros:galactic-ros-core-focal
@@ -6753,12 +6753,12 @@ owncloud:8.2.9-fpm
 
 ```sh
 gazebo:latest
+gazebo:libgazebo11-bionic
+gazebo:gzserver11-bionic
 gazebo:libgazebo11-focal
 gazebo:libgazebo11
 gazebo:gzserver11-focal
 gazebo:gzserver11
-gazebo:libgazebo11-bionic
-gazebo:gzserver11-bionic
 gazebo:libgazebo9-bionic
 gazebo:libgazebo9
 gazebo:gzserver9-bionic
@@ -7240,21 +7240,38 @@ docker:latest
 docker:rc-git
 docker:rc-dind-rootless
 docker:rc-dind
-docker:rc-cli
 docker:rc
+docker:git
+docker:dind-rootless
+docker:dind
 docker:24.0.0-rc.4-git
 docker:24.0.0-rc.4-dind-rootless
 docker:24.0.0-rc.4-dind-alpine3.18
 docker:24.0.0-rc.4-dind
-docker:24.0.0-rc.4-cli-alpine3.18
-docker:24.0.0-rc.4-cli
 docker:24.0.0-rc.4-alpine3.18
 docker:24.0.0-rc.4
 docker:24-rc-git
 docker:24-rc-dind-rootless
 docker:24-rc-dind
-docker:24-rc-cli
 docker:24-rc
+docker:23.0.6-git
+docker:23.0.6-dind-rootless
+docker:23.0.6-dind-alpine3.18
+docker:23.0.6-dind
+docker:23.0.6-alpine3.18
+docker:23.0.6
+docker:23.0-git
+docker:23.0-dind-rootless
+docker:23.0-dind
+docker:23.0
+docker:23-git
+docker:23-dind-rootless
+docker:23-dind
+docker:23
+docker:rc-cli
+docker:24.0.0-rc.4-cli-alpine3.18
+docker:24.0.0-rc.4-cli
+docker:24-rc-cli
 docker:rc-windowsservercore-ltsc2022
 docker:rc-windowsservercore-1809
 docker:rc-windowsservercore
@@ -7275,7 +7292,6 @@ docker:24.0.0-rc.3-cli-alpine3.18
 docker:24.0.0-rc.3-cli
 docker:24.0.0-rc.3-alpine3.18
 docker:24.0.0-rc.3
-docker:23
 docker:20.10.24-git
 docker:20.10.24-dind-rootless
 docker:20.10.24-dind-alpine3.18
@@ -7294,9 +7310,6 @@ docker:20-dind-rootless
 docker:20-dind
 docker:20-cli
 docker:20
-docker:git
-docker:dind-rootless
-docker:dind
 docker:cli
 docker:24.0.0-rc.2-git
 docker:24.0.0-rc.2-dind-rootless
@@ -7306,22 +7319,9 @@ docker:24.0.0-rc.2-cli-alpine3.18
 docker:24.0.0-rc.2-cli
 docker:24.0.0-rc.2-alpine3.18
 docker:24.0.0-rc.2
-docker:23.0.6-git
-docker:23.0.6-dind-rootless
-docker:23.0.6-dind-alpine3.18
-docker:23.0.6-dind
 docker:23.0.6-cli-alpine3.18
 docker:23.0.6-cli
-docker:23.0.6-alpine3.18
-docker:23.0.6
-docker:23.0-git
-docker:23.0-dind-rootless
-docker:23.0-dind
 docker:23.0-cli
-docker:23.0
-docker:23-git
-docker:23-dind-rootless
-docker:23-dind
 docker:23-cli
 docker:windowsservercore-ltsc2022
 docker:windowsservercore-1809
@@ -7467,6 +7467,10 @@ sourcemage:0.61
 
 ```sh
 bonita:latest
+bonita:7.13.0
+bonita:7.13
+bonita:2021.2-u0
+bonita:2021.2
 bonita:8.0.0
 bonita:8.0
 bonita:2023.1-u0
@@ -7479,12 +7483,8 @@ bonita:2022.2-u0
 bonita:2022.2
 bonita:2022.1-u0
 bonita:2022.1
-bonita:7.13.0
-bonita:7.13
 bonita:7.12.1
 bonita:7.12
-bonita:2021.2-u0
-bonita:2021.2
 bonita:2021.1
 bonita:7.11.4
 bonita:7.11
@@ -7915,16 +7915,18 @@ nuxeo:8.1
 
 ```sh
 photon:latest
+photon:4.0-20230515
+photon:4.0
+photon:3.0-20230515
+photon:3.0
 photon:5.0-20230508
 photon:5.0
 photon:4.0-20230506
-photon:4.0
 photon:5.0-GA
 photon:5.0-20230501
 photon:4.0-20230429
 photon:4.0-20230408
 photon:3.0-20230408
-photon:3.0
 photon:5.0-RC
 photon:5.0-20230403
 photon:4.0-20230325
@@ -8012,8 +8014,6 @@ photon:2.0-20220527
 photon:4.0-20220520
 photon:3.0-20220520
 photon:2.0-20220520
-photon:2.0-20220513
-photon:3.0-20220506
 ```
 </details>
 
