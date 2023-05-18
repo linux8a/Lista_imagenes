@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed May 17 04:50:00 UTC 2023
+Actualizado: Thu May 18 04:49:59 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -4100,14 +4100,18 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
-haproxy:2.8-dev11-bullseye
-haproxy:2.8-dev11-alpine3.17
-haproxy:2.8-dev11-alpine
-haproxy:2.8-dev11
+haproxy:2.8-dev12-bullseye
+haproxy:2.8-dev12-alpine3.17
+haproxy:2.8-dev12-alpine
+haproxy:2.8-dev12
 haproxy:2.8-dev-bullseye
 haproxy:2.8-dev-alpine3.17
 haproxy:2.8-dev-alpine
 haproxy:2.8-dev
+haproxy:2.8-dev11-bullseye
+haproxy:2.8-dev11-alpine3.17
+haproxy:2.8-dev11-alpine
+haproxy:2.8-dev11
 haproxy:2.8-dev10-bullseye
 haproxy:2.8-dev10-alpine3.17
 haproxy:2.8-dev10-alpine
@@ -4195,10 +4199,6 @@ haproxy:2.8-dev6-alpine
 haproxy:2.8-dev6
 haproxy:2.7.6-alpine3.17
 haproxy:2.7.6-alpine
-haproxy:2.6.12-alpine3.17
-haproxy:2.6.12-alpine
-haproxy:2.5.13-alpine3.17
-haproxy:2.5.13-alpine
 ```
 </details>
 
@@ -5132,13 +5132,17 @@ jetty:9-jdk8-alpine-amazoncorretto
 
 ```sh
 ghost:latest
+ghost:alpine
+ghost:5.48.0-alpine
+ghost:5.48.0
+ghost:5.48-alpine
+ghost:5.48
+ghost:5-alpine
+ghost:5
 ghost:5.47.2
 ghost:5.47
-ghost:5
-ghost:alpine
 ghost:5.47.2-alpine
 ghost:5.47-alpine
-ghost:5-alpine
 ghost:5.47.1
 ghost:5.47.1-alpine
 ghost:5.47.0
@@ -5227,10 +5231,6 @@ ghost:5.33.3-alpine
 ghost:5.33.3
 ghost:5.33.2-alpine
 ghost:5.33.2
-ghost:5.32.0-alpine
-ghost:5.32.0
-ghost:5.32-alpine
-ghost:5.32
 ```
 </details>
 
@@ -5378,6 +5378,10 @@ percona:psmdb-4.4.2
 <summary> aerospike </summary>
 
 ```sh
+aerospike:ee-6.3.0.3_1
+aerospike:ee-6.3.0.3
+aerospike:ce-6.3.0.3_1
+aerospike:ce-6.3.0.3
 aerospike:ee-6.3.0.2_1
 aerospike:ee-6.3.0.2
 aerospike:ce-6.3.0.2_1
@@ -5474,10 +5478,6 @@ aerospike:5.4.0.4
 aerospike:5.3.0.9
 aerospike:5.4.0.3
 aerospike:5.3.0.8
-aerospike:5.2.0.17
-aerospike:5.1.0.25
-aerospike:5.4.0.2
-aerospike:5.3.0.7
 ```
 </details>
 
@@ -7128,16 +7128,22 @@ nats:2.9.8-windowsservercore
 
 ```sh
 rocket.chat:latest
-rocket.chat:6.0.0
+rocket.chat:6.2.0
+rocket.chat:6.2
+rocket.chat:6.1.7
+rocket.chat:6.1
+rocket.chat:6.0.7
 rocket.chat:6.0
 rocket.chat:6
-rocket.chat:5.4.4
+rocket.chat:5.4.9
 rocket.chat:5.4
+rocket.chat:5
+rocket.chat:6.0.0
+rocket.chat:5.4.4
 rocket.chat:5.3.6
 rocket.chat:5.3
 rocket.chat:5.2.2
 rocket.chat:5.2
-rocket.chat:5
 rocket.chat:5.4.0
 rocket.chat:5.3.5
 rocket.chat:5.2.1
@@ -7221,12 +7227,6 @@ rocket.chat:3.17.0
 rocket.chat:3.16.2
 rocket.chat:3.15.3
 rocket.chat:3.14.5
-rocket.chat:3.15.1
-rocket.chat:3.13.5
-rocket.chat:3.13
-rocket.chat:3.15.0
-rocket.chat:3.14.4
-rocket.chat:3.14.2
 ```
 </details>
 
