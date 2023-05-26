@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu May 25 04:50:09 UTC 2023
+Actualizado: Fri May 26 04:50:11 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -4100,13 +4100,19 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:2.8-dev13-bullseye
+haproxy:2.8-dev13-alpine3.17
+haproxy:2.8-dev13-alpine
+haproxy:2.8-dev13
+haproxy:2.8-dev-bullseye
+haproxy:2.8-dev-alpine3.17
+haproxy:2.8-dev-alpine
+haproxy:2.8-dev
 haproxy:lts-bullseye
 haproxy:lts
 haproxy:bullseye
 haproxy:2.8-dev12-bullseye
 haproxy:2.8-dev12
-haproxy:2.8-dev-bullseye
-haproxy:2.8-dev
 haproxy:2.7.8-bullseye
 haproxy:2.7.8
 haproxy:2.7-bullseye
@@ -4129,8 +4135,6 @@ haproxy:2.0-buster
 haproxy:2.0
 haproxy:2.8-dev12-alpine3.17
 haproxy:2.8-dev12-alpine
-haproxy:2.8-dev-alpine3.17
-haproxy:2.8-dev-alpine
 haproxy:2.8-dev11-bullseye
 haproxy:2.8-dev11-alpine3.17
 haproxy:2.8-dev11-alpine
@@ -4195,10 +4199,6 @@ haproxy:2.8-dev7-alpine3.17
 haproxy:2.8-dev7-alpine
 haproxy:2.8-dev6-bullseye
 haproxy:2.8-dev6-alpine3.17
-haproxy:2.8-dev6-alpine
-haproxy:2.8-dev6
-haproxy:2.7.6-alpine3.17
-haproxy:2.7.6-alpine
 ```
 </details>
 
@@ -4318,6 +4318,14 @@ memcached:1.5-alpine
 
 ```sh
 rabbitmq:latest
+rabbitmq:3.10.23-management-alpine
+rabbitmq:3.10.23-management
+rabbitmq:3.10.23-alpine
+rabbitmq:3.10.23
+rabbitmq:3.10-management-alpine
+rabbitmq:3.10-management
+rabbitmq:3.10-alpine
+rabbitmq:3.10
 rabbitmq:3.12.0-rc.3-management-alpine
 rabbitmq:3.12.0-rc.3-management
 rabbitmq:3.12.0-rc.3-alpine
@@ -4355,8 +4363,6 @@ rabbitmq:3.11.15-management-alpine
 rabbitmq:3.11.15-alpine
 rabbitmq:3.10.22-management-alpine
 rabbitmq:3.10.22-alpine
-rabbitmq:3.10-management-alpine
-rabbitmq:3.10-alpine
 rabbitmq:3.9.29-management
 rabbitmq:3.9.29
 rabbitmq:3.9-management
@@ -4367,8 +4373,6 @@ rabbitmq:3.11.15-management
 rabbitmq:3.11.15
 rabbitmq:3.10.22-management
 rabbitmq:3.10.22
-rabbitmq:3.10-management
-rabbitmq:3.10
 rabbitmq:3.11.14-management-alpine
 rabbitmq:3.11.14-alpine
 rabbitmq:3.10.21-management-alpine
@@ -4413,10 +4417,6 @@ rabbitmq:3.12.0-beta.2-alpine
 rabbitmq:3.12.0-beta.2
 rabbitmq:3.10.19-alpine
 rabbitmq:3.10.19
-rabbitmq:3.12.0-beta.1-alpine
-rabbitmq:3.11.10-alpine
-rabbitmq:3.12.0-beta.1-management
-rabbitmq:3.12.0-beta.1
 ```
 </details>
 
@@ -5381,6 +5381,10 @@ percona:psmdb-4.4.2
 <summary> aerospike </summary>
 
 ```sh
+aerospike:ee-6.3.0.4_1
+aerospike:ee-6.3.0.4
+aerospike:ce-6.3.0.4_1
+aerospike:ce-6.3.0.4
 aerospike:ee-6.3.0.3_1
 aerospike:ee-6.3.0.3
 aerospike:ce-6.3.0.3_1
@@ -5477,10 +5481,6 @@ aerospike:5.5.0.3
 aerospike:5.4.0.5
 aerospike:5.3.0.10
 aerospike:5.5.0.2
-aerospike:5.4.0.4
-aerospike:5.3.0.9
-aerospike:5.4.0.3
-aerospike:5.3.0.8
 ```
 </details>
 
@@ -6538,6 +6538,8 @@ kaazing-gateway:5.0.1.21
 
 ```sh
 arangodb:latest
+arangodb:3.11.0
+arangodb:3.11
 arangodb:3.9.10
 arangodb:3.9
 arangodb:3.10.6
@@ -6635,8 +6637,6 @@ arangodb:3.4.4
 arangodb:3.4.3
 arangodb:3.4.2
 arangodb:3.4.1
-arangodb:3.4.0
-arangodb:3.3.20
 ```
 </details>
 
@@ -7663,12 +7663,6 @@ solr:7.7.2-slim
 
 ```sh
 neo4j:latest
-neo4j:4.4.21-enterprise
-neo4j:4.4.21-community
-neo4j:4.4.21
-neo4j:4.4-enterprise
-neo4j:4.4-community
-neo4j:4.4
 neo4j:enterprise
 neo4j:community
 neo4j:5.8.0-enterprise
@@ -7680,6 +7674,12 @@ neo4j:5.8
 neo4j:5-enterprise
 neo4j:5-community
 neo4j:5
+neo4j:4.4.21-enterprise
+neo4j:4.4.21-community
+neo4j:4.4.21
+neo4j:4.4-enterprise
+neo4j:4.4-community
+neo4j:4.4
 neo4j:4.4.20-enterprise
 neo4j:4.4.20-community
 neo4j:4.4.20
