@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat May 27 04:50:03 UTC 2023
+Actualizado: Sun May 28 04:50:02 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -5136,12 +5136,12 @@ jetty:10.0.15-jdk17-amazoncorretto
 ```sh
 ghost:latest
 ghost:5.49
+ghost:5-alpine
 ghost:5
 ghost:alpine
 ghost:5.49.1-alpine
 ghost:5.49.1
 ghost:5.49-alpine
-ghost:5-alpine
 ghost:5.49.0
 ghost:5.49.0-alpine
 ghost:5.48.1-alpine
