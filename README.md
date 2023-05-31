@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue May 30 04:49:58 UTC 2023
+Actualizado: Wed May 31 04:50:06 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -1168,6 +1168,11 @@ wordpress:beta-6.2-php8.1
 
 ```sh
 postgres:latest
+postgres:16beta1-bullseye
+postgres:16beta1-alpine3.18
+postgres:16beta1-alpine3.17
+postgres:16beta1-alpine
+postgres:16beta1
 postgres:13.11-bullseye
 postgres:13.11
 postgres:13-bullseye
@@ -1262,11 +1267,6 @@ postgres:alpine3.16
 postgres:15.1-alpine3.16
 postgres:15-alpine3.16
 postgres:14.6-alpine3.16
-postgres:14-alpine3.16
-postgres:13.9-alpine3.16
-postgres:13-alpine3.16
-postgres:12.13-alpine3.16
-postgres:12-alpine3.16
 ```
 </details>
 
@@ -1495,6 +1495,22 @@ java:openjdk-8u102-jdk
 
 ```sh
 mongo:latest
+mongo:7.0.0-rc2-jammy
+mongo:7.0.0-rc2
+mongo:7.0-rc-jammy
+mongo:7.0-rc
+mongo:7.0.0-rc2-windowsservercore-ltsc2022
+mongo:7.0.0-rc2-windowsservercore-1809
+mongo:7.0.0-rc2-windowsservercore
+mongo:7.0.0-rc2-nanoserver-ltsc2022
+mongo:7.0.0-rc2-nanoserver-1809
+mongo:7.0.0-rc2-nanoserver
+mongo:7.0-rc-windowsservercore-ltsc2022
+mongo:7.0-rc-windowsservercore-1809
+mongo:7.0-rc-windowsservercore
+mongo:7.0-rc-nanoserver-ltsc2022
+mongo:7.0-rc-nanoserver-1809
+mongo:7.0-rc-nanoserver
 mongo:windowsservercore-ltsc2022
 mongo:windowsservercore-1809
 mongo:windowsservercore
@@ -1578,22 +1594,6 @@ mongo:4.2.24-bionic
 mongo:4.2.24
 mongo:4.2-bionic
 mongo:4.2
-mongo:6.0.5-windowsservercore-ltsc2022
-mongo:6.0.5-windowsservercore-1809
-mongo:6.0.5-windowsservercore
-mongo:6.0.5-nanoserver-ltsc2022
-mongo:6.0.5-nanoserver-1809
-mongo:6.0.5-nanoserver
-mongo:6.0.5
-mongo:5.0.17-windowsservercore-ltsc2022
-mongo:5.0.17-windowsservercore-1809
-mongo:5.0.17-windowsservercore
-mongo:5.0.17-nanoserver-ltsc2022
-mongo:5.0.17-nanoserver-1809
-mongo:5.0.17-nanoserver
-mongo:5.0.17
-mongo:4.4.21-windowsservercore-ltsc2022
-mongo:4.4.21-windowsservercore-1809
 ```
 </details>
 
@@ -2120,6 +2120,12 @@ hylang:0-pypy3.8-buster
 
 ```sh
 gcc:latest
+gcc:11.4.0-bullseye
+gcc:11.4.0
+gcc:11.4-bullseye
+gcc:11.4
+gcc:11-bullseye
+gcc:11
 gcc:bookworm
 gcc:9.5.0-bullseye
 gcc:9.5.0
@@ -2143,8 +2149,6 @@ gcc:11.3.0-bullseye
 gcc:11.3.0
 gcc:11.3-bullseye
 gcc:11.3
-gcc:11-bullseye
-gcc:11
 gcc:10.4.0-bullseye
 gcc:10.4.0
 gcc:10.4-bullseye
@@ -2215,10 +2219,6 @@ gcc:7.4
 gcc:9.1.0
 gcc:9.1
 gcc:5
-gcc:5.5
-gcc:5.5.0
-gcc:8.2
-gcc:8.2.0
 ```
 </details>
 
@@ -2665,6 +2665,22 @@ clojure:temurin-20-tools-deps
 <summary> php </summary>
 
 ```sh
+php:8.1.20RC1-zts-alpine3.16
+php:8.1.20RC1-fpm-alpine3.16
+php:8.1.20RC1-cli-alpine3.16
+php:8.1.20RC1-alpine3.16
+php:8.1.19-zts-alpine3.16
+php:8.1.19-fpm-alpine3.16
+php:8.1.19-cli-alpine3.16
+php:8.1.19-alpine3.16
+php:8.1-zts-alpine3.16
+php:8.1-rc-zts-alpine3.16
+php:8.1-rc-fpm-alpine3.16
+php:8.1-rc-cli-alpine3.16
+php:8.1-rc-alpine3.16
+php:8.1-fpm-alpine3.16
+php:8.1-cli-alpine3.16
+php:8.1-alpine3.16
 php:8.2-rc-fpm-alpine3.17
 php:8.2-rc-fpm-alpine
 php:8.2-rc-cli-buster
@@ -2749,22 +2765,6 @@ php:8.2.7RC1-fpm
 php:8.2.7RC1-cli-buster
 php:8.2.7RC1-cli-bullseye
 php:8.2.7RC1-cli-alpine3.18
-php:8.2.7RC1-cli-alpine3.17
-php:8.2.7RC1-cli-alpine
-php:8.2.7RC1-cli
-php:8.2.7RC1-buster
-php:8.2.7RC1-bullseye
-php:8.2.7RC1-apache-buster
-php:8.2.7RC1-apache-bullseye
-php:8.2.7RC1-apache
-php:8.2.7RC1-alpine3.18
-php:8.2.7RC1-alpine3.17
-php:8.2.7RC1-alpine
-php:8.2.7RC1
-php:8.2-rc-zts-buster
-php:8.2-rc-zts-bullseye
-php:8.2-rc-zts-alpine3.18
-php:8.2-rc-zts-alpine3.17
 ```
 </details>
 
@@ -2903,8 +2903,9 @@ mageia:3
 
 ```sh
 crate:latest
-crate:5.3.1
+crate:5.3.2
 crate:5.3
+crate:5.3.1
 crate:5.2.8
 crate:5.2
 crate:5.2.7
@@ -3001,7 +3002,6 @@ crate:3.0
 crate:2.3.11
 crate:2.3
 crate:2.2.7
-crate:2.2
 ```
 </details>
 
@@ -4318,6 +4318,29 @@ memcached:1.5-alpine
 
 ```sh
 rabbitmq:latest
+rabbitmq:3
+rabbitmq:management-alpine
+rabbitmq:management
+rabbitmq:alpine
+rabbitmq:3.12.0-rc.4-management-alpine
+rabbitmq:3.12.0-rc.4-management
+rabbitmq:3.12.0-rc.4-alpine
+rabbitmq:3.12.0-rc.4
+rabbitmq:3.12-rc-management-alpine
+rabbitmq:3.12-rc-management
+rabbitmq:3.12-rc-alpine
+rabbitmq:3.12-rc
+rabbitmq:3.11.17-management-alpine
+rabbitmq:3.11.17-management
+rabbitmq:3.11.17-alpine
+rabbitmq:3.11.17
+rabbitmq:3.11-management-alpine
+rabbitmq:3.11-management
+rabbitmq:3.11-alpine
+rabbitmq:3.11
+rabbitmq:3-management-alpine
+rabbitmq:3-management
+rabbitmq:3-alpine
 rabbitmq:3.10.23-management-alpine
 rabbitmq:3.10.23-management
 rabbitmq:3.10.23-alpine
@@ -4330,13 +4353,6 @@ rabbitmq:3.12.0-rc.3-management-alpine
 rabbitmq:3.12.0-rc.3-management
 rabbitmq:3.12.0-rc.3-alpine
 rabbitmq:3.12.0-rc.3
-rabbitmq:3.12-rc-management-alpine
-rabbitmq:3.12-rc-management
-rabbitmq:3.12-rc-alpine
-rabbitmq:3.12-rc
-rabbitmq:management-alpine
-rabbitmq:management
-rabbitmq:alpine
 rabbitmq:3.12.0-rc.2-management-alpine
 rabbitmq:3.12.0-rc.2-management
 rabbitmq:3.12.0-rc.2-alpine
@@ -4345,14 +4361,6 @@ rabbitmq:3.11.16-management-alpine
 rabbitmq:3.11.16-management
 rabbitmq:3.11.16-alpine
 rabbitmq:3.11.16
-rabbitmq:3.11-management-alpine
-rabbitmq:3.11-management
-rabbitmq:3.11-alpine
-rabbitmq:3.11
-rabbitmq:3-management-alpine
-rabbitmq:3-management
-rabbitmq:3-alpine
-rabbitmq:3
 rabbitmq:3.9.29-management-alpine
 rabbitmq:3.9.29-alpine
 rabbitmq:3.9-management-alpine
@@ -4409,14 +4417,6 @@ rabbitmq:3.12.0-beta.3-management
 rabbitmq:3.12.0-beta.3
 rabbitmq:3.11.11-management
 rabbitmq:3.11.11
-rabbitmq:3.12.0-beta.2-management-alpine
-rabbitmq:3.12.0-beta.2-management
-rabbitmq:3.10.19-management-alpine
-rabbitmq:3.10.19-management
-rabbitmq:3.12.0-beta.2-alpine
-rabbitmq:3.12.0-beta.2
-rabbitmq:3.10.19-alpine
-rabbitmq:3.10.19
 ```
 </details>
 
@@ -5135,13 +5135,15 @@ jetty:10.0.15-jdk17-amazoncorretto
 
 ```sh
 ghost:latest
+ghost:5.49.2
 ghost:5.49
-ghost:5-alpine
 ghost:5
 ghost:alpine
+ghost:5.49.2-alpine
+ghost:5.49-alpine
+ghost:5-alpine
 ghost:5.49.1-alpine
 ghost:5.49.1
-ghost:5.49-alpine
 ghost:5.49.0
 ghost:5.49.0-alpine
 ghost:5.48.1-alpine
@@ -5232,8 +5234,6 @@ ghost:5.33.8-alpine
 ghost:5.33-alpine
 ghost:5.33.8
 ghost:5.33
-ghost:5.33.7
-ghost:5.33.7-alpine
 ```
 </details>
 
@@ -5972,6 +5972,11 @@ drupal:9.5-apache-bullseye
 
 ```sh
 cassandra:latest
+cassandra:4.1.2
+cassandra:4.1
+cassandra:4.0.10
+cassandra:4.0
+cassandra:4
 cassandra:3.0.29
 cassandra:3.0
 cassandra:3.11.15
@@ -5980,10 +5985,7 @@ cassandra:3
 cassandra:3.11.14
 cassandra:3.0.28
 cassandra:4.1.1
-cassandra:4.1
 cassandra:4.0.9
-cassandra:4.0
-cassandra:4
 cassandra:4.0.8
 cassandra:4.1.0
 cassandra:4.0.7
@@ -6069,8 +6071,6 @@ cassandra:3.0.6
 cassandra:3.0.5
 cassandra:3.4
 cassandra:3.3
-cassandra:3.2
-cassandra:3.2.1
 ```
 </details>
 
@@ -6756,11 +6756,11 @@ owncloud:8.2.9-fpm
 
 ```sh
 gazebo:latest
-gazebo:libgazebo11-bionic
-gazebo:gzserver11-bionic
 gazebo:libgazebo11-focal
+gazebo:libgazebo11-bionic
 gazebo:libgazebo11
 gazebo:gzserver11-focal
+gazebo:gzserver11-bionic
 gazebo:gzserver11
 gazebo:libgazebo9-bionic
 gazebo:libgazebo9
@@ -6804,19 +6804,89 @@ gazebo:gzserver4
 
 ```sh
 joomla:latest
+joomla:php8.2-fpm
+joomla:php8.2-apache
 joomla:php8.1-fpm
 joomla:php8.1-apache
 joomla:php8.0-fpm
 joomla:php8.0-apache
 joomla:php8.0
 joomla:apache
-joomla:4.3.1-php8.1-fpm
-joomla:4.3.1-php8.1-apache
-joomla:4.3.1-php8.0-fpm
-joomla:4.3.1-php8.0-apache
-joomla:4.3.1-php8.0
-joomla:4.3.1-apache
-joomla:4.3.1
+joomla:5.0.alpha-php8.2-fpm
+joomla:5.0.alpha-php8.2-apache
+joomla:5.0.alpha-php8.1-fpm
+joomla:5.0.alpha-php8.1-apache
+joomla:5.0.alpha-php8.1
+joomla:5.0.alpha-apache
+joomla:5.0.alpha
+joomla:5.0.0-alpha1-php8.2-fpm
+joomla:5.0.0-alpha1-php8.2-apache
+joomla:5.0.0-alpha1-php8.1-fpm
+joomla:5.0.0-alpha1-php8.1-apache
+joomla:5.0.0-alpha1-php8.1
+joomla:5.0.0-alpha1-apache
+joomla:5.0.0-alpha1
+joomla:5.0.0-alpha-php8.2-fpm
+joomla:5.0.0-alpha-php8.2-apache
+joomla:5.0.0-alpha-php8.1-fpm
+joomla:5.0.0-alpha-php8.1-apache
+joomla:5.0.0-alpha-php8.1
+joomla:5.0.0-alpha-apache
+joomla:5.0.0-alpha
+joomla:5.0-php8.2-fpm
+joomla:5.0-php8.2-apache
+joomla:5.0-php8.1-fpm
+joomla:5.0-php8.1-apache
+joomla:5.0-php8.1
+joomla:5.0-apache
+joomla:5.0
+joomla:4.4.alpha-php8.2-fpm
+joomla:4.4.alpha-php8.2-apache
+joomla:4.4.alpha-php8.1-fpm
+joomla:4.4.alpha-php8.1-apache
+joomla:4.4.alpha-php8.1
+joomla:4.4.alpha-php8.0-fpm
+joomla:4.4.alpha-php8.0-apache
+joomla:4.4.alpha-apache
+joomla:4.4.alpha
+joomla:4.4.0-alpha1-php8.2-fpm
+joomla:4.4.0-alpha1-php8.2-apache
+joomla:4.4.0-alpha1-php8.1-fpm
+joomla:4.4.0-alpha1-php8.1-apache
+joomla:4.4.0-alpha1-php8.1
+joomla:4.4.0-alpha1-php8.0-fpm
+joomla:4.4.0-alpha1-php8.0-apache
+joomla:4.4.0-alpha1-apache
+joomla:4.4.0-alpha1
+joomla:4.4.0-alpha-php8.2-fpm
+joomla:4.4.0-alpha-php8.2-apache
+joomla:4.4.0-alpha-php8.1-fpm
+joomla:4.4.0-alpha-php8.1-apache
+joomla:4.4.0-alpha-php8.1
+joomla:4.4.0-alpha-php8.0-fpm
+joomla:4.4.0-alpha-php8.0-apache
+joomla:4.4.0-alpha-apache
+joomla:4.4.0-alpha
+joomla:4.4-php8.2-fpm
+joomla:4.4-php8.2-apache
+joomla:4.4-php8.1-fpm
+joomla:4.4-php8.1-apache
+joomla:4.4-php8.1
+joomla:4.4-php8.0-fpm
+joomla:4.4-php8.0-apache
+joomla:4.4-apache
+joomla:4.4
+joomla:4.3.2-php8.2-fpm
+joomla:4.3.2-php8.2-apache
+joomla:4.3.2-php8.1-fpm
+joomla:4.3.2-php8.1-apache
+joomla:4.3.2-php8.0-fpm
+joomla:4.3.2-php8.0-apache
+joomla:4.3.2-php8.0
+joomla:4.3.2-apache
+joomla:4.3.2
+joomla:4.3-php8.2-fpm
+joomla:4.3-php8.2-apache
 joomla:4.3-php8.1-fpm
 joomla:4.3-php8.1-apache
 joomla:4.3-php8.0-fpm
@@ -6824,6 +6894,8 @@ joomla:4.3-php8.0-apache
 joomla:4.3-php8.0
 joomla:4.3-apache
 joomla:4.3
+joomla:4-php8.2-fpm
+joomla:4-php8.2-apache
 joomla:4-php8.1-fpm
 joomla:4-php8.1-apache
 joomla:4-php8.0-fpm
@@ -6831,78 +6903,6 @@ joomla:4-php8.0-apache
 joomla:4-php8.0
 joomla:4-apache
 joomla:4
-joomla:3.10.11-php8.0-fpm
-joomla:3.10.11-php8.0-apache
-joomla:3.10.11-php8.0
-joomla:3.10.11-apache
-joomla:3.10.11
-joomla:3.10-php8.0-fpm
-joomla:3.10-php8.0-apache
-joomla:3.10-php8.0
-joomla:3.10-apache
-joomla:3.10
-joomla:3-php8.0-fpm
-joomla:3-php8.0-apache
-joomla:3-php8.0
-joomla:3-apache
-joomla:3
-joomla:php8.1-fpm-alpine
-joomla:4.3.1-php8.1-fpm-alpine
-joomla:4.3-php8.1-fpm-alpine
-joomla:4-php8.1-fpm-alpine
-joomla:php8.0-fpm-alpine
-joomla:4.3.1-php8.0-fpm-alpine
-joomla:4.3-php8.0-fpm-alpine
-joomla:4-php8.0-fpm-alpine
-joomla:3.10.11-php8.0-fpm-alpine
-joomla:3.10-php8.0-fpm-alpine
-joomla:3-php8.0-fpm-alpine
-joomla:4.2.9-php8.1-fpm-alpine
-joomla:4.2.9-php8.0-fpm-alpine
-joomla:4.2-php8.1-fpm-alpine
-joomla:4.2-php8.0-fpm-alpine
-joomla:4.2.9-php8.1-fpm
-joomla:4.2.9-php8.1-apache
-joomla:4.2-php8.1-fpm
-joomla:4.2-php8.1-apache
-joomla:4.2.9-php8.0-fpm
-joomla:4.2.9-php8.0-apache
-joomla:4.2.9-php8.0
-joomla:4.2.9-apache
-joomla:4.2.9
-joomla:4.2-php8.0-fpm
-joomla:4.2-php8.0-apache
-joomla:4.2-php8.0
-joomla:4.2-apache
-joomla:4.2
-joomla:4.2.8-php8.1-fpm-alpine
-joomla:4.2.8-php8.0-fpm-alpine
-joomla:4.2.8-php8.1-fpm
-joomla:4.2.8-php8.0-fpm
-joomla:4.2.8-php8.1-apache
-joomla:4.2.8-php8.0-apache
-joomla:4.2.8-php8.0
-joomla:4.2.8-apache
-joomla:4.2.8
-joomla:4.2.7-php8.1-fpm
-joomla:4.2.7-php8.1-apache
-joomla:4.2.7-php8.1-fpm-alpine
-joomla:4.2.7-php8.0-fpm
-joomla:4.2.7-php8.0-apache
-joomla:4.2.7-php8.0
-joomla:4.2.7-apache
-joomla:4.2.7
-joomla:4.2.7-php8.0-fpm-alpine
-joomla:4.2.6-php8.1-fpm
-joomla:4.2.6-php8.1-apache
-joomla:4.2.6-php8.0-fpm
-joomla:4.2.6-php8.0-apache
-joomla:4.2.6-php8.0
-joomla:4.2.6-apache
-joomla:4.2.6
-joomla:4.2.6-php8.1-fpm-alpine
-joomla:4.2.6-php8.0-fpm-alpine
-joomla:4.2.5-php8.1-fpm
 ```
 </details>
 
@@ -7918,8 +7918,9 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:5.0-20230522
+photon:5.0-20230527
 photon:5.0
+photon:5.0-20230522
 photon:4.0-20230522
 photon:4.0
 photon:4.0-20230515
@@ -8016,7 +8017,6 @@ photon:3.0-20220603
 photon:2.0-20220603
 photon:3.0-20220527
 photon:2.0-20220527
-photon:4.0-20220520
 ```
 </details>
 
