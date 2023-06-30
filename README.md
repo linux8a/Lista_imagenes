@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Jun 29 04:50:00 UTC 2023
+Actualizado: Fri Jun 30 04:50:04 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -843,35 +843,13 @@ nginx:1.23.4-bullseye-perl
 
 ```sh
 node:latest
-node:18.16-buster-slim
-node:18.16-bullseye-slim
-node:18-slim
-node:18-buster-slim
-node:18-bullseye-slim
-node:18-bookworm-slim
-node:16.20.1-slim
-node:16.20.1-buster-slim
-node:16.20.1-bullseye-slim
-node:16.20.1-bookworm-slim
-node:16.20-slim
-node:16.20-buster-slim
-node:16.20-bullseye-slim
-node:16.20-bookworm-slim
-node:16-slim
-node:16-buster-slim
-node:16-bullseye-slim
-node:16-bookworm-slim
 node:slim
 node:lts-slim
-node:lts-buster-slim
 node:lts-bullseye-slim
 node:lts-bookworm-slim
 node:hydrogen-slim
-node:hydrogen-buster-slim
 node:hydrogen-bullseye-slim
 node:hydrogen-bookworm-slim
-node:gallium-slim
-node:gallium-buster-slim
 node:gallium-bullseye-slim
 node:gallium-bookworm-slim
 node:current-slim
@@ -889,11 +867,33 @@ node:20-slim
 node:20-bullseye-slim
 node:20-bookworm-slim
 node:18.16.1-slim
-node:18.16.1-buster-slim
 node:18.16.1-bullseye-slim
 node:18.16.1-bookworm-slim
 node:18.16-slim
+node:18.16-bullseye-slim
 node:18.16-bookworm-slim
+node:18-slim
+node:18-bullseye-slim
+node:18-bookworm-slim
+node:16.20.1-bullseye-slim
+node:16.20.1-bookworm-slim
+node:16.20-bullseye-slim
+node:16.20-bookworm-slim
+node:16-bullseye-slim
+node:16-bookworm-slim
+node:18.16-buster-slim
+node:18-buster-slim
+node:16.20.1-slim
+node:16.20.1-buster-slim
+node:16.20-slim
+node:16.20-buster-slim
+node:16-slim
+node:16-buster-slim
+node:lts-buster-slim
+node:hydrogen-buster-slim
+node:gallium-slim
+node:gallium-buster-slim
+node:18.16.1-buster-slim
 node:current-buster-slim
 node:buster-slim
 node:20.3.1-buster-slim
@@ -2905,8 +2905,9 @@ mageia:3
 
 ```sh
 crate:latest
-crate:5.3.2
+crate:5.3.3
 crate:5.3
+crate:5.3.2
 crate:5.3.1
 crate:5.2.8
 crate:5.2
@@ -3003,7 +3004,6 @@ crate:3.0.7
 crate:3.0
 crate:2.3.11
 crate:2.3
-crate:2.2.7
 ```
 </details>
 
@@ -4332,18 +4332,18 @@ rabbitmq:3.9-management-alpine
 rabbitmq:3.9-management
 rabbitmq:3.9-alpine
 rabbitmq:3.9
-rabbitmq:3.12.0-management-alpine
-rabbitmq:3.12.0-management
-rabbitmq:3.12.0-alpine
-rabbitmq:3.12.0
+rabbitmq:3.12.1-management-alpine
+rabbitmq:3.12.1-management
+rabbitmq:3.12.1-alpine
+rabbitmq:3.12.1
 rabbitmq:3.12-management-alpine
 rabbitmq:3.12-management
 rabbitmq:3.12-alpine
 rabbitmq:3.12
-rabbitmq:3.11.18-management-alpine
-rabbitmq:3.11.18-management
-rabbitmq:3.11.18-alpine
-rabbitmq:3.11.18
+rabbitmq:3.11.19-management-alpine
+rabbitmq:3.11.19-management
+rabbitmq:3.11.19-alpine
+rabbitmq:3.11.19
 rabbitmq:3.11-management-alpine
 rabbitmq:3.11-management
 rabbitmq:3.11-alpine
@@ -4360,6 +4360,14 @@ rabbitmq:3-management-alpine
 rabbitmq:3-management
 rabbitmq:3-alpine
 rabbitmq:3
+rabbitmq:3.12.0-management-alpine
+rabbitmq:3.12.0-management
+rabbitmq:3.12.0-alpine
+rabbitmq:3.12.0
+rabbitmq:3.11.18-management-alpine
+rabbitmq:3.11.18-management
+rabbitmq:3.11.18-alpine
+rabbitmq:3.11.18
 rabbitmq:3.11.17-management-alpine
 rabbitmq:3.11.17-management
 rabbitmq:3.11.17-alpine
@@ -4412,14 +4420,6 @@ rabbitmq:3.11.13-management-alpine
 rabbitmq:3.11.13-management
 rabbitmq:3.11.13-alpine
 rabbitmq:3.11.13
-rabbitmq:3.10.20-management-alpine
-rabbitmq:3.10.20-management
-rabbitmq:3.10.20-alpine
-rabbitmq:3.10.20
-rabbitmq:3.12.0-beta.8-management-alpine
-rabbitmq:3.12.0-beta.8-management
-rabbitmq:3.12.0-beta.8-alpine
-rabbitmq:3.12.0-beta.8
 ```
 </details>
 
