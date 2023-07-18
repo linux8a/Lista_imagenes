@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Jul 17 04:50:00 UTC 2023
+Actualizado: Tue Jul 18 04:50:09 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -173,16 +173,17 @@ busybox:1.29.3-glibc
 
 ```sh
 ubuntu:latest
-ubuntu:mantic-20230624
+ubuntu:mantic-20230712
 ubuntu:mantic
+ubuntu:devel
+ubuntu:23.10
+ubuntu:mantic-20230624
 ubuntu:kinetic-20230624
 ubuntu:kinetic
 ubuntu:jammy-20230624
 ubuntu:jammy
 ubuntu:focal-20230624
 ubuntu:focal
-ubuntu:devel
-ubuntu:23.10
 ubuntu:22.10
 ubuntu:22.04
 ubuntu:20.04
@@ -271,7 +272,6 @@ ubuntu:jammy-20220421
 ubuntu:impish-20220415
 ubuntu:focal-20220415
 ubuntu:bionic-20220415
-ubuntu:jammy-20220404
 ```
 </details>
 
@@ -625,6 +625,12 @@ ubuntu-upstart:13.04
 
 ```sh
 buildpack-deps:latest
+buildpack-deps:mantic-scm
+buildpack-deps:mantic-curl
+buildpack-deps:mantic
+buildpack-deps:23.10-scm
+buildpack-deps:23.10-curl
+buildpack-deps:23.10
 buildpack-deps:unstable-scm
 buildpack-deps:unstable-curl
 buildpack-deps:stable-scm
@@ -643,9 +649,6 @@ buildpack-deps:bullseye
 buildpack-deps:bookworm-scm
 buildpack-deps:bookworm-curl
 buildpack-deps:bookworm
-buildpack-deps:mantic-scm
-buildpack-deps:mantic-curl
-buildpack-deps:mantic
 buildpack-deps:kinetic-scm
 buildpack-deps:kinetic-curl
 buildpack-deps:kinetic
@@ -655,9 +658,6 @@ buildpack-deps:jammy
 buildpack-deps:focal-scm
 buildpack-deps:focal-curl
 buildpack-deps:focal
-buildpack-deps:23.10-scm
-buildpack-deps:23.10-curl
-buildpack-deps:23.10
 buildpack-deps:22.10-scm
 buildpack-deps:22.10-curl
 buildpack-deps:22.10
@@ -2349,6 +2349,30 @@ jenkins:1.570
 
 ```sh
 golang:latest
+golang:1.21rc3-bullseye
+golang:1.21rc3-bookworm
+golang:1.21rc3
+golang:1.21-rc-bullseye
+golang:1.21-rc-bookworm
+golang:1.21-rc-alpine3.17
+golang:1.21-rc-alpine
+golang:1.21-rc
+golang:1.21rc3-alpine3.18
+golang:1.21rc3-alpine3.17
+golang:1.21rc3-alpine
+golang:1.21-rc-alpine3.18
+golang:1.21rc3-windowsservercore-ltsc2022
+golang:1.21rc3-windowsservercore-1809
+golang:1.21rc3-windowsservercore
+golang:1.21rc3-nanoserver-ltsc2022
+golang:1.21rc3-nanoserver-1809
+golang:1.21rc3-nanoserver
+golang:1.21-rc-windowsservercore-ltsc2022
+golang:1.21-rc-windowsservercore-1809
+golang:1.21-rc-windowsservercore
+golang:1.21-rc-nanoserver-ltsc2022
+golang:1.21-rc-nanoserver-1809
+golang:1.21-rc-nanoserver
 golang:alpine3.18
 golang:alpine3.17
 golang:alpine
@@ -2357,12 +2381,6 @@ golang:1.21rc2-alpine3.18
 golang:1.21rc2-alpine3.17
 golang:1.21rc2-alpine
 golang:1.21rc2
-golang:1.21-rc-windowsservercore
-golang:1.21-rc-nanoserver
-golang:1.21-rc-alpine3.18
-golang:1.21-rc-alpine3.17
-golang:1.21-rc-alpine
-golang:1.21-rc
 golang:1.20.6-windowsservercore
 golang:1.20.6-nanoserver
 golang:1.20.6-alpine3.18
@@ -2415,10 +2433,6 @@ golang:1.21rc2-windowsservercore-1809
 golang:1.21rc2-windowsservercore
 golang:1.21rc2-nanoserver-ltsc2022
 golang:1.21rc2-nanoserver-1809
-golang:1.21-rc-windowsservercore-ltsc2022
-golang:1.21-rc-windowsservercore-1809
-golang:1.21-rc-nanoserver-ltsc2022
-golang:1.21-rc-nanoserver-1809
 golang:1.20.6-windowsservercore-ltsc2022
 golang:1.20.6-windowsservercore-1809
 golang:1.20.6-nanoserver-ltsc2022
@@ -2434,20 +2448,6 @@ golang:1.20.6-bullseye
 golang:1.20.6-bookworm
 golang:1.20-bullseye
 golang:1.20-bookworm
-golang:1.19.11-bullseye
-golang:1.19.11-bookworm
-golang:1.19-bullseye
-golang:1.19-bookworm
-golang:1-bullseye
-golang:1-bookworm
-golang:1.21rc2-bullseye
-golang:1.21rc2-bookworm
-golang:1.21-rc-bullseye
-golang:1.21-rc-bookworm
-golang:1.20.5-bullseye
-golang:1.20.5-bookworm
-golang:1.20.5
-golang:1.19.10-bullseye
 ```
 </details>
 
@@ -2905,8 +2905,9 @@ mageia:3
 
 ```sh
 crate:latest
-crate:5.3.3
+crate:5.3.4
 crate:5.3
+crate:5.3.3
 crate:5.3.2
 crate:5.3.1
 crate:5.2.8
@@ -3003,7 +3004,6 @@ crate:3.2.7
 crate:3.0.7
 crate:3.0
 crate:2.3.11
-crate:2.3
 ```
 </details>
 
@@ -3386,6 +3386,16 @@ glassfish:4.0-jdk7
 
 ```sh
 maven:latest
+maven:sapmachine
+maven:3.9.3-sapmachine-17
+maven:3.9.3-sapmachine-11
+maven:3.9.3-sapmachine
+maven:3.9-sapmachine-17
+maven:3.9-sapmachine-11
+maven:3.9-sapmachine
+maven:3-sapmachine-17
+maven:3-sapmachine-11
+maven:3-sapmachine
 maven:amazoncorretto
 maven:3.9.3-amazoncorretto-8
 maven:3.9.3-amazoncorretto-20
@@ -3402,11 +3412,7 @@ maven:3-amazoncorretto-20
 maven:3-amazoncorretto-17
 maven:3-amazoncorretto-11
 maven:3-amazoncorretto
-maven:sapmachine
 maven:ibmjava
-maven:3.9.3-sapmachine-17
-maven:3.9.3-sapmachine-11
-maven:3.9.3-sapmachine
 maven:3.9.3-ibmjava-8
 maven:3.9.3-ibmjava
 maven:3.9.3-ibm-semeru-17-focal
@@ -3417,9 +3423,6 @@ maven:3.9.3-eclipse-temurin-17-focal
 maven:3.9.3-eclipse-temurin-17
 maven:3.9.3-eclipse-temurin-11-focal
 maven:3.9.3-eclipse-temurin-11
-maven:3.9-sapmachine-17
-maven:3.9-sapmachine-11
-maven:3.9-sapmachine
 maven:3.9-ibmjava-8
 maven:3.9-ibmjava
 maven:3.9-ibm-semeru-17-focal
@@ -3430,9 +3433,6 @@ maven:3.9-eclipse-temurin-17-focal
 maven:3.9-eclipse-temurin-17
 maven:3.9-eclipse-temurin-11-focal
 maven:3.9-eclipse-temurin-11
-maven:3-sapmachine-17
-maven:3-sapmachine-11
-maven:3-sapmachine
 maven:3-ibmjava-8
 maven:3-ibmjava
 maven:3-ibm-semeru-17-focal
@@ -5154,13 +5154,15 @@ jetty:11-jdk17
 
 ```sh
 ghost:latest
+ghost:5.54
+ghost:5
 ghost:alpine
+ghost:5.54.3-alpine
+ghost:5.54.3
+ghost:5.54-alpine
+ghost:5-alpine
 ghost:5.54.0-alpine
 ghost:5.54.0
-ghost:5.54-alpine
-ghost:5.54
-ghost:5-alpine
-ghost:5
 ghost:5.53.4-alpine
 ghost:5.53.4
 ghost:5.53-alpine
@@ -5251,8 +5253,6 @@ ghost:5.39.0-alpine
 ghost:5.39-alpine
 ghost:5.38.0-alpine
 ghost:5.38-alpine
-ghost:5.38.0
-ghost:5.38
 ```
 </details>
 
@@ -7939,12 +7939,15 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:4.0-20230708
-photon:4.0
-photon:5.0-20230701
+photon:5.0-20230715
 photon:5.0
-photon:3.0-20230701
+photon:4.0-20230715
+photon:4.0
+photon:3.0-20230715
 photon:3.0
+photon:4.0-20230708
+photon:5.0-20230701
+photon:3.0-20230701
 photon:5.0-20230624
 photon:4.0-20230624
 photon:5.0-20230619
@@ -8035,9 +8038,6 @@ photon:2.0-20220715
 photon:4.0-20220708
 photon:3.0-20220708
 photon:2.0-20220708
-photon:4.0-20220701
-photon:3.0-20220701
-photon:2.0-20220701
 ```
 </details>
 
