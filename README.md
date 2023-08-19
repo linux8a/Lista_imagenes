@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Aug 18 04:50:14 UTC 2023
+Actualizado: Sat Aug 19 04:50:00 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -1061,26 +1061,26 @@ mysql:8.0.14
 
 ```sh
 wordpress:latest
-wordpress:php8.2-fpm-alpine
 wordpress:php8.2-fpm
 wordpress:php8.2-apache
 wordpress:php8.2
+wordpress:6.3.0-php8.2-fpm
+wordpress:6.3.0-php8.2-apache
+wordpress:6.3.0-php8.2
+wordpress:6.3-php8.2-fpm
+wordpress:6.3-php8.2-apache
+wordpress:6.3-php8.2
+wordpress:6-php8.2-fpm
+wordpress:6-php8.2-apache
+wordpress:6-php8.2
+wordpress:php8.2-fpm-alpine
 wordpress:cli-php8.2
 wordpress:cli-2.8.1-php8.2
 wordpress:cli-2.8-php8.2
 wordpress:cli-2-php8.2
 wordpress:6.3.0-php8.2-fpm-alpine
-wordpress:6.3.0-php8.2-fpm
-wordpress:6.3.0-php8.2-apache
-wordpress:6.3.0-php8.2
 wordpress:6.3-php8.2-fpm-alpine
-wordpress:6.3-php8.2-fpm
-wordpress:6.3-php8.2-apache
-wordpress:6.3-php8.2
 wordpress:6-php8.2-fpm-alpine
-wordpress:6-php8.2-fpm
-wordpress:6-php8.2-apache
-wordpress:6-php8.2
 wordpress:6.3.0-php8.1-fpm
 wordpress:6.3.0-php8.1-apache
 wordpress:6.3.0-php8.1
@@ -2777,6 +2777,12 @@ php:8.2.9-zts-alpine
 
 ```sh
 jruby:latest
+jruby:9.4.2.0-jre17
+jruby:9.4.2-jre17
+jruby:9.4-jre17
+jruby:9.3.10.0-jre17
+jruby:9.3.10-jre17
+jruby:9.3-jre17
 jruby:9.4.3.0-jre8
 jruby:9.4.3.0-jre11
 jruby:9.4.3.0-jre
@@ -2870,12 +2876,6 @@ jruby:9.4.0.0-jdk
 jruby:9.4.0.0
 jruby:9.4.0-jre8
 jruby:9.4.0-jre11
-jruby:9.4.0-jre
-jruby:9.4.0-jdk8
-jruby:9.4.0-jdk17
-jruby:9.4.0-jdk11
-jruby:9.4.0-jdk
-jruby:9.4.0
 ```
 </details>
 
@@ -5884,6 +5884,20 @@ rakudo-star:2015.03
 
 ```sh
 drupal:latest
+drupal:7.98-php8.2-fpm-bullseye
+drupal:7.98-php8.2-fpm-bookworm
+drupal:7.98-php8.2-fpm
+drupal:7.98-php8.2-apache-bullseye
+drupal:7.98-php8.2-apache-bookworm
+drupal:7.98-php8.2-apache
+drupal:7.98-php8.2
+drupal:7-php8.2-fpm-bullseye
+drupal:7-php8.2-fpm-bookworm
+drupal:7-php8.2-fpm
+drupal:7-php8.2-apache-bullseye
+drupal:7-php8.2-apache-bookworm
+drupal:7-php8.2-apache
+drupal:7-php8.2
 drupal:php8.2-fpm-bullseye
 drupal:php8.2-fpm-bookworm
 drupal:php8.2-fpm-alpine3.18
@@ -5930,10 +5944,6 @@ drupal:9-php8.2-fpm
 drupal:7-php8.2-fpm-alpine3.18
 drupal:7-php8.2-fpm-alpine3.17
 drupal:7-php8.2-fpm-alpine
-drupal:7-php8.2-fpm
-drupal:7-php8.2-apache-bullseye
-drupal:7-php8.2-apache
-drupal:7-php8.2
 drupal:10.0.10-php8.2-fpm-bullseye
 drupal:10.0.10-php8.2-fpm-alpine3.18
 drupal:10.0.10-php8.2-fpm-alpine3.17
@@ -5973,16 +5983,6 @@ drupal:10.0
 drupal:10-php8.2-fpm-bullseye
 drupal:10-php8.2-fpm-alpine3.18
 drupal:10-php8.2-fpm-alpine3.17
-drupal:10-php8.2-fpm-alpine
-drupal:10-php8.2-apache-bullseye
-drupal:10-fpm-bullseye
-drupal:10-fpm-bookworm
-drupal:10-fpm-alpine3.18
-drupal:10-fpm-alpine3.17
-drupal:10-fpm-alpine
-drupal:10-fpm
-drupal:10-apache-bullseye
-drupal:9-php8.2-apache-bullseye
 ```
 </details>
 
@@ -6825,42 +6825,42 @@ gazebo:gzserver4
 
 ```sh
 joomla:latest
-joomla:php8.2-fpm-alpine
 joomla:php8.2-fpm
 joomla:php8.2-apache
-joomla:5.0.alpha-php8.2-fpm-alpine
 joomla:5.0.alpha-php8.2-fpm
 joomla:5.0.alpha-php8.2-apache
-joomla:5.0.0-alpha2-php8.2-fpm-alpine
 joomla:5.0.0-alpha2-php8.2-fpm
 joomla:5.0.0-alpha2-php8.2-apache
-joomla:5.0.0-alpha-php8.2-fpm-alpine
 joomla:5.0.0-alpha-php8.2-fpm
 joomla:5.0.0-alpha-php8.2-apache
-joomla:5.0-php8.2-fpm-alpine
 joomla:5.0-php8.2-fpm
 joomla:5.0-php8.2-apache
-joomla:4.4.alpha-php8.2-fpm-alpine
 joomla:4.4.alpha-php8.2-fpm
 joomla:4.4.alpha-php8.2-apache
-joomla:4.4.0-alpha2-php8.2-fpm-alpine
 joomla:4.4.0-alpha2-php8.2-fpm
 joomla:4.4.0-alpha2-php8.2-apache
-joomla:4.4.0-alpha-php8.2-fpm-alpine
 joomla:4.4.0-alpha-php8.2-fpm
 joomla:4.4.0-alpha-php8.2-apache
-joomla:4.4-php8.2-fpm-alpine
 joomla:4.4-php8.2-fpm
 joomla:4.4-php8.2-apache
-joomla:4.3.3-php8.2-fpm-alpine
 joomla:4.3.3-php8.2-fpm
 joomla:4.3.3-php8.2-apache
-joomla:4.3-php8.2-fpm-alpine
 joomla:4.3-php8.2-fpm
 joomla:4.3-php8.2-apache
-joomla:4-php8.2-fpm-alpine
 joomla:4-php8.2-fpm
 joomla:4-php8.2-apache
+joomla:php8.2-fpm-alpine
+joomla:5.0.alpha-php8.2-fpm-alpine
+joomla:5.0.0-alpha2-php8.2-fpm-alpine
+joomla:5.0.0-alpha-php8.2-fpm-alpine
+joomla:5.0-php8.2-fpm-alpine
+joomla:4.4.alpha-php8.2-fpm-alpine
+joomla:4.4.0-alpha2-php8.2-fpm-alpine
+joomla:4.4.0-alpha-php8.2-fpm-alpine
+joomla:4.4-php8.2-fpm-alpine
+joomla:4.3.3-php8.2-fpm-alpine
+joomla:4.3-php8.2-fpm-alpine
+joomla:4-php8.2-fpm-alpine
 joomla:php8.1-fpm
 joomla:php8.1-apache
 joomla:php8.0-fpm
