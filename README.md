@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed Aug 30 04:49:58 UTC 2023
+Actualizado: Thu Aug 31 04:50:07 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -17640,14 +17640,18 @@ mono:4.0.0
 
 ```sh
 haskell:latest
-haskell:9.4.6-slim-buster
-haskell:9.4.6-slim
-haskell:9.4.6-buster
-haskell:9.4.6
+haskell:9.4.7-slim-buster
+haskell:9.4.7-slim
+haskell:9.4.7-buster
+haskell:9.4.7
 haskell:9.4-slim-buster
 haskell:9.4-slim
 haskell:9.4-buster
 haskell:9.4
+haskell:9.4.6-slim-buster
+haskell:9.4.6-slim
+haskell:9.4.6-buster
+haskell:9.4.6
 haskell:slim-buster
 haskell:slim
 haskell:buster
