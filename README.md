@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Sep 18 04:50:02 UTC 2023
+Actualizado: Tue Sep 19 04:50:13 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -23136,12 +23136,12 @@ rabbitmq:3.6.12-alpine
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:8.8
+oraclelinux:8
 oraclelinux:9-slim
 oraclelinux:9
-oraclelinux:8.8
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
-oraclelinux:8
 oraclelinux:7-slim-fips
 oraclelinux:7.9
 oraclelinux:7
@@ -37440,14 +37440,17 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:5.0-20230909
+photon:5.0-20230916
 photon:5.0
-photon:4.0-20230909
+photon:4.0-20230916
 photon:4.0
+photon:3.0-20230916
+photon:3.0
+photon:5.0-20230909
+photon:4.0-20230909
 photon:5.0-20230902
 photon:4.0-20230905
 photon:3.0-20230902
-photon:3.0
 photon:5.0-20230826
 photon:4.0-20230826
 photon:3.0-20230826
@@ -44828,12 +44831,14 @@ known:0.9.2
 ```sh
 eclipse-mosquitto:latest
 eclipse-mosquitto:openssl
-eclipse-mosquitto:2.0.17-openssl
-eclipse-mosquitto:2.0.17
+eclipse-mosquitto:2.0.18-openssl
+eclipse-mosquitto:2.0.18
 eclipse-mosquitto:2.0-openssl
 eclipse-mosquitto:2.0
 eclipse-mosquitto:2-openssl
 eclipse-mosquitto:2
+eclipse-mosquitto:2.0.17-openssl
+eclipse-mosquitto:2.0.17
 eclipse-mosquitto:2.0.16-openssl
 eclipse-mosquitto:2.0.16
 eclipse-mosquitto:2.0.15-openssl
@@ -44911,11 +44916,6 @@ eclipse-mosquitto:1.4.10
 
 ```sh
 nextcloud:latest
-nextcloud:27.0-fpm
-nextcloud:27-fpm
-nextcloud:27
-nextcloud:26-fpm
-nextcloud:25-fpm
 nextcloud:stable-fpm-alpine
 nextcloud:stable-fpm
 nextcloud:stable-apache
@@ -44927,6 +44927,33 @@ nextcloud:production
 nextcloud:fpm-alpine
 nextcloud:fpm
 nextcloud:apache
+nextcloud:27.1.0-fpm-alpine
+nextcloud:27.1.0-fpm
+nextcloud:27.1.0-apache
+nextcloud:27.1.0
+nextcloud:27.1-fpm-alpine
+nextcloud:27.1-fpm
+nextcloud:27.1-apache
+nextcloud:27.1
+nextcloud:27-fpm-alpine
+nextcloud:27-fpm
+nextcloud:27-apache
+nextcloud:27
+nextcloud:26.0.6-apache
+nextcloud:26.0.6
+nextcloud:26.0-apache
+nextcloud:26.0
+nextcloud:26-apache
+nextcloud:26
+nextcloud:25.0.11-apache
+nextcloud:25.0.11
+nextcloud:25.0-apache
+nextcloud:25.0
+nextcloud:25-apache
+nextcloud:25
+nextcloud:27.0-fpm
+nextcloud:26-fpm
+nextcloud:25-fpm
 nextcloud:27.0.2-fpm-alpine
 nextcloud:27.0.2-fpm
 nextcloud:27.0.2-apache
@@ -44934,30 +44961,16 @@ nextcloud:27.0.2
 nextcloud:27.0-fpm-alpine
 nextcloud:27.0-apache
 nextcloud:27.0
-nextcloud:27-fpm-alpine
-nextcloud:27-apache
 nextcloud:26.0.6-fpm-alpine
 nextcloud:26.0.6-fpm
-nextcloud:26.0.6-apache
-nextcloud:26.0.6
 nextcloud:26.0-fpm-alpine
 nextcloud:26.0-fpm
-nextcloud:26.0-apache
-nextcloud:26.0
 nextcloud:26-fpm-alpine
-nextcloud:26-apache
-nextcloud:26
 nextcloud:25.0.11-fpm-alpine
 nextcloud:25.0.11-fpm
-nextcloud:25.0.11-apache
-nextcloud:25.0.11
 nextcloud:25.0-fpm-alpine
 nextcloud:25.0-fpm
-nextcloud:25.0-apache
-nextcloud:25.0
 nextcloud:25-fpm-alpine
-nextcloud:25-apache
-nextcloud:25
 nextcloud:26.0.5-fpm
 nextcloud:26.0.5-apache
 nextcloud:26.0.5
@@ -45902,14 +45915,6 @@ nextcloud:18.0.0-fpm-alpine
 nextcloud:17.0.2-fpm-alpine
 nextcloud:17.0.2-fpm
 nextcloud:17.0.2-apache
-nextcloud:17.0.2
-nextcloud:16.0.7-fpm-alpine
-nextcloud:16.0.7-fpm
-nextcloud:16.0.7-apache
-nextcloud:16.0.7
-nextcloud:15.0.14-fpm-alpine
-nextcloud:15.0-fpm-alpine
-nextcloud:15-fpm-alpine
 ```
 </details>
 
@@ -47327,10 +47332,10 @@ xwiki:lts-mysql
 xwiki:lts-mariadb-tomcat
 xwiki:lts-mariadb
 xwiki:lts
-xwiki:14.10.16-postgres-tomcat
-xwiki:14.10.16-mysql-tomcat
-xwiki:14.10.16-mariadb-tomcat
-xwiki:14.10.16
+xwiki:14.10.17-postgres-tomcat
+xwiki:14.10.17-mysql-tomcat
+xwiki:14.10.17-mariadb-tomcat
+xwiki:14.10.17
 xwiki:14.10-postgres-tomcat
 xwiki:14.10-mysql-tomcat
 xwiki:14.10-mariadb-tomcat
@@ -47339,6 +47344,10 @@ xwiki:14-postgres-tomcat
 xwiki:14-mysql-tomcat
 xwiki:14-mariadb-tomcat
 xwiki:14
+xwiki:14.10.16-postgres-tomcat
+xwiki:14.10.16-mysql-tomcat
+xwiki:14.10.16-mariadb-tomcat
+xwiki:14.10.16
 xwiki:stable-postgres-tomcat
 xwiki:stable-postgres
 xwiki:stable-mysql-tomcat
@@ -55394,20 +55403,24 @@ sapmachine:11.0.3
 
 ```sh
 varnish:latest
-varnish:stable
+varnish:old-alpine
 varnish:old
+varnish:fresh-alpine
 varnish:fresh
+varnish:alpine
+varnish:7.4.0-alpine
+varnish:7.4.0
+varnish:7.4-alpine
+varnish:7.4
+varnish:7.3.0-alpine
 varnish:7.3.0
+varnish:7.3-alpine
 varnish:7.3
+varnish:stable
 varnish:7.2.1
 varnish:7.2
 varnish:6.0.11
 varnish:6.0
-varnish:old-alpine
-varnish:fresh-alpine
-varnish:alpine
-varnish:7.3.0-alpine
-varnish:7.3-alpine
 varnish:7.2.1-alpine
 varnish:7.2-alpine
 varnish:7.1.2-alpine
