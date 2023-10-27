@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Oct 26 04:50:11 UTC 2023
+Actualizado: Fri Oct 27 04:49:58 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -3863,6 +3863,15 @@ node:14.20.1-bullseye
 
 ```sh
 mysql:latest
+mysql:8.2.0-oracle
+mysql:8.2.0
+mysql:8.2-oracle
+mysql:8.2
+mysql:8.0.35-oracle
+mysql:8.0.35-debian
+mysql:8.0.35
+mysql:5.7.44-oracle
+mysql:5.7.44
 mysql:8.0
 mysql:8-oracle
 mysql:8
@@ -6989,6 +6998,46 @@ java:8u40-jre
 
 ```sh
 mongo:latest
+mongo:7.0-rc-jammy
+mongo:7.0-rc
+mongo:5.0.22-windowsservercore
+mongo:5.0.22-nanoserver-1809
+mongo:5.0.22-nanoserver
+mongo:5.0.22-focal
+mongo:5.0.22
+mongo:5.0-windowsservercore
+mongo:5.0-nanoserver-ltsc2022
+mongo:5.0-nanoserver-1809
+mongo:5.0-nanoserver
+mongo:5.0-focal
+mongo:5.0
+mongo:5-windowsservercore
+mongo:5-nanoserver-ltsc2022
+mongo:5-nanoserver-1809
+mongo:5-nanoserver
+mongo:5-focal
+mongo:5
+mongo:7.0.3-rc1-windowsservercore-ltsc2022
+mongo:7.0.3-rc1-windowsservercore-1809
+mongo:7.0.3-rc1-windowsservercore
+mongo:7.0.3-rc1-nanoserver-ltsc2022
+mongo:7.0.3-rc1-nanoserver-1809
+mongo:7.0.3-rc1-nanoserver
+mongo:7.0.3-rc1-jammy
+mongo:7.0.3-rc1
+mongo:7.0-rc-windowsservercore-ltsc2022
+mongo:7.0-rc-windowsservercore-1809
+mongo:7.0-rc-windowsservercore
+mongo:7.0-rc-nanoserver-ltsc2022
+mongo:7.0-rc-nanoserver-1809
+mongo:7.0-rc-nanoserver
+mongo:5.0.22-windowsservercore-ltsc2022
+mongo:5.0.22-windowsservercore-1809
+mongo:5.0.22-nanoserver-ltsc2022
+mongo:5.0-windowsservercore-ltsc2022
+mongo:5.0-windowsservercore-1809
+mongo:5-windowsservercore-ltsc2022
+mongo:5-windowsservercore-1809
 mongo:jammy
 mongo:7.0.2-jammy
 mongo:7.0.2
@@ -7004,10 +7053,6 @@ mongo:6-jammy
 mongo:6
 mongo:5.0.21-focal
 mongo:5.0.21
-mongo:5.0-focal
-mongo:5.0
-mongo:5-focal
-mongo:5
 mongo:4.4.25-focal
 mongo:4.4.25
 mongo:4.4-focal
@@ -7069,18 +7114,6 @@ mongo:5.0.21-windowsservercore
 mongo:5.0.21-nanoserver-ltsc2022
 mongo:5.0.21-nanoserver-1809
 mongo:5.0.21-nanoserver
-mongo:5.0-windowsservercore-ltsc2022
-mongo:5.0-windowsservercore-1809
-mongo:5.0-windowsservercore
-mongo:5.0-nanoserver-ltsc2022
-mongo:5.0-nanoserver-1809
-mongo:5.0-nanoserver
-mongo:5-windowsservercore-ltsc2022
-mongo:5-windowsservercore-1809
-mongo:5-windowsservercore
-mongo:5-nanoserver-ltsc2022
-mongo:5-nanoserver-1809
-mongo:5-nanoserver
 mongo:4.4.25-windowsservercore-ltsc2022
 mongo:4.4.25-windowsservercore-1809
 mongo:4.4.25-windowsservercore
@@ -7163,8 +7196,6 @@ mongo:7.0.1-rc0-jammy
 mongo:7.0.1-rc0
 mongo:7.0.0-jammy
 mongo:7.0.0
-mongo:7.0-rc-jammy
-mongo:7.0-rc
 mongo:6.0.9-jammy
 mongo:5.0.21-rc0-focal
 mongo:5.0-rc-focal
@@ -7174,12 +7205,6 @@ mongo:7.0.1-rc0-windowsservercore
 mongo:7.0.1-rc0-nanoserver-ltsc2022
 mongo:7.0.1-rc0-nanoserver-1809
 mongo:7.0.1-rc0-nanoserver
-mongo:7.0-rc-windowsservercore-ltsc2022
-mongo:7.0-rc-windowsservercore-1809
-mongo:7.0-rc-windowsservercore
-mongo:7.0-rc-nanoserver-ltsc2022
-mongo:7.0-rc-nanoserver-1809
-mongo:7.0-rc-nanoserver
 mongo:4.4.24-focal
 mongo:4.4-rc
 mongo:7.0.0-windowsservercore-ltsc2022
@@ -7972,22 +7997,6 @@ mongo:5.0.4-windowsservercore-ltsc2016
 mongo:5.0.4-windowsservercore-1809
 mongo:5.0.4-windowsservercore
 mongo:5.0.4-nanoserver-1809
-mongo:5.0.4-nanoserver
-mongo:5.0.3-windowsservercore-ltsc2016
-mongo:5.0.3-windowsservercore-1809
-mongo:5.0.3-windowsservercore
-mongo:5.0.3-nanoserver-1809
-mongo:5.0.3-nanoserver
-mongo:5.0.3
-mongo:5.0.3-focal
-mongo:4.4.9-windowsservercore-ltsc2016
-mongo:4.4.9-windowsservercore-1809
-mongo:4.4.9-windowsservercore
-mongo:4.4.9-nanoserver-1809
-mongo:4.4.9-nanoserver
-mongo:4.4.9
-mongo:4.4.10-rc0-windowsservercore-ltsc2016
-mongo:4.4.10-rc0-windowsservercore-1809
 ```
 </details>
 
@@ -33537,6 +33546,17 @@ rocket.chat:0.4.0
 
 ```sh
 docker:latest
+docker:24.0.7-windowsservercore-ltsc2022
+docker:24.0.7-windowsservercore-1809
+docker:24.0.7-windowsservercore
+docker:24.0.7-git
+docker:24.0.7-dind-rootless
+docker:24.0.7-dind-alpine3.18
+docker:24.0.7-dind
+docker:24.0.7-cli-alpine3.18
+docker:24.0.7-cli
+docker:24.0.7-alpine3.18
+docker:24.0.7
 docker:git
 docker:dind-rootless
 docker:dind
@@ -34525,17 +34545,6 @@ docker:18.03.0-ce-rc3-git
 docker:18.03.0-ce-rc3-dind
 docker:18.03.0-ce-rc3
 docker:17.12.0-git
-docker:17.12.0-ce-git
-docker:17.12.0-dind
-docker:17.12.0-ce-dind
-docker:17.12.0
-docker:17.12.0-ce
-docker:17.12-rc-git
-docker:17.12.1-ce-rc2-git
-docker:17.12-rc-dind
-docker:17.12.1-ce-rc2-dind
-docker:17.12-rc
-docker:17.12.1-ce-rc2
 ```
 </details>
 
