@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Nov  6 04:50:11 UTC 2023
+Actualizado: Tue Nov  7 04:50:09 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -16282,8 +16282,9 @@ mageia:3
 
 ```sh
 crate:latest
-crate:5.4.4
+crate:5.4.5
 crate:5.4
+crate:5.4.4
 crate:5.3.7
 crate:5.3
 crate:5.2.10
@@ -29392,13 +29393,15 @@ drupal:9.4.13-php8.0
 
 ```sh
 cassandra:latest
+cassandra:5.0-alpha2
+cassandra:5.0
+cassandra:5
 cassandra:3.11.16
 cassandra:3.11
 cassandra:3.0.29
 cassandra:3.0
 cassandra:3
 cassandra:5.0-alpha1
-cassandra:5.0
 cassandra:4.1.3
 cassandra:4.1
 cassandra:4.0.11
@@ -47822,6 +47825,13 @@ xwiki:stable
 xwiki:postgres-tomcat
 xwiki:mysql-tomcat
 xwiki:mariadb-tomcat
+xwiki:lts-postgres-tomcat
+xwiki:lts-postgres
+xwiki:lts-mysql-tomcat
+xwiki:lts-mysql
+xwiki:lts-mariadb-tomcat
+xwiki:lts-mariadb
+xwiki:lts
 xwiki:15.9.0-postgres-tomcat
 xwiki:15.9.0-mysql-tomcat
 xwiki:15.9.0-mariadb-tomcat
@@ -47830,25 +47840,6 @@ xwiki:15.9-postgres-tomcat
 xwiki:15.9-mysql-tomcat
 xwiki:15.9-mariadb-tomcat
 xwiki:15.9
-xwiki:15-postgres-tomcat
-xwiki:15-mysql-tomcat
-xwiki:15-mariadb-tomcat
-xwiki:15
-xwiki:lts-postgres-tomcat
-xwiki:lts-postgres
-xwiki:lts-mysql-tomcat
-xwiki:lts-mysql
-xwiki:lts-mariadb-tomcat
-xwiki:lts-mariadb
-xwiki:lts
-xwiki:15.8.0-postgres-tomcat
-xwiki:15.8.0-mysql-tomcat
-xwiki:15.8.0-mariadb-tomcat
-xwiki:15.8.0
-xwiki:15.8-postgres-tomcat
-xwiki:15.8-mysql-tomcat
-xwiki:15.8-mariadb-tomcat
-xwiki:15.8
 xwiki:15.5.3-postgres-tomcat
 xwiki:15.5.3-mysql-tomcat
 xwiki:15.5.3-mariadb-tomcat
@@ -47857,6 +47848,10 @@ xwiki:15.5-postgres-tomcat
 xwiki:15.5-mysql-tomcat
 xwiki:15.5-mariadb-tomcat
 xwiki:15.5
+xwiki:15-postgres-tomcat
+xwiki:15-mysql-tomcat
+xwiki:15-mariadb-tomcat
+xwiki:15
 xwiki:14.10.18-postgres-tomcat
 xwiki:14.10.18-mysql-tomcat
 xwiki:14.10.18-mariadb-tomcat
@@ -47869,6 +47864,14 @@ xwiki:14-postgres-tomcat
 xwiki:14-mysql-tomcat
 xwiki:14-mariadb-tomcat
 xwiki:14
+xwiki:15.8.0-postgres-tomcat
+xwiki:15.8.0-mysql-tomcat
+xwiki:15.8.0-mariadb-tomcat
+xwiki:15.8.0
+xwiki:15.8-postgres-tomcat
+xwiki:15.8-mysql-tomcat
+xwiki:15.8-mariadb-tomcat
+xwiki:15.8
 xwiki:15.5.2-postgres-tomcat
 xwiki:15.5.2-mysql-tomcat
 xwiki:15.5.2-mariadb-tomcat
@@ -56299,10 +56302,12 @@ jobber:1-alpine3.10
 
 ```sh
 archlinux:latest
-archlinux:base-devel-20231029.0.188123
+archlinux:base-devel-20231105.0.189722
 archlinux:base-devel
-archlinux:base-20231029.0.188123
+archlinux:base-20231105.0.189722
 archlinux:base
+archlinux:base-devel-20231029.0.188123
+archlinux:base-20231029.0.188123
 archlinux:base-devel-20231015.0.185077
 archlinux:base-20231015.0.185077
 archlinux:base-devel-20231001.0.182270
