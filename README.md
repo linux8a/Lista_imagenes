@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Nov  9 04:50:18 UTC 2023
+Actualizado: Fri Nov 10 04:50:04 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -24105,9 +24105,9 @@ swarm:0.3.0-rc2
 
 ```sh
 elasticsearch:8.11.0
+elasticsearch:7.17.14
 elasticsearch:8.10.3
 elasticsearch:8.10.4
-elasticsearch:7.17.14
 elasticsearch:8.10.2
 elasticsearch:8.10.1
 elasticsearch:8.9.2
@@ -27050,9 +27050,9 @@ aerospike:3.5.3
 
 ```sh
 logstash:8.11.0
+logstash:7.17.14
 logstash:8.10.3
 logstash:8.10.4
-logstash:7.17.14
 logstash:8.10.2
 logstash:8.10.1
 logstash:8.9.2
@@ -29981,11 +29981,15 @@ sonarqube:5.1
 
 ```sh
 couchbase:latest
+couchbase:enterprise-7.2.3
+couchbase:enterprise-7.1.6
+couchbase:enterprise
+couchbase:7.2.3
+couchbase:7.1.6
 couchbase:enterprise-7.2.2
 couchbase:enterprise-7.1.5
 couchbase:enterprise-7.0.5
 couchbase:enterprise-6.6.6
-couchbase:enterprise
 couchbase:community-7.2.2
 couchbase:community-7.1.1
 couchbase:community-7.0.2
@@ -30284,9 +30288,9 @@ ros:kinetic-perception-jessie
 
 ```sh
 kibana:8.11.0
+kibana:7.17.14
 kibana:8.10.3
 kibana:8.10.4
-kibana:7.17.14
 kibana:8.10.2
 kibana:8.10.1
 kibana:8.9.2
@@ -32404,6 +32408,41 @@ redmine:2.6.6
 
 ```sh
 nats:latest
+nats:scratch
+nats:linux
+nats:alpine3.18
+nats:alpine
+nats:2.10.5-scratch
+nats:2.10.5-linux
+nats:2.10.5-alpine3.18
+nats:2.10.5-alpine
+nats:2.10.5
+nats:2.10-scratch
+nats:2.10-linux
+nats:2.10-alpine3.18
+nats:2.10-alpine
+nats:2.10
+nats:2-scratch
+nats:2-linux
+nats:2-alpine3.18
+nats:2-alpine
+nats:2
+nats:windowsservercore-1809
+nats:windowsservercore
+nats:nanoserver-1809
+nats:nanoserver
+nats:2.10.5-windowsservercore-1809
+nats:2.10.5-windowsservercore
+nats:2.10.5-nanoserver-1809
+nats:2.10.5-nanoserver
+nats:2.10-windowsservercore-1809
+nats:2.10-windowsservercore
+nats:2.10-nanoserver-1809
+nats:2.10-nanoserver
+nats:2-windowsservercore-1809
+nats:2-windowsservercore
+nats:2-nanoserver-1809
+nats:2-nanoserver
 nats:2.9.24-alpine
 nats:2.9.24
 nats:2.9-scratch
@@ -32411,7 +32450,6 @@ nats:2.9-linux
 nats:2.9-alpine3.18
 nats:2.9-alpine
 nats:2.9
-nats:2
 nats:2.9.24-scratch
 nats:2.9.24-linux
 nats:2.9.24-alpine3.18
@@ -32423,40 +32461,15 @@ nats:2.9-windowsservercore-1809
 nats:2.9-windowsservercore
 nats:2.9-nanoserver-1809
 nats:2.9-nanoserver
-nats:windowsservercore-1809
-nats:windowsservercore
-nats:nanoserver-1809
-nats:nanoserver
 nats:2.10.4-windowsservercore-1809
 nats:2.10.4-windowsservercore
 nats:2.10.4-nanoserver-1809
 nats:2.10.4-nanoserver
 nats:2.10.4
-nats:2.10-windowsservercore-1809
-nats:2.10-windowsservercore
-nats:2.10-nanoserver-1809
-nats:2.10-nanoserver
-nats:2.10
-nats:2-windowsservercore-1809
-nats:2-windowsservercore
-nats:2-nanoserver-1809
-nats:2-nanoserver
 nats:2.10.4-scratch
 nats:2.10.4-linux
 nats:2.10.4-alpine3.18
 nats:2.10.4-alpine
-nats:2.10-scratch
-nats:2.10-linux
-nats:2.10-alpine3.18
-nats:2.10-alpine
-nats:2-scratch
-nats:2-linux
-nats:2-alpine3.18
-nats:2-alpine
-nats:scratch
-nats:linux
-nats:alpine3.18
-nats:alpine
 nats:2.9.23-scratch
 nats:2.9.23-linux
 nats:2.9.23-alpine3.18
@@ -43178,6 +43191,12 @@ openjdk:21-ea-26-bookworm
 
 ```sh
 kong:latest
+kong:ubuntu
+kong:3.5.0-ubuntu
+kong:3.5.0
+kong:3.5-ubuntu
+kong:3.5
+kong:3
 kong:alpine
 kong:3.3.1-alpine
 kong:3.2.2-alpine
@@ -43191,7 +43210,6 @@ kong:3.0
 kong:2.8.4-alpine
 kong:2.8.4
 kong:2.8
-kong:ubuntu
 kong:3.4.2-ubuntu
 kong:3.4.2
 kong:3.4-ubuntu
@@ -43208,7 +43226,6 @@ kong:3.1.1-ubuntu
 kong:3.1-ubuntu
 kong:3.0.2-ubuntu
 kong:3.0-ubuntu
-kong:3
 kong:2.8.4-ubuntu
 kong:2.8-ubuntu
 kong:3.4.1-ubuntu
@@ -46426,6 +46443,9 @@ silverpeas:6.0-alpha2
 
 ```sh
 swift:latest
+swift:windowsservercore-ltsc2022
+swift:5.9.1-windowsservercore-ltsc2022
+swift:5.9-windowsservercore-ltsc2022
 swift:rhel-ubi9-slim
 swift:rhel-ubi9
 swift:5.9.1-rhel-ubi9-slim
@@ -47840,6 +47860,25 @@ geonetwork:3.2.0
 
 ```sh
 xwiki:latest
+xwiki:lts-postgres-tomcat
+xwiki:lts-postgres
+xwiki:lts-mysql-tomcat
+xwiki:lts-mysql
+xwiki:lts-mariadb-tomcat
+xwiki:lts-mariadb
+xwiki:lts
+xwiki:14.10.19-postgres-tomcat
+xwiki:14.10.19-mysql-tomcat
+xwiki:14.10.19-mariadb-tomcat
+xwiki:14.10.19
+xwiki:14.10-postgres-tomcat
+xwiki:14.10-mysql-tomcat
+xwiki:14.10-mariadb-tomcat
+xwiki:14.10
+xwiki:14-postgres-tomcat
+xwiki:14-mysql-tomcat
+xwiki:14-mariadb-tomcat
+xwiki:14
 xwiki:stable-postgres-tomcat
 xwiki:stable-postgres
 xwiki:stable-mysql-tomcat
@@ -47850,13 +47889,6 @@ xwiki:stable
 xwiki:postgres-tomcat
 xwiki:mysql-tomcat
 xwiki:mariadb-tomcat
-xwiki:lts-postgres-tomcat
-xwiki:lts-postgres
-xwiki:lts-mysql-tomcat
-xwiki:lts-mysql
-xwiki:lts-mariadb-tomcat
-xwiki:lts-mariadb
-xwiki:lts
 xwiki:15.9.0-postgres-tomcat
 xwiki:15.9.0-mysql-tomcat
 xwiki:15.9.0-mariadb-tomcat
@@ -47881,14 +47913,6 @@ xwiki:14.10.18-postgres-tomcat
 xwiki:14.10.18-mysql-tomcat
 xwiki:14.10.18-mariadb-tomcat
 xwiki:14.10.18
-xwiki:14.10-postgres-tomcat
-xwiki:14.10-mysql-tomcat
-xwiki:14.10-mariadb-tomcat
-xwiki:14.10
-xwiki:14-postgres-tomcat
-xwiki:14-mysql-tomcat
-xwiki:14-mariadb-tomcat
-xwiki:14
 xwiki:15.8.0-postgres-tomcat
 xwiki:15.8.0-mysql-tomcat
 xwiki:15.8.0-mariadb-tomcat
