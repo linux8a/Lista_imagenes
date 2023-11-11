@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Nov 10 04:50:04 UTC 2023
+Actualizado: Sat Nov 11 04:49:56 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -2123,6 +2123,9 @@ buildpack-deps:latest
 buildpack-deps:unstable-scm
 buildpack-deps:unstable-curl
 buildpack-deps:unstable
+buildpack-deps:sid-scm
+buildpack-deps:sid-curl
+buildpack-deps:sid
 buildpack-deps:trixie-scm
 buildpack-deps:trixie-curl
 buildpack-deps:trixie
@@ -2132,9 +2135,6 @@ buildpack-deps:testing
 buildpack-deps:stable-scm
 buildpack-deps:stable-curl
 buildpack-deps:stable
-buildpack-deps:sid-scm
-buildpack-deps:sid-curl
-buildpack-deps:sid
 buildpack-deps:scm
 buildpack-deps:oldstable-scm
 buildpack-deps:oldstable-curl
