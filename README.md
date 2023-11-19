@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Nov 18 04:50:01 UTC 2023
+Actualizado: Sun Nov 19 04:49:55 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -21119,23 +21119,37 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
-haproxy:2.9-dev9-bullseye
-haproxy:2.9-dev9-alpine3.18
-haproxy:2.9-dev9-alpine
-haproxy:2.9-dev9
+haproxy:lts-bullseye
+haproxy:lts-alpine3.18
+haproxy:lts-alpine
+haproxy:lts
+haproxy:bullseye
+haproxy:alpine3.18
+haproxy:alpine
+haproxy:2.9-dev10-bullseye
+haproxy:2.9-dev10-alpine3.18
+haproxy:2.9-dev10-alpine
+haproxy:2.9-dev10
 haproxy:2.9-dev-bullseye
 haproxy:2.9-dev-alpine3.18
 haproxy:2.9-dev-alpine
 haproxy:2.9-dev
-haproxy:lts-bullseye
-haproxy:lts
-haproxy:bullseye
+haproxy:2.8.4-bullseye
+haproxy:2.8.4-alpine3.18
+haproxy:2.8.4-alpine
+haproxy:2.8.4
+haproxy:2.8-bullseye
+haproxy:2.8-alpine3.18
+haproxy:2.8-alpine
+haproxy:2.8
+haproxy:2.9-dev9-bullseye
+haproxy:2.9-dev9-alpine3.18
+haproxy:2.9-dev9-alpine
+haproxy:2.9-dev9
 haproxy:2.9-dev8-bullseye
 haproxy:2.9-dev8
 haproxy:2.8.3-bullseye
 haproxy:2.8.3
-haproxy:2.8-bullseye
-haproxy:2.8
 haproxy:2.7.10-bullseye
 haproxy:2.7.10
 haproxy:2.7-bullseye
@@ -21158,16 +21172,10 @@ haproxy:2.0-buster
 haproxy:2.0
 haproxy:2.9-dev8-alpine3.18
 haproxy:2.9-dev8-alpine
-haproxy:lts-alpine3.18
-haproxy:lts-alpine
-haproxy:alpine3.18
-haproxy:alpine
 haproxy:2.9-dev7-alpine3.18
 haproxy:2.9-dev7-alpine
 haproxy:2.8.3-alpine3.18
 haproxy:2.8.3-alpine
-haproxy:2.8-alpine3.18
-haproxy:2.8-alpine
 haproxy:2.7.10-alpine3.18
 haproxy:2.7.10-alpine
 haproxy:2.7-alpine3.18
@@ -22110,14 +22118,6 @@ haproxy:2.2-dev8-alpine
 haproxy:2.2-dev7
 haproxy:2.1.4
 haproxy:1.6.15
-haproxy:1.6
-haproxy:2.2-dev7-alpine
-haproxy:2.2-dev6-alpine
-haproxy:2.1.4-alpine
-haproxy:2.2-dev6
-haproxy:1.6.15-alpine
-haproxy:1.6-alpine
-haproxy:2.2-dev5
 ```
 </details>
 
@@ -22323,9 +22323,15 @@ memcached:1.4.23
 
 ```sh
 rabbitmq:latest
-rabbitmq:alpine
+rabbitmq:management-alpine
+rabbitmq:management
 rabbitmq:3.12.9-management-alpine
 rabbitmq:3.12.9-management
+rabbitmq:3.12-management-alpine
+rabbitmq:3.12-management
+rabbitmq:3-management-alpine
+rabbitmq:3-management
+rabbitmq:alpine
 rabbitmq:3.12.9-alpine
 rabbitmq:3.12.9
 rabbitmq:3.12-alpine
@@ -22340,18 +22346,12 @@ rabbitmq:3.13-rc-management-alpine
 rabbitmq:3.13-rc-management
 rabbitmq:3.13-rc-alpine
 rabbitmq:3.13-rc
-rabbitmq:management-alpine
-rabbitmq:management
 rabbitmq:3.12.8-management-alpine
 rabbitmq:3.12.8-management
-rabbitmq:3.12-management-alpine
-rabbitmq:3.12-management
 rabbitmq:3.11.25-management-alpine
 rabbitmq:3.11.25-management
 rabbitmq:3.11-management-alpine
 rabbitmq:3.11-management
-rabbitmq:3-management-alpine
-rabbitmq:3-management
 rabbitmq:3.12.8-alpine
 rabbitmq:3.12.8
 rabbitmq:3.11.25-alpine
@@ -32192,20 +32192,28 @@ joomla:3.9.11-php7.1
 ```sh
 redmine:latest
 redmine:bookworm
-redmine:5.0.6-bookworm
-redmine:5.0.6
-redmine:5.0-bookworm
-redmine:5.0
-redmine:5-bookworm
-redmine:5
 redmine:alpine3.18
 redmine:alpine
+redmine:5.1.0-bookworm
+redmine:5.1.0-alpine3.18
+redmine:5.1.0-alpine
+redmine:5.1.0
+redmine:5.1-bookworm
+redmine:5.1-alpine3.18
+redmine:5.1-alpine
+redmine:5.1
+redmine:5.0.6-bookworm
 redmine:5.0.6-alpine3.18
 redmine:5.0.6-alpine
+redmine:5.0.6
+redmine:5.0-bookworm
 redmine:5.0-alpine3.18
 redmine:5.0-alpine
+redmine:5.0
+redmine:5-bookworm
 redmine:5-alpine3.18
 redmine:5-alpine
+redmine:5
 redmine:5.0.5-alpine3.18
 redmine:5.0.5-alpine
 redmine:5.0.5-bookworm
