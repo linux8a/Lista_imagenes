@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Dec  3 04:50:17 UTC 2023
+Actualizado: Mon Dec  4 04:50:10 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -22394,6 +22394,8 @@ memcached:1.4.23
 
 ```sh
 rabbitmq:latest
+rabbitmq:3.11.26-management
+rabbitmq:3.11-management
 rabbitmq:management
 rabbitmq:3.9.29-management
 rabbitmq:3.9-management
@@ -22401,8 +22403,6 @@ rabbitmq:3.13.0-rc.2-management
 rabbitmq:3.13-rc-management
 rabbitmq:3.12.10-management
 rabbitmq:3.12-management
-rabbitmq:3.11.26-management
-rabbitmq:3.11-management
 rabbitmq:3.10.25-management
 rabbitmq:3.10-management
 rabbitmq:3-management
