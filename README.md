@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Dec 24 04:50:09 UTC 2023
+Actualizado: Mon Dec 25 04:50:13 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -7962,11 +7962,12 @@ nuxeo:8.1
 
 ```sh
 photon:latest
+photon:4.0-20231223
+photon:4.0
 photon:5.0-20231216
 photon:5.0
 photon:5.0-20231209
 photon:4.0-20231209
-photon:4.0
 photon:3.0-20231209
 photon:3.0
 photon:5.0-20231128
@@ -8060,7 +8061,6 @@ photon:3.0-20221224
 photon:2.0-20221224
 photon:2.0
 photon:4.0-20221219
-photon:3.0-20221219
 ```
 </details>
 
@@ -8236,8 +8236,32 @@ piwik:2.16.0
 
 ```sh
 elixir:latest
+elixir:1.16.0-slim
+elixir:1.16.0-otp-25-slim
+elixir:1.16.0-otp-25-alpine
+elixir:1.16.0-otp-25
+elixir:1.16.0-otp-24-slim
+elixir:1.16.0-otp-24-alpine
+elixir:1.16.0-otp-24
+elixir:1.16.0-alpine
+elixir:1.16.0
+elixir:1.16-slim
+elixir:1.16-otp-25-slim
+elixir:1.16-otp-25-alpine
+elixir:1.16-otp-25
+elixir:1.16-otp-24-slim
+elixir:1.16-otp-24-alpine
+elixir:1.16-otp-24
+elixir:1.16-alpine
+elixir:1.16
+elixir:slim
+elixir:otp-25-slim
+elixir:otp-25-alpine
 elixir:otp-25
+elixir:otp-24-slim
+elixir:otp-24-alpine
 elixir:otp-24
+elixir:alpine
 elixir:1.9.4
 elixir:1.9
 elixir:1.8.2-otp-22
@@ -8268,9 +8292,6 @@ elixir:1.11.4
 elixir:1.11
 elixir:1.10.4
 elixir:1.10
-elixir:slim
-elixir:otp-25-slim
-elixir:otp-24-slim
 elixir:1.9.4-slim
 elixir:1.9-slim
 elixir:1.8.2-slim
@@ -8301,13 +8322,10 @@ elixir:1.11.4-slim
 elixir:1.11-slim
 elixir:1.10.4-slim
 elixir:1.10-slim
-elixir:alpine
 elixir:1.15.7-alpine
 elixir:1.15-alpine
 elixir:1.14.5-alpine
 elixir:1.14-alpine
-elixir:otp-25-alpine
-elixir:otp-24-alpine
 elixir:1.9.4-alpine
 elixir:1.9-alpine
 elixir:1.8.2-otp-22-alpine
@@ -8317,24 +8335,6 @@ elixir:1.15.7-otp-24-alpine
 elixir:1.15-otp-25-alpine
 elixir:1.15-otp-24-alpine
 elixir:1.14.5-otp-25-alpine
-elixir:1.14.5-otp-24-alpine
-elixir:1.14-otp-25-alpine
-elixir:1.14-otp-24-alpine
-elixir:1.13.4-otp-25-alpine
-elixir:1.13.4-alpine
-elixir:1.13-otp-25-alpine
-elixir:1.13-alpine
-elixir:1.12.3-alpine
-elixir:1.12-alpine
-elixir:1.11.4-alpine
-elixir:1.11-alpine
-elixir:1.10.4-alpine
-elixir:1.10-alpine
-elixir:1.15.6-otp-25
-elixir:1.15.6-otp-24
-elixir:1.15.6
-elixir:1.15.6-slim
-elixir:1.15.6-otp-25-slim
 ```
 </details>
 
