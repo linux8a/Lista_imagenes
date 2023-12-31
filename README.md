@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Dec 30 04:50:19 UTC 2023
+Actualizado: Sun Dec 31 04:50:16 UTC 2023
 ## centos
 <details>
 <summary> centos </summary>
@@ -1064,6 +1064,10 @@ mysql:5.6.49
 
 ```sh
 wordpress:latest
+wordpress:php8.1-fpm-alpine
+wordpress:6.4.2-php8.1-fpm-alpine
+wordpress:6.4-php8.1-fpm-alpine
+wordpress:6-php8.1-fpm-alpine
 wordpress:php8.3-fpm
 wordpress:php8.3-apache
 wordpress:php8.3
@@ -1081,7 +1085,6 @@ wordpress:php8.2-fpm-alpine
 wordpress:php8.2-fpm
 wordpress:php8.2-apache
 wordpress:php8.2
-wordpress:php8.1-fpm-alpine
 wordpress:php8.1-fpm
 wordpress:php8.1-apache
 wordpress:php8.1
@@ -1109,7 +1112,6 @@ wordpress:6.4.2-php8.2-fpm-alpine
 wordpress:6.4.2-php8.2-fpm
 wordpress:6.4.2-php8.2-apache
 wordpress:6.4.2-php8.2
-wordpress:6.4.2-php8.1-fpm-alpine
 wordpress:6.4.2-php8.1-fpm
 wordpress:6.4.2-php8.1-apache
 wordpress:6.4.2-php8.1
@@ -1122,7 +1124,6 @@ wordpress:6.4-php8.2-fpm-alpine
 wordpress:6.4-php8.2-fpm
 wordpress:6.4-php8.2-apache
 wordpress:6.4-php8.2
-wordpress:6.4-php8.1-fpm-alpine
 wordpress:6.4-php8.1-fpm
 wordpress:6.4-php8.1-apache
 wordpress:6.4-php8.1
@@ -1135,7 +1136,6 @@ wordpress:6-php8.2-fpm-alpine
 wordpress:6-php8.2-fpm
 wordpress:6-php8.2-apache
 wordpress:6-php8.2
-wordpress:6-php8.1-fpm-alpine
 wordpress:6-php8.1-fpm
 wordpress:6-php8.1-apache
 wordpress:6-php8.1
@@ -5903,6 +5903,24 @@ rakudo-star:2015.03
 
 ```sh
 drupal:latest
+drupal:7.99-php8.1-fpm-alpine3.18
+drupal:7.99-fpm-alpine3.18
+drupal:7-php8.1-fpm-alpine3.18
+drupal:7-fpm-alpine3.18
+drupal:7.99-php8.1-fpm-alpine3.19
+drupal:7.99-php8.1-fpm-alpine
+drupal:7.99-fpm-alpine3.19
+drupal:7.99-fpm-alpine
+drupal:7-php8.1-fpm-alpine3.19
+drupal:7-php8.1-fpm-alpine
+drupal:7-fpm-alpine3.19
+drupal:7-fpm-alpine
+drupal:7.99-php8.2-fpm-alpine3.18
+drupal:7-php8.2-fpm-alpine3.18
+drupal:7.99-php8.2-fpm-alpine3.19
+drupal:7.99-php8.2-fpm-alpine
+drupal:7-php8.2-fpm-alpine3.19
+drupal:7-php8.2-fpm-alpine
 drupal:rc-php8.3-fpm-bullseye
 drupal:rc-php8.3-fpm-bookworm
 drupal:rc-php8.3-fpm-alpine3.19
@@ -5964,9 +5982,6 @@ drupal:apache-bookworm
 drupal:apache
 drupal:7.99-php8.2-fpm-bullseye
 drupal:7.99-php8.2-fpm-bookworm
-drupal:7.99-php8.2-fpm-alpine3.19
-drupal:7.99-php8.2-fpm-alpine3.18
-drupal:7.99-php8.2-fpm-alpine
 drupal:7.99-php8.2-fpm
 drupal:7.99-php8.2-apache-bullseye
 drupal:7.99-php8.2-apache-bookworm
@@ -5974,9 +5989,6 @@ drupal:7.99-php8.2-apache
 drupal:7.99-php8.2
 drupal:7.99-php8.1-fpm-bullseye
 drupal:7.99-php8.1-fpm-bookworm
-drupal:7.99-php8.1-fpm-alpine3.19
-drupal:7.99-php8.1-fpm-alpine3.18
-drupal:7.99-php8.1-fpm-alpine
 drupal:7.99-php8.1-fpm
 drupal:7.99-php8.1-apache-bullseye
 drupal:7.99-php8.1-apache-bookworm
@@ -5984,24 +5996,12 @@ drupal:7.99-php8.1-apache
 drupal:7.99-php8.1
 drupal:7.99-fpm-bullseye
 drupal:7.99-fpm-bookworm
-drupal:7.99-fpm-alpine3.19
-drupal:7.99-fpm-alpine3.18
-drupal:7.99-fpm-alpine
 drupal:7.99-fpm
 drupal:7.99-apache-bullseye
 drupal:7.99-apache-bookworm
 drupal:7.99-apache
 drupal:7.99
 drupal:7-php8.2-fpm-bullseye
-drupal:7-php8.2-fpm-bookworm
-drupal:7-php8.2-fpm-alpine3.19
-drupal:7-php8.2-fpm-alpine3.18
-drupal:7-php8.2-fpm-alpine
-drupal:7-php8.2-fpm
-drupal:7-php8.2-apache-bullseye
-drupal:7-php8.2-apache-bookworm
-drupal:7-php8.2-apache
-drupal:7-php8.2
 ```
 </details>
 
