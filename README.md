@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Jan  1 04:50:14 UTC 2024
+Actualizado: Tue Jan  2 04:50:07 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -173,14 +173,15 @@ busybox:1.29.3-glibc
 
 ```sh
 ubuntu:latest
-ubuntu:noble-20231214
+ubuntu:noble-20231221
 ubuntu:noble
+ubuntu:devel
+ubuntu:24.04
+ubuntu:noble-20231214
 ubuntu:jammy-20231211.1
 ubuntu:jammy
 ubuntu:focal-20231211
 ubuntu:focal
-ubuntu:devel
-ubuntu:24.04
 ubuntu:22.04
 ubuntu:20.04
 ubuntu:rolling
@@ -271,7 +272,6 @@ ubuntu:14.04
 ubuntu:kinetic-20220922
 ubuntu:jammy-20221003
 ubuntu:focal-20220922
-ubuntu:bionic-20220913
 ```
 </details>
 
@@ -1888,6 +1888,18 @@ ubuntu-debootstrap:10.04.4
 <summary> perl </summary>
 
 ```sh
+perl:5.39.6-threaded-bullseye
+perl:5.39.6-threaded-bookworm
+perl:5.39.6-threaded
+perl:5.39.6-slim-threaded-bullseye
+perl:5.39.6-slim-threaded-bookworm
+perl:5.39.6-slim-threaded
+perl:5.39.6-slim-bullseye
+perl:5.39.6-slim-bookworm
+perl:5.39.6-slim
+perl:5.39.6-bullseye
+perl:5.39.6-bookworm
+perl:5.39.6
 perl:devel-threaded-bullseye
 perl:devel-threaded-bookworm
 perl:devel-threaded
@@ -1976,18 +1988,6 @@ perl:5.36-slim-threaded-bookworm
 perl:5.36-slim-threaded
 perl:5.36-slim-bullseye
 perl:5.36-slim-bookworm
-perl:5.36-slim
-perl:5.36-bullseye
-perl:5.36-bookworm
-perl:5.36
-perl:5-threaded-bullseye
-perl:5-slim-threaded-bullseye
-perl:5-slim-threaded-bookworm
-perl:5-slim-threaded
-perl:threaded-bookworm
-perl:threaded
-perl:stable-threaded-bookworm
-perl:stable-threaded
 ```
 </details>
 
@@ -5902,7 +5902,56 @@ rakudo-star:2015.03
 <summary> drupal </summary>
 
 ```sh
-drupal:latest
+drupal:10.0.11-php8.2-fpm-alpine3.19
+drupal:10.0.11-php8.2-fpm-alpine
+drupal:10.0.11-fpm-alpine3.19
+drupal:10.0.11-fpm-alpine
+drupal:10.0-php8.2-fpm-alpine3.19
+drupal:10.0-php8.2-fpm-alpine
+drupal:10.0-fpm-alpine3.19
+drupal:10.0-fpm-alpine
+drupal:php8.1-fpm-alpine3.19
+drupal:php8.1-fpm-alpine3.18
+drupal:php8.1-fpm-alpine
+drupal:10.1.7-php8.1-fpm-alpine3.19
+drupal:10.1.7-php8.1-fpm-alpine3.18
+drupal:10.1.7-php8.1-fpm-alpine
+drupal:10.1-php8.1-fpm-alpine3.19
+drupal:10.1-php8.1-fpm-alpine3.18
+drupal:10.1-php8.1-fpm-alpine
+drupal:10-php8.1-fpm-alpine3.19
+drupal:10-php8.1-fpm-alpine3.18
+drupal:10-php8.1-fpm-alpine
+drupal:php8.2-fpm-alpine3.18
+drupal:fpm-alpine3.18
+drupal:10.1.7-php8.2-fpm-alpine3.18
+drupal:10.1.7-fpm-alpine3.18
+drupal:10.1-php8.2-fpm-alpine3.18
+drupal:10.1-fpm-alpine3.18
+drupal:10-php8.2-fpm-alpine3.18
+drupal:10-fpm-alpine3.18
+drupal:php8.2-fpm-alpine3.19
+drupal:php8.2-fpm-alpine
+drupal:fpm-alpine3.19
+drupal:fpm-alpine
+drupal:10.1.7-php8.2-fpm-alpine3.19
+drupal:10.1.7-php8.2-fpm-alpine
+drupal:10.1.7-fpm-alpine3.19
+drupal:10.1.7-fpm-alpine
+drupal:10.1-php8.2-fpm-alpine3.19
+drupal:10.1-php8.2-fpm-alpine
+drupal:10.1-fpm-alpine3.19
+drupal:10.1-fpm-alpine
+drupal:10-php8.2-fpm-alpine3.19
+drupal:10-php8.2-fpm-alpine
+drupal:10-fpm-alpine3.19
+drupal:10-fpm-alpine
+drupal:rc-php8.2-fpm-alpine3.18
+drupal:rc-fpm-alpine3.18
+drupal:10.2.0-rc1-php8.2-fpm-alpine3.18
+drupal:10.2.0-rc1-fpm-alpine3.18
+drupal:10.2-rc-php8.2-fpm-alpine3.18
+drupal:10.2-rc-fpm-alpine3.18
 drupal:rc-php8.2-fpm-alpine3.19
 drupal:rc-php8.2-fpm-alpine
 drupal:rc-fpm-alpine3.19
@@ -5951,57 +6000,8 @@ drupal:rc-php8.3-apache
 drupal:rc-php8.3
 drupal:rc-php8.2-fpm-bullseye
 drupal:rc-php8.2-fpm-bookworm
-drupal:rc-php8.2-fpm-alpine3.18
 drupal:rc-php8.2-fpm
 drupal:rc-php8.2-apache-bullseye
-drupal:rc-php8.2-apache-bookworm
-drupal:rc-php8.2-apache
-drupal:rc-php8.2
-drupal:rc-fpm-bullseye
-drupal:rc-fpm-bookworm
-drupal:rc-fpm-alpine3.18
-drupal:rc-fpm
-drupal:rc-apache-bullseye
-drupal:rc-apache-bookworm
-drupal:rc-apache
-drupal:rc
-drupal:php8.2-fpm-bullseye
-drupal:php8.2-fpm-bookworm
-drupal:php8.2-fpm-alpine3.19
-drupal:php8.2-fpm-alpine3.18
-drupal:php8.2-fpm-alpine
-drupal:php8.2-fpm
-drupal:php8.2-apache-bullseye
-drupal:php8.2-apache-bookworm
-drupal:php8.2-apache
-drupal:php8.2
-drupal:php8.1-fpm-bullseye
-drupal:php8.1-fpm-bookworm
-drupal:php8.1-fpm-alpine3.19
-drupal:php8.1-fpm-alpine3.18
-drupal:php8.1-fpm-alpine
-drupal:php8.1-fpm
-drupal:php8.1-apache-bullseye
-drupal:php8.1-apache-bookworm
-drupal:php8.1-apache
-drupal:php8.1
-drupal:fpm-bullseye
-drupal:fpm-bookworm
-drupal:fpm-alpine3.19
-drupal:fpm-alpine3.18
-drupal:fpm-alpine
-drupal:fpm
-drupal:apache-bullseye
-drupal:apache-bookworm
-drupal:apache
-drupal:7.99-php8.2-fpm-bullseye
-drupal:7.99-php8.2-fpm-bookworm
-drupal:7.99-php8.2-fpm
-drupal:7.99-php8.2-apache-bullseye
-drupal:7.99-php8.2-apache-bookworm
-drupal:7.99-php8.2-apache
-drupal:7.99-php8.2
-drupal:7.99-php8.1-fpm-bullseye
 ```
 </details>
 
@@ -7962,8 +7962,9 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:4.0-20231223
+photon:4.0-20231230
 photon:4.0
+photon:4.0-20231223
 photon:5.0-20231216
 photon:5.0
 photon:5.0-20231209
@@ -8060,7 +8061,6 @@ photon:4.0-20221224
 photon:3.0-20221224
 photon:2.0-20221224
 photon:2.0
-photon:4.0-20221219
 ```
 </details>
 
