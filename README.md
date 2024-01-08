@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Jan  7 04:50:07 UTC 2024
+Actualizado: Mon Jan  8 04:49:59 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1173,6 +1173,26 @@ wordpress:6.4.1-php8.0-fpm
 
 ```sh
 postgres:latest
+postgres:12.17-alpine3.19
+postgres:12.17-alpine3.18
+postgres:12.17-alpine
+postgres:12-alpine3.19
+postgres:12-alpine3.18
+postgres:12-alpine
+postgres:13.13-alpine3.18
+postgres:13-alpine3.18
+postgres:14.10-alpine3.18
+postgres:14-alpine3.18
+postgres:13.13-alpine3.19
+postgres:13.13-alpine
+postgres:13-alpine3.19
+postgres:13-alpine
+postgres:15.5-alpine3.18
+postgres:15-alpine3.18
+postgres:14.10-alpine3.19
+postgres:14.10-alpine
+postgres:14-alpine3.19
+postgres:14-alpine
 postgres:15.5-alpine3.19
 postgres:15.5-alpine
 postgres:15-alpine3.19
@@ -1211,12 +1231,6 @@ postgres:15.5
 postgres:15-bullseye
 postgres:15-bookworm
 postgres:15
-postgres:12.17-alpine3.19
-postgres:12.17-alpine3.18
-postgres:12.17-alpine
-postgres:12-alpine3.19
-postgres:12-alpine3.18
-postgres:12-alpine
 postgres:bullseye
 postgres:bookworm
 postgres:16.1-bullseye
@@ -1224,20 +1238,6 @@ postgres:16.1-bookworm
 postgres:16.1
 postgres:16-bullseye
 postgres:16-bookworm
-postgres:15.5-alpine3.18
-postgres:15-alpine3.18
-postgres:14.10-alpine3.19
-postgres:14.10-alpine3.18
-postgres:14.10-alpine
-postgres:14-alpine3.19
-postgres:14-alpine3.18
-postgres:14-alpine
-postgres:13.13-alpine3.19
-postgres:13.13-alpine3.18
-postgres:13.13-alpine
-postgres:13-alpine3.19
-postgres:13-alpine3.18
-postgres:13-alpine
 postgres:11.22-bullseye
 postgres:11.22-bookworm
 postgres:11-bullseye
@@ -4325,6 +4325,8 @@ memcached:1.6.7
 
 ```sh
 rabbitmq:latest
+rabbitmq:3.13.0-rc.4-alpine
+rabbitmq:3.13-rc-alpine
 rabbitmq:management-alpine
 rabbitmq:management
 rabbitmq:alpine
@@ -4344,9 +4346,7 @@ rabbitmq:3.13.0-rc.4-management-alpine
 rabbitmq:3.13.0-rc.4-management
 rabbitmq:3.13-rc-management-alpine
 rabbitmq:3.13-rc-management
-rabbitmq:3.13.0-rc.4-alpine
 rabbitmq:3.13.0-rc.4
-rabbitmq:3.13-rc-alpine
 rabbitmq:3.13-rc
 rabbitmq:3.12.11-management-alpine
 rabbitmq:3.12.11-management
