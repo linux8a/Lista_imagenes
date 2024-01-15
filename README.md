@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Jan 14 04:50:00 UTC 2024
+Actualizado: Mon Jan 15 04:50:08 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -7280,6 +7280,22 @@ rocket.chat:4.0.0
 
 ```sh
 docker:latest
+docker:git
+docker:24.0.7-git
+docker:24.0-git
+docker:24-git
+docker:rc-git
+docker:25.0.0-rc.2-git
+docker:25-rc-git
+docker:dind
+docker:24.0.7-dind-alpine3.19
+docker:24.0.7-dind
+docker:24.0.7-alpine3.19
+docker:24.0.7
+docker:24.0-dind
+docker:24.0
+docker:24-dind
+docker:24
 docker:rc-dind
 docker:rc
 docker:25.0.0-rc.2-dind-alpine3.19
@@ -7288,31 +7304,15 @@ docker:25.0.0-rc.2-alpine3.19
 docker:25.0.0-rc.2
 docker:25-rc-dind
 docker:25-rc
-docker:rc-git
 docker:rc-cli
-docker:git
-docker:dind
 docker:cli
-docker:25.0.0-rc.2-git
 docker:25.0.0-rc.2-cli-alpine3.19
 docker:25.0.0-rc.2-cli
-docker:25-rc-git
 docker:25-rc-cli
-docker:24.0.7-git
-docker:24.0.7-dind-alpine3.19
-docker:24.0.7-dind
 docker:24.0.7-cli-alpine3.19
 docker:24.0.7-cli
-docker:24.0.7-alpine3.19
-docker:24.0.7
-docker:24.0-git
-docker:24.0-dind
 docker:24.0-cli
-docker:24.0
-docker:24-git
-docker:24-dind
 docker:24-cli
-docker:24
 docker:rc-dind-rootless
 docker:dind-rootless
 docker:25.0.0-rc.2-dind-rootless
