@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Jan 23 04:50:06 UTC 2024
+Actualizado: Wed Jan 24 04:50:03 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1064,6 +1064,10 @@ mysql:5.7.35
 
 ```sh
 wordpress:latest
+wordpress:php8.3-fpm-alpine
+wordpress:6.4.2-php8.3-fpm-alpine
+wordpress:6.4-php8.3-fpm-alpine
+wordpress:6-php8.3-fpm-alpine
 wordpress:cli-php8.3
 wordpress:cli-2.9.0-php8.3
 wordpress:cli-2.9-php8.3
@@ -1084,10 +1088,6 @@ wordpress:6.4-php8.2-fpm-alpine
 wordpress:6.4-fpm-alpine
 wordpress:6-php8.2-fpm-alpine
 wordpress:6-fpm-alpine
-wordpress:php8.3-fpm-alpine
-wordpress:6.4.2-php8.3-fpm-alpine
-wordpress:6.4-php8.3-fpm-alpine
-wordpress:6-php8.3-fpm-alpine
 wordpress:php8.3-fpm
 wordpress:php8.3-apache
 wordpress:php8.3
@@ -1889,16 +1889,16 @@ ubuntu-debootstrap:10.04.4
 
 ```sh
 perl:latest
-perl:devel-threaded-bullseye
 perl:devel-slim-threaded-bullseye
+perl:5.39.7-slim-threaded-bullseye
+perl:5.39-slim-threaded-bullseye
+perl:devel-threaded-bullseye
 perl:devel-slim-threaded-bookworm
 perl:devel-slim-threaded
 perl:5.39.7-threaded-bullseye
-perl:5.39.7-slim-threaded-bullseye
 perl:5.39.7-slim-threaded-bookworm
 perl:5.39.7-slim-threaded
 perl:5.39-threaded-bullseye
-perl:5.39-slim-threaded-bullseye
 perl:5.39-slim-threaded-bookworm
 perl:5.39-slim-threaded
 perl:devel-threaded-bookworm
@@ -2352,12 +2352,30 @@ jenkins:1.570
 
 ```sh
 golang:latest
-golang:1.20.13-bullseye
-golang:1.20.13-bookworm
-golang:1.20.13
-golang:1.20-bullseye
-golang:1.20-bookworm
-golang:1.20
+golang:alpine3.19
+golang:alpine3.18
+golang:alpine
+golang:1.22rc1-alpine3.19
+golang:1.22rc1-alpine3.18
+golang:1.22rc1-alpine
+golang:1.22-rc-alpine3.19
+golang:1.22-rc-alpine3.18
+golang:1.22-rc-alpine
+golang:1.21.6-alpine3.19
+golang:1.21.6-alpine3.18
+golang:1.21.6-alpine
+golang:1.21-alpine3.19
+golang:1.21-alpine3.18
+golang:1.21-alpine
+golang:1.20.13-alpine3.19
+golang:1.20.13-alpine3.18
+golang:1.20.13-alpine
+golang:1.20-alpine3.19
+golang:1.20-alpine3.18
+golang:1.20-alpine
+golang:1-alpine3.19
+golang:1-alpine3.18
+golang:1-alpine
 golang:bullseye
 golang:bookworm
 golang:1.22rc1-bullseye
@@ -2372,6 +2390,12 @@ golang:1.21.6
 golang:1.21-bullseye
 golang:1.21-bookworm
 golang:1.21
+golang:1.20.13-bullseye
+golang:1.20.13-bookworm
+golang:1.20.13
+golang:1.20-bullseye
+golang:1.20-bookworm
+golang:1.20
 golang:1-bullseye
 golang:1-bookworm
 golang:1
@@ -2423,33 +2447,9 @@ golang:1-windowsservercore
 golang:1-nanoserver-ltsc2022
 golang:1-nanoserver-1809
 golang:1-nanoserver
-golang:alpine3.19
-golang:alpine3.18
-golang:alpine
-golang:1.21.6-alpine3.19
-golang:1.21.6-alpine3.18
-golang:1.21.6-alpine
-golang:1.21-alpine3.19
-golang:1.21-alpine3.18
-golang:1.21-alpine
-golang:1.20.13-alpine3.19
-golang:1.20.13-alpine3.18
-golang:1.20.13-alpine
-golang:1.20-alpine3.19
-golang:1.20-alpine3.18
-golang:1.20-alpine
-golang:1-alpine3.19
-golang:1-alpine3.18
-golang:1-alpine
 golang:1.21.5-bullseye
 golang:1.21.5-bookworm
 golang:1.21.5
-golang:1.22rc1-alpine3.19
-golang:1.22rc1-alpine3.18
-golang:1.22rc1-alpine
-golang:1.22-rc-alpine3.19
-golang:1.22-rc-alpine3.18
-golang:1.22-rc-alpine
 golang:1.21.5-alpine3.19
 ```
 </details>
@@ -4952,6 +4952,7 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:7.17.17
 elasticsearch:8.12.0
 elasticsearch:8.11.4
 elasticsearch:8.11.3
@@ -5051,7 +5052,6 @@ elasticsearch:6.8.10
 elasticsearch:7.7.0
 elasticsearch:6.8.9
 elasticsearch:7.6.2
-elasticsearch:6.8.8
 ```
 </details>
 
@@ -5526,6 +5526,7 @@ aerospike:ce-5.7.0.17
 <summary> logstash </summary>
 
 ```sh
+logstash:7.17.17
 logstash:8.12.0
 logstash:8.11.4
 logstash:8.11.3
@@ -5625,7 +5626,6 @@ logstash:6.8.10
 logstash:7.7.0
 logstash:6.8.9
 logstash:7.6.2
-logstash:6.8.8
 ```
 </details>
 
@@ -6012,6 +6012,20 @@ drupal:10.2-fpm
 
 ```sh
 cassandra:latest
+cassandra:4.0.11-jammy
+cassandra:4.0.11
+cassandra:4.0-jammy
+cassandra:4.0
+cassandra:3.11.16-jammy
+cassandra:3.11.16
+cassandra:3.11-jammy
+cassandra:3.11
+cassandra:3.0.29-jammy
+cassandra:3.0.29
+cassandra:3.0-jammy
+cassandra:3.0
+cassandra:3-jammy
+cassandra:3
 cassandra:jammy
 cassandra:5.0-jammy
 cassandra:5.0-beta1-jammy
@@ -6023,22 +6037,8 @@ cassandra:4.1.3-jammy
 cassandra:4.1.3
 cassandra:4.1-jammy
 cassandra:4.1
-cassandra:4.0.11-jammy
-cassandra:4.0.11
-cassandra:4.0-jammy
-cassandra:4.0
 cassandra:4-jammy
 cassandra:4
-cassandra:3.11.16-jammy
-cassandra:3.11.16
-cassandra:3.11-jammy
-cassandra:3.11
-cassandra:3.0.29-jammy
-cassandra:3.0.29
-cassandra:3.0-jammy
-cassandra:3.0
-cassandra:3-jammy
-cassandra:3
 cassandra:focal
 cassandra:5.0-focal
 cassandra:5.0-beta1-focal
@@ -6447,6 +6447,7 @@ ros:lunar
 <summary> kibana </summary>
 
 ```sh
+kibana:7.17.17
 kibana:8.12.0
 kibana:8.11.4
 kibana:8.11.3
@@ -6546,7 +6547,6 @@ kibana:6.8.10
 kibana:7.7.0
 kibana:6.8.9
 kibana:7.6.2
-kibana:6.8.8
 ```
 </details>
 
@@ -7280,46 +7280,46 @@ rocket.chat:4.0.0
 
 ```sh
 docker:latest
-docker:git
-docker:dind-rootless
-docker:dind
-docker:cli
-docker:25.0.0-git
-docker:25.0.0-dind-rootless
-docker:25.0.0-dind-alpine3.19
-docker:25.0.0-dind
-docker:25.0.0-cli-alpine3.19
-docker:25.0.0-cli
-docker:25.0.0-alpine3.19
-docker:25.0.0
-docker:25.0-git
-docker:25.0-dind-rootless
-docker:25.0-dind
-docker:25.0-cli
-docker:25.0
-docker:25-git
-docker:25-dind-rootless
-docker:25-dind
-docker:25-cli
-docker:25
-docker:24.0.7-git
-docker:24.0.7-dind-rootless
 docker:24.0.7-dind-alpine3.19
 docker:24.0.7-dind
-docker:24.0.7-cli-alpine3.19
-docker:24.0.7-cli
 docker:24.0.7-alpine3.19
 docker:24.0.7
-docker:24.0-git
-docker:24.0-dind-rootless
 docker:24.0-dind
-docker:24.0-cli
 docker:24.0
-docker:24-git
-docker:24-dind-rootless
 docker:24-dind
-docker:24-cli
 docker:24
+docker:dind
+docker:25.0.0-dind-alpine3.19
+docker:25.0.0-dind
+docker:25.0.0-alpine3.19
+docker:25.0.0
+docker:25.0-dind
+docker:25.0
+docker:25-dind
+docker:25
+docker:24.0.7-cli-alpine3.19
+docker:24.0.7-cli
+docker:24.0-cli
+docker:24-cli
+docker:cli
+docker:25.0.0-cli-alpine3.19
+docker:25.0.0-cli
+docker:25.0-cli
+docker:25-cli
+docker:git
+docker:25.0.0-git
+docker:25.0-git
+docker:25-git
+docker:24.0.7-git
+docker:24.0-git
+docker:24-git
+docker:dind-rootless
+docker:25.0.0-dind-rootless
+docker:25.0-dind-rootless
+docker:25-dind-rootless
+docker:24.0.7-dind-rootless
+docker:24.0-dind-rootless
+docker:24-dind-rootless
 docker:windowsservercore-ltsc2022
 docker:windowsservercore-1809
 docker:windowsservercore
@@ -8236,21 +8236,21 @@ piwik:2.16.0
 
 ```sh
 elixir:latest
-elixir:1.16.0
-elixir:1.16
-elixir:1.15.7
-elixir:1.15
-elixir:1.14.5
-elixir:1.14
-elixir:otp-25-alpine
-elixir:1.16.0-otp-25-alpine
-elixir:1.16-otp-25-alpine
 elixir:1.15.7-otp-25-alpine
+elixir:1.15.7
 elixir:1.15-otp-25-alpine
+elixir:1.15
 elixir:1.14.5-otp-25-alpine
+elixir:1.14.5
 elixir:1.14-otp-25-alpine
+elixir:1.14
 elixir:1.13.4-otp-25-alpine
 elixir:1.13-otp-25-alpine
+elixir:otp-25-alpine
+elixir:1.16.0-otp-25-alpine
+elixir:1.16.0
+elixir:1.16-otp-25-alpine
+elixir:1.16
 elixir:1.13.4-otp-25
 elixir:1.13-otp-25
 elixir:1.12.3
