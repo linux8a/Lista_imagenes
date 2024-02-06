@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Feb  5 04:50:11 UTC 2024
+Actualizado: Tue Feb  6 04:50:16 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1500,18 +1500,6 @@ java:openjdk-8u102-jdk
 
 ```sh
 mongo:latest
-mongo:5.0.24-focal
-mongo:5.0.24
-mongo:5.0-focal
-mongo:5.0
-mongo:5-focal
-mongo:5
-mongo:4.4.28-focal
-mongo:4.4.28
-mongo:4.4-focal
-mongo:4.4
-mongo:4-focal
-mongo:4
 mongo:jammy
 mongo:7.0.5-jammy
 mongo:7.0.5
@@ -1525,6 +1513,18 @@ mongo:6.0-jammy
 mongo:6.0
 mongo:6-jammy
 mongo:6
+mongo:5.0.24-focal
+mongo:5.0.24
+mongo:5.0-focal
+mongo:5.0
+mongo:5-focal
+mongo:5
+mongo:4.4.28-focal
+mongo:4.4.28
+mongo:4.4-focal
+mongo:4.4
+mongo:4-focal
+mongo:4
 mongo:6.0.13-windowsservercore-ltsc2022
 mongo:6.0.13-windowsservercore-1809
 mongo:6.0.13-windowsservercore
@@ -2670,6 +2670,18 @@ clojure:temurin-11-lein-2.11.1
 <summary> php </summary>
 
 ```sh
+php:8.3.3RC1-cli-bookworm
+php:8.3.3RC1-cli
+php:8.3.3RC1-bookworm
+php:8.3.3RC1-apache-bookworm
+php:8.3.3RC1-apache
+php:8.3.3RC1
+php:8.3-rc-cli-bookworm
+php:8.3-rc-cli
+php:8.3-rc-bookworm
+php:8.3-rc-apache-bookworm
+php:8.3-rc-apache
+php:8.3-rc
 php:8.3.3RC1-zts-bullseye
 php:8.3.3RC1-zts-bookworm
 php:8.3.3RC1-zts-alpine3.19
@@ -2683,20 +2695,14 @@ php:8.3.3RC1-fpm-alpine3.18
 php:8.3.3RC1-fpm-alpine
 php:8.3.3RC1-fpm
 php:8.3.3RC1-cli-bullseye
-php:8.3.3RC1-cli-bookworm
 php:8.3.3RC1-cli-alpine3.19
 php:8.3.3RC1-cli-alpine3.18
 php:8.3.3RC1-cli-alpine
-php:8.3.3RC1-cli
 php:8.3.3RC1-bullseye
-php:8.3.3RC1-bookworm
 php:8.3.3RC1-apache-bullseye
-php:8.3.3RC1-apache-bookworm
-php:8.3.3RC1-apache
 php:8.3.3RC1-alpine3.19
 php:8.3.3RC1-alpine3.18
 php:8.3.3RC1-alpine
-php:8.3.3RC1
 php:8.3-rc-zts-bullseye
 php:8.3-rc-zts-bookworm
 php:8.3-rc-zts-alpine3.19
@@ -2710,20 +2716,14 @@ php:8.3-rc-fpm-alpine3.18
 php:8.3-rc-fpm-alpine
 php:8.3-rc-fpm
 php:8.3-rc-cli-bullseye
-php:8.3-rc-cli-bookworm
 php:8.3-rc-cli-alpine3.19
 php:8.3-rc-cli-alpine3.18
 php:8.3-rc-cli-alpine
-php:8.3-rc-cli
 php:8.3-rc-bullseye
-php:8.3-rc-bookworm
 php:8.3-rc-apache-bullseye
-php:8.3-rc-apache-bookworm
-php:8.3-rc-apache
 php:8.3-rc-alpine3.19
 php:8.3-rc-alpine3.18
 php:8.3-rc-alpine
-php:8.3-rc
 php:8.2.16RC1-zts-bullseye
 php:8.2.16RC1-zts-bookworm
 php:8.2.16RC1-zts-alpine3.19
@@ -3768,18 +3768,6 @@ r-base:3.1.3
 
 ```sh
 mariadb:latest
-mariadb:10.6.16-focal
-mariadb:10.6.16
-mariadb:10.6-focal
-mariadb:10.6
-mariadb:10.5.23-focal
-mariadb:10.5.23
-mariadb:10.5-focal
-mariadb:10.5
-mariadb:10.4.32-focal
-mariadb:10.4.32
-mariadb:10.4-focal
-mariadb:10.4
 mariadb:lts-jammy
 mariadb:lts
 mariadb:jammy
@@ -3811,6 +3799,18 @@ mariadb:10.10-jammy
 mariadb:10.10
 mariadb:10-jammy
 mariadb:10
+mariadb:10.6.16-focal
+mariadb:10.6.16
+mariadb:10.6-focal
+mariadb:10.6
+mariadb:10.5.23-focal
+mariadb:10.5.23
+mariadb:10.5-focal
+mariadb:10.5
+mariadb:10.4.32-focal
+mariadb:10.4.32
+mariadb:10.4-focal
+mariadb:10.4
 mariadb:11.2.1-rc-jammy
 mariadb:11.2.1-rc
 mariadb:11.2-rc-jammy
@@ -4325,6 +4325,29 @@ memcached:1-alpine3.13
 
 ```sh
 rabbitmq:latest
+rabbitmq:management
+rabbitmq:3.9.29-management
+rabbitmq:3.9.29
+rabbitmq:3.9-management
+rabbitmq:3.9
+rabbitmq:3.13.0-rc.4-management
+rabbitmq:3.13.0-rc.4
+rabbitmq:3.13-rc-management
+rabbitmq:3.13-rc
+rabbitmq:3.12.12-management
+rabbitmq:3.12.12
+rabbitmq:3.12-management
+rabbitmq:3.12
+rabbitmq:3.11.28-management
+rabbitmq:3.11.28
+rabbitmq:3.11-management
+rabbitmq:3.11
+rabbitmq:3.10.25-management
+rabbitmq:3.10.25
+rabbitmq:3.10-management
+rabbitmq:3.10
+rabbitmq:3-management
+rabbitmq:3
 rabbitmq:management-alpine
 rabbitmq:3.9.29-management-alpine
 rabbitmq:3.9-management-alpine
@@ -4349,29 +4372,6 @@ rabbitmq:3.10-alpine
 rabbitmq:3-alpine
 rabbitmq:3.13.0-rc.4-alpine
 rabbitmq:3.13-rc-alpine
-rabbitmq:management
-rabbitmq:3.9.29-management
-rabbitmq:3.9-management
-rabbitmq:3.13.0-rc.4-management
-rabbitmq:3.13-rc-management
-rabbitmq:3.12.12-management
-rabbitmq:3.12-management
-rabbitmq:3.11.28-management
-rabbitmq:3.11-management
-rabbitmq:3.10.25-management
-rabbitmq:3.10-management
-rabbitmq:3-management
-rabbitmq:3.9.29
-rabbitmq:3.9
-rabbitmq:3.13.0-rc.4
-rabbitmq:3.13-rc
-rabbitmq:3.12.12
-rabbitmq:3.12
-rabbitmq:3.11.28
-rabbitmq:3.11
-rabbitmq:3.10.25
-rabbitmq:3.10
-rabbitmq:3
 rabbitmq:3.12.11-management-alpine
 rabbitmq:3.12.11-management
 rabbitmq:3.12.11-alpine
@@ -5171,13 +5171,17 @@ jetty:11.0.20-jdk11-alpine-amazoncorretto
 
 ```sh
 ghost:latest
+ghost:alpine
+ghost:5.79.0-alpine
+ghost:5.79.0
+ghost:5.79-alpine
+ghost:5.79
+ghost:5-alpine
+ghost:5
 ghost:5.78.0
 ghost:5.78
-ghost:5
-ghost:alpine
 ghost:5.78.0-alpine
 ghost:5.78-alpine
-ghost:5-alpine
 ghost:5.77.0
 ghost:5.77
 ghost:5.77.0-alpine
@@ -5266,10 +5270,6 @@ ghost:5.63.0-alpine
 ghost:5.63-alpine
 ghost:5.62.0
 ghost:5.62
-ghost:5.62.0-alpine
-ghost:5.62-alpine
-ghost:5.61.3
-ghost:5.61
 ```
 </details>
 
@@ -6147,6 +6147,21 @@ sonarqube:9-developer
 sonarqube:9-datacenter-search
 sonarqube:9-datacenter-app
 sonarqube:9-community
+sonarqube:10.4.0-enterprise
+sonarqube:10.4.0-developer
+sonarqube:10.4.0-datacenter-search
+sonarqube:10.4.0-datacenter-app
+sonarqube:10.4.0-community
+sonarqube:10.4-enterprise
+sonarqube:10.4-developer
+sonarqube:10.4-datacenter-search
+sonarqube:10.4-datacenter-app
+sonarqube:10.4-community
+sonarqube:10-enterprise
+sonarqube:10-developer
+sonarqube:10-datacenter-search
+sonarqube:10-datacenter-app
+sonarqube:10-community
 sonarqube:10.3.0-enterprise
 sonarqube:10.3.0-developer
 sonarqube:10.3.0-datacenter-search
@@ -6157,11 +6172,6 @@ sonarqube:10.3-developer
 sonarqube:10.3-datacenter-search
 sonarqube:10.3-datacenter-app
 sonarqube:10.3-community
-sonarqube:10-enterprise
-sonarqube:10-developer
-sonarqube:10-datacenter-search
-sonarqube:10-datacenter-app
-sonarqube:10-community
 sonarqube:10.2.1-enterprise
 sonarqube:10.2.1-developer
 sonarqube:10.2.1-datacenter-app
@@ -6210,16 +6220,6 @@ sonarqube:10.0-community
 sonarqube:9.9.0-enterprise
 sonarqube:9.9.0-developer
 sonarqube:9.9.0-datacenter-search
-sonarqube:9.9.0-datacenter-app
-sonarqube:9.9.0-community
-sonarqube:9.8.0-enterprise
-sonarqube:9.8.0-developer
-sonarqube:9.8.0-datacenter-search
-sonarqube:9.8.0-datacenter-app
-sonarqube:9.8.0-community
-sonarqube:9.8-enterprise
-sonarqube:9.8-developer
-sonarqube:9.8-datacenter-search
 ```
 </details>
 
@@ -6578,10 +6578,11 @@ kaazing-gateway:5.0.1.21
 
 ```sh
 arangodb:latest
+arangodb:3.11.7
+arangodb:3.11
 arangodb:3.10.13
 arangodb:3.10
 arangodb:3.11.6
-arangodb:3.11
 arangodb:3.10.12
 arangodb:3.11.5
 arangodb:3.10.11
@@ -6676,7 +6677,6 @@ arangodb:2.8
 arangodb:3.6.2
 arangodb:3.3.24
 arangodb:3.3.23
-arangodb:3.6.1
 ```
 </details>
 
@@ -7598,6 +7598,16 @@ bonita:7.0.0
 
 ```sh
 solr:latest
+solr:9.1.1
+solr:9.1
+solr:9.0.0
+solr:9.0
+solr:8.11.2-slim
+solr:8.11.2
+solr:8.11-slim
+solr:8.11
+solr:8-slim
+solr:8
 solr:slim
 solr:9.4.1-slim
 solr:9.4-slim
@@ -7610,17 +7620,7 @@ solr:9.3.0
 solr:9.3
 solr:9.2.1
 solr:9.2
-solr:9.1.1
-solr:9.1
-solr:9.0.0
-solr:9.0
 solr:9
-solr:8.11.2-slim
-solr:8.11.2
-solr:8.11-slim
-solr:8.11
-solr:8-slim
-solr:8
 solr:9.4.0-slim
 solr:9.4.0
 solr:9.2.0
@@ -7707,6 +7707,18 @@ solr:8.8.0
 
 ```sh
 neo4j:latest
+neo4j:ubi8
+neo4j:enterprise-ubi8
+neo4j:community-ubi8
+neo4j:5.16.0-ubi8
+neo4j:5.16.0-enterprise-ubi8
+neo4j:5.16.0-community-ubi8
+neo4j:5.16-ubi8
+neo4j:5.16-enterprise-ubi8
+neo4j:5.16-community-ubi8
+neo4j:5-ubi8
+neo4j:5-enterprise-ubi8
+neo4j:5-community-ubi8
 neo4j:4.4.30-enterprise
 neo4j:4.4-enterprise
 neo4j:enterprise-bullseye
@@ -7736,18 +7748,6 @@ neo4j:4.4.30-community
 neo4j:4.4.30
 neo4j:4.4-community
 neo4j:4.4
-neo4j:ubi8
-neo4j:enterprise-ubi8
-neo4j:community-ubi8
-neo4j:5.16.0-ubi8
-neo4j:5.16.0-enterprise-ubi8
-neo4j:5.16.0-community-ubi8
-neo4j:5.16-ubi8
-neo4j:5.16-enterprise-ubi8
-neo4j:5.16-community-ubi8
-neo4j:5-ubi8
-neo4j:5-enterprise-ubi8
-neo4j:5-community-ubi8
 neo4j:4.4.29-enterprise
 neo4j:4.4.29-community
 neo4j:4.4.29
@@ -7962,12 +7962,15 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:3.0-20240130
-photon:3.0
-photon:5.0-20240120
+photon:5.0-20240203
 photon:5.0
-photon:4.0-20240120
+photon:4.0-20240205
 photon:4.0
+photon:3.0-20240205
+photon:3.0
+photon:3.0-20240130
+photon:5.0-20240120
+photon:4.0-20240120
 photon:3.0-20240120
 photon:5.0-20240113
 photon:4.0-20240113
@@ -8058,9 +8061,6 @@ photon:3.0-20230227
 photon:4.0-20230218
 photon:4.0-20230211
 photon:5.0-beta
-photon:5.0-20230128
-photon:3.0-20230128
-photon:4.0-20230121
 ```
 </details>
 
@@ -8236,6 +8236,14 @@ piwik:2.16.0
 
 ```sh
 elixir:latest
+elixir:1.12.3
+elixir:1.12
+elixir:1.13.4-otp-25-slim
+elixir:1.13-otp-25-slim
+elixir:1.13.4-slim
+elixir:1.13.4
+elixir:1.13-slim
+elixir:1.13
 elixir:1.15.7-otp-25-slim
 elixir:1.15-otp-25-slim
 elixir:1.14.5-slim
@@ -8256,26 +8264,18 @@ elixir:1.14-otp-24-alpine
 elixir:1.14-otp-24
 elixir:1.14-alpine
 elixir:1.14
-elixir:1.13.4-slim
-elixir:1.13.4-otp-25-slim
 elixir:1.13.4-otp-25-alpine
 elixir:1.13.4-otp-25
 elixir:1.13.4-otp-23-slim
 elixir:1.13.4-alpine
-elixir:1.13.4
-elixir:1.13-slim
-elixir:1.13-otp-25-slim
 elixir:1.13-otp-25-alpine
 elixir:1.13-otp-25
 elixir:1.13-otp-23-slim
 elixir:1.13-alpine
-elixir:1.13
 elixir:1.12.3-slim
 elixir:1.12.3-alpine
-elixir:1.12.3
 elixir:1.12-slim
 elixir:1.12-alpine
-elixir:1.12
 elixir:slim
 elixir:otp-25-slim
 elixir:otp-25-alpine
