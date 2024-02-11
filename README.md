@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Feb 10 04:50:18 UTC 2024
+Actualizado: Sun Feb 11 04:50:10 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -7599,10 +7599,10 @@ bonita:7.0.0
 ```sh
 solr:latest
 solr:8.11.3-slim
-solr:8.11.3
 solr:8.11-slim
-solr:8.11
 solr:8-slim
+solr:8.11.3
+solr:8.11
 solr:8
 solr:slim
 solr:9.4.1-slim
