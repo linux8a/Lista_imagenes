@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Mar  2 04:50:09 UTC 2024
+Actualizado: Sun Mar  3 04:50:12 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -5173,13 +5173,13 @@ jetty:12.0.6-jre21-eclipse-temurin
 
 ```sh
 ghost:latest
+ghost:5.80.0
+ghost:5.80
+ghost:5
 ghost:alpine
 ghost:5.80.0-alpine
-ghost:5.80.0
 ghost:5.80-alpine
-ghost:5.80
 ghost:5-alpine
-ghost:5
 ghost:5.79.6
 ghost:5.79
 ghost:5.79.6-alpine
