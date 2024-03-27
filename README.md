@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Mar 26 04:50:08 UTC 2024
+Actualizado: Wed Mar 27 04:50:17 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -2016,7 +2016,6 @@ hello-world:nanoserver1709
 <summary> hylang </summary>
 
 ```sh
-hylang:latest
 hylang:python3.9-bullseye
 hylang:python3.9-bookworm
 hylang:python3.9-alpine3.19
@@ -2029,12 +2028,6 @@ hylang:python3.8-alpine3.19
 hylang:python3.8-alpine3.18
 hylang:python3.8-alpine
 hylang:python3.8
-hylang:python3.12-bullseye
-hylang:python3.12-bookworm
-hylang:python3.12-alpine3.19
-hylang:python3.12-alpine3.18
-hylang:python3.12-alpine
-hylang:python3.12
 hylang:python3.11-bullseye
 hylang:python3.11-bookworm
 hylang:python3.11-alpine3.19
@@ -2047,11 +2040,6 @@ hylang:python3.10-alpine3.19
 hylang:python3.10-alpine3.18
 hylang:python3.10-alpine
 hylang:python3.10
-hylang:bullseye
-hylang:bookworm
-hylang:alpine3.19
-hylang:alpine3.18
-hylang:alpine
 hylang:0.28.0-python3.9-bullseye
 hylang:0.28.0-python3.9-bookworm
 hylang:0.28.0-python3.9-alpine3.19
@@ -2064,12 +2052,6 @@ hylang:0.28.0-python3.8-alpine3.19
 hylang:0.28.0-python3.8-alpine3.18
 hylang:0.28.0-python3.8-alpine
 hylang:0.28.0-python3.8
-hylang:0.28.0-python3.12-bullseye
-hylang:0.28.0-python3.12-bookworm
-hylang:0.28.0-python3.12-alpine3.19
-hylang:0.28.0-python3.12-alpine3.18
-hylang:0.28.0-python3.12-alpine
-hylang:0.28.0-python3.12
 hylang:0.28.0-python3.11-bullseye
 hylang:0.28.0-python3.11-bookworm
 hylang:0.28.0-python3.11-alpine3.19
@@ -2082,12 +2064,6 @@ hylang:0.28.0-python3.10-alpine3.19
 hylang:0.28.0-python3.10-alpine3.18
 hylang:0.28.0-python3.10-alpine
 hylang:0.28.0-python3.10
-hylang:0.28.0-bullseye
-hylang:0.28.0-bookworm
-hylang:0.28.0-alpine3.19
-hylang:0.28.0-alpine3.18
-hylang:0.28.0-alpine
-hylang:0.28.0
 hylang:0.28-python3.9-bullseye
 hylang:0.28-python3.9-bookworm
 hylang:0.28-python3.9-alpine3.19
@@ -2100,12 +2076,6 @@ hylang:0.28-python3.8-alpine3.19
 hylang:0.28-python3.8-alpine3.18
 hylang:0.28-python3.8-alpine
 hylang:0.28-python3.8
-hylang:0.28-python3.12-bullseye
-hylang:0.28-python3.12-bookworm
-hylang:0.28-python3.12-alpine3.19
-hylang:0.28-python3.12-alpine3.18
-hylang:0.28-python3.12-alpine
-hylang:0.28-python3.12
 hylang:0.28-python3.11-bullseye
 hylang:0.28-python3.11-bookworm
 hylang:0.28-python3.11-alpine3.19
@@ -2116,6 +2086,36 @@ hylang:0.28-python3.10-bullseye
 hylang:0.28-python3.10-bookworm
 hylang:0.28-python3.10-alpine3.19
 hylang:0.28-python3.10-alpine3.18
+hylang:0.28-python3.10-alpine
+hylang:0.28-python3.10
+hylang:0-python3.9-bullseye
+hylang:0-python3.9-bookworm
+hylang:0-python3.9-alpine3.19
+hylang:0-python3.9-alpine3.18
+hylang:0-python3.9-alpine
+hylang:0-python3.9
+hylang:0-python3.8-bullseye
+hylang:0-python3.8-bookworm
+hylang:0-python3.8-alpine3.19
+hylang:0-python3.8-alpine3.18
+hylang:0-python3.8-alpine
+hylang:0-python3.8
+hylang:0-python3.11-bullseye
+hylang:0-python3.11-bookworm
+hylang:0-python3.11-alpine3.19
+hylang:0-python3.11-alpine3.18
+hylang:0-python3.11-alpine
+hylang:0-python3.11
+hylang:0-python3.10-bullseye
+hylang:0-python3.10-bookworm
+hylang:0-python3.10-alpine3.19
+hylang:0-python3.10-alpine3.18
+hylang:0-python3.10-alpine
+hylang:0-python3.10
+hylang:python3.12-bullseye
+hylang:python3.12-bookworm
+hylang:python3.12-alpine3.19
+hylang:python3.12-alpine3.18
 ```
 </details>
 
@@ -4109,6 +4109,14 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:3.0-dev6-bookworm
+haproxy:3.0-dev6-alpine3.19
+haproxy:3.0-dev6-alpine
+haproxy:3.0-dev6
+haproxy:3.0-dev-bookworm
+haproxy:3.0-dev-alpine3.19
+haproxy:3.0-dev-alpine
+haproxy:3.0-dev
 haproxy:2.4.25-alpine3.19
 haproxy:2.4.25-alpine
 haproxy:2.4-alpine3.19
@@ -4143,8 +4151,6 @@ haproxy:2.9-alpine3.19
 haproxy:2.9-alpine
 haproxy:3.0-dev5-alpine3.19
 haproxy:3.0-dev5-alpine
-haproxy:3.0-dev-alpine3.19
-haproxy:3.0-dev-alpine
 haproxy:lts-bookworm
 haproxy:lts
 haproxy:2.8.7-bookworm
@@ -4170,8 +4176,6 @@ haproxy:2.2
 haproxy:bookworm
 haproxy:3.0-dev5-bookworm
 haproxy:3.0-dev5
-haproxy:3.0-dev-bookworm
-haproxy:3.0-dev
 haproxy:2.9.6-bookworm
 haproxy:2.9.6
 haproxy:2.9-bookworm
@@ -4204,10 +4208,6 @@ haproxy:3.0-dev2-bookworm
 haproxy:3.0-dev2
 haproxy:2.9.4-alpine3.19
 haproxy:2.9.4-alpine
-haproxy:3.0-dev2-alpine3.19
-haproxy:3.0-dev2-alpine
-haproxy:2.8.5-alpine3.19
-haproxy:2.8.5-alpine
 ```
 </details>
 
@@ -4698,19 +4698,25 @@ iojs:2.4-slim
 ```sh
 websphere-liberty:latest
 websphere-liberty:kernel-java8-ibmjava
+websphere-liberty:kernel-java17-openj9
+websphere-liberty:kernel-java11-openj9
 websphere-liberty:kernel
 websphere-liberty:full-java8-ibmjava
+websphere-liberty:full-java17-openj9
+websphere-liberty:full-java11-openj9
 websphere-liberty:full
+websphere-liberty:24.0.0.3-kernel-java8-ibmjava
+websphere-liberty:24.0.0.3-kernel-java17-openj9
+websphere-liberty:24.0.0.3-kernel-java11-openj9
+websphere-liberty:24.0.0.3-full-java8-ibmjava
+websphere-liberty:24.0.0.3-full-java17-openj9
+websphere-liberty:24.0.0.3-full-java11-openj9
 websphere-liberty:24.0.0.2-kernel-java8-ibmjava
 websphere-liberty:24.0.0.2-full-java8-ibmjava
 websphere-liberty:23.0.0.9-kernel-java8-ibmjava
 websphere-liberty:23.0.0.9-full-java8-ibmjava
 websphere-liberty:23.0.0.12-kernel-java8-ibmjava
 websphere-liberty:23.0.0.12-full-java8-ibmjava
-websphere-liberty:kernel-java17-openj9
-websphere-liberty:kernel-java11-openj9
-websphere-liberty:full-java17-openj9
-websphere-liberty:full-java11-openj9
 websphere-liberty:24.0.0.2-kernel-java17-openj9
 websphere-liberty:24.0.0.2-kernel-java11-openj9
 websphere-liberty:24.0.0.2-full-java17-openj9
@@ -4790,12 +4796,6 @@ websphere-liberty:22.0.0.9-full-java8-ibmjava
 websphere-liberty:23.0.0.2-full-java17-openj9
 websphere-liberty:23.0.0.2-full-java11-openj9
 websphere-liberty:22.0.0.9-kernel-java17-openj9
-websphere-liberty:22.0.0.9-kernel-java11-openj9
-websphere-liberty:22.0.0.9-full-java17-openj9
-websphere-liberty:22.0.0.9-full-java11-openj9
-websphere-liberty:23.0.0.2-kernel-java17-openj9
-websphere-liberty:23.0.0.2-kernel-java11-openj9
-websphere-liberty:23.0.0.1-kernel-java8-ibmjava
 ```
 </details>
 
@@ -4954,6 +4954,8 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:8.13.0
+elasticsearch:7.17.19
 elasticsearch:8.12.2
 elasticsearch:7.17.18
 elasticsearch:8.12.1
@@ -5052,8 +5054,6 @@ elasticsearch:6.8.12
 elasticsearch:7.8.1
 elasticsearch:6.8.11
 elasticsearch:7.8.0
-elasticsearch:7.7.1
-elasticsearch:6.8.10
 ```
 </details>
 
@@ -5528,6 +5528,8 @@ aerospike:ce-6.0.0.5
 <summary> logstash </summary>
 
 ```sh
+logstash:8.13.0
+logstash:7.17.19
 logstash:8.12.2
 logstash:7.17.18
 logstash:8.12.1
@@ -5626,8 +5628,6 @@ logstash:6.8.12
 logstash:7.8.1
 logstash:6.8.11
 logstash:7.8.0
-logstash:7.7.1
-logstash:6.8.10
 ```
 </details>
 
@@ -6449,6 +6449,8 @@ ros:lunar
 <summary> kibana </summary>
 
 ```sh
+kibana:8.13.0
+kibana:7.17.19
 kibana:8.12.2
 kibana:7.17.18
 kibana:8.12.1
@@ -6547,8 +6549,6 @@ kibana:6.8.12
 kibana:7.8.1
 kibana:6.8.11
 kibana:7.8.0
-kibana:7.7.1
-kibana:6.8.10
 ```
 </details>
 
@@ -7173,13 +7173,15 @@ nats:2.10.7-nanoserver
 
 ```sh
 rocket.chat:latest
-rocket.chat:6.6.3
+rocket.chat:6.6.6
 rocket.chat:6.6
-rocket.chat:6.5.4
+rocket.chat:6.5.5
 rocket.chat:6.5
+rocket.chat:6
+rocket.chat:6.6.3
+rocket.chat:6.5.4
 rocket.chat:6.4.9
 rocket.chat:6.4
-rocket.chat:6
 rocket.chat:6.6.2
 rocket.chat:6.6.1
 rocket.chat:6.6.0
@@ -7270,8 +7272,6 @@ rocket.chat:4.0.6
 rocket.chat:4.0
 rocket.chat:3.18.3
 rocket.chat:4.2.0
-rocket.chat:4.0.3
-rocket.chat:3.18.2
 ```
 </details>
 
@@ -7282,6 +7282,16 @@ rocket.chat:3.18.2
 
 ```sh
 docker:latest
+docker:dind-rootless
+docker:26.0.0-dind-rootless
+docker:26.0-dind-rootless
+docker:26-dind-rootless
+docker:25.0.5-dind-rootless
+docker:25.0-dind-rootless
+docker:25-dind-rootless
+docker:24.0.9-dind-rootless
+docker:24.0-dind-rootless
+docker:24-dind-rootless
 docker:dind
 docker:cli
 docker:26.0.0-dind-alpine3.19
@@ -7329,43 +7339,33 @@ docker:24
 docker:windowsservercore-ltsc2022
 docker:windowsservercore-1809
 docker:windowsservercore
-docker:dind-rootless
 docker:26.0.0-windowsservercore-ltsc2022
 docker:26.0.0-windowsservercore-1809
 docker:26.0.0-windowsservercore
-docker:26.0.0-dind-rootless
 docker:26.0-windowsservercore-ltsc2022
 docker:26.0-windowsservercore-1809
 docker:26.0-windowsservercore
-docker:26.0-dind-rootless
 docker:26-windowsservercore-ltsc2022
 docker:26-windowsservercore-1809
 docker:26-windowsservercore
-docker:26-dind-rootless
 docker:25.0.5-windowsservercore-ltsc2022
 docker:25.0.5-windowsservercore-1809
 docker:25.0.5-windowsservercore
-docker:25.0.5-dind-rootless
 docker:25.0-windowsservercore-ltsc2022
 docker:25.0-windowsservercore-1809
 docker:25.0-windowsservercore
-docker:25.0-dind-rootless
 docker:25-windowsservercore-ltsc2022
 docker:25-windowsservercore-1809
 docker:25-windowsservercore
-docker:25-dind-rootless
 docker:24.0.9-windowsservercore-ltsc2022
 docker:24.0.9-windowsservercore-1809
 docker:24.0.9-windowsservercore
-docker:24.0.9-dind-rootless
 docker:24.0-windowsservercore-ltsc2022
 docker:24.0-windowsservercore-1809
 docker:24.0-windowsservercore
-docker:24.0-dind-rootless
 docker:24-windowsservercore-ltsc2022
 docker:24-windowsservercore-1809
 docker:24-windowsservercore
-docker:24-dind-rootless
 docker:rc-windowsservercore-ltsc2022
 docker:rc-windowsservercore-1809
 docker:rc-windowsservercore
@@ -7709,6 +7709,12 @@ solr:8.11.0
 
 ```sh
 neo4j:latest
+neo4j:4.4.32-enterprise
+neo4j:4.4.32-community
+neo4j:4.4.32
+neo4j:4.4-enterprise
+neo4j:4.4-community
+neo4j:4.4
 neo4j:ubi9
 neo4j:ubi8
 neo4j:enterprise-ubi9
@@ -7783,9 +7789,6 @@ neo4j:5.17
 neo4j:4.4.31-enterprise
 neo4j:4.4.31-community
 neo4j:4.4.31
-neo4j:4.4-enterprise
-neo4j:4.4-community
-neo4j:4.4
 neo4j:5.17.0-ubi9
 neo4j:5.17.0-ubi8
 neo4j:5.17.0-enterprise-ubi9
@@ -7805,9 +7808,6 @@ neo4j:5.16.0-community
 neo4j:5.16.0-bullseye
 neo4j:5.16.0
 neo4j:5.16-enterprise-bullseye
-neo4j:5.16-enterprise
-neo4j:5.16-community-bullseye
-neo4j:5.16-community
 ```
 </details>
 
