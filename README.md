@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Mar 29 04:50:00 UTC 2024
+Actualizado: Sat Mar 30 04:49:57 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -66,28 +66,28 @@ centos:centos5
 busybox:latest
 busybox:uclibc
 busybox:stable-uclibc
+busybox:1.36.1-uclibc
+busybox:1.36-uclibc
+busybox:1.35.0-uclibc
+busybox:1.35-uclibc
+busybox:1-uclibc
 busybox:stable-musl
 busybox:stable-glibc
 busybox:stable
 busybox:musl
 busybox:glibc
-busybox:1.36.1-uclibc
 busybox:1.36.1-musl
 busybox:1.36.1-glibc
 busybox:1.36.1
-busybox:1.36-uclibc
 busybox:1.36-musl
 busybox:1.36-glibc
 busybox:1.36
-busybox:1.35.0-uclibc
 busybox:1.35.0-musl
 busybox:1.35.0-glibc
 busybox:1.35.0
-busybox:1.35-uclibc
 busybox:1.35-musl
 busybox:1.35-glibc
 busybox:1.35
-busybox:1-uclibc
 busybox:1-musl
 busybox:1-glibc
 busybox:1
@@ -1065,65 +1065,65 @@ mysql:5.6
 
 ```sh
 wordpress:beta-php8.3-fpm-alpine
+wordpress:beta-6.5-php8.3-fpm-alpine
+wordpress:beta-6.5-RC4-php8.3-fpm-alpine
+wordpress:beta-6-php8.3-fpm-alpine
+wordpress:beta-php8.2-fpm-alpine
+wordpress:beta-fpm-alpine
+wordpress:beta-6.5-php8.2-fpm-alpine
+wordpress:beta-6.5-fpm-alpine
+wordpress:beta-6.5-RC4-php8.2-fpm-alpine
+wordpress:beta-6.5-RC4-fpm-alpine
+wordpress:beta-6-php8.2-fpm-alpine
+wordpress:beta-6-fpm-alpine
+wordpress:beta-php8.1-fpm-alpine
+wordpress:beta-6.5-php8.1-fpm-alpine
+wordpress:beta-6.5-RC4-php8.1-fpm-alpine
+wordpress:beta-6-php8.1-fpm-alpine
 wordpress:beta-php8.3-fpm
 wordpress:beta-php8.3-apache
 wordpress:beta-php8.3
-wordpress:beta-php8.2-fpm-alpine
 wordpress:beta-php8.2-fpm
 wordpress:beta-php8.2-apache
 wordpress:beta-php8.2
-wordpress:beta-php8.1-fpm-alpine
 wordpress:beta-php8.1-fpm
 wordpress:beta-php8.1-apache
 wordpress:beta-php8.1
-wordpress:beta-fpm-alpine
 wordpress:beta-fpm
 wordpress:beta-apache
-wordpress:beta-6.5-php8.3-fpm-alpine
 wordpress:beta-6.5-php8.3-fpm
 wordpress:beta-6.5-php8.3-apache
 wordpress:beta-6.5-php8.3
-wordpress:beta-6.5-php8.2-fpm-alpine
 wordpress:beta-6.5-php8.2-fpm
 wordpress:beta-6.5-php8.2-apache
 wordpress:beta-6.5-php8.2
-wordpress:beta-6.5-php8.1-fpm-alpine
 wordpress:beta-6.5-php8.1-fpm
 wordpress:beta-6.5-php8.1-apache
 wordpress:beta-6.5-php8.1
-wordpress:beta-6.5-fpm-alpine
 wordpress:beta-6.5-fpm
 wordpress:beta-6.5-apache
-wordpress:beta-6.5-RC4-php8.3-fpm-alpine
 wordpress:beta-6.5-RC4-php8.3-fpm
 wordpress:beta-6.5-RC4-php8.3-apache
 wordpress:beta-6.5-RC4-php8.3
-wordpress:beta-6.5-RC4-php8.2-fpm-alpine
 wordpress:beta-6.5-RC4-php8.2-fpm
 wordpress:beta-6.5-RC4-php8.2-apache
 wordpress:beta-6.5-RC4-php8.2
-wordpress:beta-6.5-RC4-php8.1-fpm-alpine
 wordpress:beta-6.5-RC4-php8.1-fpm
 wordpress:beta-6.5-RC4-php8.1-apache
 wordpress:beta-6.5-RC4-php8.1
-wordpress:beta-6.5-RC4-fpm-alpine
 wordpress:beta-6.5-RC4-fpm
 wordpress:beta-6.5-RC4-apache
 wordpress:beta-6.5-RC4
 wordpress:beta-6.5
-wordpress:beta-6-php8.3-fpm-alpine
 wordpress:beta-6-php8.3-fpm
 wordpress:beta-6-php8.3-apache
 wordpress:beta-6-php8.3
-wordpress:beta-6-php8.2-fpm-alpine
 wordpress:beta-6-php8.2-fpm
 wordpress:beta-6-php8.2-apache
 wordpress:beta-6-php8.2
-wordpress:beta-6-php8.1-fpm-alpine
 wordpress:beta-6-php8.1-fpm
 wordpress:beta-6-php8.1-apache
 wordpress:beta-6-php8.1
-wordpress:beta-6-fpm-alpine
 wordpress:beta-6-fpm
 wordpress:beta-6-apache
 wordpress:beta-6
@@ -4435,8 +4435,8 @@ rabbitmq:3.11.25
 <summary> oraclelinux </summary>
 
 ```sh
-oraclelinux:9-slim
 oraclelinux:9
+oraclelinux:9-slim
 oraclelinux:8.9
 oraclelinux:8
 oraclelinux:8-slim
@@ -5311,6 +5311,15 @@ celery:3.1.17
 
 ```sh
 percona:latest
+percona:ps-8.0.36-28
+percona:ps-8.0
+percona:ps-8
+percona:8.0.36-28-centos
+percona:8.0.36-28
+percona:8.0-centos
+percona:8.0
+percona:8-centos
+percona:8
 percona:psmdb-6.0.6
 percona:psmdb-6.0
 percona:psmdb-5.0.18
@@ -5319,19 +5328,10 @@ percona:psmdb-4.4.22
 percona:psmdb-4.4
 percona:psmdb-4.2.24
 percona:psmdb-4.2
-percona:ps-8.0.36-28
-percona:ps-8.0
-percona:ps-8
 percona:ps-5.7.44
 percona:ps-5.7
 percona:ps-5
 percona:centos
-percona:8.0.36-28-centos
-percona:8.0.36-28
-percona:8.0-centos
-percona:8.0
-percona:8-centos
-percona:8
 percona:5.7.44-centos
 percona:5.7.44
 percona:5.7-centos
@@ -5748,6 +5748,7 @@ julia:1.10.0
 ```sh
 alpine:latest
 alpine:edge
+alpine:20240329
 alpine:20240315
 alpine:3.19.1
 alpine:3.19
@@ -5845,7 +5846,6 @@ alpine:3.12.6
 alpine:3.11.10
 alpine:3.10.8
 alpine:3.13.3
-alpine:3.12.5
 ```
 </details>
 
