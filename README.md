@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Apr 22 04:50:05 UTC 2024
+Actualizado: Tue Apr 23 04:50:08 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -3268,6 +3268,14 @@ mono:5.12.0.226
 
 ```sh
 haskell:latest
+haskell:9.6.5-slim-buster
+haskell:9.6.5-slim
+haskell:9.6.5-buster
+haskell:9.6.5
+haskell:9.6-slim-buster
+haskell:9.6-slim
+haskell:9.6-buster
+haskell:9.6
 haskell:slim-buster
 haskell:slim
 haskell:buster
@@ -3283,10 +3291,6 @@ haskell:9.6.4-slim-buster
 haskell:9.6.4-slim
 haskell:9.6.4-buster
 haskell:9.6.4
-haskell:9.6-slim-buster
-haskell:9.6-slim
-haskell:9.6-buster
-haskell:9.6
 haskell:9.4.8-slim-buster
 haskell:9.4.8-slim
 haskell:9.4.8-buster
@@ -3363,10 +3367,6 @@ haskell:8.10-buster
 haskell:8.10
 haskell:8-buster
 haskell:8
-haskell:9.4.3-slim-buster
-haskell:9.4.3-slim
-haskell:8.10.7-slim-buster
-haskell:8.10.7-slim
 ```
 </details>
 
@@ -7970,12 +7970,14 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:5.0-20240411
+photon:4.0-20240421
+photon:4.0
+photon:5.0-20240421
 photon:5.0
+photon:5.0-20240411
 photon:3.0-20240411
 photon:3.0
 photon:4.0-20240401
-photon:4.0
 photon:5.0-20240331
 photon:5.0-20240325
 photon:4.0-20240325
@@ -8067,8 +8069,6 @@ photon:3.0-20230515
 photon:5.0-20230508
 photon:4.0-20230506
 photon:5.0-GA
-photon:5.0-20230501
-photon:4.0-20230429
 ```
 </details>
 
