@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri May  3 04:50:05 UTC 2024
+Actualizado: Sat May  4 04:50:06 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -4330,25 +4330,25 @@ memcached:1-buster
 ```sh
 rabbitmq:latest
 rabbitmq:management-alpine
+rabbitmq:3.13.2-management-alpine
+rabbitmq:3.13-management-alpine
+rabbitmq:3.12.13-management-alpine
+rabbitmq:3.12-management-alpine
+rabbitmq:3-management-alpine
 rabbitmq:management
 rabbitmq:alpine
-rabbitmq:3.13.2-management-alpine
 rabbitmq:3.13.2-management
 rabbitmq:3.13.2-alpine
 rabbitmq:3.13.2
-rabbitmq:3.13-management-alpine
 rabbitmq:3.13-management
 rabbitmq:3.13-alpine
 rabbitmq:3.13
-rabbitmq:3.12.13-management-alpine
 rabbitmq:3.12.13-management
 rabbitmq:3.12.13-alpine
 rabbitmq:3.12.13
-rabbitmq:3.12-management-alpine
 rabbitmq:3.12-management
 rabbitmq:3.12-alpine
 rabbitmq:3.12
-rabbitmq:3-management-alpine
 rabbitmq:3-management
 rabbitmq:3-alpine
 rabbitmq:3
@@ -5915,6 +5915,26 @@ rakudo-star:2015.03
 
 ```sh
 drupal:latest
+drupal:10-php8.2-fpm-bullseye
+drupal:10-php8.2-fpm-bookworm
+drupal:10-php8.2-fpm-alpine3.19
+drupal:10-php8.2-fpm-alpine3.18
+drupal:10-php8.2-fpm-alpine
+drupal:10-php8.2-fpm
+drupal:10-php8.2-apache-bullseye
+drupal:10-php8.2-apache-bookworm
+drupal:10-php8.2-apache
+drupal:10-php8.2
+drupal:10-fpm-bullseye
+drupal:10-fpm-bookworm
+drupal:10-fpm-alpine3.19
+drupal:10-fpm-alpine3.18
+drupal:10-fpm-alpine
+drupal:10-fpm
+drupal:10-apache-bullseye
+drupal:10-apache-bookworm
+drupal:10-apache
+drupal:10
 drupal:php8.3-fpm-bullseye
 drupal:php8.3-fpm-bookworm
 drupal:php8.3-fpm-alpine3.19
@@ -5994,26 +6014,6 @@ drupal:10.2-php8.2-apache-bullseye
 drupal:10.2-php8.2-apache-bookworm
 drupal:10.2-php8.2-apache
 drupal:10.2-php8.2
-drupal:10.2-fpm-bullseye
-drupal:10.2-fpm-bookworm
-drupal:10.2-fpm-alpine3.19
-drupal:10.2-fpm-alpine3.18
-drupal:10.2-fpm-alpine
-drupal:10.2-fpm
-drupal:10.2-apache-bullseye
-drupal:10.2-apache-bookworm
-drupal:10.2-apache
-drupal:10.2
-drupal:10-php8.3-fpm-bullseye
-drupal:10-php8.3-fpm-bookworm
-drupal:10-php8.3-fpm-alpine3.19
-drupal:10-php8.3-fpm-alpine3.18
-drupal:10-php8.3-fpm-alpine
-drupal:10-php8.3-fpm
-drupal:10-php8.3-apache-bullseye
-drupal:10-php8.3-apache-bookworm
-drupal:10-php8.3-apache
-drupal:10-php8.3
 ```
 </details>
 
