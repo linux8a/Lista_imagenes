@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri May 17 04:49:56 UTC 2024
+Actualizado: Sat May 18 04:50:00 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1283,6 +1283,24 @@ postgres:15.5
 
 ```sh
 redis:latest
+redis:alpine3.19
+redis:alpine
+redis:7.2.4-alpine3.19
+redis:7.2.4-alpine
+redis:7.2-alpine3.19
+redis:7.2-alpine
+redis:7.0.15-alpine3.19
+redis:7.0.15-alpine
+redis:7.0-alpine3.19
+redis:7.0-alpine
+redis:7-alpine3.19
+redis:7-alpine
+redis:6.2.14-alpine3.19
+redis:6.2.14-alpine
+redis:6.2-alpine3.19
+redis:6.2-alpine
+redis:6-alpine3.19
+redis:6-alpine
 redis:bookworm
 redis:7.2.4-bookworm
 redis:7.2.4
@@ -1304,28 +1322,10 @@ redis:6.0-bookworm
 redis:6.0
 redis:6-bookworm
 redis:6
-redis:alpine3.19
-redis:alpine
-redis:7.2.4-alpine3.19
-redis:7.2.4-alpine
-redis:7.2-alpine3.19
-redis:7.2-alpine
-redis:7.0.15-alpine3.19
-redis:7.0.15-alpine
-redis:7.0-alpine3.19
-redis:7.0-alpine
-redis:7-alpine3.19
-redis:7-alpine
-redis:6.2.14-alpine3.19
-redis:6.2.14-alpine
-redis:6.2-alpine3.19
-redis:6.2-alpine
 redis:6.0.20-alpine3.19
 redis:6.0.20-alpine
 redis:6.0-alpine3.19
 redis:6.0-alpine
-redis:6-alpine3.19
-redis:6-alpine
 redis:7.2.3-bookworm
 redis:7.2.3
 redis:7.0.14-bookworm
@@ -5176,13 +5176,15 @@ jetty:10.0.20-jdk21-amazoncorretto
 
 ```sh
 ghost:latest
-ghost:5.82.2
-ghost:5.82
-ghost:5
 ghost:alpine
-ghost:5.82.2-alpine
+ghost:5.82.11-alpine
+ghost:5.82.11
 ghost:5.82-alpine
+ghost:5.82
 ghost:5-alpine
+ghost:5
+ghost:5.82.2
+ghost:5.82.2-alpine
 ghost:5.82.1
 ghost:5.82.1-alpine
 ghost:5.81.1
@@ -5273,8 +5275,6 @@ ghost:5.70.1-alpine
 ghost:5.70.1
 ghost:5.69.3-alpine
 ghost:5.69.3
-ghost:5.69-alpine
-ghost:5.69
 ```
 </details>
 
@@ -8466,10 +8466,12 @@ lightstreamer:7.3.0-jdk11
 
 ```sh
 orientdb:latest
-orientdb:3.2.28-tp3
-orientdb:3.2.28
+orientdb:3.2.29-tp3
+orientdb:3.2.29
 orientdb:3.2-tp3
 orientdb:3.2
+orientdb:3.2.28-tp3
+orientdb:3.2.28
 orientdb:3.1.20-tp3
 orientdb:3.1.20
 orientdb:3.1-tp3
@@ -8563,8 +8565,6 @@ orientdb:3.2.0-tp3
 orientdb:3.2.0
 orientdb:3.1.11-tp3
 orientdb:3.1.11
-orientdb:3.0.37-tp3
-orientdb:3.0.37
 ```
 </details>
 
