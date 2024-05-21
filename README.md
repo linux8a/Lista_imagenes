@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon May 20 04:50:03 UTC 2024
+Actualizado: Tue May 21 04:50:01 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1283,35 +1283,39 @@ postgres:15.5
 
 ```sh
 redis:latest
+redis:bookworm
 redis:alpine3.19
 redis:alpine
-redis:7.2.4-alpine3.19
-redis:7.2.4-alpine
+redis:7.2.5-bookworm
+redis:7.2.5-alpine3.19
+redis:7.2.5-alpine
+redis:7.2.5
+redis:7.2-bookworm
 redis:7.2-alpine3.19
 redis:7.2-alpine
+redis:7.2
+redis:7-bookworm
+redis:7-alpine3.19
+redis:7-alpine
+redis:7
+redis:7.2.4-alpine3.19
+redis:7.2.4-alpine
 redis:7.0.15-alpine3.19
 redis:7.0.15-alpine
 redis:7.0-alpine3.19
 redis:7.0-alpine
-redis:7-alpine3.19
-redis:7-alpine
 redis:6.2.14-alpine3.19
 redis:6.2.14-alpine
 redis:6.2-alpine3.19
 redis:6.2-alpine
 redis:6-alpine3.19
 redis:6-alpine
-redis:bookworm
 redis:7.2.4-bookworm
 redis:7.2.4
-redis:7.2-bookworm
-redis:7.2
 redis:7.0.15-bookworm
 redis:7.0.15
 redis:7.0-bookworm
 redis:7.0
-redis:7-bookworm
-redis:7
 redis:6.2.14-bookworm
 redis:6.2.14
 redis:6.2-bookworm
@@ -1378,10 +1382,6 @@ redis:7.2-rc-alpine
 redis:7.0.12-alpine3.18
 redis:7.0.12-alpine
 redis:7.2-rc2-bookworm
-redis:7.2-rc2
-redis:7.0.11-bookworm
-redis:7.0.11
-redis:6.2.12-bookworm
 ```
 </details>
 
@@ -4111,6 +4111,14 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:3.0-dev12-bookworm
+haproxy:3.0-dev12-alpine3.19
+haproxy:3.0-dev12-alpine
+haproxy:3.0-dev12
+haproxy:3.0-dev-bookworm
+haproxy:3.0-dev-alpine3.19
+haproxy:3.0-dev-alpine
+haproxy:3.0-dev
 haproxy:lts-bookworm
 haproxy:lts
 haproxy:2.8.9-bookworm
@@ -4136,16 +4144,12 @@ haproxy:2.9-bookworm
 haproxy:2.9
 haproxy:3.0-dev11-bookworm
 haproxy:3.0-dev11
-haproxy:3.0-dev-bookworm
-haproxy:3.0-dev
 haproxy:2.0.35-buster
 haproxy:2.0.35
 haproxy:2.0-buster
 haproxy:2.0
 haproxy:3.0-dev11-alpine3.19
 haproxy:3.0-dev11-alpine
-haproxy:3.0-dev-alpine3.19
-haproxy:3.0-dev-alpine
 haproxy:3.0-dev10-bookworm
 haproxy:3.0-dev10-alpine3.19
 haproxy:3.0-dev10-alpine
@@ -4206,10 +4210,6 @@ haproxy:2.4.25-alpine3.19
 haproxy:2.4.25-alpine
 haproxy:2.2.32-alpine3.16
 haproxy:2.2.32-alpine
-haproxy:2.0.34-alpine3.16
-haproxy:2.0.34-alpine
-haproxy:2.7.11-alpine3.19
-haproxy:2.7.11-alpine
 ```
 </details>
 
@@ -6025,6 +6025,12 @@ drupal:php8.2
 ```sh
 cassandra:latest
 cassandra:jammy
+cassandra:4.1.5-jammy
+cassandra:4.1.5
+cassandra:4.1-jammy
+cassandra:4.1
+cassandra:4-jammy
+cassandra:4
 cassandra:5.0-jammy
 cassandra:5.0-beta1-jammy
 cassandra:5.0-beta1
@@ -6033,14 +6039,10 @@ cassandra:5-jammy
 cassandra:5
 cassandra:4.1.4-jammy
 cassandra:4.1.4
-cassandra:4.1-jammy
-cassandra:4.1
 cassandra:4.0.12-jammy
 cassandra:4.0.12
 cassandra:4.0-jammy
 cassandra:4.0
-cassandra:4-jammy
-cassandra:4
 cassandra:3.11.17-jammy
 cassandra:3.11.17
 cassandra:3.11-jammy
@@ -6121,8 +6123,6 @@ cassandra:4.0-beta1
 cassandra:3.0.21
 cassandra:3.11.7
 cassandra:3.0.20
-cassandra:2.1.21
-cassandra:3.11.6
 ```
 </details>
 
@@ -7974,13 +7974,16 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:4.0-20240512
-photon:4.0
-photon:5.0-20240506
+photon:5.0-20240519
 photon:5.0
+photon:4.0-20240519
+photon:4.0
+photon:3.0-20240519
+photon:3.0
+photon:4.0-20240512
+photon:5.0-20240506
 photon:4.0-20240507
 photon:3.0-20240506
-photon:3.0
 photon:3.0-20240428
 photon:4.0-20240421
 photon:5.0-20240421
@@ -8070,9 +8073,6 @@ photon:3.0-20230610
 photon:5.0-20230603
 photon:4.0-20230603
 photon:3.0-20230603
-photon:5.0-20230527
-photon:5.0-20230522
-photon:4.0-20230522
 ```
 </details>
 
