@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat May 25 04:49:57 UTC 2024
+Actualizado: Sun May 26 04:50:03 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -2696,6 +2696,14 @@ php:8.3-cli-alpine3.20
 php:8.3-cli-alpine
 php:8.3-alpine3.20
 php:8.3-alpine
+php:8-zts-alpine3.20
+php:8-zts-alpine
+php:8-fpm-alpine3.20
+php:8-fpm-alpine
+php:8-cli-alpine3.20
+php:8-cli-alpine
+php:8-alpine3.20
+php:8-alpine
 php:8.2.19-zts-alpine3.20
 php:8.2.19-zts-alpine
 php:8.2.19-fpm-alpine3.20
@@ -2728,14 +2736,6 @@ php:8.1-cli-alpine3.20
 php:8.1-cli-alpine
 php:8.1-alpine3.20
 php:8.1-alpine
-php:8-zts-alpine3.20
-php:8-zts-alpine
-php:8-fpm-alpine3.20
-php:8-fpm-alpine
-php:8-cli-alpine3.20
-php:8-cli-alpine
-php:8-alpine3.20
-php:8-alpine
 php:8.1.28-apache-bullseye
 php:8.1-apache-bullseye
 php:zts-bullseye
