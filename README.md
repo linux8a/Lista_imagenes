@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun May 26 04:50:03 UTC 2024
+Actualizado: Mon May 27 04:50:07 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1753,8 +1753,6 @@ ruby:3.1.5-alpine3.18
 
 ```sh
 python:latest
-python:alpine3.20
-python:alpine
 python:3.9.19-alpine3.20
 python:3.9.19-alpine
 python:3.9-alpine3.20
@@ -1763,6 +1761,8 @@ python:3.8.19-alpine3.20
 python:3.8.19-alpine
 python:3.8-alpine3.20
 python:3.8-alpine
+python:alpine3.20
+python:alpine
 python:3.13.0b1-alpine3.20
 python:3.13.0b1-alpine
 python:3.13-rc-alpine3.20
