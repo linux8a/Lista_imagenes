@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Jun  8 04:50:06 UTC 2024
+Actualizado: Sun Jun  9 04:49:56 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1064,6 +1064,22 @@ mysql:5.7.40
 <summary> wordpress </summary>
 
 ```sh
+wordpress:beta-php8.3-fpm-alpine
+wordpress:beta-php8.2-fpm-alpine
+wordpress:beta-php8.1-fpm-alpine
+wordpress:beta-fpm-alpine
+wordpress:beta-6.6-php8.3-fpm-alpine
+wordpress:beta-6.6-php8.2-fpm-alpine
+wordpress:beta-6.6-php8.1-fpm-alpine
+wordpress:beta-6.6-fpm-alpine
+wordpress:beta-6.6-beta1-php8.3-fpm-alpine
+wordpress:beta-6.6-beta1-php8.2-fpm-alpine
+wordpress:beta-6.6-beta1-php8.1-fpm-alpine
+wordpress:beta-6.6-beta1-fpm-alpine
+wordpress:beta-6-php8.3-fpm-alpine
+wordpress:beta-6-php8.2-fpm-alpine
+wordpress:beta-6-php8.1-fpm-alpine
+wordpress:beta-6-fpm-alpine
 wordpress:php8.3-fpm-alpine
 wordpress:php8.2-fpm-alpine
 wordpress:php8.1-fpm-alpine
@@ -1148,22 +1164,6 @@ wordpress:beta
 wordpress:apache
 wordpress:6.5.4-php8.3-fpm
 wordpress:6.5.4-php8.3-apache
-wordpress:6.5.4-php8.3
-wordpress:6.5.4-php8.2-fpm
-wordpress:6.5.4-php8.2-apache
-wordpress:6.5.4-php8.2
-wordpress:6.5.4-php8.1-fpm
-wordpress:6.5.4-php8.1-apache
-wordpress:6.5.4-php8.1
-wordpress:6.5.4-fpm
-wordpress:6.5.4-apache
-wordpress:6.5.4
-wordpress:6.5-php8.3-fpm
-wordpress:6.5-php8.3-apache
-wordpress:6.5-php8.3
-wordpress:6.5-php8.2-fpm
-wordpress:6.5-php8.2-apache
-wordpress:6.5-php8.2
 ```
 </details>
 
