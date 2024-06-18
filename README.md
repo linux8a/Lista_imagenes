@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Jun 17 04:50:18 UTC 2024
+Actualizado: Tue Jun 18 04:49:56 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -174,10 +174,12 @@ busybox:1.29.3-glibc
 ```sh
 ubuntu:latest
 ubuntu:rolling
+ubuntu:noble-20240605
+ubuntu:noble
+ubuntu:24.04
 ubuntu:oracular-20240527
 ubuntu:oracular
 ubuntu:noble-20240530
-ubuntu:noble
 ubuntu:mantic-20240530
 ubuntu:mantic
 ubuntu:jammy-20240530
@@ -186,7 +188,6 @@ ubuntu:focal-20240530
 ubuntu:focal
 ubuntu:devel
 ubuntu:24.10
-ubuntu:24.04
 ubuntu:23.10
 ubuntu:22.04
 ubuntu:20.04
@@ -271,7 +272,6 @@ ubuntu:jammy-20230308
 ubuntu:focal-20230308
 ubuntu:bionic-20230308
 ubuntu:lunar-20230301
-ubuntu:kinetic-20230217
 ```
 </details>
 
@@ -629,6 +629,12 @@ ubuntu-upstart:13.04
 
 ```sh
 buildpack-deps:latest
+buildpack-deps:24.04
+buildpack-deps:noble-scm
+buildpack-deps:noble-curl
+buildpack-deps:noble
+buildpack-deps:24.04-scm
+buildpack-deps:24.04-curl
 buildpack-deps:unstable-scm
 buildpack-deps:unstable-curl
 buildpack-deps:unstable
@@ -661,9 +667,6 @@ buildpack-deps:bullseye
 buildpack-deps:bookworm-scm
 buildpack-deps:bookworm-curl
 buildpack-deps:bookworm
-buildpack-deps:noble-scm
-buildpack-deps:noble-curl
-buildpack-deps:noble
 buildpack-deps:mantic-scm
 buildpack-deps:mantic-curl
 buildpack-deps:mantic
@@ -673,9 +676,6 @@ buildpack-deps:jammy
 buildpack-deps:focal-scm
 buildpack-deps:focal-curl
 buildpack-deps:focal
-buildpack-deps:24.04-scm
-buildpack-deps:24.04-curl
-buildpack-deps:24.04
 buildpack-deps:23.10-scm
 buildpack-deps:23.10-curl
 buildpack-deps:23.10
@@ -3391,6 +3391,22 @@ glassfish:4.0-jdk7
 
 ```sh
 maven:latest
+maven:3.9.7-sapmachine-22
+maven:3.9.7-sapmachine
+maven:3.9-sapmachine-22
+maven:3.9-sapmachine-21
+maven:3.9-sapmachine-17
+maven:3.9-sapmachine-11
+maven:3.9-sapmachine
+maven:3-sapmachine-22
+maven:3-sapmachine-21
+maven:3-sapmachine-17
+maven:3-sapmachine-11
+maven:3-sapmachine
+maven:sapmachine
+maven:3.9.7-sapmachine-21
+maven:3.9.7-sapmachine-17
+maven:3.9.7-sapmachine-11
 maven:3.9.7-amazoncorretto-8-debian-bookworm
 maven:3.9.7-amazoncorretto-8-debian
 maven:3.9.7-amazoncorretto-21-debian-bookworm
@@ -3415,15 +3431,9 @@ maven:3-amazoncorretto-17-debian-bookworm
 maven:3-amazoncorretto-17-debian
 maven:3-amazoncorretto-11-debian-bookworm
 maven:3-amazoncorretto-11-debian
-maven:sapmachine
 maven:ibmjava
 maven:eclipse-temurin
 maven:amazoncorretto
-maven:3.9.7-sapmachine-22
-maven:3.9.7-sapmachine-21
-maven:3.9.7-sapmachine-17
-maven:3.9.7-sapmachine-11
-maven:3.9.7-sapmachine
 maven:3.9.7-ibmjava-8
 maven:3.9.7-ibmjava
 maven:3.9.7-ibm-semeru-21-jammy
@@ -3455,11 +3465,6 @@ maven:3.9.7-amazoncorretto-11-al2023
 maven:3.9.7-amazoncorretto-11
 maven:3.9.7-amazoncorretto
 maven:3.9.7
-maven:3.9-sapmachine-22
-maven:3.9-sapmachine-21
-maven:3.9-sapmachine-17
-maven:3.9-sapmachine-11
-maven:3.9-sapmachine
 maven:3.9-ibmjava-8
 maven:3.9-ibmjava
 maven:3.9-ibm-semeru-21-jammy
@@ -3485,11 +3490,6 @@ maven:3.9-amazoncorretto-8-al2023
 maven:3.9-amazoncorretto-8
 maven:3.9-amazoncorretto-21-al2023
 maven:3.9-amazoncorretto-21
-maven:3.9-amazoncorretto-17-al2023
-maven:3.9-amazoncorretto-17
-maven:3.9-amazoncorretto-11-al2023
-maven:3.9-amazoncorretto-11
-maven:3.9-amazoncorretto
 ```
 </details>
 
@@ -3718,6 +3718,7 @@ sentry:8.4.1
 
 ```sh
 r-base:latest
+r-base:4.4.1
 r-base:4.4.0
 r-base:4.3.3
 r-base:4.3.2
@@ -3772,6 +3773,19 @@ r-base:3.1.3
 
 ```sh
 mariadb:latest
+mariadb:noble
+mariadb:lts-noble
+mariadb:lts
+mariadb:11.5.1-rc
+mariadb:11.5.1-noble-rc
+mariadb:11.5-rc
+mariadb:11.5-noble-rc
+mariadb:11.4.2-noble
+mariadb:11.4.2
+mariadb:11.4-noble
+mariadb:11.4
+mariadb:11-noble
+mariadb:11
 mariadb:lts-ubi9
 mariadb:lts-ubi
 mariadb:11.5.1-ubi9-rc
@@ -3794,17 +3808,6 @@ mariadb:10.11-ubi9
 mariadb:10.11-ubi
 mariadb:10-ubi9
 mariadb:10-ubi
-mariadb:noble
-mariadb:lts-noble
-mariadb:lts
-mariadb:11.5.1-rc
-mariadb:11.5.1-noble-rc
-mariadb:11.5-rc
-mariadb:11.5-noble-rc
-mariadb:11.4.2-noble
-mariadb:11.4.2
-mariadb:11.4-noble
-mariadb:11.4
 mariadb:11.2.4-jammy
 mariadb:11.2.4
 mariadb:11.2-jammy
@@ -3813,8 +3816,6 @@ mariadb:11.1.5-jammy
 mariadb:11.1.5
 mariadb:11.1-jammy
 mariadb:11.1
-mariadb:11-noble
-mariadb:11
 mariadb:10.6.18-focal
 mariadb:10.6.18
 mariadb:10.6-focal
@@ -5187,13 +5188,15 @@ jetty:12-jre21
 
 ```sh
 ghost:latest
-ghost:5.85.0
-ghost:5.85
-ghost:5
 ghost:alpine
-ghost:5.85.0-alpine
+ghost:5.85.1-alpine
+ghost:5.85.1
 ghost:5.85-alpine
+ghost:5.85
 ghost:5-alpine
+ghost:5
+ghost:5.85.0
+ghost:5.85.0-alpine
 ghost:5.84.2-alpine
 ghost:5.84.2
 ghost:5.84-alpine
@@ -5284,8 +5287,6 @@ ghost:5.73-alpine
 ghost:5.73
 ghost:5.73.1-alpine
 ghost:5.73.1
-ghost:5.72.1
-ghost:5.72
 ```
 </details>
 
@@ -6371,6 +6372,13 @@ ros:rolling-ros-base
 ros:rolling-perception-noble
 ros:rolling-perception
 ros:rolling
+ros:jazzy-ros-core-noble
+ros:jazzy-ros-core
+ros:jazzy-ros-base-noble
+ros:jazzy-ros-base
+ros:jazzy-perception-noble
+ros:jazzy-perception
+ros:jazzy
 ros:noetic-ros-core-focal
 ros:noetic-ros-core
 ros:noetic-ros-base-focal
@@ -6380,13 +6388,6 @@ ros:noetic-robot
 ros:noetic-perception-focal
 ros:noetic-perception
 ros:noetic
-ros:jazzy-ros-core-noble
-ros:jazzy-ros-core
-ros:jazzy-ros-base-noble
-ros:jazzy-ros-base
-ros:jazzy-perception-noble
-ros:jazzy-perception
-ros:jazzy
 ros:iron-ros-core-jammy
 ros:iron-ros-core
 ros:iron-ros-base-jammy
@@ -7305,30 +7306,40 @@ rocket.chat:4.0
 
 ```sh
 docker:latest
+docker:rc-windowsservercore-ltsc2022
+docker:rc-windowsservercore-1809
+docker:rc-windowsservercore
+docker:rc-dind
+docker:rc-cli
+docker:rc
+docker:27.0.0-rc.2-windowsservercore-ltsc2022
+docker:27.0.0-rc.2-windowsservercore-1809
+docker:27.0.0-rc.2-windowsservercore
+docker:27.0.0-rc.2-dind-rootless
+docker:27.0.0-rc.2-dind-alpine3.20
+docker:27.0.0-rc.2-dind
+docker:27.0.0-rc.2-cli-alpine3.20
+docker:27.0.0-rc.2-cli
+docker:27.0.0-rc.2-alpine3.20
+docker:27.0.0-rc.2
+docker:27-rc-windowsservercore-ltsc2022
+docker:27-rc-windowsservercore-1809
+docker:27-rc-windowsservercore
+docker:27-rc-dind
+docker:27-rc-cli
+docker:27-rc
 docker:rc-dind-rootless
 docker:27.0.0-rc.1-dind-rootless
 docker:27-rc-dind-rootless
-docker:rc-dind
-docker:rc
 docker:27.0.0-rc.1-dind-alpine3.20
 docker:27.0.0-rc.1-dind
 docker:27.0.0-rc.1-alpine3.20
 docker:27.0.0-rc.1
-docker:27-rc-dind
-docker:27-rc
-docker:rc-windowsservercore-ltsc2022
-docker:rc-windowsservercore-1809
-docker:rc-windowsservercore
 docker:27.0.0-rc.1-windowsservercore-ltsc2022
 docker:27.0.0-rc.1-windowsservercore-1809
 docker:27.0.0-rc.1-windowsservercore
-docker:27-rc-windowsservercore-ltsc2022
-docker:27-rc-windowsservercore-1809
-docker:27-rc-windowsservercore
-docker:rc-cli
 docker:27.0.0-rc.1-cli-alpine3.20
 docker:27.0.0-rc.1-cli
-docker:27-rc-cli
 docker:dind-rootless
 docker:dind
 docker:26.1.4-dind-rootless
@@ -7394,16 +7405,6 @@ docker:25.0.5-cli-alpine3.20
 docker:25.0.5-cli
 docker:25.0-windowsservercore-ltsc2022
 docker:25.0-windowsservercore-1809
-docker:25.0-windowsservercore
-docker:25.0-cli
-docker:25-windowsservercore-ltsc2022
-docker:25-windowsservercore-1809
-docker:25-windowsservercore
-docker:25-cli
-docker:24.0.9-windowsservercore-ltsc2022
-docker:24.0.9-windowsservercore-1809
-docker:24.0.9-windowsservercore
-docker:24.0.9-cli-alpine3.20
 ```
 </details>
 
@@ -7987,13 +7988,16 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:5.0-20240609
+photon:5.0-20240616
 photon:5.0
-photon:3.0-20240609
+photon:4.0-20240616
+photon:4.0
+photon:3.0-20240616
 photon:3.0
+photon:5.0-20240609
+photon:3.0-20240609
 photon:5.0-20240602
 photon:4.0-20240602
-photon:4.0
 photon:3.0-20240602
 photon:5.0-20240526
 photon:4.0-20240526
@@ -8083,9 +8087,6 @@ photon:4.0-20230715
 photon:3.0-20230715
 photon:4.0-20230708
 photon:5.0-20230701
-photon:3.0-20230701
-photon:5.0-20230624
-photon:4.0-20230624
 ```
 </details>
 
