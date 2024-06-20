@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed Jun 19 04:50:18 UTC 2024
+Actualizado: Thu Jun 20 04:49:59 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -956,10 +956,6 @@ node:18.20-buster
 
 ```sh
 mysql:latest
-mysql:8.0.37-debian
-mysql:8.0.37-bookworm
-mysql:8.0-debian
-mysql:8.0-bookworm
 mysql:oraclelinux9
 mysql:oracle
 mysql:lts-oraclelinux9
@@ -976,9 +972,13 @@ mysql:8.4-oracle
 mysql:8.4
 mysql:8.0.37-oraclelinux9
 mysql:8.0.37-oracle
+mysql:8.0.37-debian
+mysql:8.0.37-bookworm
 mysql:8.0.37
 mysql:8.0-oraclelinux9
 mysql:8.0-oracle
+mysql:8.0-debian
+mysql:8.0-bookworm
 mysql:8.0
 mysql:8-oraclelinux9
 mysql:8-oracle
@@ -1174,6 +1174,42 @@ wordpress:6.5.4
 
 ```sh
 postgres:latest
+postgres:14.12-alpine3.20
+postgres:14.12-alpine
+postgres:14-alpine3.20
+postgres:14-alpine
+postgres:13.15-alpine3.20
+postgres:13.15-alpine3.19
+postgres:13.15-alpine
+postgres:13-alpine3.20
+postgres:13-alpine3.19
+postgres:13-alpine
+postgres:12.19-alpine3.20
+postgres:12.19-alpine3.19
+postgres:12.19-alpine
+postgres:12-alpine3.20
+postgres:12-alpine3.19
+postgres:12-alpine
+postgres:alpine3.20
+postgres:alpine3.19
+postgres:alpine
+postgres:17beta1-alpine3.20
+postgres:17beta1-alpine3.19
+postgres:17beta1-alpine
+postgres:16.3-alpine3.20
+postgres:16.3-alpine3.19
+postgres:16.3-alpine
+postgres:16-alpine3.20
+postgres:16-alpine3.19
+postgres:16-alpine
+postgres:15.7-alpine3.20
+postgres:15.7-alpine3.19
+postgres:15.7-alpine
+postgres:15-alpine3.20
+postgres:15-alpine3.19
+postgres:15-alpine
+postgres:14.12-alpine3.19
+postgres:14-alpine3.19
 postgres:12.19-bullseye
 postgres:12-bullseye
 postgres:13.15-bullseye
@@ -1209,42 +1245,6 @@ postgres:16.3-bookworm
 postgres:16.3
 postgres:16-bookworm
 postgres:16
-postgres:alpine3.20
-postgres:alpine3.19
-postgres:alpine
-postgres:17beta1-alpine3.20
-postgres:17beta1-alpine3.19
-postgres:17beta1-alpine
-postgres:16.3-alpine3.20
-postgres:16.3-alpine3.19
-postgres:16.3-alpine
-postgres:16-alpine3.20
-postgres:16-alpine3.19
-postgres:16-alpine
-postgres:15.7-alpine3.20
-postgres:15.7-alpine3.19
-postgres:15.7-alpine
-postgres:15-alpine3.20
-postgres:15-alpine3.19
-postgres:15-alpine
-postgres:14.12-alpine3.20
-postgres:14.12-alpine3.19
-postgres:14.12-alpine
-postgres:14-alpine3.20
-postgres:14-alpine3.19
-postgres:14-alpine
-postgres:13.15-alpine3.20
-postgres:13.15-alpine3.19
-postgres:13.15-alpine
-postgres:13-alpine3.20
-postgres:13-alpine3.19
-postgres:13-alpine
-postgres:12.19-alpine3.20
-postgres:12.19-alpine3.19
-postgres:12.19-alpine
-postgres:12-alpine3.20
-postgres:12-alpine3.19
-postgres:12-alpine
 postgres:12.19-alpine3.18
 postgres:12-alpine3.18
 postgres:alpine3.18
