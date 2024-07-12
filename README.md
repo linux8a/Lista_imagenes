@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Jul 11 04:50:09 UTC 2024
+Actualizado: Fri Jul 12 04:50:07 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -2048,6 +2048,17 @@ hylang:python3.10-alpine3.20
 hylang:python3.10-alpine3.19
 hylang:python3.10-alpine
 hylang:python3.10
+hylang:pypy3.9-windowsservercore-ltsc2022
+hylang:pypy3.9-windowsservercore-1809
+hylang:pypy3.9-bullseye
+hylang:pypy3.9-bookworm
+hylang:pypy3.9
+hylang:pypy3.10-bullseye
+hylang:pypy3.10-bookworm
+hylang:pypy3.10
+hylang:pypy-bullseye
+hylang:pypy-bookworm
+hylang:pypy
 hylang:bullseye
 hylang:bookworm
 hylang:alpine3.20
@@ -2083,6 +2094,17 @@ hylang:0.29.0-python3.10-alpine3.20
 hylang:0.29.0-python3.10-alpine3.19
 hylang:0.29.0-python3.10-alpine
 hylang:0.29.0-python3.10
+hylang:0.29.0-pypy3.9-windowsservercore-ltsc2022
+hylang:0.29.0-pypy3.9-windowsservercore-1809
+hylang:0.29.0-pypy3.9-bullseye
+hylang:0.29.0-pypy3.9-bookworm
+hylang:0.29.0-pypy3.9
+hylang:0.29.0-pypy3.10-bullseye
+hylang:0.29.0-pypy3.10-bookworm
+hylang:0.29.0-pypy3.10
+hylang:0.29.0-pypy-bullseye
+hylang:0.29.0-pypy-bookworm
+hylang:0.29.0-pypy
 hylang:0.29.0-bullseye
 hylang:0.29.0-bookworm
 hylang:0.29.0-alpine3.20
@@ -2095,28 +2117,6 @@ hylang:0.29-python3.9-alpine3.20
 hylang:0.29-python3.9-alpine3.19
 hylang:0.29-python3.9-alpine
 hylang:0.29-python3.9
-hylang:0.29-python3.8-bullseye
-hylang:0.29-python3.8-bookworm
-hylang:0.29-python3.8-alpine3.20
-hylang:0.29-python3.8-alpine3.19
-hylang:0.29-python3.8-alpine
-hylang:0.29-python3.8
-hylang:0.29-python3.12-bullseye
-hylang:0.29-python3.12-bookworm
-hylang:0.29-python3.12-alpine3.20
-hylang:0.29-python3.12-alpine3.19
-hylang:0.29-python3.12-alpine
-hylang:0.29-python3.12
-hylang:0.29-python3.11-bullseye
-hylang:0.29-python3.11-bookworm
-hylang:0.29-python3.11-alpine3.20
-hylang:0.29-python3.11-alpine3.19
-hylang:0.29-python3.11-alpine
-hylang:0.29-python3.11
-hylang:0.29-python3.10-bullseye
-hylang:0.29-python3.10-bookworm
-hylang:0.29-python3.10-alpine3.20
-hylang:0.29-python3.10-alpine3.19
 ```
 </details>
 
@@ -3400,32 +3400,32 @@ glassfish:4.0-jdk7
 
 ```sh
 maven:latest
-maven:amazoncorretto
 maven:3.9.8-amazoncorretto-8-al2023
-maven:3.9.8-amazoncorretto-8
 maven:3.9.8-amazoncorretto-21-al2023
-maven:3.9.8-amazoncorretto-21
 maven:3.9.8-amazoncorretto-17-al2023
-maven:3.9.8-amazoncorretto-17
 maven:3.9.8-amazoncorretto-11-al2023
+maven:3.9-amazoncorretto-8-al2023
+maven:3.9-amazoncorretto-21-al2023
+maven:3.9-amazoncorretto-17-al2023
+maven:3.9-amazoncorretto-11-al2023
+maven:3-amazoncorretto-8-al2023
+maven:3-amazoncorretto-21-al2023
+maven:3-amazoncorretto-17-al2023
+maven:3-amazoncorretto-11-al2023
+maven:amazoncorretto
+maven:3.9.8-amazoncorretto-8
+maven:3.9.8-amazoncorretto-21
+maven:3.9.8-amazoncorretto-17
 maven:3.9.8-amazoncorretto-11
 maven:3.9.8-amazoncorretto
-maven:3.9-amazoncorretto-8-al2023
 maven:3.9-amazoncorretto-8
-maven:3.9-amazoncorretto-21-al2023
 maven:3.9-amazoncorretto-21
-maven:3.9-amazoncorretto-17-al2023
 maven:3.9-amazoncorretto-17
-maven:3.9-amazoncorretto-11-al2023
 maven:3.9-amazoncorretto-11
 maven:3.9-amazoncorretto
-maven:3-amazoncorretto-8-al2023
 maven:3-amazoncorretto-8
-maven:3-amazoncorretto-21-al2023
 maven:3-amazoncorretto-21
-maven:3-amazoncorretto-17-al2023
 maven:3-amazoncorretto-17
-maven:3-amazoncorretto-11-al2023
 maven:3-amazoncorretto-11
 maven:3-amazoncorretto
 maven:sapmachine
@@ -4121,6 +4121,21 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:lts-bookworm
+haproxy:lts-alpine3.20
+haproxy:lts-alpine
+haproxy:lts
+haproxy:bookworm
+haproxy:alpine3.20
+haproxy:alpine
+haproxy:3.0.3-bookworm
+haproxy:3.0.3-alpine3.20
+haproxy:3.0.3-alpine
+haproxy:3.0.3
+haproxy:3.0-bookworm
+haproxy:3.0-alpine3.20
+haproxy:3.0-alpine
+haproxy:3.0
 haproxy:3.1-dev3-bookworm
 haproxy:3.1-dev3-alpine3.20
 haproxy:3.1-dev3-alpine
@@ -4129,15 +4144,10 @@ haproxy:3.1-dev-bookworm
 haproxy:3.1-dev-alpine3.20
 haproxy:3.1-dev-alpine
 haproxy:3.1-dev
-haproxy:lts-bookworm
-haproxy:lts
-haproxy:bookworm
 haproxy:3.1-dev1-bookworm
 haproxy:3.1-dev1
 haproxy:3.0.2-bookworm
 haproxy:3.0.2
-haproxy:3.0-bookworm
-haproxy:3.0
 haproxy:2.9.9-bookworm
 haproxy:2.9.9
 haproxy:2.9-bookworm
@@ -4158,18 +4168,12 @@ haproxy:2.2.33-bullseye
 haproxy:2.2.33
 haproxy:2.2-bullseye
 haproxy:2.2
-haproxy:lts-alpine3.20
-haproxy:lts-alpine
-haproxy:alpine3.20
-haproxy:alpine
 haproxy:3.1-dev1-alpine3.20
 haproxy:2.4-alpine3.20
 haproxy:2.4-alpine
 haproxy:3.1-dev1-alpine
 haproxy:3.0.2-alpine3.20
 haproxy:3.0.2-alpine
-haproxy:3.0-alpine3.20
-haproxy:3.0-alpine
 haproxy:2.9.9-alpine3.20
 haproxy:2.9.9-alpine
 haproxy:2.9-alpine3.20
@@ -4216,10 +4220,6 @@ haproxy:2.4.26-alpine3.20
 haproxy:2.4.26-alpine
 haproxy:3.0-dev13-alpine3.20
 haproxy:3.0-dev13-alpine
-haproxy:3.0-dev-alpine3.20
-haproxy:3.0-dev-alpine
-haproxy:3.0-dev13-bookworm
-haproxy:3.0-dev13
 ```
 </details>
 
@@ -4447,9 +4447,9 @@ rabbitmq:3.11.27
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:9
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
-oraclelinux:9
 oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
@@ -4496,15 +4496,18 @@ oraclelinux:5
 
 ```sh
 odoo:latest
-odoo:17.0-20240624
+odoo:17.0-20240711
 odoo:17.0
 odoo:17
-odoo:16.0-20240624
+odoo:16.0-20240711
 odoo:16.0
 odoo:16
-odoo:15.0-20240624
+odoo:15.0-20240711
 odoo:15.0
 odoo:15
+odoo:17.0-20240624
+odoo:16.0-20240624
+odoo:15.0-20240624
 odoo:16.0-20240603
 odoo:15.0-20240603
 odoo:17.0-20240603
@@ -4981,6 +4984,7 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:8.14.3
 elasticsearch:8.14.2
 elasticsearch:7.17.22
 elasticsearch:8.14.1
@@ -5080,7 +5084,6 @@ elasticsearch:7.11.2
 elasticsearch:7.11.1
 elasticsearch:6.8.14
 elasticsearch:7.10.1
-elasticsearch:7.9.3
 ```
 </details>
 
@@ -5555,6 +5558,7 @@ aerospike:ee-6.3.0.1
 <summary> logstash </summary>
 
 ```sh
+logstash:8.14.3
 logstash:8.14.2
 logstash:7.17.22
 logstash:8.14.1
@@ -5654,7 +5658,6 @@ logstash:7.11.2
 logstash:7.11.1
 logstash:6.8.14
 logstash:7.10.1
-logstash:7.9.3
 ```
 </details>
 
@@ -6485,6 +6488,7 @@ ros:ardent
 <summary> kibana </summary>
 
 ```sh
+kibana:8.14.3
 kibana:8.14.2
 kibana:7.17.22
 kibana:8.14.1
@@ -6584,7 +6588,6 @@ kibana:7.11.2
 kibana:7.11.1
 kibana:6.8.14
 kibana:7.10.1
-kibana:7.9.3
 ```
 </details>
 
@@ -7321,102 +7324,102 @@ docker:latest
 docker:windowsservercore-ltsc2022
 docker:windowsservercore-1809
 docker:windowsservercore
+docker:cli
 docker:27.0.3-windowsservercore-ltsc2022
 docker:27.0.3-windowsservercore-1809
 docker:27.0.3-windowsservercore
+docker:27.0.3-cli-alpine3.20
+docker:27.0.3-cli
 docker:27.0-windowsservercore-ltsc2022
 docker:27.0-windowsservercore-1809
 docker:27.0-windowsservercore
+docker:27.0-cli
 docker:27-windowsservercore-ltsc2022
 docker:27-windowsservercore-1809
 docker:27-windowsservercore
+docker:27-cli
 docker:26.1.4-windowsservercore-ltsc2022
 docker:26.1.4-windowsservercore-1809
 docker:26.1.4-windowsservercore
+docker:26.1.4-cli-alpine3.20
+docker:26.1.4-cli
 docker:26.1-windowsservercore-ltsc2022
 docker:26.1-windowsservercore-1809
 docker:26.1-windowsservercore
+docker:26.1-cli
 docker:26-windowsservercore-ltsc2022
 docker:26-windowsservercore-1809
 docker:26-windowsservercore
+docker:26-cli
 docker:25.0.5-windowsservercore-ltsc2022
 docker:25.0.5-windowsservercore-1809
 docker:25.0.5-windowsservercore
+docker:25.0.5-cli-alpine3.20
+docker:25.0.5-cli
 docker:25.0-windowsservercore-ltsc2022
 docker:25.0-windowsservercore-1809
 docker:25.0-windowsservercore
+docker:25.0-cli
 docker:25-windowsservercore-ltsc2022
 docker:25-windowsservercore-1809
 docker:25-windowsservercore
+docker:25-cli
 docker:24.0.9-windowsservercore-ltsc2022
 docker:24.0.9-windowsservercore-1809
 docker:24.0.9-windowsservercore
+docker:24.0.9-cli-alpine3.20
+docker:24.0.9-cli
 docker:24.0-windowsservercore-ltsc2022
 docker:24.0-windowsservercore-1809
 docker:24.0-windowsservercore
+docker:24.0-cli
 docker:24-windowsservercore-ltsc2022
 docker:24-windowsservercore-1809
 docker:24-windowsservercore
+docker:24-cli
 docker:dind-rootless
 docker:dind
-docker:cli
 docker:27.0.3-dind-rootless
 docker:27.0.3-dind-alpine3.20
 docker:27.0.3-dind
-docker:27.0.3-cli-alpine3.20
-docker:27.0.3-cli
 docker:27.0.3-alpine3.20
 docker:27.0.3
 docker:27.0-dind-rootless
 docker:27.0-dind
-docker:27.0-cli
 docker:27.0
 docker:27-dind-rootless
 docker:27-dind
-docker:27-cli
 docker:27
 docker:26.1.4-dind-rootless
 docker:26.1.4-dind-alpine3.20
 docker:26.1.4-dind
-docker:26.1.4-cli-alpine3.20
-docker:26.1.4-cli
 docker:26.1.4-alpine3.20
 docker:26.1.4
 docker:26.1-dind-rootless
 docker:26.1-dind
-docker:26.1-cli
 docker:26.1
 docker:26-dind-rootless
 docker:26-dind
-docker:26-cli
 docker:26
 docker:25.0.5-git
 docker:25.0.5-dind-rootless
 docker:25.0.5-dind-alpine3.20
 docker:25.0.5-dind
-docker:25.0.5-cli-alpine3.20
-docker:25.0.5-cli
 docker:25.0.5-alpine3.20
 docker:25.0.5
 docker:25.0-git
 docker:25.0-dind-rootless
 docker:25.0-dind
-docker:25.0-cli
 docker:25.0
 docker:25-git
 docker:25-dind-rootless
 docker:25-dind
-docker:25-cli
 docker:25
 docker:24.0.9-git
 docker:24.0.9-dind-rootless
 docker:24.0.9-dind-alpine3.20
 docker:24.0.9-dind
-docker:24.0.9-cli-alpine3.20
-docker:24.0.9-cli
 docker:24.0.9-alpine3.20
-docker:24.0.9
-docker:24.0-git
 ```
 </details>
 
