@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Jul 30 04:49:59 UTC 2024
+Actualizado: Wed Jul 31 04:50:08 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -4496,15 +4496,18 @@ oraclelinux:5
 
 ```sh
 odoo:latest
-odoo:16.0-20240711
-odoo:16.0
-odoo:16
-odoo:15.0-20240711
-odoo:15.0
-odoo:15
-odoo:17.0-20240711
+odoo:17.0-20240730
 odoo:17.0
 odoo:17
+odoo:16.0-20240730
+odoo:16.0
+odoo:16
+odoo:15.0-20240730
+odoo:15.0
+odoo:15
+odoo:16.0-20240711
+odoo:15.0-20240711
+odoo:17.0-20240711
 odoo:17.0-20240624
 odoo:16.0-20240624
 odoo:15.0-20240624
@@ -4984,6 +4987,7 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:7.17.23
 elasticsearch:8.14.3
 elasticsearch:8.14.2
 elasticsearch:7.17.22
@@ -5083,7 +5087,6 @@ elasticsearch:6.8.15
 elasticsearch:7.11.2
 elasticsearch:7.11.1
 elasticsearch:6.8.14
-elasticsearch:7.10.1
 ```
 </details>
 
@@ -5558,6 +5561,7 @@ aerospike:ee-6.3.0.3
 <summary> logstash </summary>
 
 ```sh
+logstash:7.17.23
 logstash:8.14.3
 logstash:8.14.2
 logstash:7.17.22
@@ -5657,7 +5661,6 @@ logstash:6.8.15
 logstash:7.11.2
 logstash:7.11.1
 logstash:6.8.14
-logstash:7.10.1
 ```
 </details>
 
@@ -6488,6 +6491,7 @@ ros:ardent
 <summary> kibana </summary>
 
 ```sh
+kibana:7.17.23
 kibana:8.14.3
 kibana:8.14.2
 kibana:7.17.22
@@ -6587,7 +6591,6 @@ kibana:6.8.15
 kibana:7.11.2
 kibana:7.11.1
 kibana:6.8.14
-kibana:7.10.1
 ```
 </details>
 
