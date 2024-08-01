@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed Jul 31 04:50:08 UTC 2024
+Actualizado: Thu Aug  1 04:50:01 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -4339,35 +4339,39 @@ memcached:1.6.14
 
 ```sh
 rabbitmq:latest
-rabbitmq:4.0.0-beta.3-management-alpine
-rabbitmq:4.0.0-beta.3-management
-rabbitmq:4.0-rc-management-alpine
-rabbitmq:4.0-rc-management
 rabbitmq:management-alpine
 rabbitmq:management
+rabbitmq:alpine
+rabbitmq:4.0.0-beta.3-management-alpine
+rabbitmq:4.0.0-beta.3-management
 rabbitmq:4.0.0-beta.3-alpine
 rabbitmq:4.0.0-beta.3
+rabbitmq:4.0-rc-management-alpine
+rabbitmq:4.0-rc-management
 rabbitmq:4.0-rc-alpine
 rabbitmq:4.0-rc
 rabbitmq:3.13.6-management-alpine
 rabbitmq:3.13.6-management
-rabbitmq:3.13-management-alpine
-rabbitmq:3.13-management
-rabbitmq:3-management-alpine
-rabbitmq:3-management
-rabbitmq:alpine
 rabbitmq:3.13.6-alpine
 rabbitmq:3.13.6
+rabbitmq:3.13-management-alpine
+rabbitmq:3.13-management
 rabbitmq:3.13-alpine
 rabbitmq:3.13
 rabbitmq:3.12.14-management-alpine
+rabbitmq:3.12.14-management
+rabbitmq:3.12.14-alpine
+rabbitmq:3.12.14
 rabbitmq:3.12-management-alpine
+rabbitmq:3.12-management
+rabbitmq:3.12-alpine
+rabbitmq:3.12
+rabbitmq:3-management-alpine
+rabbitmq:3-management
 rabbitmq:3-alpine
 rabbitmq:3
 rabbitmq:4.0.0-beta.1-management-alpine
 rabbitmq:4.0.0-beta.1-alpine
-rabbitmq:3.12.14-alpine
-rabbitmq:3.12-alpine
 rabbitmq:3.13.5-management-alpine
 rabbitmq:3.13.5-alpine
 rabbitmq:3.13.5-management
@@ -4378,10 +4382,6 @@ rabbitmq:3.13.4-management-alpine
 rabbitmq:3.13.4-management
 rabbitmq:3.13.4-alpine
 rabbitmq:3.13.4
-rabbitmq:3.12.14-management
-rabbitmq:3.12-management
-rabbitmq:3.12.14
-rabbitmq:3.12
 rabbitmq:3.13.3-management
 rabbitmq:3.13.3
 rabbitmq:3.13.3-management-alpine
@@ -5207,12 +5207,14 @@ jetty:9-jre8-eclipse-temurin
 ```sh
 ghost:latest
 ghost:alpine
+ghost:5.88.3-alpine
+ghost:5.88-alpine
+ghost:5-alpine
+ghost:5.88.3
+ghost:5.88
+ghost:5
 ghost:5.88.2-alpine
 ghost:5.88.2
-ghost:5.88-alpine
-ghost:5.88
-ghost:5-alpine
-ghost:5
 ghost:5.88.1
 ghost:5.88.1-alpine
 ghost:5.87.3-alpine
@@ -5303,8 +5305,6 @@ ghost:5.76.2
 ghost:5.76
 ghost:5.76.1
 ghost:5.76.1-alpine
-ghost:5.76.0
-ghost:5.76.0-alpine
 ```
 </details>
 
