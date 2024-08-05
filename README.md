@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Aug  4 04:50:05 UTC 2024
+Actualizado: Mon Aug  5 04:50:09 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1754,6 +1754,29 @@ ruby:3.3.3-bullseye
 
 ```sh
 python:latest
+python:slim-bullseye
+python:3.12.4-slim-bullseye
+python:3.12-slim-bullseye
+python:3-slim-bullseye
+python:bullseye
+python:3.12.4-bullseye
+python:3.12-bullseye
+python:3-bullseye
+python:slim-bookworm
+python:slim
+python:3.12.4-slim-bookworm
+python:3.12.4-slim
+python:3.12-slim-bookworm
+python:3.12-slim
+python:3-slim-bookworm
+python:3-slim
+python:bookworm
+python:3.12.4-bookworm
+python:3.12.4
+python:3.12-bookworm
+python:3.12
+python:3-bookworm
+python:3
 python:3.13.0rc1-alpine3.19
 python:3.13-rc-alpine3.19
 python:3.13.0rc1-alpine3.20
@@ -1772,11 +1795,6 @@ python:3.13.0rc1-bookworm
 python:3.13.0rc1
 python:3.13-rc-bookworm
 python:3.13-rc
-python:slim-bullseye
-python:slim-bookworm
-python:slim
-python:bullseye
-python:bookworm
 python:alpine3.20
 python:alpine3.19
 python:alpine
@@ -1816,24 +1834,12 @@ python:3.8-alpine3.20
 python:3.8-alpine3.19
 python:3.8-alpine
 python:3.8
-python:3.12.4-slim-bullseye
-python:3.12.4-slim-bookworm
-python:3.12.4-slim
-python:3.12.4-bullseye
-python:3.12.4-bookworm
 python:3.12.4-alpine3.20
 python:3.12.4-alpine3.19
 python:3.12.4-alpine
-python:3.12.4
-python:3.12-slim-bullseye
-python:3.12-slim-bookworm
-python:3.12-slim
-python:3.12-bullseye
-python:3.12-bookworm
 python:3.12-alpine3.20
 python:3.12-alpine3.19
 python:3.12-alpine
-python:3.12
 python:3.11.9-slim-bullseye
 python:3.11.9-slim-bookworm
 python:3.11.9-slim
@@ -1847,12 +1853,6 @@ python:3.11-slim-bullseye
 python:3.11-slim-bookworm
 python:3.11-slim
 python:3.11-bullseye
-python:3.11-bookworm
-python:3.11-alpine3.20
-python:3.11-alpine3.19
-python:3.11-alpine
-python:3.11
-python:3.10.14-slim-bullseye
 ```
 </details>
 
