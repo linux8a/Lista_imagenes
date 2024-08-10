@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Aug  9 04:49:59 UTC 2024
+Actualizado: Sat Aug 10 04:50:03 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1175,6 +1175,26 @@ wordpress:beta-php8.1
 
 ```sh
 postgres:latest
+postgres:12.20-bullseye
+postgres:12-bullseye
+postgres:13.16-bullseye
+postgres:13.16-bookworm
+postgres:13.16
+postgres:13-bullseye
+postgres:13-bookworm
+postgres:13
+postgres:12.20-bookworm
+postgres:12.20
+postgres:12-bookworm
+postgres:12
+postgres:15.8-bullseye
+postgres:15-bullseye
+postgres:14.13-bullseye
+postgres:14.13-bookworm
+postgres:14.13
+postgres:14-bullseye
+postgres:14-bookworm
+postgres:14
 postgres:bullseye
 postgres:16.4-bullseye
 postgres:16-bullseye
@@ -1188,30 +1208,18 @@ postgres:14.13-alpine
 postgres:14-alpine3.20
 postgres:14-alpine3.19
 postgres:14-alpine
-postgres:13.16-bullseye
-postgres:13.16-bookworm
 postgres:13.16-alpine3.20
 postgres:13.16-alpine3.19
 postgres:13.16-alpine
-postgres:13.16
-postgres:13-bullseye
-postgres:13-bookworm
 postgres:13-alpine3.20
 postgres:13-alpine3.19
 postgres:13-alpine
-postgres:13
-postgres:12.20-bullseye
-postgres:12.20-bookworm
 postgres:12.20-alpine3.20
 postgres:12.20-alpine3.19
 postgres:12.20-alpine
-postgres:12.20
-postgres:12-bullseye
-postgres:12-bookworm
 postgres:12-alpine3.20
 postgres:12-alpine3.19
 postgres:12-alpine
-postgres:12
 postgres:bookworm
 postgres:alpine3.20
 postgres:alpine3.19
@@ -1232,20 +1240,12 @@ postgres:16-alpine3.20
 postgres:16-alpine3.19
 postgres:16-alpine
 postgres:16
-postgres:15.8-bullseye
 postgres:15.8-alpine3.20
 postgres:15.8-alpine3.19
 postgres:15.8-alpine
-postgres:15-bullseye
 postgres:15-alpine3.20
 postgres:15-alpine3.19
 postgres:15-alpine
-postgres:14.13-bullseye
-postgres:14.13-bookworm
-postgres:14.13
-postgres:14-bullseye
-postgres:14-bookworm
-postgres:14
 postgres:12.19-bullseye
 postgres:12.19-bookworm
 postgres:12.19
@@ -3277,8 +3277,18 @@ mono:5.12.0.226
 
 ```sh
 haskell:latest
-haskell:slim-buster
+haskell:slim-bullseye
 haskell:slim
+haskell:bullseye
+haskell:9.10.1-slim-bullseye
+haskell:9.10.1-bullseye
+haskell:9.10-slim-bullseye
+haskell:9.10-bullseye
+haskell:9-slim-bullseye
+haskell:9-slim
+haskell:9-bullseye
+haskell:9
+haskell:slim-buster
 haskell:buster
 haskell:9.8.2-slim-buster
 haskell:9.8.2-slim
@@ -3325,9 +3335,7 @@ haskell:9.0-slim
 haskell:9.0-buster
 haskell:9.0
 haskell:9-slim-buster
-haskell:9-slim
 haskell:9-buster
-haskell:9
 haskell:9.6.4-slim-buster
 haskell:9.6.4-slim
 haskell:9.6.4-buster
@@ -3368,14 +3376,6 @@ haskell:9.2.6-slim-buster
 haskell:9.2.6-slim
 haskell:9.2.6-buster
 haskell:9.2.6
-haskell:9.2.5-slim-buster
-haskell:9.2.5-slim
-haskell:9.2.5-buster
-haskell:9.2.5
-haskell:9.4.3-buster
-haskell:9.4.3
-haskell:8.10.7-buster
-haskell:8.10.7
 ```
 </details>
 
