@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Aug 20 04:50:05 UTC 2024
+Actualizado: Wed Aug 21 04:49:55 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -957,10 +957,6 @@ node:22-alpine
 
 ```sh
 mysql:latest
-mysql:8.0.39-debian
-mysql:8.0.39-bookworm
-mysql:8.0-debian
-mysql:8.0-bookworm
 mysql:oraclelinux9
 mysql:oracle
 mysql:lts-oraclelinux9
@@ -993,6 +989,10 @@ mysql:8.0
 mysql:8-oraclelinux9
 mysql:8-oracle
 mysql:8
+mysql:8.0.39-debian
+mysql:8.0.39-bookworm
+mysql:8.0-debian
+mysql:8.0-bookworm
 mysql:9.0.0-oraclelinux9
 mysql:9.0.0-oracle
 mysql:9.0.0
@@ -4447,13 +4447,13 @@ rabbitmq:3.10.25-management-alpine
 <summary> oraclelinux </summary>
 
 ```sh
-oraclelinux:8.10
-oraclelinux:8-slim-fips
-oraclelinux:8-slim
-oraclelinux:8
-oraclelinux:9
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
+oraclelinux:9
+oraclelinux:8.10
+oraclelinux:8
+oraclelinux:8-slim-fips
+oraclelinux:8-slim
 oraclelinux:7.9
 oraclelinux:7
 oraclelinux:7-slim-fips
@@ -5213,12 +5213,14 @@ jetty:11.0.22-jdk11
 ```sh
 ghost:latest
 ghost:alpine
-ghost:5.89.3-alpine
-ghost:5.89.3
+ghost:5.89.5-alpine
+ghost:5.89.5
 ghost:5.89-alpine
 ghost:5.89
 ghost:5-alpine
 ghost:5
+ghost:5.89.3-alpine
+ghost:5.89.3
 ghost:5.89.1
 ghost:5.89.1-alpine
 ghost:5.89.0
@@ -5309,8 +5311,6 @@ ghost:5.78.0
 ghost:5.78
 ghost:5.78.0-alpine
 ghost:5.78-alpine
-ghost:5.77.0
-ghost:5.77
 ```
 </details>
 
