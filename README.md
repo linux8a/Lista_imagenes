@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Aug 26 04:49:55 UTC 2024
+Actualizado: Tue Aug 27 04:50:07 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -292,9 +292,10 @@ ubuntu:lunar-20230314
 ```sh
 fedora:latest
 fedora:rawhide
+fedora:42
 fedora:41
-fedora:39
 fedora:40
+fedora:39
 fedora:38
 fedora:37
 fedora:36
@@ -630,22 +631,22 @@ ubuntu-upstart:13.04
 
 ```sh
 buildpack-deps:latest
+buildpack-deps:noble-scm
+buildpack-deps:noble-curl
+buildpack-deps:noble
 buildpack-deps:jammy-scm
 buildpack-deps:jammy-curl
 buildpack-deps:jammy
 buildpack-deps:focal-curl
+buildpack-deps:24.04-scm
+buildpack-deps:24.04-curl
+buildpack-deps:24.04
 buildpack-deps:22.04-scm
 buildpack-deps:22.04-curl
 buildpack-deps:22.04
 buildpack-deps:20.04-curl
-buildpack-deps:noble-scm
-buildpack-deps:noble-curl
-buildpack-deps:noble
 buildpack-deps:focal-scm
 buildpack-deps:focal
-buildpack-deps:24.04-scm
-buildpack-deps:24.04-curl
-buildpack-deps:24.04
 buildpack-deps:20.04-scm
 buildpack-deps:20.04
 buildpack-deps:trixie-curl
@@ -1502,6 +1503,37 @@ java:openjdk-8u102-jdk
 
 ```sh
 mongo:latest
+mongo:jammy
+mongo:7.0.14-jammy
+mongo:7.0.14
+mongo:7.0-jammy
+mongo:7.0
+mongo:7-jammy
+mongo:7
+mongo:windowsservercore-ltsc2022
+mongo:windowsservercore-1809
+mongo:windowsservercore
+mongo:nanoserver-ltsc2022
+mongo:nanoserver-1809
+mongo:nanoserver
+mongo:7.0.14-windowsservercore-ltsc2022
+mongo:7.0.14-windowsservercore-1809
+mongo:7.0.14-windowsservercore
+mongo:7.0.14-nanoserver-ltsc2022
+mongo:7.0.14-nanoserver-1809
+mongo:7.0.14-nanoserver
+mongo:7.0-windowsservercore-ltsc2022
+mongo:7.0-windowsservercore-1809
+mongo:7.0-windowsservercore
+mongo:7.0-nanoserver-ltsc2022
+mongo:7.0-nanoserver-1809
+mongo:7.0-nanoserver
+mongo:7-windowsservercore-ltsc2022
+mongo:7-windowsservercore-1809
+mongo:7-windowsservercore
+mongo:7-nanoserver-ltsc2022
+mongo:7-nanoserver-1809
+mongo:7-nanoserver
 mongo:7.0.14-rc0-windowsservercore-ltsc2022
 mongo:7.0.14-rc0-windowsservercore-1809
 mongo:7.0.14-rc0-windowsservercore
@@ -1570,37 +1602,6 @@ mongo:8.0-rc-windowsservercore-ltsc2022
 mongo:8.0-rc-windowsservercore-1809
 mongo:8.0-rc-windowsservercore
 mongo:8.0-rc-noble
-mongo:8.0-rc-nanoserver-ltsc2022
-mongo:8.0-rc-nanoserver-1809
-mongo:8.0-rc-nanoserver
-mongo:8.0-rc
-mongo:jammy
-mongo:8.0.0-rc17-noble
-mongo:8.0.0-rc17
-mongo:7.0.13-rc1-jammy
-mongo:7.0.13-rc1
-mongo:7.0.12-jammy
-mongo:7.0.12
-mongo:7.0-jammy
-mongo:7.0
-mongo:7-jammy
-mongo:7
-mongo:6.0.17-rc0-jammy
-mongo:6.0.17-rc0
-mongo:6.0.16-jammy
-mongo:6.0.16
-mongo:6.0-rc-jammy
-mongo:6.0-rc
-mongo:5.0.28-focal
-mongo:5.0.28
-mongo:5.0-focal
-mongo:5.0
-mongo:5-focal
-mongo:5
-mongo:windowsservercore-ltsc2022
-mongo:windowsservercore-1809
-mongo:windowsservercore
-mongo:nanoserver-ltsc2022
 ```
 </details>
 
@@ -4339,39 +4340,43 @@ memcached:1.6.14
 
 ```sh
 rabbitmq:latest
+rabbitmq:management-alpine
 rabbitmq:management
+rabbitmq:alpine
+rabbitmq:3.13.7-management-alpine
+rabbitmq:3.13.7-management
+rabbitmq:3.13.7-alpine
+rabbitmq:3.13.7
+rabbitmq:3.13-management-alpine
+rabbitmq:3.13-management
+rabbitmq:3.13-alpine
+rabbitmq:3.13
+rabbitmq:3-management-alpine
+rabbitmq:3-management
+rabbitmq:3-alpine
+rabbitmq:3
 rabbitmq:4.0.0-beta.5-management
 rabbitmq:4.0.0-beta.5
 rabbitmq:4.0-rc-management
 rabbitmq:4.0-rc
 rabbitmq:3.13.6-management
 rabbitmq:3.13.6
-rabbitmq:3.13-management
-rabbitmq:3.13
 rabbitmq:3.12.14-management
 rabbitmq:3.12.14
 rabbitmq:3.12-management
 rabbitmq:3.12
-rabbitmq:3-management
-rabbitmq:3
 rabbitmq:4.0.0-beta.5-management-alpine
 rabbitmq:4.0-rc-management-alpine
 rabbitmq:4.0.0-beta.5-alpine
 rabbitmq:4.0-rc-alpine
 rabbitmq:4.0.0-beta.4-management
-rabbitmq:management-alpine
 rabbitmq:3.13.6-management-alpine
-rabbitmq:3.13-management-alpine
 rabbitmq:3.12.14-management-alpine
 rabbitmq:3.12.14-alpine
 rabbitmq:3.12-management-alpine
 rabbitmq:3.12-alpine
-rabbitmq:3-management-alpine
-rabbitmq:alpine
 rabbitmq:4.0.0-beta.4
 rabbitmq:3.13.6-alpine
-rabbitmq:3.13-alpine
-rabbitmq:3-alpine
 rabbitmq:4.0.0-beta.4-management-alpine
 rabbitmq:4.0.0-beta.4-alpine
 rabbitmq:4.0.0-beta.3-management-alpine
@@ -4434,10 +4439,6 @@ rabbitmq:3.13.0-rc.5-alpine
 rabbitmq:3.13-rc-alpine
 rabbitmq:3.12.12-management-alpine
 rabbitmq:3.12.12-management
-rabbitmq:3.12.12
-rabbitmq:3.11.28-management-alpine
-rabbitmq:3.11-management-alpine
-rabbitmq:3.10.25-management-alpine
 ```
 </details>
 
@@ -4496,15 +4497,18 @@ oraclelinux:5
 
 ```sh
 odoo:latest
-odoo:17.0-20240819
+odoo:17.0-20240826
 odoo:17.0
 odoo:17
-odoo:16.0-20240819
+odoo:16.0-20240826
 odoo:16.0
 odoo:16
-odoo:15.0-20240819
+odoo:15.0-20240826
 odoo:15.0
 odoo:15
+odoo:17.0-20240819
+odoo:16.0-20240819
+odoo:15.0-20240819
 odoo:17.0-20240812
 odoo:16.0-20240812
 odoo:15.0-20240812
@@ -6064,13 +6068,15 @@ drupal:11-fpm-bookworm
 
 ```sh
 cassandra:latest
-cassandra:jammy
-cassandra:5.0-rc1-jammy
-cassandra:5.0-rc1
+cassandra:5.0-rc2-jammy
+cassandra:5.0-rc2
 cassandra:5.0-jammy
 cassandra:5.0
 cassandra:5-jammy
 cassandra:5
+cassandra:jammy
+cassandra:5.0-rc1-jammy
+cassandra:5.0-rc1
 cassandra:4.1.6-jammy
 cassandra:4.1.6
 cassandra:4.1-jammy
@@ -6161,8 +6167,6 @@ cassandra:4.0-beta4
 cassandra:4.0-beta3
 cassandra:3.11.9
 cassandra:3.0.23
-cassandra:4.0-beta2
-cassandra:3.11.8
 ```
 </details>
 
@@ -7223,17 +7227,24 @@ nats:2.10.11-windowsservercore
 
 ```sh
 rocket.chat:latest
-rocket.chat:6.9.2
+rocket.chat:6.9.5
 rocket.chat:6.9
-rocket.chat:6.8.2
+rocket.chat:6.8.5
 rocket.chat:6.8
-rocket.chat:6.7.5
+rocket.chat:6.7.7
 rocket.chat:6.7
+rocket.chat:6.11.1
+rocket.chat:6.11
+rocket.chat:6.10.4
+rocket.chat:6.10
+rocket.chat:6
+rocket.chat:6.9.2
+rocket.chat:6.8.2
+rocket.chat:6.7.5
 rocket.chat:6.6.10
 rocket.chat:6.6
 rocket.chat:6.5.8
 rocket.chat:6.5
-rocket.chat:6
 rocket.chat:6.7.0
 rocket.chat:6.6.6
 rocket.chat:6.5.5
@@ -7315,13 +7326,6 @@ rocket.chat:4.3
 rocket.chat:4.5.0
 rocket.chat:4.4.1
 rocket.chat:4.2.4
-rocket.chat:4.2
-rocket.chat:4.1.4
-rocket.chat:4.1
-rocket.chat:4.3.2
-rocket.chat:4.2.3
-rocket.chat:4.1.3
-rocket.chat:3.18.4
 ```
 </details>
 
@@ -8014,13 +8018,16 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:5.0-20240818
+photon:5.0-20240826
 photon:5.0
+photon:4.0-20240826
+photon:4.0
+photon:3.0-20240826
+photon:3.0
+photon:5.0-20240818
 photon:5.0-20240811
 photon:4.0-20240811
-photon:4.0
 photon:3.0-20240811
-photon:3.0
 photon:5.0-20240804
 photon:5.0-20240728
 photon:4.0-20240728
@@ -8110,9 +8117,6 @@ photon:3.0-20230923
 photon:5.0-20230916
 photon:4.0-20230916
 photon:3.0-20230916
-photon:5.0-20230909
-photon:4.0-20230909
-photon:5.0-20230902
 ```
 </details>
 
