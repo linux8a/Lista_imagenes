@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Aug 27 04:50:07 UTC 2024
+Actualizado: Wed Aug 28 04:50:10 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -5217,12 +5217,14 @@ jetty:11.0.21-jdk11-eclipse-temurin
 ```sh
 ghost:latest
 ghost:alpine
-ghost:5.90.0-alpine
-ghost:5.90.0
+ghost:5.90.2-alpine
+ghost:5.90.2
 ghost:5.90-alpine
 ghost:5.90
 ghost:5-alpine
 ghost:5
+ghost:5.90.0-alpine
+ghost:5.90.0
 ghost:5.89.6-alpine
 ghost:5.89.6
 ghost:5.89-alpine
@@ -5313,8 +5315,6 @@ ghost:5.79.4
 ghost:5.79.4-alpine
 ghost:5.79.3
 ghost:5.79.3-alpine
-ghost:5.79.1-alpine
-ghost:5.79.1
 ```
 </details>
 
@@ -5681,13 +5681,27 @@ logstash:7.11.1
 
 ```sh
 julia:latest
-julia:windowsservercore-ltsc2022
-julia:windowsservercore-1809
-julia:windowsservercore
 julia:rc-windowsservercore-ltsc2022
 julia:rc-windowsservercore-1809
 julia:rc-windowsservercore
+julia:rc-bullseye
+julia:rc-bookworm
 julia:rc
+julia:1.11.0-rc3-windowsservercore-ltsc2022
+julia:1.11.0-rc3-windowsservercore-1809
+julia:1.11.0-rc3-windowsservercore
+julia:1.11.0-rc3-bullseye
+julia:1.11.0-rc3-bookworm
+julia:1.11.0-rc3
+julia:1.11-rc-windowsservercore-ltsc2022
+julia:1.11-rc-windowsservercore-1809
+julia:1.11-rc-windowsservercore
+julia:1.11-rc-bullseye
+julia:1.11-rc-bookworm
+julia:1.11-rc
+julia:windowsservercore-ltsc2022
+julia:windowsservercore-1809
+julia:windowsservercore
 julia:1.6.7-windowsservercore-ltsc2022
 julia:1.6.7-windowsservercore-1809
 julia:1.6.7-windowsservercore
@@ -5700,10 +5714,6 @@ julia:1.11.0-rc2-windowsservercore-ltsc2022
 julia:1.11.0-rc2-windowsservercore-1809
 julia:1.11.0-rc2-windowsservercore
 julia:1.11.0-rc2
-julia:1.11-rc-windowsservercore-ltsc2022
-julia:1.11-rc-windowsservercore-1809
-julia:1.11-rc-windowsservercore
-julia:1.11-rc
 julia:1.10.4-windowsservercore-ltsc2022
 julia:1.10.4-windowsservercore-1809
 julia:1.10.4-windowsservercore
@@ -5720,14 +5730,10 @@ julia:1.6.7-bullseye
 julia:1.6.7-bookworm
 julia:1.6-bullseye
 julia:1.6-bookworm
-julia:rc-bullseye
-julia:rc-bookworm
 julia:bullseye
 julia:bookworm
 julia:1.11.0-rc2-bullseye
 julia:1.11.0-rc2-bookworm
-julia:1.11-rc-bullseye
-julia:1.11-rc-bookworm
 julia:1.10.4-bullseye
 julia:1.10.4-bookworm
 julia:1.10-bullseye
@@ -5774,12 +5780,6 @@ julia:1.11.0-beta2-windowsservercore-ltsc2022
 julia:1.11.0-beta2-windowsservercore
 julia:1.11.0-beta2
 julia:1.11.0-beta2-bullseye
-julia:1.11.0-beta2-bookworm
-julia:1.11.0-beta2-windowsservercore-1809
-julia:1.10.3-bookworm
-julia:1.10.3
-julia:1.11.0-beta1-bullseye
-julia:1.11.0-beta1-bookworm
 ```
 </details>
 
@@ -6634,8 +6634,9 @@ kaazing-gateway:5.0.1.21
 
 ```sh
 arangodb:latest
-arangodb:3.12.1
+arangodb:3.12.2
 arangodb:3.12
+arangodb:3.12.1
 arangodb:3.12.0.2
 arangodb:3.11.10.1
 arangodb:3.11
@@ -6732,7 +6733,6 @@ arangodb:3.4
 arangodb:3.6.4
 arangodb:3.6.3
 arangodb:3.5.4
-arangodb:3.4.9
 ```
 </details>
 
@@ -7118,10 +7118,47 @@ redmine:alpine3.15
 
 ```sh
 nats:latest
+nats:2.10.19
+nats:2.10-scratch
+nats:2.10-linux
+nats:2.10-alpine
+nats:2.10
+nats:2-windowsservercore
+nats:2-scratch
+nats:2-nanoserver
+nats:2-linux
+nats:2-alpine3.20
+nats:2-alpine
+nats:2
 nats:windowsservercore-1809
 nats:windowsservercore
+nats:scratch
 nats:nanoserver-1809
 nats:nanoserver
+nats:linux
+nats:alpine3.20
+nats:alpine
+nats:2.10.19-windowsservercore-1809
+nats:2.10.19-windowsservercore
+nats:2.10.19-scratch
+nats:2.10.19-nanoserver-1809
+nats:2.10.19-nanoserver
+nats:2.10.19-linux
+nats:2.10.19-alpine3.20
+nats:2.10.19-alpine
+nats:2.10-windowsservercore-1809
+nats:2.10-windowsservercore
+nats:2.10-nanoserver-1809
+nats:2.10-nanoserver
+nats:2.10-alpine3.20
+nats:2-windowsservercore-1809
+nats:2-nanoserver-1809
+nats:2.9.25-scratch
+nats:2.9.25-linux
+nats:2.9.25
+nats:2.9-scratch
+nats:2.9-linux
+nats:2.9
 nats:2.9.25-windowsservercore-1809
 nats:2.9.25-windowsservercore
 nats:2.9.25-nanoserver-1809
@@ -7135,42 +7172,14 @@ nats:2.10.18-windowsservercore
 nats:2.10.18-nanoserver-1809
 nats:2.10.18-nanoserver
 nats:2.10.18
-nats:2.10-windowsservercore-1809
-nats:2.10-windowsservercore
-nats:2.10-nanoserver-1809
-nats:2.10-nanoserver
-nats:2.10
-nats:2-windowsservercore-1809
-nats:2-windowsservercore
-nats:2-nanoserver-1809
-nats:2-nanoserver
-nats:2
-nats:alpine3.20
-nats:alpine
 nats:2.9.25-alpine3.18
 nats:2.9.25-alpine
 nats:2.9-alpine3.18
 nats:2.9-alpine
 nats:2.10.18-alpine3.20
 nats:2.10.18-alpine
-nats:2.10-alpine3.20
-nats:2.10-alpine
-nats:2-alpine3.20
-nats:2-alpine
-nats:scratch
-nats:linux
-nats:2.9.25-scratch
-nats:2.9.25-linux
-nats:2.9.25
-nats:2.9-scratch
-nats:2.9-linux
-nats:2.9
 nats:2.10.18-scratch
 nats:2.10.18-linux
-nats:2.10-scratch
-nats:2.10-linux
-nats:2-scratch
-nats:2-linux
 nats:2.10.17-windowsservercore-1809
 nats:2.10.17-windowsservercore
 nats:2.10.17-nanoserver-1809
@@ -7208,15 +7217,6 @@ nats:2.10.12-nanoserver
 nats:2.10.12
 nats:2.10.12-scratch
 nats:2.10.12-linux
-nats:2.10.12-alpine3.19
-nats:2.10.12-alpine
-nats:2.10.11-scratch
-nats:2.10.11-linux
-nats:2.10.11-alpine3.19
-nats:2.10.11-alpine
-nats:2.10.11
-nats:2.10.11-windowsservercore-1809
-nats:2.10.11-windowsservercore
 ```
 </details>
 
