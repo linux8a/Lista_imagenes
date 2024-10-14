@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Oct 13 04:50:16 UTC 2024
+Actualizado: Mon Oct 14 04:49:56 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -4232,13 +4232,6 @@ haproxy:3.1-dev4-alpine
 
 ```sh
 memcached:latest
-memcached:bookworm
-memcached:1.6.31-bookworm
-memcached:1.6.31
-memcached:1.6-bookworm
-memcached:1.6
-memcached:1-bookworm
-memcached:1
 memcached:alpine3.20
 memcached:alpine
 memcached:1.6.31-alpine3.20
@@ -4247,6 +4240,13 @@ memcached:1.6-alpine3.20
 memcached:1.6-alpine
 memcached:1-alpine3.20
 memcached:1-alpine
+memcached:bookworm
+memcached:1.6.31-bookworm
+memcached:1.6.31
+memcached:1.6-bookworm
+memcached:1.6
+memcached:1-bookworm
+memcached:1
 memcached:1.6.30-alpine3.20
 memcached:1.6.30-alpine
 memcached:1.6.30-bookworm
