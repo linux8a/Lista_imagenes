@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Oct 22 04:50:52 UTC 2024
+Actualizado: Wed Oct 23 04:50:02 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1068,6 +1068,70 @@ mysql:8.0.35
 
 ```sh
 wordpress:latest
+wordpress:beta-php8.3-fpm-alpine
+wordpress:beta-php8.3-fpm
+wordpress:beta-php8.3-apache
+wordpress:beta-php8.3
+wordpress:beta-php8.2-fpm-alpine
+wordpress:beta-php8.2-fpm
+wordpress:beta-php8.2-apache
+wordpress:beta-php8.2
+wordpress:beta-php8.1-fpm-alpine
+wordpress:beta-php8.1-fpm
+wordpress:beta-php8.1-apache
+wordpress:beta-php8.1
+wordpress:beta-fpm-alpine
+wordpress:beta-fpm
+wordpress:beta-apache
+wordpress:beta-6.7-php8.3-fpm-alpine
+wordpress:beta-6.7-php8.3-fpm
+wordpress:beta-6.7-php8.3-apache
+wordpress:beta-6.7-php8.3
+wordpress:beta-6.7-php8.2-fpm-alpine
+wordpress:beta-6.7-php8.2-fpm
+wordpress:beta-6.7-php8.2-apache
+wordpress:beta-6.7-php8.2
+wordpress:beta-6.7-php8.1-fpm-alpine
+wordpress:beta-6.7-php8.1-fpm
+wordpress:beta-6.7-php8.1-apache
+wordpress:beta-6.7-php8.1
+wordpress:beta-6.7-fpm-alpine
+wordpress:beta-6.7-fpm
+wordpress:beta-6.7-apache
+wordpress:beta-6.7-RC1-php8.3-fpm-alpine
+wordpress:beta-6.7-RC1-php8.3-fpm
+wordpress:beta-6.7-RC1-php8.3-apache
+wordpress:beta-6.7-RC1-php8.3
+wordpress:beta-6.7-RC1-php8.2-fpm-alpine
+wordpress:beta-6.7-RC1-php8.2-fpm
+wordpress:beta-6.7-RC1-php8.2-apache
+wordpress:beta-6.7-RC1-php8.2
+wordpress:beta-6.7-RC1-php8.1-fpm-alpine
+wordpress:beta-6.7-RC1-php8.1-fpm
+wordpress:beta-6.7-RC1-php8.1-apache
+wordpress:beta-6.7-RC1-php8.1
+wordpress:beta-6.7-RC1-fpm-alpine
+wordpress:beta-6.7-RC1-fpm
+wordpress:beta-6.7-RC1-apache
+wordpress:beta-6.7-RC1
+wordpress:beta-6.7
+wordpress:beta-6-php8.3-fpm-alpine
+wordpress:beta-6-php8.3-fpm
+wordpress:beta-6-php8.3-apache
+wordpress:beta-6-php8.3
+wordpress:beta-6-php8.2-fpm-alpine
+wordpress:beta-6-php8.2-fpm
+wordpress:beta-6-php8.2-apache
+wordpress:beta-6-php8.2
+wordpress:beta-6-php8.1-fpm-alpine
+wordpress:beta-6-php8.1-fpm
+wordpress:beta-6-php8.1-apache
+wordpress:beta-6-php8.1
+wordpress:beta-6-fpm-alpine
+wordpress:beta-6-fpm
+wordpress:beta-6-apache
+wordpress:beta-6
+wordpress:beta
 wordpress:php8.3-fpm
 wordpress:php8.3-apache
 wordpress:php8.3
@@ -1078,27 +1142,6 @@ wordpress:php8.1-fpm
 wordpress:php8.1-apache
 wordpress:php8.1
 wordpress:fpm
-wordpress:beta-php8.3-fpm
-wordpress:beta-php8.3-apache
-wordpress:beta-php8.3
-wordpress:beta-php8.2-fpm
-wordpress:beta-php8.2-apache
-wordpress:beta-php8.2
-wordpress:beta-php8.1-fpm
-wordpress:beta-php8.1-apache
-wordpress:beta-php8.1
-wordpress:beta-fpm
-wordpress:beta-apache
-wordpress:beta-6.7-php8.3-fpm
-wordpress:beta-6.7-php8.3-apache
-wordpress:beta-6.7-php8.3
-wordpress:beta-6.7-php8.2-fpm
-wordpress:beta-6.7-php8.2-apache
-wordpress:beta-6.7-php8.2
-wordpress:beta-6.7-php8.1-fpm
-wordpress:beta-6.7-php8.1-apache
-wordpress:beta-6.7-php8.1
-wordpress:beta-6.7-fpm
 wordpress:beta-6.7-beta3-php8.3-fpm
 wordpress:beta-6.7-beta3-php8.3-apache
 wordpress:beta-6.7-beta3-php8.3
@@ -1111,21 +1154,6 @@ wordpress:beta-6.7-beta3-php8.1
 wordpress:beta-6.7-beta3-fpm
 wordpress:beta-6.7-beta3-apache
 wordpress:beta-6.7-beta3
-wordpress:beta-6.7-apache
-wordpress:beta-6.7
-wordpress:beta-6-php8.3-fpm
-wordpress:beta-6-php8.3-apache
-wordpress:beta-6-php8.3
-wordpress:beta-6-php8.2-fpm
-wordpress:beta-6-php8.2-apache
-wordpress:beta-6-php8.2
-wordpress:beta-6-php8.1-fpm
-wordpress:beta-6-php8.1-apache
-wordpress:beta-6-php8.1
-wordpress:beta-6-fpm
-wordpress:beta-6-apache
-wordpress:beta-6
-wordpress:beta
 wordpress:apache
 wordpress:6.6.2-php8.3-fpm
 wordpress:6.6.2-php8.3-apache
@@ -1139,34 +1167,6 @@ wordpress:6.6.2-php8.1
 wordpress:6.6.2-fpm
 wordpress:6.6.2-apache
 wordpress:6.6.2
-wordpress:6.6-php8.3-fpm
-wordpress:6.6-php8.3-apache
-wordpress:6.6-php8.3
-wordpress:6.6-php8.2-fpm
-wordpress:6.6-php8.2-apache
-wordpress:6.6-php8.2
-wordpress:6.6-php8.1-fpm
-wordpress:6.6-php8.1-apache
-wordpress:6.6-php8.1
-wordpress:6.6-fpm
-wordpress:6.6-apache
-wordpress:6.6
-wordpress:6-php8.3-fpm
-wordpress:6-php8.3-apache
-wordpress:6-php8.3
-wordpress:6-php8.2-fpm
-wordpress:6-php8.2-apache
-wordpress:6-php8.2
-wordpress:6-php8.1-fpm
-wordpress:6-php8.1-apache
-wordpress:6-php8.1
-wordpress:6-fpm
-wordpress:6-apache
-wordpress:6
-wordpress:php8.3-fpm-alpine
-wordpress:php8.2-fpm-alpine
-wordpress:php8.1-fpm-alpine
-wordpress:fpm-alpine
 ```
 </details>
 
@@ -5015,6 +5015,7 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:7.17.25
 elasticsearch:8.15.3
 elasticsearch:8.15.2
 elasticsearch:7.17.24
@@ -5114,7 +5115,6 @@ elasticsearch:7.13.2
 elasticsearch:7.13.0
 elasticsearch:7.13.1
 elasticsearch:6.8.16
-elasticsearch:7.12.1
 ```
 </details>
 
@@ -5235,12 +5235,14 @@ jetty:9-jdk17-eclipse-temurin
 ```sh
 ghost:latest
 ghost:alpine
-ghost:5.97.0-alpine
-ghost:5.97.0
+ghost:5.97.1-alpine
+ghost:5.97.1
 ghost:5.97-alpine
 ghost:5.97
 ghost:5-alpine
 ghost:5
+ghost:5.97.0-alpine
+ghost:5.97.0
 ghost:5.96.2
 ghost:5.96
 ghost:5.96.2-alpine
@@ -5331,8 +5333,6 @@ ghost:5.82.12-alpine
 ghost:5.82-alpine
 ghost:5.82.12
 ghost:5.82
-ghost:5.82.11-alpine
-ghost:5.82.11
 ```
 </details>
 
@@ -5589,6 +5589,7 @@ aerospike:ce-6.4.0.1
 <summary> logstash </summary>
 
 ```sh
+logstash:7.17.25
 logstash:8.15.3
 logstash:8.15.2
 logstash:7.17.24
@@ -5688,7 +5689,6 @@ logstash:7.13.2
 logstash:7.13.0
 logstash:7.13.1
 logstash:6.8.16
-logstash:7.12.1
 ```
 </details>
 
@@ -6525,6 +6525,7 @@ ros:ardent
 <summary> kibana </summary>
 
 ```sh
+kibana:7.17.25
 kibana:8.15.3
 kibana:8.15.2
 kibana:7.17.24
@@ -6624,7 +6625,6 @@ kibana:7.13.2
 kibana:7.13.0
 kibana:7.13.1
 kibana:6.8.16
-kibana:7.12.1
 ```
 </details>
 
@@ -8153,14 +8153,16 @@ photon:5.0-20231128
 
 ```sh
 couchdb:latest
-couchdb:3.4.1-nouveau
-couchdb:3.4.1
+couchdb:3.4.2-nouveau
+couchdb:3.4.2
 couchdb:3.4-nouveau
 couchdb:3.4
-couchdb:3.3.3
-couchdb:3.3
 couchdb:3-nouveau
 couchdb:3
+couchdb:3.4.1-nouveau
+couchdb:3.4.1
+couchdb:3.3.3
+couchdb:3.3
 couchdb:3.2.3
 couchdb:3.2
 couchdb:3.1.2
