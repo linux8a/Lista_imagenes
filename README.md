@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed Oct 23 04:50:02 UTC 2024
+Actualizado: Thu Oct 24 04:50:30 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -6097,8 +6097,6 @@ cassandra:5.0-jammy
 cassandra:5.0
 cassandra:5-jammy
 cassandra:5
-cassandra:5.0.1-jammy
-cassandra:5.0.1
 cassandra:4.1.7-jammy
 cassandra:4.1.7
 cassandra:4.1-jammy
@@ -6109,6 +6107,8 @@ cassandra:4.0-jammy
 cassandra:4.0
 cassandra:4-jammy
 cassandra:4
+cassandra:5.0.1-jammy
+cassandra:5.0.1
 cassandra:3.11.17-jammy
 cassandra:3.11.17
 cassandra:3.11-jammy
@@ -8044,12 +8044,15 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:4.0-20241016
-photon:4.0
-photon:3.0-20241016
-photon:3.0
-photon:5.0-20241016
+photon:5.0-20241023
 photon:5.0
+photon:4.0-20241023
+photon:4.0
+photon:3.0-20241023
+photon:3.0
+photon:4.0-20241016
+photon:3.0-20241016
+photon:5.0-20241016
 photon:5.0-20240915
 photon:4.0-20240915
 photon:3.0-20240915
@@ -8140,9 +8143,6 @@ photon:4.0-20231230
 photon:4.0-20231223
 photon:5.0-20231216
 photon:5.0-20231209
-photon:4.0-20231209
-photon:3.0-20231209
-photon:5.0-20231128
 ```
 </details>
 
