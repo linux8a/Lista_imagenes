@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Oct 31 04:50:06 UTC 2024
+Actualizado: Fri Nov  1 04:50:13 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1286,6 +1286,10 @@ postgres:15.7
 
 ```sh
 redis:latest
+redis:8.0-M02-bookworm
+redis:8.0-M02-alpine3.20
+redis:8.0-M02-alpine
+redis:8.0-M02
 redis:bookworm
 redis:8.0-M01-bookworm
 redis:8.0-M01
@@ -1381,10 +1385,6 @@ redis:7.2.3
 redis:7.0.14-bookworm
 redis:7.0.14
 redis:7.2.3-alpine3.19
-redis:7.2.3-alpine
-redis:7.0.14-alpine3.19
-redis:7.0.14-alpine
-redis:alpine3.18
 ```
 </details>
 
@@ -2921,8 +2921,11 @@ mageia:3
 
 ```sh
 crate:latest
-crate:5.8.3
+crate:5.9.2
+crate:5.9
+crate:5.8.5
 crate:5.8
+crate:5.8.3
 crate:5.7.5
 crate:5.7
 crate:5.8.2
@@ -3017,9 +3020,6 @@ crate:4.0.12
 crate:4.0
 crate:3.3.5
 crate:3.3
-crate:4.6.4
-crate:4.6.3
-crate:4.6.1
 ```
 </details>
 
@@ -7794,13 +7794,43 @@ solr:6.6.6
 
 ```sh
 neo4j:latest
-neo4j:4.4.38-enterprise
-neo4j:4.4-enterprise
+neo4j:ubi9
+neo4j:enterprise-ubi9
 neo4j:enterprise-bullseye
 neo4j:enterprise
+neo4j:community-ubi9
 neo4j:community-bullseye
 neo4j:community
 neo4j:bullseye
+neo4j:5.25.1-ubi9
+neo4j:5.25.1-enterprise-ubi9
+neo4j:5.25.1-enterprise-bullseye
+neo4j:5.25.1-enterprise
+neo4j:5.25.1-community-ubi9
+neo4j:5.25.1-community-bullseye
+neo4j:5.25.1-community
+neo4j:5.25.1-bullseye
+neo4j:5.25.1
+neo4j:5.25-ubi9
+neo4j:5.25-enterprise-ubi9
+neo4j:5.25-enterprise-bullseye
+neo4j:5.25-enterprise
+neo4j:5.25-community-ubi9
+neo4j:5.25-community-bullseye
+neo4j:5.25-community
+neo4j:5.25-bullseye
+neo4j:5.25
+neo4j:5-ubi9
+neo4j:5-enterprise-ubi9
+neo4j:5-enterprise-bullseye
+neo4j:5-enterprise
+neo4j:5-community-ubi9
+neo4j:5-community-bullseye
+neo4j:5-community
+neo4j:5-bullseye
+neo4j:5
+neo4j:4.4.38-enterprise
+neo4j:4.4-enterprise
 neo4j:5.24.2-enterprise-bullseye
 neo4j:5.24.2-enterprise
 neo4j:5.24.2-community-bullseye
@@ -7813,28 +7843,16 @@ neo4j:5.24-community-bullseye
 neo4j:5.24-community
 neo4j:5.24-bullseye
 neo4j:5.24
-neo4j:5-enterprise-bullseye
-neo4j:5-enterprise
-neo4j:5-community-bullseye
-neo4j:5-community
-neo4j:5-bullseye
-neo4j:5
 neo4j:4.4.38-community
 neo4j:4.4.38
 neo4j:4.4-community
 neo4j:4.4
-neo4j:ubi9
-neo4j:enterprise-ubi9
-neo4j:community-ubi9
 neo4j:5.24.2-ubi9
 neo4j:5.24.2-enterprise-ubi9
 neo4j:5.24.2-community-ubi9
 neo4j:5.24-ubi9
 neo4j:5.24-enterprise-ubi9
 neo4j:5.24-community-ubi9
-neo4j:5-ubi9
-neo4j:5-enterprise-ubi9
-neo4j:5-community-ubi9
 neo4j:5.24.1-enterprise-bullseye
 neo4j:5.24.1-enterprise
 neo4j:5.24.1-community-bullseye
@@ -7875,24 +7893,6 @@ neo4j:5.22.0-community
 neo4j:5.22.0-bullseye
 neo4j:5.22.0
 neo4j:5.22-enterprise-bullseye
-neo4j:5.22-enterprise
-neo4j:5.22-community-bullseye
-neo4j:5.22-community
-neo4j:5.22-bullseye
-neo4j:5.22
-neo4j:5.22.0-ubi9
-neo4j:5.22.0-enterprise-ubi9
-neo4j:5.22.0-community-ubi9
-neo4j:5.22-ubi9
-neo4j:5.22-enterprise-ubi9
-neo4j:5.22-community-ubi9
-neo4j:5.21.2-enterprise-bullseye
-neo4j:5.21.2-enterprise
-neo4j:5.21.2-community-bullseye
-neo4j:5.21.2-community
-neo4j:5.21.2-bullseye
-neo4j:5.21.2
-neo4j:5.21-enterprise-bullseye
 ```
 </details>
 
