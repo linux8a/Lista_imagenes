@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed Nov  6 04:50:22 UTC 2024
+Actualizado: Thu Nov  7 04:50:23 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -959,10 +959,6 @@ node:23.0.0-bookworm
 
 ```sh
 mysql:latest
-mysql:8.0.40-debian
-mysql:8.0.40-bookworm
-mysql:8.0-debian
-mysql:8.0-bookworm
 mysql:oraclelinux9
 mysql:oracle
 mysql:lts-oraclelinux9
@@ -995,6 +991,10 @@ mysql:8.0
 mysql:8-oraclelinux9
 mysql:8-oracle
 mysql:8
+mysql:8.0.40-debian
+mysql:8.0.40-bookworm
+mysql:8.0-debian
+mysql:8.0-bookworm
 mysql:8.0.39-debian
 mysql:8.0.39-bookworm
 mysql:9.0.1-oraclelinux9
@@ -2356,6 +2356,30 @@ jenkins:1.570
 
 ```sh
 golang:latest
+golang:1.23.3-windowsservercore-ltsc2022
+golang:1.23.3-windowsservercore-1809
+golang:1.23.3-windowsservercore
+golang:1.23.3-nanoserver-ltsc2022
+golang:1.23.3-nanoserver-1809
+golang:1.23.3-nanoserver
+golang:1.23.3-bullseye
+golang:1.23.3-bookworm
+golang:1.23.3-alpine3.20
+golang:1.23.3-alpine3.19
+golang:1.23.3-alpine
+golang:1.23.3
+golang:1.22.9-windowsservercore-ltsc2022
+golang:1.22.9-windowsservercore-1809
+golang:1.22.9-windowsservercore
+golang:1.22.9-nanoserver-ltsc2022
+golang:1.22.9-nanoserver-1809
+golang:1.22.9-nanoserver
+golang:1.22.9-bullseye
+golang:1.22.9-bookworm
+golang:1.22.9-alpine3.20
+golang:1.22.9-alpine3.19
+golang:1.22.9-alpine
+golang:1.22.9
 golang:bullseye
 golang:bookworm
 golang:1.23.2-bullseye
@@ -2431,30 +2455,6 @@ golang:1.23.1-bullseye
 golang:1.22.7-bullseye
 golang:1.23.1-bookworm
 golang:1.23.1
-golang:1.22.7-bookworm
-golang:1.22.7
-golang:1.23.1-nanoserver-ltsc2022
-golang:1.23.1-nanoserver-1809
-golang:1.23.1-nanoserver
-golang:1.22.7-nanoserver-ltsc2022
-golang:1.22.7-nanoserver-1809
-golang:1.22.7-nanoserver
-golang:1.23.1-windowsservercore-ltsc2022
-golang:1.23.1-windowsservercore-1809
-golang:1.23.1-windowsservercore
-golang:1.22.7-windowsservercore-ltsc2022
-golang:1.22.7-windowsservercore-1809
-golang:1.22.7-windowsservercore
-golang:1.23.1-alpine3.20
-golang:1.23.1-alpine
-golang:1.22.7-alpine3.20
-golang:1.22.7-alpine
-golang:1.23.1-alpine3.19
-golang:1.22.7-alpine3.19
-golang:1.23.0-bullseye
-golang:1.23.0-bookworm
-golang:1.23.0
-golang:1.22.6-bullseye
 ```
 </details>
 
@@ -4450,6 +4450,8 @@ rabbitmq:3.12.13
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:9-slim-fips
+oraclelinux:9-slim
 oraclelinux:9
 oraclelinux:7.9
 oraclelinux:7-slim-fips
@@ -4459,8 +4461,6 @@ oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
 oraclelinux:8
-oraclelinux:9-slim-fips
-oraclelinux:9-slim
 oraclelinux:8.9
 oraclelinux:8.8
 oraclelinux:8.7
@@ -4758,32 +4758,38 @@ iojs:2.4-slim
 
 ```sh
 websphere-liberty:latest
-websphere-liberty:full-java17-openj9
-websphere-liberty:full-java11-openj9
-websphere-liberty:24.0.0.9-kernel-java17-openj9
-websphere-liberty:24.0.0.9-kernel-java11-openj9
 websphere-liberty:24.0.0.9-full-java17-openj9
 websphere-liberty:24.0.0.9-full-java11-openj9
-websphere-liberty:24.0.0.6-full-java17-openj9
 websphere-liberty:24.0.0.6-full-java11-openj9
-websphere-liberty:24.0.0.10-full-java17-openj9
-websphere-liberty:24.0.0.10-full-java11-openj9
+websphere-liberty:24.0.0.11-full-java8-ibmjava
+websphere-liberty:24.0.0.11-full-java17-openj9
+websphere-liberty:24.0.0.11-full-java11-openj9
+websphere-liberty:kernel-java8-ibmjava
 websphere-liberty:kernel-java17-openj9
 websphere-liberty:kernel-java11-openj9
-websphere-liberty:24.0.0.6-kernel-java17-openj9
-websphere-liberty:24.0.0.6-kernel-java11-openj9
-websphere-liberty:24.0.0.10-kernel-java17-openj9
-websphere-liberty:24.0.0.10-kernel-java11-openj9
-websphere-liberty:kernel-java8-ibmjava
 websphere-liberty:kernel
 websphere-liberty:full-java8-ibmjava
+websphere-liberty:full-java17-openj9
+websphere-liberty:full-java11-openj9
 websphere-liberty:full
+websphere-liberty:24.0.0.9-kernel-java8-ibmjava
+websphere-liberty:24.0.0.9-kernel-java17-openj9
+websphere-liberty:24.0.0.9-kernel-java11-openj9
+websphere-liberty:24.0.0.9-full-java8-ibmjava
+websphere-liberty:24.0.0.6-kernel-java8-ibmjava
+websphere-liberty:24.0.0.6-kernel-java17-openj9
+websphere-liberty:24.0.0.6-kernel-java11-openj9
+websphere-liberty:24.0.0.6-full-java8-ibmjava
+websphere-liberty:24.0.0.6-full-java17-openj9
+websphere-liberty:24.0.0.11-kernel-java8-ibmjava
+websphere-liberty:24.0.0.11-kernel-java17-openj9
+websphere-liberty:24.0.0.11-kernel-java11-openj9
+websphere-liberty:24.0.0.10-full-java17-openj9
+websphere-liberty:24.0.0.10-full-java11-openj9
+websphere-liberty:24.0.0.10-kernel-java17-openj9
+websphere-liberty:24.0.0.10-kernel-java11-openj9
 websphere-liberty:24.0.0.10-kernel-java8-ibmjava
 websphere-liberty:24.0.0.10-full-java8-ibmjava
-websphere-liberty:24.0.0.9-full-java8-ibmjava
-websphere-liberty:24.0.0.6-full-java8-ibmjava
-websphere-liberty:24.0.0.9-kernel-java8-ibmjava
-websphere-liberty:24.0.0.6-kernel-java8-ibmjava
 websphere-liberty:24.0.0.8-full-java17-openj9
 websphere-liberty:24.0.0.3-full-java17-openj9
 websphere-liberty:24.0.0.8-kernel-java17-openj9
@@ -4851,12 +4857,6 @@ websphere-liberty:23.0.0.6-full-java8-ibmjava
 websphere-liberty:23.0.0.11-kernel-java8-ibmjava
 websphere-liberty:23.0.0.11-full-java8-ibmjava
 websphere-liberty:23.0.0.10-kernel-java8-ibmjava
-websphere-liberty:23.0.0.10-kernel-java17-openj9
-websphere-liberty:23.0.0.10-kernel-java11-openj9
-websphere-liberty:23.0.0.10-full-java8-ibmjava
-websphere-liberty:23.0.0.10-full-java17-openj9
-websphere-liberty:23.0.0.10-full-java11-openj9
-websphere-liberty:23.0.0.8-kernel-java17-openj9
 ```
 </details>
 
@@ -6662,10 +6662,11 @@ kaazing-gateway:5.0.1.21
 
 ```sh
 arangodb:latest
+arangodb:3.11.12
+arangodb:3.11
 arangodb:3.12.3
 arangodb:3.12
 arangodb:3.11.11
-arangodb:3.11
 arangodb:3.12.2
 arangodb:3.11.10.1
 arangodb:3.12.1
@@ -6760,7 +6761,6 @@ arangodb:3.6.5
 arangodb:3.5.5
 arangodb:3.4.10
 arangodb:3.4
-arangodb:3.6.4
 ```
 </details>
 
