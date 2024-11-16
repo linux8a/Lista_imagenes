@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Nov 15 04:51:18 UTC 2024
+Actualizado: Sat Nov 16 04:50:56 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -173,6 +173,10 @@ busybox:1.30
 
 ```sh
 ubuntu:latest
+ubuntu:plucky-20241111
+ubuntu:plucky
+ubuntu:noble-20241015
+ubuntu:25.04
 ubuntu:rolling
 ubuntu:oracular-20241009
 ubuntu:oracular
@@ -268,10 +272,6 @@ ubuntu:lunar-20230615
 ubuntu:kinetic-20230605
 ubuntu:jammy-20230605
 ubuntu:focal-20230605
-ubuntu:mantic-20230520
-ubuntu:lunar-20230522
-ubuntu:jammy-20230522
-ubuntu:bionic-20230530
 ```
 </details>
 
@@ -1178,6 +1178,10 @@ wordpress:6.6.2-php8.2-fpm-alpine
 
 ```sh
 postgres:latest
+postgres:12.21-bookworm
+postgres:12.21
+postgres:12-bookworm
+postgres:12
 postgres:15.9-bullseye
 postgres:15.9-bookworm
 postgres:15.9-alpine3.20
@@ -1215,17 +1219,13 @@ postgres:13-alpine3.19
 postgres:13-alpine
 postgres:13
 postgres:12.21-bullseye
-postgres:12.21-bookworm
 postgres:12.21-alpine3.20
 postgres:12.21-alpine3.19
 postgres:12.21-alpine
-postgres:12.21
 postgres:12-bullseye
-postgres:12-bookworm
 postgres:12-alpine3.20
 postgres:12-alpine3.19
 postgres:12-alpine
-postgres:12
 postgres:bullseye
 postgres:bookworm
 postgres:alpine3.20
@@ -3815,36 +3815,36 @@ mariadb:11.4-ubi9
 mariadb:11.4-ubi
 mariadb:11.4-noble
 mariadb:11.4
-mariadb:11.2.6-jammy
-mariadb:11.2.6
-mariadb:11.2-jammy
-mariadb:11.2
 mariadb:11-ubi9
 mariadb:11-ubi
 mariadb:11-noble
 mariadb:11
 mariadb:10.6.20-ubi9
 mariadb:10.6.20-ubi
-mariadb:10.6.20-focal
-mariadb:10.6.20
 mariadb:10.6-ubi9
 mariadb:10.6-ubi
+mariadb:10.11.10-ubi9
+mariadb:10.11.10-ubi
+mariadb:10.11-ubi9
+mariadb:10.11-ubi
+mariadb:10-ubi9
+mariadb:10-ubi
+mariadb:10.6.20-focal
+mariadb:10.6.20
 mariadb:10.6-focal
 mariadb:10.6
 mariadb:10.5.27-focal
 mariadb:10.5.27
 mariadb:10.5-focal
 mariadb:10.5
-mariadb:10.11.10-ubi9
-mariadb:10.11.10-ubi
+mariadb:11.2.6-jammy
+mariadb:11.2.6
+mariadb:11.2-jammy
+mariadb:11.2
 mariadb:10.11.10-jammy
 mariadb:10.11.10
-mariadb:10.11-ubi9
-mariadb:10.11-ubi
 mariadb:10.11-jammy
 mariadb:10.11
-mariadb:10-ubi9
-mariadb:10-ubi
 mariadb:10-jammy
 mariadb:10
 mariadb:11.4.3-noble
@@ -4125,14 +4125,20 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:3.1-dev13-bookworm
+haproxy:3.1-dev13-alpine3.20
+haproxy:3.1-dev13-alpine
+haproxy:3.1-dev13
+haproxy:3.1-dev-bookworm
+haproxy:3.1-dev-alpine3.20
+haproxy:3.1-dev-alpine
+haproxy:3.1-dev
 haproxy:lts-alpine3.20
 haproxy:lts-alpine
 haproxy:alpine3.20
 haproxy:alpine
 haproxy:3.1-dev12-alpine3.20
 haproxy:3.1-dev12-alpine
-haproxy:3.1-dev-alpine3.20
-haproxy:3.1-dev-alpine
 haproxy:3.0.6-alpine3.20
 haproxy:3.0.6-alpine
 haproxy:3.0-alpine3.20
@@ -4158,8 +4164,6 @@ haproxy:lts
 haproxy:bookworm
 haproxy:3.1-dev12-bookworm
 haproxy:3.1-dev12
-haproxy:3.1-dev-bookworm
-haproxy:3.1-dev
 haproxy:3.0.6-bookworm
 haproxy:3.0.6
 haproxy:3.0-bookworm
@@ -4220,10 +4224,6 @@ haproxy:2.6.19-alpine3.20
 haproxy:2.6.19-alpine
 haproxy:3.1-dev7-alpine3.20
 haproxy:3.1-dev7-alpine
-haproxy:3.0.4-alpine3.20
-haproxy:3.0.4-alpine
-haproxy:2.9.10-alpine3.20
-haproxy:2.9.10-alpine
 ```
 </details>
 
@@ -4343,6 +4343,14 @@ memcached:1.6.16-alpine
 
 ```sh
 rabbitmq:latest
+rabbitmq:4.1.0-beta.1-management-alpine
+rabbitmq:4.1.0-beta.1-management
+rabbitmq:4.1.0-beta.1-alpine
+rabbitmq:4.1.0-beta.1
+rabbitmq:4.1-rc-management-alpine
+rabbitmq:4.1-rc-management
+rabbitmq:4.1-rc-alpine
+rabbitmq:4.1-rc
 rabbitmq:management-alpine
 rabbitmq:4.0.3-management-alpine
 rabbitmq:4.0-management-alpine
@@ -4434,14 +4442,6 @@ rabbitmq:3.13.4-management-alpine
 rabbitmq:3.13.4-management
 rabbitmq:3.13.4-alpine
 rabbitmq:3.13.4
-rabbitmq:3.13.3-management
-rabbitmq:3.13.3
-rabbitmq:3.13.3-management-alpine
-rabbitmq:3.13.3-alpine
-rabbitmq:3.13.2-management
-rabbitmq:3.12.13-management
-rabbitmq:3.13.2
-rabbitmq:3.12.13
 ```
 </details>
 
@@ -5243,12 +5243,16 @@ jetty:12.0.14-jdk17-alpine
 ```sh
 ghost:latest
 ghost:alpine
+ghost:5.101.1-alpine
+ghost:5.101.1
+ghost:5.101-alpine
+ghost:5.101
+ghost:5-alpine
+ghost:5
 ghost:5.100.1-alpine
 ghost:5.100-alpine
-ghost:5-alpine
 ghost:5.100.1
 ghost:5.100
-ghost:5
 ghost:5.100.0-alpine
 ghost:5.100.0
 ghost:5.99.0
@@ -5337,10 +5341,6 @@ ghost:5.86-alpine
 ghost:5.86.2-alpine
 ghost:5.86.2
 ghost:5.86
-ghost:5.85.2-alpine
-ghost:5.85.2
-ghost:5.85-alpine
-ghost:5.85
 ```
 </details>
 
@@ -7041,6 +7041,21 @@ joomla:5.2.rc-php8.2-apache
 
 ```sh
 redmine:latest
+redmine:6.0.1-bookworm
+redmine:6.0.1-alpine3.20
+redmine:6.0.1-alpine3.19
+redmine:6.0.1-alpine
+redmine:6.0.1
+redmine:6.0-bookworm
+redmine:6.0-alpine3.20
+redmine:6.0-alpine3.19
+redmine:6.0-alpine
+redmine:6.0
+redmine:6-bookworm
+redmine:6-alpine3.20
+redmine:6-alpine3.19
+redmine:6-alpine
+redmine:6
 redmine:5.0.10-alpine3.20
 redmine:5.0.10-alpine
 redmine:5.0-alpine3.20
@@ -7125,21 +7140,6 @@ redmine:5.0.5-alpine3.16
 redmine:5.0-alpine3.16
 redmine:5-alpine3.16
 redmine:4.2.10-bullseye
-redmine:4.2.10-alpine3.16
-redmine:4.2.10-alpine
-redmine:4.2.10
-redmine:4.2-bullseye
-redmine:4.2-alpine3.16
-redmine:4.2-alpine
-redmine:4.2
-redmine:4-bullseye
-redmine:4-alpine3.16
-redmine:4-alpine
-redmine:4
-redmine:4.2.10-passenger
-redmine:4.2-passenger
-redmine:4-passenger
-redmine:5.0.4-bullseye
 ```
 </details>
 
@@ -7368,6 +7368,30 @@ rocket.chat:3.18.5
 
 ```sh
 docker:latest
+docker:rc-dind-rootless
+docker:rc-dind
+docker:rc-cli
+docker:rc
+docker:27.4.0-rc.1-dind-rootless
+docker:27.4.0-rc.1-dind-alpine3.20
+docker:27.4.0-rc.1-dind
+docker:27.4.0-rc.1-cli-alpine3.20
+docker:27.4.0-rc.1-cli
+docker:27.4.0-rc.1-alpine3.20
+docker:27.4.0-rc.1
+docker:27-rc-dind-rootless
+docker:27-rc-dind
+docker:27-rc-cli
+docker:27-rc
+docker:rc-windowsservercore-ltsc2022
+docker:rc-windowsservercore-1809
+docker:rc-windowsservercore
+docker:27.4.0-rc.1-windowsservercore-ltsc2022
+docker:27.4.0-rc.1-windowsservercore-1809
+docker:27.4.0-rc.1-windowsservercore
+docker:27-rc-windowsservercore-ltsc2022
+docker:27-rc-windowsservercore-1809
+docker:27-rc-windowsservercore
 docker:windowsservercore-ltsc2022
 docker:windowsservercore-1809
 docker:windowsservercore
@@ -7408,30 +7432,16 @@ docker:27.3.0-cli-alpine3.20
 docker:27.3.0-cli
 docker:27.3.0-alpine3.20
 docker:27.3.0
-docker:rc-dind-rootless
-docker:rc-dind
-docker:rc
 docker:27.3.0-rc.2-dind-rootless
 docker:27.3.0-rc.2-dind-alpine3.20
 docker:27.3.0-rc.2-dind
 docker:27.3.0-rc.2-alpine3.20
 docker:27.3.0-rc.2
-docker:27-rc-dind-rootless
-docker:27-rc-dind
-docker:27-rc
-docker:rc-windowsservercore-ltsc2022
-docker:rc-windowsservercore-1809
-docker:rc-windowsservercore
-docker:rc-cli
 docker:27.3.0-rc.2-windowsservercore-ltsc2022
 docker:27.3.0-rc.2-windowsservercore-1809
 docker:27.3.0-rc.2-windowsservercore
 docker:27.3.0-rc.2-cli-alpine3.20
 docker:27.3.0-rc.2-cli
-docker:27-rc-windowsservercore-ltsc2022
-docker:27-rc-windowsservercore-1809
-docker:27-rc-windowsservercore
-docker:27-rc-cli
 docker:27.3.0-rc.1-dind-rootless
 docker:27.2.1-dind-rootless
 docker:27.2-dind-rootless
@@ -7457,16 +7467,6 @@ docker:27.2-windowsservercore-ltsc2022
 docker:27.2-windowsservercore-1809
 docker:27.2-windowsservercore
 docker:27.2-dind
-docker:27.2-cli
-docker:27.2
-docker:27.2.0-dind-rootless
-docker:27.2.0-dind-alpine3.20
-docker:27.2.0-dind
-docker:27.2.0-alpine3.20
-docker:27.2.0
-docker:27.2.0-cli-alpine3.20
-docker:27.2.0-cli
-docker:27.2.0-windowsservercore-ltsc2022
 ```
 </details>
 
