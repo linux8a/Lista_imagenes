@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Nov 19 04:50:36 UTC 2024
+Actualizado: Wed Nov 20 04:51:57 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -66,35 +66,35 @@ centos:centos5
 busybox:latest
 busybox:unstable-uclibc
 busybox:unstable-glibc
+busybox:unstable
 busybox:uclibc
 busybox:stable-uclibc
 busybox:stable-glibc
+busybox:stable
 busybox:glibc
 busybox:1.37.0-uclibc
 busybox:1.37.0-glibc
+busybox:1.37.0
 busybox:1.37-uclibc
 busybox:1.37-glibc
+busybox:1.37
 busybox:1.36.1-uclibc
 busybox:1.36.1-glibc
+busybox:1.36.1
 busybox:1.36-uclibc
 busybox:1.36-glibc
+busybox:1.36
 busybox:1-uclibc
 busybox:1-glibc
+busybox:1
 busybox:unstable-musl
-busybox:unstable
 busybox:musl
 busybox:1.37.0-musl
-busybox:1.37.0
 busybox:1.37-musl
-busybox:1.37
 busybox:1-musl
-busybox:1
 busybox:stable-musl
-busybox:stable
 busybox:1.36.1-musl
-busybox:1.36.1
 busybox:1.36-musl
-busybox:1.36
 busybox:1.35.0-uclibc
 busybox:1.35.0-musl
 busybox:1.35.0-glibc
@@ -4765,22 +4765,22 @@ iojs:2.4-slim
 
 ```sh
 websphere-liberty:latest
+websphere-liberty:full-java17-openj9
+websphere-liberty:full-java11-openj9
+websphere-liberty:24.0.0.9-full-java17-openj9
+websphere-liberty:24.0.0.9-full-java11-openj9
+websphere-liberty:24.0.0.6-full-java17-openj9
+websphere-liberty:24.0.0.6-full-java11-openj9
+websphere-liberty:24.0.0.11-full-java17-openj9
+websphere-liberty:24.0.0.11-full-java11-openj9
 websphere-liberty:kernel-java17-openj9
 websphere-liberty:kernel-java11-openj9
 websphere-liberty:24.0.0.9-kernel-java17-openj9
 websphere-liberty:24.0.0.9-kernel-java11-openj9
-websphere-liberty:24.0.0.9-full-java17-openj9
-websphere-liberty:24.0.0.9-full-java11-openj9
 websphere-liberty:24.0.0.6-kernel-java17-openj9
 websphere-liberty:24.0.0.6-kernel-java11-openj9
-websphere-liberty:24.0.0.6-full-java17-openj9
 websphere-liberty:24.0.0.11-kernel-java17-openj9
 websphere-liberty:24.0.0.11-kernel-java11-openj9
-websphere-liberty:24.0.0.11-full-java17-openj9
-websphere-liberty:24.0.0.11-full-java11-openj9
-websphere-liberty:full-java17-openj9
-websphere-liberty:full-java11-openj9
-websphere-liberty:24.0.0.6-full-java11-openj9
 websphere-liberty:24.0.0.11-full-java8-ibmjava
 websphere-liberty:kernel-java8-ibmjava
 websphere-liberty:kernel
@@ -7371,10 +7371,29 @@ rocket.chat:3.18.5
 
 ```sh
 docker:latest
-docker:rc-dind-rootless
+docker:rc-windowsservercore-ltsc2022
+docker:rc-windowsservercore-1809
+docker:rc-windowsservercore
 docker:rc-dind
 docker:rc-cli
 docker:rc
+docker:27.4.0-rc.2-windowsservercore-ltsc2022
+docker:27.4.0-rc.2-windowsservercore-1809
+docker:27.4.0-rc.2-windowsservercore
+docker:27.4.0-rc.2-dind-alpine3.20
+docker:27.4.0-rc.2-dind
+docker:27.4.0-rc.2-cli-alpine3.20
+docker:27.4.0-rc.2-cli
+docker:27.4.0-rc.2-alpine3.20
+docker:27.4.0-rc.2
+docker:27-rc-windowsservercore-ltsc2022
+docker:27-rc-windowsservercore-1809
+docker:27-rc-windowsservercore
+docker:27-rc-dind
+docker:27-rc-cli
+docker:27-rc
+docker:27.4.0-rc.2-dind-rootless
+docker:rc-dind-rootless
 docker:27.4.0-rc.1-dind-rootless
 docker:27.4.0-rc.1-dind-alpine3.20
 docker:27.4.0-rc.1-dind
@@ -7383,18 +7402,9 @@ docker:27.4.0-rc.1-cli
 docker:27.4.0-rc.1-alpine3.20
 docker:27.4.0-rc.1
 docker:27-rc-dind-rootless
-docker:27-rc-dind
-docker:27-rc-cli
-docker:27-rc
-docker:rc-windowsservercore-ltsc2022
-docker:rc-windowsservercore-1809
-docker:rc-windowsservercore
 docker:27.4.0-rc.1-windowsservercore-ltsc2022
 docker:27.4.0-rc.1-windowsservercore-1809
 docker:27.4.0-rc.1-windowsservercore
-docker:27-rc-windowsservercore-ltsc2022
-docker:27-rc-windowsservercore-1809
-docker:27-rc-windowsservercore
 docker:windowsservercore-ltsc2022
 docker:windowsservercore-1809
 docker:windowsservercore
@@ -7460,16 +7470,6 @@ docker:27.3.0-rc.1
 docker:27.2.1-windowsservercore-ltsc2022
 docker:27.2.1-windowsservercore-1809
 docker:27.2.1-windowsservercore
-docker:27.2.1-dind-alpine3.20
-docker:27.2.1-dind
-docker:27.2.1-cli-alpine3.20
-docker:27.2.1-cli
-docker:27.2.1-alpine3.20
-docker:27.2.1
-docker:27.2-windowsservercore-ltsc2022
-docker:27.2-windowsservercore-1809
-docker:27.2-windowsservercore
-docker:27.2-dind
 ```
 </details>
 
