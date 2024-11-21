@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed Nov 20 04:51:57 UTC 2024
+Actualizado: Thu Nov 21 04:50:57 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -64,28 +64,28 @@ centos:centos5
 
 ```sh
 busybox:latest
-busybox:unstable-uclibc
 busybox:unstable-glibc
+busybox:stable-glibc
+busybox:glibc
+busybox:1.37.0-glibc
+busybox:1.37-glibc
+busybox:1.36.1-glibc
+busybox:1.36-glibc
+busybox:1-glibc
+busybox:unstable-uclibc
 busybox:unstable
 busybox:uclibc
 busybox:stable-uclibc
-busybox:stable-glibc
 busybox:stable
-busybox:glibc
 busybox:1.37.0-uclibc
-busybox:1.37.0-glibc
 busybox:1.37.0
 busybox:1.37-uclibc
-busybox:1.37-glibc
 busybox:1.37
 busybox:1.36.1-uclibc
-busybox:1.36.1-glibc
 busybox:1.36.1
 busybox:1.36-uclibc
-busybox:1.36-glibc
 busybox:1.36
 busybox:1-uclibc
-busybox:1-glibc
 busybox:1
 busybox:unstable-musl
 busybox:musl
@@ -851,6 +851,42 @@ nginx:1.27
 
 ```sh
 node:latest
+node:iron-alpine3.19
+node:20.18.1-alpine3.19
+node:20.18-alpine3.19
+node:20-alpine3.19
+node:iron-slim
+node:iron-bullseye-slim
+node:iron-bullseye
+node:iron-bookworm-slim
+node:iron-bookworm
+node:iron-alpine3.20
+node:iron-alpine
+node:iron
+node:20.18.1-slim
+node:20.18.1-bullseye-slim
+node:20.18.1-bullseye
+node:20.18.1-bookworm-slim
+node:20.18.1-bookworm
+node:20.18.1-alpine3.20
+node:20.18.1-alpine
+node:20.18.1
+node:20.18-slim
+node:20.18-bullseye-slim
+node:20.18-bullseye
+node:20.18-bookworm-slim
+node:20.18-bookworm
+node:20.18-alpine3.20
+node:20.18-alpine
+node:20.18
+node:20-slim
+node:20-bullseye-slim
+node:20-bullseye
+node:20-bookworm-slim
+node:20-bookworm
+node:20-alpine3.20
+node:20-alpine
+node:20
 node:hydrogen-slim
 node:hydrogen-bullseye-slim
 node:hydrogen-bullseye
@@ -914,42 +950,6 @@ node:bookworm-slim
 node:bookworm
 node:alpine3.19
 node:23.2.0-slim
-node:23.2.0-bullseye
-node:23.2.0-bookworm-slim
-node:23.2.0-bookworm
-node:23.2.0-alpine3.19
-node:23.2.0
-node:23.2-slim
-node:23.2-bullseye
-node:23.2-bookworm-slim
-node:23.2-bookworm
-node:23.2-alpine3.19
-node:23.2
-node:23-slim
-node:23-bullseye
-node:23-bookworm-slim
-node:23-bookworm
-node:23-alpine3.19
-node:23
-node:lts-jod
-node:lts-bullseye
-node:lts-bookworm
-node:lts
-node:jod-bullseye
-node:jod-bookworm
-node:jod
-node:iron-bullseye
-node:iron-bookworm
-node:iron
-node:23.1.0-bookworm
-node:23.1.0
-node:23.1-bookworm
-node:23.1
-node:22.11.0-bullseye
-node:22.11.0-bookworm
-node:22.11.0
-node:22.11-bullseye
-node:22.11-bookworm
 ```
 </details>
 
@@ -960,10 +960,6 @@ node:22.11-bookworm
 
 ```sh
 mysql:latest
-mysql:8.0.40-debian
-mysql:8.0.40-bookworm
-mysql:8.0-debian
-mysql:8.0-bookworm
 mysql:oraclelinux9
 mysql:oracle
 mysql:lts-oraclelinux9
@@ -996,6 +992,10 @@ mysql:8.0
 mysql:8-oraclelinux9
 mysql:8-oracle
 mysql:8
+mysql:8.0.40-debian
+mysql:8.0.40-bookworm
+mysql:8.0-debian
+mysql:8.0-bookworm
 mysql:8.0.39-debian
 mysql:8.0.39-bookworm
 mysql:9.0.1-oraclelinux9
@@ -1757,6 +1757,30 @@ ruby:3.2.5-bullseye
 
 ```sh
 python:latest
+python:3.14.0a2-slim-bullseye
+python:3.14.0a2-slim-bookworm
+python:3.14.0a2-slim
+python:3.14.0a2-bullseye
+python:3.14.0a2-bookworm
+python:3.14.0a2-alpine3.20
+python:3.14.0a2-alpine3.19
+python:3.14.0a2-alpine
+python:3.14.0a2
+python:3.14-rc-slim-bullseye
+python:3.14-rc-slim-bookworm
+python:3.14-rc-slim
+python:3.14-rc-bullseye
+python:3.14-rc-bookworm
+python:3.14-rc-alpine3.20
+python:3.14-rc-alpine3.19
+python:3.14-rc-alpine
+python:3.14-rc
+python:3.14.0a2-windowsservercore-ltsc2022
+python:3.14.0a2-windowsservercore-1809
+python:3.14.0a2-windowsservercore
+python:3.14-rc-windowsservercore-ltsc2022
+python:3.14-rc-windowsservercore-1809
+python:3.14-rc-windowsservercore
 python:windowsservercore-ltsc2022
 python:windowsservercore-1809
 python:windowsservercore
@@ -1764,10 +1788,6 @@ python:3.14.0a1-windowsservercore-ltsc2022
 python:3.14.0a1-windowsservercore-1809
 python:3.14.0a1-windowsservercore
 python:3.14.0a1
-python:3.14-rc-windowsservercore-ltsc2022
-python:3.14-rc-windowsservercore-1809
-python:3.14-rc-windowsservercore
-python:3.14-rc
 python:3.13.0-windowsservercore-ltsc2022
 python:3.13.0-windowsservercore-1809
 python:3.13.0-windowsservercore
@@ -1810,8 +1830,6 @@ python:bullseye
 python:bookworm
 python:3.14.0a1-bullseye
 python:3.14.0a1-bookworm
-python:3.14-rc-bullseye
-python:3.14-rc-bookworm
 python:3.13.0-bullseye
 python:3.13.0-bookworm
 python:3.13-bullseye
@@ -1838,24 +1856,6 @@ python:3.9-slim-bullseye
 python:3.9-slim-bookworm
 python:3.9-slim
 python:3.9-alpine3.19
-python:3.13.0-slim-bullseye
-python:3.13.0-alpine3.20
-python:3.13.0-alpine3.19
-python:3.13.0-alpine
-python:3.13-slim-bullseye
-python:3.13-alpine3.20
-python:3.13-alpine3.19
-python:3.13-alpine
-python:3.12.7-slim-bullseye
-python:3.12.7-slim-bookworm
-python:3.12.7-slim
-python:3.12.7-alpine3.20
-python:3.12.7-alpine3.19
-python:3.12.7-alpine
-python:3.12-slim-bullseye
-python:3.12-slim-bookworm
-python:3.12-slim
-python:3.12-alpine3.20
 ```
 </details>
 
@@ -4451,13 +4451,13 @@ rabbitmq:3.13.4
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:9-slim-fips
+oraclelinux:9-slim
+oraclelinux:9
 oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
 oraclelinux:8
-oraclelinux:9-slim-fips
-oraclelinux:9-slim
-oraclelinux:9
 oraclelinux:7.9
 oraclelinux:7-slim-fips
 oraclelinux:7-slim
@@ -7371,6 +7371,9 @@ rocket.chat:3.18.5
 
 ```sh
 docker:latest
+docker:rc-dind-rootless
+docker:27.4.0-rc.2-dind-rootless
+docker:27-rc-dind-rootless
 docker:rc-windowsservercore-ltsc2022
 docker:rc-windowsservercore-1809
 docker:rc-windowsservercore
@@ -7392,8 +7395,6 @@ docker:27-rc-windowsservercore
 docker:27-rc-dind
 docker:27-rc-cli
 docker:27-rc
-docker:27.4.0-rc.2-dind-rootless
-docker:rc-dind-rootless
 docker:27.4.0-rc.1-dind-rootless
 docker:27.4.0-rc.1-dind-alpine3.20
 docker:27.4.0-rc.1-dind
@@ -7401,7 +7402,6 @@ docker:27.4.0-rc.1-cli-alpine3.20
 docker:27.4.0-rc.1-cli
 docker:27.4.0-rc.1-alpine3.20
 docker:27.4.0-rc.1
-docker:27-rc-dind-rootless
 docker:27.4.0-rc.1-windowsservercore-ltsc2022
 docker:27.4.0-rc.1-windowsservercore-1809
 docker:27.4.0-rc.1-windowsservercore
