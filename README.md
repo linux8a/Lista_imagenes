@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Nov 23 04:50:57 UTC 2024
+Actualizado: Sun Nov 24 04:50:47 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1178,6 +1178,10 @@ wordpress:beta-php8.2-fpm-alpine
 
 ```sh
 postgres:latest
+postgres:12.22-bookworm
+postgres:12.22
+postgres:12-bookworm
+postgres:12
 postgres:15.10-bookworm
 postgres:15.10
 postgres:15-bookworm
@@ -1203,17 +1207,13 @@ postgres:13-alpine3.19
 postgres:13-alpine
 postgres:13
 postgres:12.22-bullseye
-postgres:12.22-bookworm
 postgres:12.22-alpine3.20
 postgres:12.22-alpine3.19
 postgres:12.22-alpine
-postgres:12.22
 postgres:12-bullseye
-postgres:12-bookworm
 postgres:12-alpine3.20
 postgres:12-alpine3.19
 postgres:12-alpine
-postgres:12
 postgres:bullseye
 postgres:bookworm
 postgres:alpine3.20
@@ -4343,36 +4343,36 @@ memcached:1.6.16-alpine
 
 ```sh
 rabbitmq:latest
+rabbitmq:management-alpine
+rabbitmq:management
+rabbitmq:alpine
 rabbitmq:4.0.4-management-alpine
 rabbitmq:4.0.4-management
 rabbitmq:4.0.4-alpine
+rabbitmq:4.0-management-alpine
+rabbitmq:4.0-management
+rabbitmq:4.0-alpine
+rabbitmq:4-management-alpine
+rabbitmq:4-management
+rabbitmq:4-alpine
 rabbitmq:4.0.4
-rabbitmq:management
+rabbitmq:4.0
+rabbitmq:4
 rabbitmq:4.1.0-beta.1-management
 rabbitmq:4.1-rc-management
 rabbitmq:4.0.3-management
 rabbitmq:4.0.3
-rabbitmq:4.0-management
-rabbitmq:4.0
-rabbitmq:4-management
-rabbitmq:4
 rabbitmq:4.1.0-beta.1-management-alpine
 rabbitmq:4.1.0-beta.1
 rabbitmq:4.1-rc-management-alpine
 rabbitmq:4.1-rc
 rabbitmq:4.1.0-beta.1-alpine
 rabbitmq:4.1-rc-alpine
-rabbitmq:management-alpine
 rabbitmq:4.0.3-management-alpine
-rabbitmq:4.0-management-alpine
-rabbitmq:4-management-alpine
 rabbitmq:3.13.7-management-alpine
 rabbitmq:3.13-management-alpine
 rabbitmq:3-management-alpine
-rabbitmq:alpine
 rabbitmq:4.0.3-alpine
-rabbitmq:4.0-alpine
-rabbitmq:4-alpine
 rabbitmq:3.13.7-alpine
 rabbitmq:3.13-alpine
 rabbitmq:3-alpine
