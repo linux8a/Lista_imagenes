@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Nov 25 04:51:39 UTC 2024
+Actualizado: Tue Nov 26 04:51:32 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1505,6 +1505,22 @@ java:openjdk-8u102-jdk
 
 ```sh
 mongo:latest
+mongo:8.0.4-rc0-windowsservercore-ltsc2022
+mongo:8.0.4-rc0-windowsservercore-1809
+mongo:8.0.4-rc0-windowsservercore
+mongo:8.0.4-rc0-noble
+mongo:8.0.4-rc0-nanoserver-ltsc2022
+mongo:8.0.4-rc0-nanoserver-1809
+mongo:8.0.4-rc0-nanoserver
+mongo:8.0.4-rc0
+mongo:8.0-rc-windowsservercore-ltsc2022
+mongo:8.0-rc-windowsservercore-1809
+mongo:8.0-rc-windowsservercore
+mongo:8.0-rc-noble
+mongo:8.0-rc-nanoserver-ltsc2022
+mongo:8.0-rc-nanoserver-1809
+mongo:8.0-rc-nanoserver
+mongo:8.0-rc
 mongo:noble
 mongo:8.0.3-noble
 mongo:8.0.3
@@ -1588,22 +1604,6 @@ mongo:5.0.30
 mongo:5.0-windowsservercore-ltsc2022
 mongo:5.0-windowsservercore-1809
 mongo:5.0-windowsservercore
-mongo:5.0-nanoserver-ltsc2022
-mongo:5.0-nanoserver-1809
-mongo:5.0-nanoserver
-mongo:5.0
-mongo:5-windowsservercore-ltsc2022
-mongo:5-windowsservercore-1809
-mongo:5-windowsservercore
-mongo:5-nanoserver-ltsc2022
-mongo:5-nanoserver-1809
-mongo:5-nanoserver
-mongo:5
-mongo:7.0.15-jammy
-mongo:7.0-jammy
-mongo:7-jammy
-mongo:6.0.19-jammy
-mongo:6.0-jammy
 ```
 </details>
 
@@ -3786,6 +3786,14 @@ r-base:3.1.3
 
 ```sh
 mariadb:latest
+mariadb:11.7.1-ubi9-rc
+mariadb:11.7.1-ubi-rc
+mariadb:11.7.1-rc
+mariadb:11.7.1-noble-rc
+mariadb:11.7-ubi9-rc
+mariadb:11.7-ubi-rc
+mariadb:11.7-rc
+mariadb:11.7-noble-rc
 mariadb:noble
 mariadb:11.6.2-ubi9
 mariadb:11.6.2-ubi
@@ -3877,14 +3885,6 @@ mariadb:10.11.9-jammy
 mariadb:10.11.9
 mariadb:11.5.1-ubi9-rc
 mariadb:11.5.1-ubi-rc
-mariadb:11.5.1-rc
-mariadb:11.5.1-noble-rc
-mariadb:11.5-ubi9-rc
-mariadb:11.5-ubi-rc
-mariadb:11.5-rc
-mariadb:11.5-noble-rc
-mariadb:11.4.2-ubi9
-mariadb:11.4.2-ubi
 ```
 </details>
 
@@ -4451,6 +4451,10 @@ rabbitmq:4.0.0-beta.1
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:7.9
+oraclelinux:7-slim-fips
+oraclelinux:7-slim
+oraclelinux:7
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
 oraclelinux:9
@@ -4458,10 +4462,6 @@ oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
 oraclelinux:8
-oraclelinux:7.9
-oraclelinux:7-slim-fips
-oraclelinux:7-slim
-oraclelinux:7
 oraclelinux:8.9
 oraclelinux:8.8
 oraclelinux:8.7
@@ -4500,15 +4500,18 @@ oraclelinux:5
 
 ```sh
 odoo:latest
-odoo:18.0-20241118
+odoo:18.0-20241125
 odoo:18.0
 odoo:18
-odoo:17.0-20241118
+odoo:17.0-20241125
 odoo:17.0
 odoo:17
-odoo:16.0-20241118
+odoo:16.0-20241125
 odoo:16.0
 odoo:16
+odoo:18.0-20241118
+odoo:17.0-20241118
+odoo:16.0-20241118
 odoo:18.0-20241108
 odoo:16.0-20241108
 odoo:17.0-20241108
@@ -5246,12 +5249,14 @@ jetty:11.0.24-jre21-eclipse-temurin
 ```sh
 ghost:latest
 ghost:alpine
-ghost:5.101.3-alpine
-ghost:5.101.3
+ghost:5.101.4-alpine
+ghost:5.101.4
 ghost:5.101-alpine
 ghost:5.101
 ghost:5-alpine
 ghost:5
+ghost:5.101.3-alpine
+ghost:5.101.3
 ghost:5.101.2
 ghost:5.101.2-alpine
 ghost:5.101.1-alpine
@@ -5342,8 +5347,6 @@ ghost:5.87.2-alpine
 ghost:5.87.2
 ghost:5.87.1-alpine
 ghost:5.87.1
-ghost:5.87.0
-ghost:5.87.0-alpine
 ```
 </details>
 
