@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Nov 26 04:51:32 UTC 2024
+Actualizado: Wed Nov 27 04:52:04 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -742,52 +742,95 @@ buildpack-deps:21.04-scm
 
 ```sh
 nginx:latest
+nginx:perl
+nginx:otel
+nginx:mainline-perl
+nginx:mainline-otel
+nginx:mainline-bookworm-perl
+nginx:mainline-bookworm-otel
+nginx:mainline-bookworm
+nginx:mainline-alpine3.20-slim
+nginx:mainline-alpine3.20-perl
+nginx:mainline-alpine3.20-otel
+nginx:mainline-alpine3.20
+nginx:mainline-alpine-slim
+nginx:mainline-alpine-perl
+nginx:mainline-alpine-otel
+nginx:mainline-alpine
+nginx:mainline
+nginx:bookworm-perl
+nginx:bookworm-otel
+nginx:bookworm
+nginx:alpine3.20-slim
+nginx:alpine3.20-perl
+nginx:alpine3.20-otel
+nginx:alpine3.20
+nginx:alpine-slim
+nginx:alpine-perl
+nginx:alpine-otel
+nginx:alpine
+nginx:1.27.3-perl
+nginx:1.27.3-otel
+nginx:1.27.3-bookworm-perl
+nginx:1.27.3-bookworm-otel
+nginx:1.27.3-bookworm
+nginx:1.27.3-alpine3.20-slim
+nginx:1.27.3-alpine3.20-perl
+nginx:1.27.3-alpine3.20-otel
+nginx:1.27.3-alpine3.20
+nginx:1.27.3-alpine-slim
+nginx:1.27.3-alpine-perl
+nginx:1.27.3-alpine-otel
+nginx:1.27.3-alpine
+nginx:1.27.3
+nginx:1.27-perl
+nginx:1.27-otel
+nginx:1.27-bookworm-perl
+nginx:1.27-bookworm-otel
+nginx:1.27-bookworm
+nginx:1.27-alpine3.20-slim
+nginx:1.27-alpine3.20-perl
+nginx:1.27-alpine3.20-otel
+nginx:1.27-alpine3.20
+nginx:1.27-alpine-slim
+nginx:1.27-alpine-perl
+nginx:1.27-alpine-otel
+nginx:1.27-alpine
+nginx:1.27
+nginx:1-perl
+nginx:1-otel
+nginx:1-bookworm-perl
+nginx:1-bookworm-otel
+nginx:1-bookworm
+nginx:1-alpine3.20-slim
+nginx:1-alpine3.20-perl
+nginx:1-alpine3.20-otel
+nginx:1-alpine3.20
+nginx:1-alpine-slim
+nginx:1-alpine-perl
+nginx:1-alpine-otel
+nginx:1-alpine
+nginx:1
 nginx:stable-alpine3.20-perl
 nginx:stable-alpine-perl
 nginx:1.26.2-alpine3.20-perl
 nginx:1.26.2-alpine-perl
 nginx:1.26-alpine3.20-perl
 nginx:1.26-alpine-perl
-nginx:1-alpine3.20-perl
-nginx:1-alpine-perl
-nginx:mainline-alpine3.20-perl
-nginx:mainline-alpine-perl
-nginx:alpine3.20-perl
-nginx:alpine-perl
 nginx:1.27.2-alpine3.20-perl
 nginx:1.27.2-alpine-perl
-nginx:1.27-alpine3.20-perl
-nginx:1.27-alpine-perl
 nginx:stable-perl
 nginx:stable-bookworm-perl
 nginx:stable-alpine3.20-otel
 nginx:stable-alpine3.20
 nginx:stable-alpine-otel
 nginx:stable-alpine
-nginx:perl
-nginx:mainline-perl
-nginx:mainline-bookworm-perl
-nginx:mainline-alpine3.20-otel
-nginx:mainline-alpine3.20
-nginx:mainline-alpine-otel
-nginx:mainline-alpine
-nginx:bookworm-perl
-nginx:alpine3.20-otel
-nginx:alpine3.20
-nginx:alpine-otel
-nginx:alpine
 nginx:1.27.2-perl
 nginx:1.27.2-bookworm-perl
 nginx:1.27.2-alpine3.20-otel
 nginx:1.27.2-alpine3.20
 nginx:1.27.2-alpine-otel
 nginx:1.27.2-alpine
-nginx:1.27-perl
-nginx:1.27-bookworm-perl
-nginx:1.27-alpine3.20-otel
-nginx:1.27-alpine3.20
-nginx:1.27-alpine-otel
-nginx:1.27-alpine
 nginx:1.26.2-perl
 nginx:1.26.2-bookworm-perl
 nginx:1.26.2-alpine3.20-otel
@@ -798,49 +841,6 @@ nginx:1.26-perl
 nginx:1.26-bookworm-perl
 nginx:1.26-alpine3.20-otel
 nginx:1.26-alpine3.20
-nginx:1.26-alpine-otel
-nginx:1.26-alpine
-nginx:1-perl
-nginx:1-bookworm-perl
-nginx:1-alpine3.20-otel
-nginx:1-alpine3.20
-nginx:1-alpine-otel
-nginx:1-alpine
-nginx:stable-otel
-nginx:stable-bookworm-otel
-nginx:otel
-nginx:mainline-otel
-nginx:mainline-bookworm-otel
-nginx:bookworm-otel
-nginx:1.27.2-otel
-nginx:1.27.2-bookworm-otel
-nginx:1.27-otel
-nginx:1.27-bookworm-otel
-nginx:1.26.2-otel
-nginx:1.26.2-bookworm-otel
-nginx:1.26-otel
-nginx:1.26-bookworm-otel
-nginx:1-otel
-nginx:1-bookworm-otel
-nginx:stable-bookworm
-nginx:stable-alpine3.20-slim
-nginx:stable-alpine-slim
-nginx:stable
-nginx:mainline-bookworm
-nginx:mainline-alpine3.20-slim
-nginx:mainline-alpine-slim
-nginx:mainline
-nginx:bookworm
-nginx:alpine3.20-slim
-nginx:alpine-slim
-nginx:1.27.2-bookworm
-nginx:1.27.2-alpine3.20-slim
-nginx:1.27.2-alpine-slim
-nginx:1.27.2
-nginx:1.27-bookworm
-nginx:1.27-alpine3.20-slim
-nginx:1.27-alpine-slim
-nginx:1.27
 ```
 </details>
 
@@ -4125,6 +4125,25 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:bookworm
+haproxy:alpine3.20
+haproxy:alpine
+haproxy:3.2-dev0-bookworm
+haproxy:3.2-dev0-alpine3.20
+haproxy:3.2-dev0-alpine
+haproxy:3.2-dev0
+haproxy:3.2-dev-bookworm
+haproxy:3.2-dev-alpine3.20
+haproxy:3.2-dev-alpine
+haproxy:3.2-dev
+haproxy:3.1.0-bookworm
+haproxy:3.1.0-alpine3.20
+haproxy:3.1.0-alpine
+haproxy:3.1.0
+haproxy:3.1-bookworm
+haproxy:3.1-alpine3.20
+haproxy:3.1-alpine
+haproxy:3.1
 haproxy:3.1-dev14-bookworm
 haproxy:3.1-dev14-alpine3.20
 haproxy:3.1-dev14-alpine
@@ -4139,8 +4158,6 @@ haproxy:3.1-dev13-alpine
 haproxy:3.1-dev13
 haproxy:lts-alpine3.20
 haproxy:lts-alpine
-haproxy:alpine3.20
-haproxy:alpine
 haproxy:3.1-dev12-alpine3.20
 haproxy:3.1-dev12-alpine
 haproxy:3.0.6-alpine3.20
@@ -4165,7 +4182,6 @@ haproxy:2.4-alpine3.20
 haproxy:2.4-alpine
 haproxy:lts-bookworm
 haproxy:lts
-haproxy:bookworm
 haproxy:3.1-dev12-bookworm
 haproxy:3.1-dev12
 haproxy:3.0.6-bookworm
@@ -4208,22 +4224,6 @@ haproxy:2.6.19-bookworm
 haproxy:2.6.19
 haproxy:2.4.27-bookworm
 haproxy:2.4.27
-haproxy:3.1-dev10-alpine3.20
-haproxy:3.1-dev10-alpine
-haproxy:3.1-dev9-bookworm
-haproxy:3.1-dev9-alpine3.20
-haproxy:3.1-dev9-alpine
-haproxy:3.1-dev9
-haproxy:3.1-dev8-bookworm
-haproxy:3.1-dev8
-haproxy:3.1-dev8-alpine3.20
-haproxy:3.1-dev8-alpine
-haproxy:3.0.5-alpine3.20
-haproxy:3.0.5-alpine
-haproxy:2.9.11-alpine3.20
-haproxy:2.9.11-alpine
-haproxy:2.8.11-alpine3.20
-haproxy:2.8.11-alpine
 ```
 </details>
 
@@ -4343,6 +4343,14 @@ memcached:1.6.16-alpine
 
 ```sh
 rabbitmq:latest
+rabbitmq:4.1.0-beta.2-management-alpine
+rabbitmq:4.1.0-beta.2-management
+rabbitmq:4.1.0-beta.2-alpine
+rabbitmq:4.1.0-beta.2
+rabbitmq:4.1-rc-management-alpine
+rabbitmq:4.1-rc-management
+rabbitmq:4.1-rc-alpine
+rabbitmq:4.1-rc
 rabbitmq:management-alpine
 rabbitmq:management
 rabbitmq:alpine
@@ -4359,15 +4367,11 @@ rabbitmq:4.0.4
 rabbitmq:4.0
 rabbitmq:4
 rabbitmq:4.1.0-beta.1-management
-rabbitmq:4.1-rc-management
 rabbitmq:4.0.3-management
 rabbitmq:4.0.3
 rabbitmq:4.1.0-beta.1-management-alpine
 rabbitmq:4.1.0-beta.1
-rabbitmq:4.1-rc-management-alpine
-rabbitmq:4.1-rc
 rabbitmq:4.1.0-beta.1-alpine
-rabbitmq:4.1-rc-alpine
 rabbitmq:4.0.3-management-alpine
 rabbitmq:3.13.7-management-alpine
 rabbitmq:3.13-management-alpine
@@ -4438,10 +4442,6 @@ rabbitmq:4.0.0-beta.1-management-alpine
 rabbitmq:4.0.0-beta.1-alpine
 rabbitmq:3.13.5-management-alpine
 rabbitmq:3.13.5-alpine
-rabbitmq:3.13.5-management
-rabbitmq:3.13.5
-rabbitmq:4.0.0-beta.1-management
-rabbitmq:4.0.0-beta.1
 ```
 </details>
 
@@ -4451,13 +4451,13 @@ rabbitmq:4.0.0-beta.1
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:9
 oraclelinux:7.9
 oraclelinux:7-slim-fips
 oraclelinux:7-slim
 oraclelinux:7
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
-oraclelinux:9
 oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
@@ -5029,6 +5029,7 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:8.15.5
 elasticsearch:8.16.1
 elasticsearch:8.15.4
 elasticsearch:8.16.0
@@ -5128,7 +5129,6 @@ elasticsearch:6.8.18
 elasticsearch:7.13.4
 elasticsearch:7.13.3
 elasticsearch:6.8.17
-elasticsearch:7.13.2
 ```
 </details>
 
@@ -5603,6 +5603,7 @@ aerospike:ce-6.4.0.3
 <summary> logstash </summary>
 
 ```sh
+logstash:8.15.5
 logstash:8.16.1
 logstash:8.15.4
 logstash:8.16.0
@@ -5702,7 +5703,6 @@ logstash:6.8.18
 logstash:7.13.4
 logstash:7.13.3
 logstash:6.8.17
-logstash:7.13.2
 ```
 </details>
 
@@ -6541,6 +6541,7 @@ ros:ardent
 <summary> kibana </summary>
 
 ```sh
+kibana:8.15.5
 kibana:8.16.1
 kibana:8.15.4
 kibana:8.16.0
@@ -6640,7 +6641,6 @@ kibana:6.8.18
 kibana:7.13.4
 kibana:7.13.3
 kibana:6.8.17
-kibana:7.13.2
 ```
 </details>
 
