@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed Nov 27 04:52:04 UTC 2024
+Actualizado: Thu Nov 28 04:52:08 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -4451,6 +4451,8 @@ rabbitmq:3.13.5-alpine
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:8.10
+oraclelinux:8
 oraclelinux:9
 oraclelinux:7.9
 oraclelinux:7-slim-fips
@@ -4458,10 +4460,8 @@ oraclelinux:7-slim
 oraclelinux:7
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
-oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
-oraclelinux:8
 oraclelinux:8.9
 oraclelinux:8.8
 oraclelinux:8.7
@@ -5713,6 +5713,18 @@ logstash:6.8.17
 
 ```sh
 julia:latest
+julia:1.10.7-windowsservercore-ltsc2022
+julia:1.10.7-windowsservercore-1809
+julia:1.10.7-windowsservercore
+julia:1.10.7-bullseye
+julia:1.10.7-bookworm
+julia:1.10.7
+julia:1.10-windowsservercore-ltsc2022
+julia:1.10-windowsservercore-1809
+julia:1.10-windowsservercore
+julia:1.10-bullseye
+julia:1.10-bookworm
+julia:1.10
 julia:windowsservercore-ltsc2022
 julia:windowsservercore-1809
 julia:windowsservercore
@@ -5728,10 +5740,6 @@ julia:1.10.6-windowsservercore-ltsc2022
 julia:1.10.6-windowsservercore-1809
 julia:1.10.6-windowsservercore
 julia:1.10.6
-julia:1.10-windowsservercore-ltsc2022
-julia:1.10-windowsservercore-1809
-julia:1.10-windowsservercore
-julia:1.10
 julia:1-windowsservercore-ltsc2022
 julia:1-windowsservercore-1809
 julia:1-windowsservercore
@@ -5747,8 +5755,6 @@ julia:1.10.6-bookworm
 julia:1.10.6-alpine3.20
 julia:1.10.6-alpine3.19
 julia:1.10.6-alpine
-julia:1.10-bullseye
-julia:1.10-bookworm
 julia:1.10-alpine3.20
 julia:1.10-alpine3.19
 julia:1.10-alpine
@@ -5806,12 +5812,6 @@ julia:1.6.7-alpine
 julia:1.6-alpine3.20
 julia:1.6-alpine3.19
 julia:1.6-alpine
-julia:1.11.0-rc3-bullseye
-julia:1.11.0-rc3-bookworm
-julia:1.11.0-rc2-windowsservercore-ltsc2022
-julia:1.11.0-rc2-windowsservercore-1809
-julia:1.11.0-rc2-windowsservercore
-julia:1.11.0-rc2
 ```
 </details>
 
@@ -8559,10 +8559,12 @@ lightstreamer:7.4.1-jdk11-temurin
 
 ```sh
 orientdb:latest
-orientdb:3.2.35-tp3
-orientdb:3.2.35
+orientdb:3.2.36-tp3
+orientdb:3.2.36
 orientdb:3.2-tp3
 orientdb:3.2
+orientdb:3.2.35-tp3
+orientdb:3.2.35
 orientdb:3.1.20-tp3
 orientdb:3.1.20
 orientdb:3.1-tp3
@@ -8656,8 +8658,6 @@ orientdb:3.0.40-tp3
 orientdb:3.0.40
 orientdb:3.2.2-tp3
 orientdb:3.2.2
-orientdb:3.1.14-tp3
-orientdb:3.1.14
 ```
 </details>
 
