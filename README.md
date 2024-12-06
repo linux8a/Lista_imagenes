@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Dec  5 04:51:37 UTC 2024
+Actualizado: Fri Dec  6 04:51:29 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1513,6 +1513,14 @@ mongo:7.0.16-rc1-nanoserver-1809
 mongo:7.0.16-rc1-nanoserver
 mongo:7.0.16-rc1-jammy
 mongo:7.0.16-rc1
+mongo:7.0-rc-windowsservercore-ltsc2022
+mongo:7.0-rc-windowsservercore-1809
+mongo:7.0-rc-windowsservercore
+mongo:7.0-rc-nanoserver-ltsc2022
+mongo:7.0-rc-nanoserver-1809
+mongo:7.0-rc-nanoserver
+mongo:7.0-rc-jammy
+mongo:7.0-rc
 mongo:noble
 mongo:8.0.4-rc0-noble
 mongo:8.0.4-rc0
@@ -1596,14 +1604,6 @@ mongo:6.0-nanoserver-1809
 mongo:6.0-nanoserver
 mongo:6.0
 mongo:6-windowsservercore-ltsc2022
-mongo:6-windowsservercore-1809
-mongo:6-windowsservercore
-mongo:6-nanoserver-ltsc2022
-mongo:6-nanoserver-1809
-mongo:6-nanoserver
-mongo:6
-mongo:5.0.30-windowsservercore-ltsc2022
-mongo:5.0.30-windowsservercore-1809
 ```
 </details>
 
@@ -4235,20 +4235,24 @@ haproxy:2.4.27
 ```sh
 memcached:latest
 memcached:bookworm
-memcached:1.6.32-bookworm
-memcached:1.6.32
-memcached:1.6-bookworm
-memcached:1.6
-memcached:1-bookworm
-memcached:1
 memcached:alpine3.20
 memcached:alpine
-memcached:1.6.32-alpine3.20
-memcached:1.6.32-alpine
+memcached:1.6.33-bookworm
+memcached:1.6.33-alpine3.20
+memcached:1.6.33-alpine
+memcached:1.6.33
+memcached:1.6-bookworm
 memcached:1.6-alpine3.20
 memcached:1.6-alpine
+memcached:1.6
+memcached:1-bookworm
 memcached:1-alpine3.20
 memcached:1-alpine
+memcached:1
+memcached:1.6.32-bookworm
+memcached:1.6.32
+memcached:1.6.32-alpine3.20
+memcached:1.6.32-alpine
 memcached:1.6.31-bookworm
 memcached:1.6.31
 memcached:1.6.31-alpine3.20
@@ -4329,10 +4333,6 @@ memcached:alpine3.16
 memcached:1.6.17-alpine3.16
 memcached:1.6-alpine3.16
 memcached:1-alpine3.16
-memcached:1.6.16-bullseye
-memcached:1.6.16
-memcached:1.6.16-alpine3.16
-memcached:1.6.16-alpine
 ```
 </details>
 
@@ -5823,6 +5823,10 @@ julia:1.11-rc-windowsservercore-ltsc2022
 ```sh
 alpine:latest
 alpine:edge
+alpine:3.21.0
+alpine:3.21
+alpine:3
+alpine:20240923
 alpine:3.20.3
 alpine:3.20
 alpine:3.19.4
@@ -5831,7 +5835,6 @@ alpine:3.18.9
 alpine:3.18
 alpine:3.17.10
 alpine:3.17
-alpine:3
 alpine:20240807
 alpine:3.20.2
 alpine:3.19.3
@@ -5918,9 +5921,6 @@ alpine:3.13.7
 alpine:3.12.9
 alpine:3.11.13
 alpine:3.11
-alpine:20210804
-alpine:3.13.6
-alpine:3.12.8
 ```
 </details>
 
@@ -5931,10 +5931,10 @@ alpine:3.12.8
 
 ```sh
 rakudo-star:latest
-rakudo-star:bookworm
-rakudo-star:2024.10
 rakudo-star:alpine
 rakudo-star:2024.10-alpine
+rakudo-star:bookworm
+rakudo-star:2024.10
 rakudo-star:2024.09
 rakudo-star:2024.09-alpine
 rakudo-star:2024.08
@@ -7374,13 +7374,10 @@ rocket.chat:3.18.5
 
 ```sh
 docker:latest
-docker:rc-windowsservercore-ltsc2022
-docker:rc-windowsservercore-1809
-docker:rc-windowsservercore
+docker:rc-dind-rootless
+docker:rc-dind
 docker:rc-cli
-docker:27.4.0-rc.4-windowsservercore-ltsc2022
-docker:27.4.0-rc.4-windowsservercore-1809
-docker:27.4.0-rc.4-windowsservercore
+docker:rc
 docker:27.4.0-rc.4-dind-rootless
 docker:27.4.0-rc.4-dind-alpine3.20
 docker:27.4.0-rc.4-dind
@@ -7388,12 +7385,19 @@ docker:27.4.0-rc.4-cli-alpine3.20
 docker:27.4.0-rc.4-cli
 docker:27.4.0-rc.4-alpine3.20
 docker:27.4.0-rc.4
+docker:27-rc-dind-rootless
+docker:27-rc-dind
+docker:27-rc-cli
+docker:27-rc
+docker:rc-windowsservercore-ltsc2022
+docker:rc-windowsservercore-1809
+docker:rc-windowsservercore
+docker:27.4.0-rc.4-windowsservercore-ltsc2022
+docker:27.4.0-rc.4-windowsservercore-1809
+docker:27.4.0-rc.4-windowsservercore
 docker:27-rc-windowsservercore-ltsc2022
 docker:27-rc-windowsservercore-1809
 docker:27-rc-windowsservercore
-docker:27-rc-cli
-docker:rc-dind
-docker:rc
 docker:dind
 docker:27.4.0-rc.3-dind-alpine3.20
 docker:27.4.0-rc.3-dind
@@ -7405,11 +7409,8 @@ docker:27.3.1-alpine3.20
 docker:27.3.1
 docker:27.3-dind
 docker:27.3
-docker:27-rc-dind
-docker:27-rc
 docker:27-dind
 docker:27
-docker:rc-dind-rootless
 docker:dind-rootless
 docker:cli
 docker:27.4.0-rc.3-dind-rootless
@@ -7420,7 +7421,6 @@ docker:27.3.1-cli-alpine3.20
 docker:27.3.1-cli
 docker:27.3-dind-rootless
 docker:27.3-cli
-docker:27-rc-dind-rootless
 docker:27-dind-rootless
 docker:27-cli
 docker:windowsservercore-ltsc2022
