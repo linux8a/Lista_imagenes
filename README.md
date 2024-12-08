@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Dec  7 04:50:35 UTC 2024
+Actualizado: Sun Dec  8 04:50:36 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1648,12 +1648,18 @@ rails:4.2.1
 
 ```sh
 ruby:latest
-ruby:3.4.0-preview2-alpine3.21
-ruby:3.4.0-preview2-alpine3.20
-ruby:3.4.0-preview2-alpine
-ruby:3.4-rc-alpine3.21
-ruby:3.4-rc-alpine3.20
-ruby:3.4-rc-alpine
+ruby:3.1.6-alpine3.20
+ruby:3.1-alpine3.20
+ruby:3.2.6-alpine3.21
+ruby:3.2.6-alpine3.20
+ruby:3.2.6-alpine
+ruby:3.2-alpine3.21
+ruby:3.2-alpine3.20
+ruby:3.2-alpine
+ruby:3.1.6-alpine3.21
+ruby:3.1.6-alpine
+ruby:3.1-alpine3.21
+ruby:3.1-alpine
 ruby:alpine3.21
 ruby:alpine3.20
 ruby:alpine
@@ -1663,21 +1669,15 @@ ruby:3.3.6-alpine
 ruby:3.3-alpine3.21
 ruby:3.3-alpine3.20
 ruby:3.3-alpine
-ruby:3.2.6-alpine3.21
-ruby:3.2.6-alpine3.20
-ruby:3.2.6-alpine
-ruby:3.2-alpine3.21
-ruby:3.2-alpine3.20
-ruby:3.2-alpine
-ruby:3.1.6-alpine3.21
-ruby:3.1.6-alpine3.20
-ruby:3.1.6-alpine
-ruby:3.1-alpine3.21
-ruby:3.1-alpine3.20
-ruby:3.1-alpine
 ruby:3-alpine3.21
 ruby:3-alpine3.20
 ruby:3-alpine
+ruby:3.4.0-preview2-alpine3.21
+ruby:3.4.0-preview2-alpine3.20
+ruby:3.4.0-preview2-alpine
+ruby:3.4-rc-alpine3.21
+ruby:3.4-rc-alpine3.20
+ruby:3.4-rc-alpine
 ruby:bookworm
 ruby:3.4.0-preview2-bookworm
 ruby:3.4.0-preview2
@@ -7047,14 +7047,6 @@ joomla:5.2.rc-php8.2-apache
 
 ```sh
 redmine:latest
-redmine:alpine3.20
-redmine:alpine
-redmine:6.0.1-alpine3.20
-redmine:6.0.1-alpine
-redmine:6.0-alpine3.20
-redmine:6.0-alpine
-redmine:6-alpine3.20
-redmine:6-alpine
 redmine:5.1.4-alpine3.20
 redmine:5.1.4-alpine
 redmine:5.1-alpine3.20
@@ -7065,6 +7057,14 @@ redmine:5.0-alpine3.20
 redmine:5.0-alpine
 redmine:5-alpine3.20
 redmine:5-alpine
+redmine:alpine3.20
+redmine:alpine
+redmine:6.0.1-alpine3.20
+redmine:6.0.1-alpine
+redmine:6.0-alpine3.20
+redmine:6.0-alpine
+redmine:6-alpine3.20
+redmine:6-alpine
 redmine:5.1.4-bookworm
 redmine:5.1.4
 redmine:5.1-bookworm
