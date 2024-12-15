@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Dec 14 04:50:06 UTC 2024
+Actualizado: Sun Dec 15 04:50:26 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -4344,44 +4344,44 @@ memcached:1.6.17-alpine
 ```sh
 rabbitmq:latest
 rabbitmq:management-alpine
-rabbitmq:management
 rabbitmq:4.1.0-beta.3-management-alpine
 rabbitmq:4.1-rc-management-alpine
 rabbitmq:4.0.4-management-alpine
-rabbitmq:4.0.4-management
 rabbitmq:4.0-management-alpine
-rabbitmq:4.0-management
 rabbitmq:4-management-alpine
-rabbitmq:4-management
-rabbitmq:4.1.0-beta.3-management
-rabbitmq:4.1-rc-management
+rabbitmq:3.13.7-management-alpine
+rabbitmq:3.13.7-management
+rabbitmq:3.13.7-alpine
+rabbitmq:3.13.7
+rabbitmq:3.13-management-alpine
+rabbitmq:3.13-management
+rabbitmq:3.13-alpine
+rabbitmq:3.13
+rabbitmq:3-management-alpine
+rabbitmq:3-management
+rabbitmq:3-alpine
+rabbitmq:3
 rabbitmq:alpine
 rabbitmq:4.1.0-beta.3-alpine
 rabbitmq:4.1-rc-alpine
 rabbitmq:4.0.4-alpine
-rabbitmq:4.0.4
 rabbitmq:4.0-alpine
-rabbitmq:4.0
 rabbitmq:4-alpine
+rabbitmq:management
+rabbitmq:4.0.4-management
+rabbitmq:4.0-management
+rabbitmq:4-management
+rabbitmq:4.1.0-beta.3-management
+rabbitmq:4.1-rc-management
+rabbitmq:4.0.4
+rabbitmq:4.0
 rabbitmq:4
 rabbitmq:4.1.0-beta.3
 rabbitmq:4.1-rc
 rabbitmq:4.1.0-beta.2-management-alpine
 rabbitmq:4.1.0-beta.2-management
-rabbitmq:3.13.7-management-alpine
-rabbitmq:3.13.7-management
-rabbitmq:3.13.7-alpine
-rabbitmq:3.13-management-alpine
-rabbitmq:3.13-management
-rabbitmq:3.13-alpine
-rabbitmq:3-management-alpine
-rabbitmq:3-management
-rabbitmq:3-alpine
 rabbitmq:4.1.0-beta.2-alpine
 rabbitmq:4.1.0-beta.2
-rabbitmq:3.13.7
-rabbitmq:3.13
-rabbitmq:3
 rabbitmq:4.1.0-beta.1-management
 rabbitmq:4.0.3-management
 rabbitmq:4.0.3
@@ -6003,10 +6003,6 @@ rakudo-star:2015.03
 <summary> drupal </summary>
 
 ```sh
-drupal:php8.3-fpm-alpine3.21
-drupal:php8.3-fpm-alpine
-drupal:fpm-alpine3.21
-drupal:fpm-alpine
 drupal:7.103-php8.2-fpm-alpine3.21
 drupal:7.103-php8.2-fpm-alpine
 drupal:7.103-php8.1-fpm-alpine3.21
@@ -6019,6 +6015,22 @@ drupal:7-php8.1-fpm-alpine3.21
 drupal:7-php8.1-fpm-alpine
 drupal:7-fpm-alpine3.21
 drupal:7-fpm-alpine
+drupal:10.2.12-php8.3-fpm-alpine3.21
+drupal:10.2.12-php8.3-fpm-alpine
+drupal:10.2.12-php8.2-fpm-alpine3.21
+drupal:10.2.12-php8.2-fpm-alpine
+drupal:10.2.12-fpm-alpine3.21
+drupal:10.2.12-fpm-alpine
+drupal:10.2-php8.3-fpm-alpine3.21
+drupal:10.2-php8.3-fpm-alpine
+drupal:10.2-php8.2-fpm-alpine3.21
+drupal:10.2-php8.2-fpm-alpine
+drupal:10.2-fpm-alpine3.21
+drupal:10.2-fpm-alpine
+drupal:php8.3-fpm-alpine3.21
+drupal:php8.3-fpm-alpine
+drupal:fpm-alpine3.21
+drupal:fpm-alpine
 drupal:11.1.0-rc1-php8.3-fpm-bullseye
 drupal:11.1.0-rc1-php8.3-fpm-bookworm
 drupal:11.1.0-rc1-php8.3-fpm-alpine3.21
@@ -6091,18 +6103,6 @@ drupal:10.4.0-rc1-apache-bullseye
 drupal:10.4.0-rc1-apache-bookworm
 drupal:10.4.0-rc1-apache
 drupal:10.4.0-rc1
-drupal:10.4-rc-php8.3-fpm-bullseye
-drupal:10.4-rc-php8.3-fpm-bookworm
-drupal:10.4-rc-php8.3-fpm-alpine3.21
-drupal:10.4-rc-php8.3-fpm-alpine3.20
-drupal:10.4-rc-php8.3-fpm-alpine
-drupal:10.4-rc-php8.3-fpm
-drupal:10.4-rc-php8.3-apache-bullseye
-drupal:10.4-rc-php8.3-apache-bookworm
-drupal:10.4-rc-php8.3-apache
-drupal:10.4-rc-php8.3
-drupal:10.4-rc-fpm-bullseye
-drupal:10.4-rc-fpm-bookworm
 ```
 </details>
 
@@ -7381,6 +7381,19 @@ rocket.chat:3.18.5
 
 ```sh
 docker:latest
+docker:dind-rootless
+docker:dind
+docker:27.4.0-dind-rootless
+docker:27.4.0-dind-alpine3.21
+docker:27.4.0-dind
+docker:27.4.0-alpine3.21
+docker:27.4.0
+docker:27.4-dind-rootless
+docker:27.4-dind
+docker:27.4
+docker:27-dind-rootless
+docker:27-dind
+docker:27
 docker:windowsservercore-ltsc2022
 docker:windowsservercore-1809
 docker:windowsservercore
@@ -7398,19 +7411,6 @@ docker:27-windowsservercore-ltsc2022
 docker:27-windowsservercore-1809
 docker:27-windowsservercore
 docker:27-cli
-docker:dind
-docker:27.4.0-dind-alpine3.21
-docker:27.4.0-dind
-docker:27.4.0-alpine3.21
-docker:27.4.0
-docker:27.4-dind
-docker:27.4
-docker:27-dind
-docker:27
-docker:dind-rootless
-docker:27.4.0-dind-rootless
-docker:27.4-dind-rootless
-docker:27-dind-rootless
 docker:rc-dind-rootless
 docker:rc-dind
 docker:rc-cli
