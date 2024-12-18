@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Dec 17 04:51:04 UTC 2024
+Actualizado: Wed Dec 18 04:50:07 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -5036,6 +5036,8 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:8.17.0
+elasticsearch:8.16.2
 elasticsearch:7.17.26
 elasticsearch:8.15.5
 elasticsearch:8.16.1
@@ -5134,8 +5136,6 @@ elasticsearch:6.8.19
 elasticsearch:7.14.1
 elasticsearch:7.14.0
 elasticsearch:6.8.18
-elasticsearch:7.13.4
-elasticsearch:7.13.3
 ```
 </details>
 
@@ -5610,6 +5610,8 @@ aerospike:ce-6.4.0.3
 <summary> logstash </summary>
 
 ```sh
+logstash:8.17.0
+logstash:8.16.2
 logstash:7.17.26
 logstash:8.15.5
 logstash:8.16.1
@@ -5708,8 +5710,6 @@ logstash:6.8.19
 logstash:7.14.1
 logstash:7.14.0
 logstash:6.8.18
-logstash:7.13.4
-logstash:7.13.3
 ```
 </details>
 
@@ -5938,9 +5938,11 @@ alpine:3.11
 
 ```sh
 rakudo-star:latest
-rakudo-star:alpine
-rakudo-star:2024.10-alpine
 rakudo-star:bookworm
+rakudo-star:alpine
+rakudo-star:2024.12-alpine
+rakudo-star:2024.12
+rakudo-star:2024.10-alpine
 rakudo-star:2024.10
 rakudo-star:2024.09
 rakudo-star:2024.09-alpine
@@ -6222,16 +6224,28 @@ cassandra:2.2.19
 
 ```sh
 sonarqube:latest
+sonarqube:enterprise
+sonarqube:developer
+sonarqube:datacenter-search
+sonarqube:datacenter-app
+sonarqube:10.8.1-enterprise
+sonarqube:10.8.1-developer
+sonarqube:10.8.1-datacenter-search
+sonarqube:10.8.1-datacenter-app
+sonarqube:10.8-enterprise
+sonarqube:10.8-developer
+sonarqube:10.8-datacenter-search
+sonarqube:10.8-datacenter-app
+sonarqube:10-enterprise
+sonarqube:10-developer
+sonarqube:10-datacenter-search
+sonarqube:10-datacenter-app
 sonarqube:lts-enterprise
 sonarqube:lts-developer
 sonarqube:lts-datacenter-search
 sonarqube:lts-datacenter-app
 sonarqube:lts-community
 sonarqube:lts
-sonarqube:enterprise
-sonarqube:developer
-sonarqube:datacenter-search
-sonarqube:datacenter-app
 sonarqube:community
 sonarqube:9.9.8-enterprise
 sonarqube:9.9.8-developer
@@ -6253,14 +6267,6 @@ sonarqube:10.8.0-enterprise
 sonarqube:10.8.0-developer
 sonarqube:10.8.0-datacenter-search
 sonarqube:10.8.0-datacenter-app
-sonarqube:10.8-enterprise
-sonarqube:10.8-developer
-sonarqube:10.8-datacenter-search
-sonarqube:10.8-datacenter-app
-sonarqube:10-enterprise
-sonarqube:10-developer
-sonarqube:10-datacenter-search
-sonarqube:10-datacenter-app
 sonarqube:9.9.7-enterprise
 sonarqube:9.9.7-developer
 sonarqube:9.9.7-datacenter-search
@@ -6317,10 +6323,6 @@ sonarqube:10.5.0-developer
 sonarqube:10.5.0-datacenter-search
 sonarqube:10.5.0-datacenter-app
 sonarqube:10.5.0-community
-sonarqube:10.4.1-enterprise
-sonarqube:10.4.1-developer
-sonarqube:10.4.1-datacenter-search
-sonarqube:10.4.1-datacenter-app
 ```
 </details>
 
@@ -6548,6 +6550,8 @@ ros:ardent
 <summary> kibana </summary>
 
 ```sh
+kibana:8.17.0
+kibana:8.16.2
 kibana:7.17.26
 kibana:8.15.5
 kibana:8.16.1
@@ -6646,8 +6650,6 @@ kibana:6.8.19
 kibana:7.14.1
 kibana:7.14.0
 kibana:6.8.18
-kibana:7.13.4
-kibana:7.13.3
 ```
 </details>
 
@@ -7054,41 +7056,58 @@ joomla:5.2.rc-php8.2-apache
 
 ```sh
 redmine:latest
-redmine:5.0.10-alpine3.20
-redmine:5.0.10-alpine
-redmine:5.0-alpine3.20
-redmine:5.0-alpine
+redmine:bookworm
+redmine:alpine3.21
 redmine:alpine3.20
 redmine:alpine
-redmine:6.0.1-alpine3.20
-redmine:6.0.1-alpine
+redmine:6.0.2-bookworm
+redmine:6.0.2-alpine3.21
+redmine:6.0.2-alpine3.20
+redmine:6.0.2-alpine
+redmine:6.0.2
+redmine:6.0-bookworm
+redmine:6.0-alpine3.21
 redmine:6.0-alpine3.20
 redmine:6.0-alpine
-redmine:6-alpine3.20
-redmine:6-alpine
-redmine:5.1.4-alpine3.20
-redmine:5.1.4-alpine
-redmine:5.1-alpine3.20
-redmine:5.1-alpine
-redmine:5-alpine3.20
-redmine:5-alpine
-redmine:bookworm
-redmine:6.0.1-bookworm
-redmine:6.0.1
-redmine:6.0-bookworm
 redmine:6.0
 redmine:6-bookworm
+redmine:6-alpine3.21
+redmine:6-alpine3.20
+redmine:6-alpine
 redmine:6
+redmine:5.1.5-bookworm
+redmine:5.1.5-alpine3.21
+redmine:5.1.5-alpine3.20
+redmine:5.1.5-alpine
+redmine:5.1.5
+redmine:5.1-bookworm
+redmine:5.1-alpine3.21
+redmine:5.1-alpine3.20
+redmine:5.1-alpine
+redmine:5.1
 redmine:5.0.10-bookworm
+redmine:5.0.10-alpine3.21
+redmine:5.0.10-alpine3.20
+redmine:5.0.10-alpine
 redmine:5.0.10
 redmine:5.0-bookworm
+redmine:5.0-alpine3.21
+redmine:5.0-alpine3.20
+redmine:5.0-alpine
 redmine:5.0
+redmine:5-bookworm
+redmine:5-alpine3.21
+redmine:5-alpine3.20
+redmine:5-alpine
+redmine:5
+redmine:6.0.1-alpine3.20
+redmine:6.0.1-alpine
+redmine:5.1.4-alpine3.20
+redmine:5.1.4-alpine
+redmine:6.0.1-bookworm
+redmine:6.0.1
 redmine:5.1.4-bookworm
 redmine:5.1.4
-redmine:5.1-bookworm
-redmine:5.1
-redmine:5-bookworm
-redmine:5
 redmine:alpine3.19
 redmine:6.0.1-alpine3.19
 redmine:6.0-alpine3.19
@@ -7136,23 +7155,6 @@ redmine:5.1.0-bookworm
 redmine:5.1.0
 redmine:5.0.6-bookworm
 redmine:5.0.6
-redmine:5.1.0-alpine3.18
-redmine:5.1.0-alpine
-redmine:5.0.6-alpine3.18
-redmine:5.0.6-alpine
-redmine:5.0.5-alpine3.18
-redmine:5.0.5-alpine
-redmine:5.0.5-bookworm
-redmine:5.0.5
-redmine:bullseye
-redmine:5.0.5-bullseye
-redmine:5.0-bullseye
-redmine:5-bullseye
-redmine:alpine3.16
-redmine:5.0.5-alpine3.16
-redmine:5.0-alpine3.16
-redmine:5-alpine3.16
-redmine:4.2.10-bullseye
 ```
 </details>
 
@@ -7163,41 +7165,50 @@ redmine:4.2.10-bullseye
 
 ```sh
 nats:latest
-nats:nanoserver-1809
-nats:nanoserver
-nats:2.10.23-nanoserver-1809
-nats:2.10.23-nanoserver
-nats:2.10.23
-nats:2.10-nanoserver-1809
-nats:2.10-nanoserver
+nats:scratch
+nats:linux
+nats:2.10.24-scratch
+nats:2.10.24-linux
+nats:2.10.24
+nats:2.10-scratch
+nats:2.10-linux
 nats:2.10
-nats:2-nanoserver-1809
-nats:2-nanoserver
+nats:2-scratch
+nats:2-linux
 nats:2
 nats:windowsservercore-1809
 nats:windowsservercore
-nats:2.10.23-windowsservercore-1809
-nats:2.10.23-windowsservercore
-nats:2.10-windowsservercore-1809
-nats:2.10-windowsservercore
-nats:2-windowsservercore-1809
-nats:2-windowsservercore
-nats:scratch
-nats:linux
+nats:nanoserver-1809
+nats:nanoserver
 nats:alpine3.21
 nats:alpine
+nats:2.10.24-windowsservercore-1809
+nats:2.10.24-windowsservercore
+nats:2.10.24-nanoserver-1809
+nats:2.10.24-nanoserver
+nats:2.10.24-alpine3.21
+nats:2.10.24-alpine
+nats:2.10-windowsservercore-1809
+nats:2.10-windowsservercore
+nats:2.10-nanoserver-1809
+nats:2.10-nanoserver
+nats:2.10-alpine3.21
+nats:2.10-alpine
+nats:2-windowsservercore-1809
+nats:2-windowsservercore
+nats:2-nanoserver-1809
+nats:2-nanoserver
+nats:2-alpine3.21
+nats:2-alpine
+nats:2.10.23-nanoserver-1809
+nats:2.10.23-nanoserver
+nats:2.10.23
+nats:2.10.23-windowsservercore-1809
+nats:2.10.23-windowsservercore
 nats:2.10.23-scratch
 nats:2.10.23-linux
 nats:2.10.23-alpine3.21
 nats:2.10.23-alpine
-nats:2.10-scratch
-nats:2.10-linux
-nats:2.10-alpine3.21
-nats:2.10-alpine
-nats:2-scratch
-nats:2-linux
-nats:2-alpine3.21
-nats:2-alpine
 nats:2.10.22-nanoserver-1809
 nats:2.10.22-nanoserver
 nats:2.10.22
@@ -7253,15 +7264,6 @@ nats:2.10.19-scratch
 nats:2.10.19-nanoserver-1809
 nats:2.10.19-nanoserver
 nats:2.10.19-linux
-nats:2.10.19-alpine3.20
-nats:2.10.19-alpine
-nats:2.10.18-windowsservercore-1809
-nats:2.10.18-windowsservercore
-nats:2.10.18-nanoserver-1809
-nats:2.10.18-nanoserver
-nats:2.10.18
-nats:2.10.18-alpine3.20
-nats:2.10.18-alpine
 ```
 </details>
 
