@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed Dec 18 04:50:07 UTC 2024
+Actualizado: Thu Dec 19 04:50:10 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1757,6 +1757,30 @@ ruby:alpine3.19
 
 ```sh
 python:latest
+python:3.14.0a3-windowsservercore-1809
+python:3.14.0a3-windowsservercore
+python:3.14.0a3-slim-bullseye
+python:3.14.0a3-slim-bookworm
+python:3.14.0a3-slim
+python:3.14.0a3-bullseye
+python:3.14.0a3-alpine3.21
+python:3.14.0a3-alpine3.20
+python:3.14.0a3-alpine
+python:3.14.0a3
+python:3.14-rc-windowsservercore-1809
+python:3.14-rc-windowsservercore
+python:3.14-rc-slim-bullseye
+python:3.14-rc-slim-bookworm
+python:3.14-rc-slim
+python:3.14-rc-bullseye
+python:3.14-rc-alpine3.21
+python:3.14-rc-alpine3.20
+python:3.14-rc-alpine
+python:3.14-rc
+python:3.14.0a3-windowsservercore-ltsc2022
+python:3.14.0a3-bookworm
+python:3.14-rc-windowsservercore-ltsc2022
+python:3.14-rc-bookworm
 python:windowsservercore-ltsc2022
 python:windowsservercore-1809
 python:windowsservercore
@@ -1764,10 +1788,6 @@ python:3.14.0a2-windowsservercore-ltsc2022
 python:3.14.0a2-windowsservercore-1809
 python:3.14.0a2-windowsservercore
 python:3.14.0a2
-python:3.14-rc-windowsservercore-ltsc2022
-python:3.14-rc-windowsservercore-1809
-python:3.14-rc-windowsservercore
-python:3.14-rc
 python:3.13.1-windowsservercore-ltsc2022
 python:3.13.1-windowsservercore-1809
 python:3.13.1-windowsservercore
@@ -1800,8 +1820,6 @@ python:alpine3.21
 python:alpine
 python:3.14.0a2-alpine3.21
 python:3.14.0a2-alpine
-python:3.14-rc-alpine3.21
-python:3.14-rc-alpine
 python:3.13.1-alpine3.21
 python:3.13.1-alpine
 python:3.13-alpine3.21
@@ -1838,24 +1856,6 @@ python:3.11.11-slim
 python:3.11.11-bullseye
 python:3.11.11-bookworm
 python:3.11.11-alpine3.20
-python:3.11.11-alpine3.19
-python:3.11.11
-python:3.11-slim-bullseye
-python:3.11-slim-bookworm
-python:3.11-slim
-python:3.11-bullseye
-python:3.11-bookworm
-python:3.11-alpine3.20
-python:3.11-alpine3.19
-python:3.11
-python:3.10.16-slim-bullseye
-python:3.10.16-slim-bookworm
-python:3.10.16-slim
-python:3.10.16-bullseye
-python:3.10.16-bookworm
-python:3.10.16-alpine3.20
-python:3.10.16-alpine3.19
-python:3.10.16
 ```
 </details>
 
