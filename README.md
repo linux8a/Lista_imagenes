@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Dec 23 04:50:09 UTC 2024
+Actualizado: Tue Dec 24 04:50:00 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
@@ -1506,6 +1506,46 @@ java:openjdk-8u102-jdk
 
 ```sh
 mongo:latest
+mongo:5.0.31-rc0-nanoserver-ltsc2022
+mongo:5.0.31-rc0-nanoserver
+mongo:5.0-rc-nanoserver-ltsc2022
+mongo:5.0-rc-nanoserver
+mongo:7.0.16-windowsservercore-ltsc2022
+mongo:7.0.16-windowsservercore-1809
+mongo:7.0.16-windowsservercore
+mongo:7.0.16-nanoserver-ltsc2022
+mongo:7.0.16-nanoserver-1809
+mongo:7.0.16-nanoserver
+mongo:7.0.16-jammy
+mongo:7.0.16
+mongo:7.0-windowsservercore-ltsc2022
+mongo:7.0-windowsservercore-1809
+mongo:7.0-windowsservercore
+mongo:7.0-nanoserver-ltsc2022
+mongo:7.0-nanoserver-1809
+mongo:7.0-nanoserver
+mongo:7.0-jammy
+mongo:7.0
+mongo:7-windowsservercore-ltsc2022
+mongo:7-windowsservercore-1809
+mongo:7-windowsservercore
+mongo:7-nanoserver-ltsc2022
+mongo:7-nanoserver-1809
+mongo:7-nanoserver
+mongo:7-jammy
+mongo:7
+mongo:5.0.31-rc0-windowsservercore-ltsc2022
+mongo:5.0.31-rc0-windowsservercore-1809
+mongo:5.0.31-rc0-windowsservercore
+mongo:5.0.31-rc0-nanoserver-1809
+mongo:5.0.31-rc0-focal
+mongo:5.0.31-rc0
+mongo:5.0-rc-windowsservercore-ltsc2022
+mongo:5.0-rc-windowsservercore-1809
+mongo:5.0-rc-windowsservercore
+mongo:5.0-rc-nanoserver-1809
+mongo:5.0-rc-focal
+mongo:5.0-rc
 mongo:6.0.20-rc3-windowsservercore-ltsc2022
 mongo:6.0.20-rc3-windowsservercore-1809
 mongo:6.0.20-rc3-windowsservercore
@@ -1565,46 +1605,6 @@ mongo:7.0.15-windowsservercore
 mongo:7.0.15-nanoserver-ltsc2022
 mongo:7.0.15-nanoserver-1809
 mongo:7.0.15-nanoserver
-mongo:7.0.15
-mongo:7.0-windowsservercore-ltsc2022
-mongo:7.0-windowsservercore-1809
-mongo:7.0-windowsservercore
-mongo:7.0-rc-windowsservercore-ltsc2022
-mongo:7.0-rc-windowsservercore-1809
-mongo:7.0-rc-windowsservercore
-mongo:7.0-rc-nanoserver-ltsc2022
-mongo:7.0-rc-nanoserver-1809
-mongo:7.0-rc-nanoserver
-mongo:7.0-rc
-mongo:7.0-nanoserver-ltsc2022
-mongo:7.0-nanoserver-1809
-mongo:7.0-nanoserver
-mongo:7.0
-mongo:7-windowsservercore-ltsc2022
-mongo:7-windowsservercore-1809
-mongo:7-windowsservercore
-mongo:7-nanoserver-ltsc2022
-mongo:7-nanoserver-1809
-mongo:7-nanoserver
-mongo:7
-mongo:6.0.20-rc2-windowsservercore-ltsc2022
-mongo:6.0.20-rc2-windowsservercore-1809
-mongo:6.0.20-rc2-windowsservercore
-mongo:6.0.20-rc2-jammy
-mongo:6.0.20-rc2
-mongo:6.0.19-windowsservercore-ltsc2022
-mongo:6.0.19-windowsservercore-1809
-mongo:6.0.19-windowsservercore
-mongo:6.0.19-nanoserver-ltsc2022
-mongo:6.0.19-nanoserver-1809
-mongo:6.0.19-nanoserver
-mongo:6.0.19
-mongo:6.0-windowsservercore-ltsc2022
-mongo:6.0-windowsservercore-1809
-mongo:6.0-windowsservercore
-mongo:6.0-nanoserver-ltsc2022
-mongo:6.0-nanoserver-1809
-mongo:6.0-nanoserver
 ```
 </details>
 
