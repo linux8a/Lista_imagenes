@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Dec 29 04:49:57 UTC 2024
+Actualizado: Mon Dec 30 04:50:08 UTC 2024
 ## centos
 <details>
 <summary> centos </summary>
