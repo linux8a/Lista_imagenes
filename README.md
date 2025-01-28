@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Jan 27 04:50:00 UTC 2025
+Actualizado: Tue Jan 28 04:50:00 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -2924,6 +2924,7 @@ mageia:3
 
 ```sh
 crate:latest
+crate:5.9.8
 crate:5.9.6
 crate:5.9
 crate:5.9.5
@@ -3022,7 +3023,6 @@ crate:4.3
 crate:4.2.7
 crate:4.2
 crate:4.1.8
-crate:4.1
 ```
 </details>
 
@@ -3405,6 +3405,36 @@ glassfish:4.0-jdk7
 
 ```sh
 maven:latest
+maven:3.9.9-amazoncorretto-8-debian-bookworm
+maven:3.9.9-amazoncorretto-8-debian
+maven:3.9.9-amazoncorretto-23-debian-bookworm
+maven:3.9.9-amazoncorretto-23-debian
+maven:3.9.9-amazoncorretto-21-debian-bookworm
+maven:3.9.9-amazoncorretto-21-debian
+maven:3.9.9-amazoncorretto-17-debian-bookworm
+maven:3.9.9-amazoncorretto-17-debian
+maven:3.9.9-amazoncorretto-11-debian-bookworm
+maven:3.9.9-amazoncorretto-11-debian
+maven:3.9-amazoncorretto-8-debian-bookworm
+maven:3.9-amazoncorretto-8-debian
+maven:3.9-amazoncorretto-23-debian-bookworm
+maven:3.9-amazoncorretto-23-debian
+maven:3.9-amazoncorretto-21-debian-bookworm
+maven:3.9-amazoncorretto-21-debian
+maven:3.9-amazoncorretto-17-debian-bookworm
+maven:3.9-amazoncorretto-17-debian
+maven:3.9-amazoncorretto-11-debian-bookworm
+maven:3.9-amazoncorretto-11-debian
+maven:3-amazoncorretto-8-debian-bookworm
+maven:3-amazoncorretto-8-debian
+maven:3-amazoncorretto-23-debian-bookworm
+maven:3-amazoncorretto-23-debian
+maven:3-amazoncorretto-21-debian-bookworm
+maven:3-amazoncorretto-21-debian
+maven:3-amazoncorretto-17-debian-bookworm
+maven:3-amazoncorretto-17-debian
+maven:3-amazoncorretto-11-debian-bookworm
+maven:3-amazoncorretto-11-debian
 maven:3.9.9-amazoncorretto-8-alpine
 maven:3.9.9-amazoncorretto-23-alpine
 maven:3.9.9-amazoncorretto-21-alpine
@@ -3474,36 +3504,6 @@ maven:3.9.9-eclipse-temurin-23-noble
 maven:3.9.9-eclipse-temurin-23
 maven:3.9.9-eclipse-temurin-21-jammy
 maven:3.9.9-eclipse-temurin-21
-maven:3.9.9-eclipse-temurin-17-focal
-maven:3.9.9-eclipse-temurin-17
-maven:3.9.9-eclipse-temurin-11-focal
-maven:3.9.9-eclipse-temurin-11
-maven:3.9.9-eclipse-temurin
-maven:3.9.9
-maven:3.9-sapmachine-23
-maven:3.9-sapmachine-21
-maven:3.9-sapmachine-17
-maven:3.9-sapmachine-11
-maven:3.9-sapmachine
-maven:3.9-ibmjava-8
-maven:3.9-ibmjava
-maven:3.9-ibm-semeru-23-jammy
-maven:3.9-ibm-semeru-21-jammy
-maven:3.9-ibm-semeru-17-focal
-maven:3.9-ibm-semeru-11-focal
-maven:3.9-eclipse-temurin-8-focal
-maven:3.9-eclipse-temurin-8
-maven:3.9-eclipse-temurin-23-noble
-maven:3.9-eclipse-temurin-23
-maven:3.9-eclipse-temurin-21-jammy
-maven:3.9-eclipse-temurin-21
-maven:3.9-eclipse-temurin-17-focal
-maven:3.9-eclipse-temurin-17
-maven:3.9-eclipse-temurin-11-focal
-maven:3.9-eclipse-temurin-11
-maven:3.9-eclipse-temurin
-maven:3.9
-maven:3-sapmachine-23
 ```
 </details>
 
