@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Feb  3 04:50:02 UTC 2025
+Actualizado: Tue Feb  4 04:49:58 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -173,6 +173,8 @@ busybox:1.30
 
 ```sh
 ubuntu:latest
+ubuntu:noble-20250127
+ubuntu:jammy-20250126
 ubuntu:plucky-20241213
 ubuntu:plucky
 ubuntu:devel
@@ -270,8 +272,6 @@ ubuntu:kinetic-20230624
 ubuntu:kinetic
 ubuntu:jammy-20230624
 ubuntu:focal-20230624
-ubuntu:22.10
-ubuntu:mantic-20230607
 ```
 </details>
 
@@ -463,47 +463,37 @@ docker-dev:1.5.0
 
 ```sh
 debian:latest
-debian:trixie-backports
-debian:trixie-20250113
-debian:trixie
-debian:testing-backports
-debian:rc-buggy-20250113
-debian:rc-buggy
-debian:experimental-20250113
-debian:experimental
-debian:stable-backports
 debian:unstable-slim
-debian:unstable-20250113-slim
-debian:unstable-20250113
+debian:unstable-20250203-slim
+debian:unstable-20250203
 debian:unstable
 debian:trixie-slim
-debian:trixie-20250113-slim
+debian:trixie-20250203-slim
+debian:trixie-20250203
+debian:trixie
 debian:testing-slim
-debian:testing-20250113-slim
-debian:testing-20250113
+debian:testing-20250203-slim
+debian:testing-20250203
 debian:testing
 debian:stable-slim
-debian:stable-20250113-slim
-debian:stable-20250113
+debian:stable-20250203-slim
+debian:stable-20250203
 debian:stable
 debian:sid-slim
-debian:sid-20250113-slim
-debian:sid-20250113
+debian:sid-20250203-slim
+debian:sid-20250203
 debian:sid
 debian:oldstable-slim
-debian:oldstable-backports
-debian:oldstable-20250113-slim
-debian:oldstable-20250113
+debian:oldstable-20250203-slim
+debian:oldstable-20250203
 debian:oldstable
 debian:bullseye-slim
-debian:bullseye-backports
-debian:bullseye-20250113-slim
-debian:bullseye-20250113
+debian:bullseye-20250203-slim
+debian:bullseye-20250203
 debian:bullseye
 debian:bookworm-slim
-debian:bookworm-backports
-debian:bookworm-20250113-slim
-debian:bookworm-20250113
+debian:bookworm-20250203-slim
+debian:bookworm-20250203
 debian:bookworm
 debian:12.9-slim
 debian:12.9
@@ -513,6 +503,34 @@ debian:11.11-slim
 debian:11.11
 debian:11-slim
 debian:11
+debian:rc-buggy-20250203
+debian:experimental-20250203
+debian:trixie-backports
+debian:trixie-20250113
+debian:testing-backports
+debian:rc-buggy-20250113
+debian:rc-buggy
+debian:experimental-20250113
+debian:experimental
+debian:stable-backports
+debian:unstable-20250113-slim
+debian:unstable-20250113
+debian:trixie-20250113-slim
+debian:testing-20250113-slim
+debian:testing-20250113
+debian:stable-20250113-slim
+debian:stable-20250113
+debian:sid-20250113-slim
+debian:sid-20250113
+debian:oldstable-backports
+debian:oldstable-20250113-slim
+debian:oldstable-20250113
+debian:bullseye-backports
+debian:bullseye-20250113-slim
+debian:bullseye-20250113
+debian:bookworm-backports
+debian:bookworm-20250113-slim
+debian:bookworm-20250113
 debian:experimental-20241223
 debian:unstable-20241223
 debian:bookworm-20241223
@@ -544,24 +562,6 @@ debian:stable-20241202-slim
 debian:stable-20241202
 debian:sid-20241202-slim
 debian:sid-20241202
-debian:rc-buggy-20241202
-debian:oldstable-20241202-slim
-debian:oldstable-20241202
-debian:bullseye-20241202-slim
-debian:bullseye-20241202
-debian:bookworm-20241202-slim
-debian:bookworm-20241202
-debian:rc-buggy-20241111
-debian:unstable-20241111-slim
-debian:unstable-20241111
-debian:trixie-20241111-slim
-debian:trixie-20241111
-debian:testing-20241111-slim
-debian:testing-20241111
-debian:stable-20241111-slim
-debian:stable-20241111
-debian:sid-20241111-slim
-debian:sid-20241111
 ```
 </details>
 
@@ -2924,18 +2924,21 @@ mageia:3
 
 ```sh
 crate:latest
-crate:5.9.8
+crate:5.9.9
 crate:5.9
+crate:5.8.6
+crate:5.8
+crate:5.7.6
+crate:5.7
+crate:5.9.8
 crate:5.9.6
 crate:5.9.5
 crate:5.9.4
 crate:5.9.3
 crate:5.8.5
-crate:5.8
 crate:5.9.2
 crate:5.8.3
 crate:5.7.5
-crate:5.7
 crate:5.8.2
 crate:5.8.1
 crate:5.7.4
@@ -3020,9 +3023,6 @@ crate:4.4.3
 crate:4.4
 crate:4.3.4
 crate:4.3
-crate:4.2.7
-crate:4.2
-crate:4.1.8
 ```
 </details>
 
@@ -4237,20 +4237,24 @@ haproxy:3.2-dev1
 ```sh
 memcached:latest
 memcached:bookworm
-memcached:1.6.34-bookworm
-memcached:1.6.34
-memcached:1.6-bookworm
-memcached:1.6
-memcached:1-bookworm
-memcached:1
 memcached:alpine3.21
 memcached:alpine
-memcached:1.6.34-alpine3.21
-memcached:1.6.34-alpine
+memcached:1.6.35-bookworm
+memcached:1.6.35-alpine3.21
+memcached:1.6.35-alpine
+memcached:1.6.35
+memcached:1.6-bookworm
 memcached:1.6-alpine3.21
 memcached:1.6-alpine
+memcached:1.6
+memcached:1-bookworm
 memcached:1-alpine3.21
 memcached:1-alpine
+memcached:1
+memcached:1.6.34-bookworm
+memcached:1.6.34
+memcached:1.6.34-alpine3.21
+memcached:1.6.34-alpine
 memcached:1.6.33-alpine3.21
 memcached:1.6.33-alpine
 memcached:alpine3.20
@@ -4331,10 +4335,6 @@ memcached:alpine3.17
 memcached:1.6.19-alpine3.17
 memcached:1.6-alpine3.17
 memcached:1-alpine3.17
-memcached:1.6.18-bullseye
-memcached:1.6.18
-memcached:1.6.18-alpine3.17
-memcached:1.6.18-alpine
 ```
 </details>
 
@@ -7291,13 +7291,15 @@ nats:2.9
 
 ```sh
 rocket.chat:latest
+rocket.chat:7.3.0
+rocket.chat:7.3
+rocket.chat:7
 rocket.chat:7.2.1
 rocket.chat:7.2
 rocket.chat:7.1.1
 rocket.chat:7.1
 rocket.chat:7.0.5
 rocket.chat:7.0
-rocket.chat:7
 rocket.chat:7.2.0
 rocket.chat:7.1.0
 rocket.chat:7.0.4
@@ -7388,8 +7390,6 @@ rocket.chat:4.8.4
 rocket.chat:4.7.5
 rocket.chat:4.7
 rocket.chat:5.0.1
-rocket.chat:4.8.3
-rocket.chat:4.8.1
 ```
 </details>
 
@@ -7401,11 +7401,7 @@ rocket.chat:4.8.1
 ```sh
 docker:latest
 docker:dind-rootless
-docker:dind
 docker:27.5.1-dind-rootless
-docker:27.5.1-dind-alpine3.21
-docker:27.5.1-dind
-docker:27.5.1-alpine3.21
 docker:27.5.1
 docker:27.5-dind-rootless
 docker:27.5-dind
@@ -7413,6 +7409,10 @@ docker:27.5
 docker:27-dind-rootless
 docker:27-dind
 docker:27
+docker:dind
+docker:27.5.1-dind-alpine3.21
+docker:27.5.1-dind
+docker:27.5.1-alpine3.21
 docker:cli
 docker:27.5.1-cli-alpine3.21
 docker:27.5.1-cli
@@ -8086,10 +8086,12 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:4.0-20250119
-photon:4.0
-photon:5.0-20250105
+photon:5.0-20250202
 photon:5.0
+photon:4.0-20250202
+photon:4.0
+photon:4.0-20250119
+photon:5.0-20250105
 photon:4.0-20250105
 photon:5.0-20241222
 photon:5.0-20241208
@@ -8183,8 +8185,6 @@ photon:4.0-20240217
 photon:5.0-20240213
 photon:5.0-20240203
 photon:4.0-20240205
-photon:3.0-20240205
-photon:3.0-20240130
 ```
 </details>
 
