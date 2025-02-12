@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Feb 11 04:50:00 UTC 2025
+Actualizado: Wed Feb 12 04:49:59 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -329,6 +329,7 @@ fedora:23
 
 ```sh
 registry:latest
+registry:3.0.0-rc.3
 registry:3.0.0-rc.2
 registry:2.8.3
 registry:2.8
@@ -2795,12 +2796,46 @@ php:bookworm
 
 ```sh
 jruby:latest
+jruby:9.4.12.0-jre8
+jruby:9.4.12.0-jre21
+jruby:9.4.12.0-jre17
+jruby:9.4.12.0-jre11
+jruby:9.4.12.0-jre
+jruby:9.4.12.0-jdk8
+jruby:9.4.12.0-jdk21
+jruby:9.4.12.0-jdk17
+jruby:9.4.12.0-jdk11
+jruby:9.4.12.0-jdk
+jruby:9.4.12.0
+jruby:9.4.12-jre8
+jruby:9.4.12-jre21
+jruby:9.4.12-jre17
+jruby:9.4.12-jre11
+jruby:9.4.12-jre
+jruby:9.4.12-jdk8
+jruby:9.4.12-jdk21
+jruby:9.4.12-jdk17
+jruby:9.4.12-jdk11
+jruby:9.4.12-jdk
+jruby:9.4.12
+jruby:9.4-jre8
+jruby:9.4-jre21
+jruby:9.4-jre17
+jruby:9.4-jre11
+jruby:9.4-jre
+jruby:9.4-jdk8
+jruby:9.4-jdk21
+jruby:9.4-jdk17
+jruby:9.4-jdk11
+jruby:9.4-jdk
+jruby:9.4
+jruby:9-jdk8
+jruby:9-jdk
+jruby:9
 jruby:9.4.11.0-jre21
 jruby:9.4.11.0-jdk21
 jruby:9.4.11-jre21
 jruby:9.4.11-jdk21
-jruby:9.4-jre21
-jruby:9.4-jdk21
 jruby:9.3.15.0-jre21
 jruby:9.3.15.0-jdk21
 jruby:9.3.15-jre21
@@ -2825,15 +2860,6 @@ jruby:9.4.11-jdk17
 jruby:9.4.11-jdk11
 jruby:9.4.11-jdk
 jruby:9.4.11
-jruby:9.4-jre8
-jruby:9.4-jre17
-jruby:9.4-jre11
-jruby:9.4-jre
-jruby:9.4-jdk8
-jruby:9.4-jdk17
-jruby:9.4-jdk11
-jruby:9.4-jdk
-jruby:9.4
 jruby:9.3.15.0-jre8
 jruby:9.3.15.0-jre17
 jruby:9.3.15.0-jre11
@@ -2861,9 +2887,6 @@ jruby:9.3-jdk17
 jruby:9.3-jdk11
 jruby:9.3-jdk
 jruby:9.3
-jruby:9-jdk8
-jruby:9-jdk
-jruby:9
 jruby:9.4.10.0-jre8
 jruby:9.4.10.0-jre21
 jruby:9.4.10.0-jre17
@@ -2872,28 +2895,6 @@ jruby:9.4.10.0-jre
 jruby:9.4.10.0-jdk8
 jruby:9.4.10.0-jdk21
 jruby:9.4.10.0-jdk17
-jruby:9.4.10.0-jdk11
-jruby:9.4.10.0-jdk
-jruby:9.4.10.0
-jruby:9.4.10-jre8
-jruby:9.4.10-jre21
-jruby:9.4.10-jre17
-jruby:9.4.10-jre11
-jruby:9.4.10-jre
-jruby:9.4.10-jdk8
-jruby:9.4.10-jdk21
-jruby:9.4.10-jdk17
-jruby:9.4.10-jdk11
-jruby:9.4.10-jdk
-jruby:9.4.10
-jruby:9.4.9.0-jre8
-jruby:9.4.9.0-jre21
-jruby:9.4.9.0-jre17
-jruby:9.4.9.0-jre11
-jruby:9.4.9.0-jre
-jruby:9.4.9.0-jdk8
-jruby:9.4.9.0-jdk21
-jruby:9.4.9.0-jdk17
 ```
 </details>
 
@@ -3099,26 +3100,18 @@ tomcat:9.0.99-jre11
 tomcat:9.0.99-jdk8-temurin-noble
 tomcat:9.0.99-jdk8-temurin-jammy
 tomcat:9.0.99-jdk8-temurin
-tomcat:9.0.99-jdk8-corretto-al2
-tomcat:9.0.99-jdk8-corretto
 tomcat:9.0.99-jdk8
 tomcat:9.0.99-jdk21-temurin-noble
 tomcat:9.0.99-jdk21-temurin-jammy
 tomcat:9.0.99-jdk21-temurin
-tomcat:9.0.99-jdk21-corretto-al2
-tomcat:9.0.99-jdk21-corretto
 tomcat:9.0.99-jdk21
 tomcat:9.0.99-jdk17-temurin-noble
 tomcat:9.0.99-jdk17-temurin-jammy
 tomcat:9.0.99-jdk17-temurin
-tomcat:9.0.99-jdk17-corretto-al2
-tomcat:9.0.99-jdk17-corretto
 tomcat:9.0.99-jdk17
 tomcat:9.0.99-jdk11-temurin-noble
 tomcat:9.0.99-jdk11-temurin-jammy
 tomcat:9.0.99-jdk11-temurin
-tomcat:9.0.99-jdk11-corretto-al2
-tomcat:9.0.99-jdk11-corretto
 tomcat:9.0.99-jdk11
 tomcat:9.0.99
 tomcat:9.0-jre8-temurin-noble
@@ -3140,29 +3133,37 @@ tomcat:9.0-jre11
 tomcat:9.0-jdk8-temurin-noble
 tomcat:9.0-jdk8-temurin-jammy
 tomcat:9.0-jdk8-temurin
-tomcat:9.0-jdk8-corretto-al2
-tomcat:9.0-jdk8-corretto
 tomcat:9.0-jdk8
 tomcat:9.0-jdk21-temurin-noble
 tomcat:9.0-jdk21-temurin-jammy
 tomcat:9.0-jdk21-temurin
-tomcat:9.0-jdk21-corretto-al2
-tomcat:9.0-jdk21-corretto
 tomcat:9.0-jdk21
 tomcat:9.0-jdk17-temurin-noble
 tomcat:9.0-jdk17-temurin-jammy
 tomcat:9.0-jdk17-temurin
-tomcat:9.0-jdk17-corretto-al2
-tomcat:9.0-jdk17-corretto
 tomcat:9.0-jdk17
 tomcat:9.0-jdk11-temurin-noble
 tomcat:9.0-jdk11-temurin-jammy
 tomcat:9.0-jdk11-temurin
-tomcat:9.0-jdk11-corretto-al2
-tomcat:9.0-jdk11-corretto
 tomcat:9.0-jdk11
 tomcat:9.0
 tomcat:9-jre8-temurin-noble
+tomcat:9-jre8-temurin-jammy
+tomcat:9-jre8-temurin
+tomcat:9-jre8
+tomcat:9-jre21-temurin-noble
+tomcat:9-jre21-temurin-jammy
+tomcat:9-jre21-temurin
+tomcat:9-jre21
+tomcat:9-jre17-temurin-noble
+tomcat:9-jre17-temurin-jammy
+tomcat:9-jre17-temurin
+tomcat:9-jre17
+tomcat:9-jre11-temurin-noble
+tomcat:9-jre11-temurin-jammy
+tomcat:9-jre11-temurin
+tomcat:9-jre11
+tomcat:9-jdk8-temurin-noble
 ```
 </details>
 
@@ -4127,13 +4128,13 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
-haproxy:3.2-dev5-bookworm
 haproxy:3.2-dev5-alpine3.21
 haproxy:3.2-dev5-alpine
-haproxy:3.2-dev5
-haproxy:3.2-dev-bookworm
 haproxy:3.2-dev-alpine3.21
 haproxy:3.2-dev-alpine
+haproxy:3.2-dev5-bookworm
+haproxy:3.2-dev5
+haproxy:3.2-dev-bookworm
 haproxy:3.2-dev
 haproxy:lts-bookworm
 haproxy:lts
@@ -4347,6 +4348,8 @@ memcached:1.6.19
 rabbitmq:latest
 rabbitmq:4.1.0-beta.4-management-alpine
 rabbitmq:4.1.0-beta.4-management
+rabbitmq:4.1-rc-management-alpine
+rabbitmq:4.1-rc-management
 rabbitmq:4.1.0-beta.4-alpine
 rabbitmq:4.1.0-beta.4
 rabbitmq:4.1-rc-alpine
@@ -4355,8 +4358,6 @@ rabbitmq:management-alpine
 rabbitmq:management
 rabbitmq:4.1.0-beta.3-management-alpine
 rabbitmq:4.1.0-beta.3-management
-rabbitmq:4.1-rc-management-alpine
-rabbitmq:4.1-rc-management
 rabbitmq:4.0.5-management-alpine
 rabbitmq:4.0.5-management
 rabbitmq:4.0-management-alpine
@@ -5056,6 +5057,8 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:8.17.2
+elasticsearch:8.16.4
 elasticsearch:8.17.1
 elasticsearch:8.16.3
 elasticsearch:7.17.27
@@ -5154,8 +5157,6 @@ elasticsearch:6.8.22
 elasticsearch:7.16.1
 elasticsearch:6.8.21
 elasticsearch:6.8.20
-elasticsearch:7.14.2
-elasticsearch:6.8.19
 ```
 </details>
 
@@ -5276,12 +5277,14 @@ jetty:12.0.16-jre17
 ```sh
 ghost:latest
 ghost:alpine
-ghost:5.109.3-alpine
-ghost:5.109.3
+ghost:5.109.4-alpine
+ghost:5.109.4
 ghost:5.109-alpine
 ghost:5.109
 ghost:5-alpine
 ghost:5
+ghost:5.109.3
+ghost:5.109.3-alpine
 ghost:5.109.2-alpine
 ghost:5.109.2
 ghost:5.109.1-alpine
@@ -5372,8 +5375,6 @@ ghost:5.94.2-alpine
 ghost:5.94-alpine
 ghost:5.94.1-alpine
 ghost:5.94.1
-ghost:5.94.0-alpine
-ghost:5.94.0
 ```
 </details>
 
@@ -5630,6 +5631,8 @@ aerospike:ce-6.4.0.7
 <summary> logstash </summary>
 
 ```sh
+logstash:8.17.2
+logstash:8.16.4
 logstash:8.17.1
 logstash:8.16.3
 logstash:7.17.27
@@ -5728,8 +5731,6 @@ logstash:6.8.22
 logstash:7.16.1
 logstash:6.8.21
 logstash:6.8.20
-logstash:7.14.2
-logstash:6.8.19
 ```
 </details>
 
@@ -6570,6 +6571,8 @@ ros:ardent
 <summary> kibana </summary>
 
 ```sh
+kibana:8.17.2
+kibana:8.16.4
 kibana:8.17.1
 kibana:8.16.3
 kibana:7.17.27
@@ -6668,8 +6671,6 @@ kibana:6.8.22
 kibana:7.16.1
 kibana:6.8.21
 kibana:6.8.20
-kibana:7.14.2
-kibana:6.8.19
 ```
 </details>
 
