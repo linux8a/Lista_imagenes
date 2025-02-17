@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Feb 16 04:50:07 UTC 2025
+Actualizado: Mon Feb 17 04:50:09 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -329,9 +329,9 @@ fedora:23
 
 ```sh
 registry:latest
+registry:3.0.0-rc.3
 registry:2.8
 registry:2
-registry:3.0.0-rc.3
 registry:2.8.3
 registry:3.0.0-rc.2
 registry:3.0.0-rc.1
@@ -744,22 +744,6 @@ buildpack-deps:21.10-scm
 
 ```sh
 nginx:latest
-nginx:stable-alpine3.20-perl
-nginx:stable-alpine-perl
-nginx:mainline-alpine3.21-perl
-nginx:mainline-alpine-perl
-nginx:alpine3.21-perl
-nginx:alpine-perl
-nginx:1.27.4-alpine3.21-perl
-nginx:1.27.4-alpine-perl
-nginx:1.27-alpine3.21-perl
-nginx:1.27-alpine-perl
-nginx:1.26.3-alpine3.20-perl
-nginx:1.26.3-alpine-perl
-nginx:1.26-alpine3.20-perl
-nginx:1.26-alpine-perl
-nginx:1-alpine3.21-perl
-nginx:1-alpine-perl
 nginx:stable-alpine3.20
 nginx:stable-alpine
 nginx:mainline-alpine3.21
@@ -776,6 +760,22 @@ nginx:1.26-alpine3.20
 nginx:1.26-alpine
 nginx:1-alpine3.21
 nginx:1-alpine
+nginx:stable-alpine3.20-perl
+nginx:stable-alpine-perl
+nginx:mainline-alpine3.21-perl
+nginx:mainline-alpine-perl
+nginx:alpine3.21-perl
+nginx:alpine-perl
+nginx:1.27.4-alpine3.21-perl
+nginx:1.27.4-alpine-perl
+nginx:1.27-alpine3.21-perl
+nginx:1.27-alpine-perl
+nginx:1.26.3-alpine3.20-perl
+nginx:1.26.3-alpine-perl
+nginx:1.26-alpine3.20-perl
+nginx:1.26-alpine-perl
+nginx:1-alpine3.21-perl
+nginx:1-alpine-perl
 nginx:stable-alpine3.20-otel
 nginx:stable-alpine-otel
 nginx:mainline-alpine3.21-otel
@@ -1180,6 +1180,14 @@ wordpress:beta-6.7.2-php8.2-fpm-alpine
 
 ```sh
 postgres:latest
+postgres:14.16-alpine3.20
+postgres:14-alpine3.20
+postgres:13.19-alpine3.21
+postgres:13.19-alpine3.20
+postgres:13.19-alpine
+postgres:13-alpine3.21
+postgres:13-alpine3.20
+postgres:13-alpine
 postgres:15.11-alpine3.21
 postgres:15.11-alpine3.20
 postgres:15.11-alpine
@@ -1205,14 +1213,6 @@ postgres:16.7-alpine
 postgres:16-alpine3.21
 postgres:16-alpine3.20
 postgres:16-alpine
-postgres:13.19-alpine3.20
-postgres:13-alpine3.20
-postgres:14.16-alpine3.20
-postgres:14-alpine3.20
-postgres:13.19-alpine3.21
-postgres:13.19-alpine
-postgres:13-alpine3.21
-postgres:13-alpine
 postgres:16.7-bookworm
 postgres:16.7
 postgres:16-bookworm
@@ -1304,11 +1304,11 @@ redis:7.2-alpine
 redis:7-alpine3.21
 redis:7-alpine
 redis:6.2.17-alpine3.21
+redis:6.2.17-alpine
 redis:6.2-alpine3.21
 redis:6.2-alpine
 redis:6-alpine3.21
 redis:6-alpine
-redis:6.2.17-alpine
 redis:bookworm
 redis:8.0-M03-bookworm
 redis:8.0-M03
@@ -1650,31 +1650,33 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:alpine3.21
+ruby:alpine
+ruby:3.4.2-alpine3.21
+ruby:3.4.2-alpine
+ruby:3.4-alpine3.21
+ruby:3.4-alpine
+ruby:3-alpine3.21
+ruby:3-alpine
 ruby:slim-bullseye
 ruby:slim-bookworm
 ruby:slim
 ruby:bullseye
 ruby:bookworm
-ruby:alpine3.21
 ruby:alpine3.20
-ruby:alpine
 ruby:3.4.2-slim-bullseye
 ruby:3.4.2-slim-bookworm
 ruby:3.4.2-slim
 ruby:3.4.2-bullseye
 ruby:3.4.2-bookworm
-ruby:3.4.2-alpine3.21
 ruby:3.4.2-alpine3.20
-ruby:3.4.2-alpine
 ruby:3.4.2
 ruby:3.4-slim-bullseye
 ruby:3.4-slim-bookworm
 ruby:3.4-slim
 ruby:3.4-bullseye
 ruby:3.4-bookworm
-ruby:3.4-alpine3.21
 ruby:3.4-alpine3.20
-ruby:3.4-alpine
 ruby:3.4
 ruby:3.3.7-slim-bullseye
 ruby:3.3.7-slim-bookworm
@@ -1735,9 +1737,7 @@ ruby:3-slim-bookworm
 ruby:3-slim
 ruby:3-bullseye
 ruby:3-bookworm
-ruby:3-alpine3.21
 ruby:3-alpine3.20
-ruby:3-alpine
 ruby:3
 ruby:3.4.1-alpine3.21
 ruby:3.4.1-alpine3.20
@@ -1759,10 +1759,6 @@ ruby:3.2.6-slim-bookworm
 
 ```sh
 python:latest
-python:3.10.16-alpine3.21
-python:3.10.16-alpine
-python:3.10-alpine3.21
-python:3.10-alpine
 python:3.9.21-alpine3.21
 python:3.9.21-alpine3.20
 python:3.9.21-alpine
@@ -1771,6 +1767,10 @@ python:3.9-alpine3.20
 python:3.9-alpine
 python:3.10.16-alpine3.20
 python:3.10-alpine3.20
+python:3.10.16-alpine3.21
+python:3.10.16-alpine
+python:3.10-alpine3.21
+python:3.10-alpine
 python:alpine3.21
 python:alpine3.20
 python:alpine
@@ -2360,22 +2360,12 @@ jenkins:1.570
 
 ```sh
 golang:latest
-golang:tip-bullseye
-golang:tip-bookworm
 golang:tip-alpine3.21
 golang:tip-alpine3.20
 golang:tip-alpine
-golang:tip-20250209-bullseye
-golang:tip-20250209-bookworm
 golang:tip-20250209-alpine3.21
 golang:tip-20250209-alpine3.20
 golang:tip-20250209-alpine
-golang:tip-20250209
-golang:tip
-golang:1.23.6-alpine3.21
-golang:1.23.6-alpine
-golang:1.23-alpine3.21
-golang:1.23-alpine
 golang:alpine3.21
 golang:alpine3.20
 golang:alpine
@@ -2385,11 +2375,21 @@ golang:1.24.0-alpine
 golang:1.24-alpine3.21
 golang:1.24-alpine3.20
 golang:1.24-alpine
+golang:1.23.6-alpine3.21
 golang:1.23.6-alpine3.20
+golang:1.23.6-alpine
+golang:1.23-alpine3.21
 golang:1.23-alpine3.20
+golang:1.23-alpine
 golang:1-alpine3.21
 golang:1-alpine3.20
 golang:1-alpine
+golang:tip-bullseye
+golang:tip-bookworm
+golang:tip-20250209-bullseye
+golang:tip-20250209-bookworm
+golang:tip-20250209
+golang:tip
 golang:windowsservercore-ltsc2022
 golang:windowsservercore-1809
 golang:windowsservercore
@@ -4352,18 +4352,18 @@ rabbitmq:4.1-rc-management-alpine
 rabbitmq:4.0.6-management-alpine
 rabbitmq:4.0-management-alpine
 rabbitmq:4-management-alpine
-rabbitmq:3.13.7-management-alpine
-rabbitmq:3.13-management-alpine
-rabbitmq:3-management-alpine
+rabbitmq:3.13.7-alpine
+rabbitmq:3.13-alpine
+rabbitmq:3-alpine
 rabbitmq:alpine
 rabbitmq:4.1.0-beta.4-alpine
 rabbitmq:4.1-rc-alpine
 rabbitmq:4.0.6-alpine
 rabbitmq:4.0-alpine
 rabbitmq:4-alpine
-rabbitmq:3.13.7-alpine
-rabbitmq:3.13-alpine
-rabbitmq:3-alpine
+rabbitmq:3.13.7-management-alpine
+rabbitmq:3.13-management-alpine
+rabbitmq:3-management-alpine
 rabbitmq:3.13.7-management
 rabbitmq:3.13.7
 rabbitmq:3.13-management
@@ -6968,6 +6968,9 @@ gazebo:gzserver4
 
 ```sh
 joomla:latest
+joomla:4.4.10-php8.2-fpm-alpine
+joomla:4.4-php8.2-fpm-alpine
+joomla:4-php8.2-fpm-alpine
 joomla:php8.3-fpm-alpine
 joomla:php8.2-fpm-alpine
 joomla:php8.1-fpm-alpine
@@ -6980,11 +6983,8 @@ joomla:5.2-php8.1-fpm-alpine
 joomla:5-php8.3-fpm-alpine
 joomla:5-php8.2-fpm-alpine
 joomla:5-php8.1-fpm-alpine
-joomla:4.4.10-php8.2-fpm-alpine
 joomla:4.4.10-php8.1-fpm-alpine
-joomla:4.4-php8.2-fpm-alpine
 joomla:4.4-php8.1-fpm-alpine
-joomla:4-php8.2-fpm-alpine
 joomla:4-php8.1-fpm-alpine
 joomla:php8.3-fpm
 joomla:php8.3-apache
