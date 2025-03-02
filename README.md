@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Mar  1 04:49:56 UTC 2025
+Actualizado: Sun Mar  2 04:50:08 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -1180,6 +1180,14 @@ wordpress:beta-6.7.2-php8.2-fpm-alpine
 
 ```sh
 postgres:latest
+postgres:14.17-bookworm
+postgres:14.17
+postgres:14-bookworm
+postgres:14
+postgres:13.20-bookworm
+postgres:13.20
+postgres:13-bookworm
+postgres:13
 postgres:bookworm
 postgres:17.4-bookworm
 postgres:17.4
@@ -1201,27 +1209,19 @@ postgres:15-alpine3.21
 postgres:15-alpine3.20
 postgres:15-alpine
 postgres:15
-postgres:14.17-bookworm
 postgres:14.17-alpine3.21
 postgres:14.17-alpine3.20
 postgres:14.17-alpine
-postgres:14.17
-postgres:14-bookworm
 postgres:14-alpine3.21
 postgres:14-alpine3.20
 postgres:14-alpine
-postgres:14
-postgres:13.20-bookworm
 postgres:13.20-alpine3.21
 postgres:13.20-alpine3.20
 postgres:13.20-alpine
-postgres:13.20
 postgres:13-bullseye
-postgres:13-bookworm
 postgres:13-alpine3.21
 postgres:13-alpine3.20
 postgres:13-alpine
-postgres:13
 postgres:bullseye
 postgres:alpine3.21
 postgres:alpine3.20
