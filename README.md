@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Mar  4 04:50:23 UTC 2025
+Actualizado: Wed Mar  5 04:50:07 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -2360,6 +2360,10 @@ jenkins:1.570
 
 ```sh
 golang:latest
+golang:windowsservercore-ltsc2025
+golang:windowsservercore-ltsc2022
+golang:windowsservercore-1809
+golang:windowsservercore
 golang:tip-bullseye
 golang:tip-bookworm
 golang:tip-alpine3.21
@@ -2372,93 +2376,89 @@ golang:tip-20250301-alpine3.20
 golang:tip-20250301-alpine
 golang:tip-20250301
 golang:tip
-golang:windowsservercore-ltsc2025
-golang:windowsservercore
 golang:nanoserver-ltsc2025
+golang:nanoserver-ltsc2022
+golang:nanoserver-1809
 golang:nanoserver
+golang:bullseye
+golang:bookworm
+golang:alpine3.21
+golang:alpine3.20
+golang:alpine
+golang:1.24.1-windowsservercore-ltsc2025
+golang:1.24.1-windowsservercore-ltsc2022
+golang:1.24.1-windowsservercore-1809
+golang:1.24.1-windowsservercore
+golang:1.24.1-nanoserver-ltsc2025
+golang:1.24.1-nanoserver-ltsc2022
+golang:1.24.1-nanoserver-1809
+golang:1.24.1-nanoserver
+golang:1.24.1-bullseye
+golang:1.24.1-bookworm
+golang:1.24.1-alpine3.21
+golang:1.24.1-alpine3.20
+golang:1.24.1-alpine
+golang:1.24.1
+golang:1.24-windowsservercore-ltsc2025
+golang:1.24-windowsservercore-ltsc2022
+golang:1.24-windowsservercore-1809
+golang:1.24-windowsservercore
+golang:1.24-nanoserver-ltsc2025
+golang:1.24-nanoserver-ltsc2022
+golang:1.24-nanoserver-1809
+golang:1.24-nanoserver
+golang:1.24-bullseye
+golang:1.24-bookworm
+golang:1.24-alpine3.21
+golang:1.24-alpine3.20
+golang:1.24-alpine
+golang:1.24
+golang:1.23.7-windowsservercore-ltsc2025
+golang:1.23.7-windowsservercore-ltsc2022
+golang:1.23.7-windowsservercore-1809
+golang:1.23.7-windowsservercore
+golang:1.23.7-nanoserver-ltsc2025
+golang:1.23.7-nanoserver-ltsc2022
+golang:1.23.7-nanoserver-1809
+golang:1.23.7-nanoserver
+golang:1.23.7-bullseye
+golang:1.23.7-bookworm
+golang:1.23.7-alpine3.21
+golang:1.23.7-alpine3.20
+golang:1.23.7-alpine
+golang:1.23.7
+golang:1.23-windowsservercore-ltsc2025
+golang:1.23-windowsservercore-ltsc2022
+golang:1.23-windowsservercore-1809
+golang:1.23-windowsservercore
+golang:1.23-nanoserver-ltsc2025
+golang:1.23-nanoserver-ltsc2022
+golang:1.23-nanoserver-1809
+golang:1.23-nanoserver
+golang:1.23-bullseye
+golang:1.23-bookworm
+golang:1.23-alpine3.21
+golang:1.23-alpine3.20
+golang:1.23-alpine
+golang:1.23
+golang:1-windowsservercore-ltsc2025
+golang:1-windowsservercore-ltsc2022
+golang:1-windowsservercore-1809
+golang:1-windowsservercore
+golang:1-nanoserver-ltsc2025
+golang:1-nanoserver-ltsc2022
+golang:1-nanoserver-1809
+golang:1-nanoserver
+golang:1-bullseye
+golang:1-bookworm
+golang:1-alpine3.21
+golang:1-alpine3.20
+golang:1-alpine
+golang:1
 golang:1.24.0-windowsservercore-ltsc2025
 golang:1.24.0-windowsservercore
 golang:1.24.0-nanoserver-ltsc2025
 golang:1.24.0-nanoserver
-golang:1.24.0
-golang:1.24-windowsservercore-ltsc2025
-golang:1.24-windowsservercore
-golang:1.24-nanoserver-ltsc2025
-golang:1.24-nanoserver
-golang:1.24
-golang:1.23.6-windowsservercore-ltsc2025
-golang:1.23.6-windowsservercore
-golang:1.23.6-nanoserver-ltsc2025
-golang:1.23.6-nanoserver
-golang:1.23.6
-golang:1.23-windowsservercore-ltsc2025
-golang:1.23-windowsservercore
-golang:1.23-nanoserver-ltsc2025
-golang:1.23-nanoserver
-golang:1.23
-golang:1-windowsservercore-ltsc2025
-golang:1-windowsservercore
-golang:1-nanoserver-ltsc2025
-golang:1-nanoserver
-golang:1
-golang:tip-20250223-bookworm
-golang:tip-20250223
-golang:tip-20250223-alpine3.21
-golang:tip-20250223-alpine
-golang:tip-20250223-bullseye
-golang:tip-20250223-alpine3.20
-golang:bookworm
-golang:1.24.0-bookworm
-golang:1.24-bookworm
-golang:1.23.6-bookworm
-golang:1.23-bookworm
-golang:1-bookworm
-golang:tip-20250216-bullseye
-golang:tip-20250216-bookworm
-golang:tip-20250216
-golang:bullseye
-golang:1.24.0-bullseye
-golang:1.24-bullseye
-golang:1.23.6-bullseye
-golang:1.23-bullseye
-golang:1-bullseye
-golang:tip-20250216-alpine3.21
-golang:tip-20250216-alpine3.20
-golang:tip-20250216-alpine
-golang:tip-20250209-alpine3.21
-golang:tip-20250209-alpine3.20
-golang:tip-20250209-alpine
-golang:alpine3.21
-golang:alpine3.20
-golang:alpine
-golang:1.24.0-alpine3.21
-golang:1.24.0-alpine3.20
-golang:1.24.0-alpine
-golang:1.24-alpine3.21
-golang:1.24-alpine3.20
-golang:1.24-alpine
-golang:1.23.6-alpine3.21
-golang:1.23.6-alpine3.20
-golang:1.23.6-alpine
-golang:1.23-alpine3.21
-golang:1.23-alpine3.20
-golang:1.23-alpine
-golang:1-alpine3.21
-golang:1-alpine3.20
-golang:1-alpine
-golang:tip-20250209-bullseye
-golang:tip-20250209-bookworm
-golang:tip-20250209
-golang:windowsservercore-ltsc2022
-golang:windowsservercore-1809
-golang:nanoserver-ltsc2022
-golang:nanoserver-1809
-golang:1.24.0-windowsservercore-ltsc2022
-golang:1.24.0-windowsservercore-1809
-golang:1.24.0-nanoserver-ltsc2022
-golang:1.24.0-nanoserver-1809
-golang:1.24-windowsservercore-ltsc2022
-golang:1.24-windowsservercore-1809
 ```
 </details>
 
@@ -5061,6 +5061,8 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:8.17.3
+elasticsearch:8.16.5
 elasticsearch:7.17.28
 elasticsearch:8.17.2
 elasticsearch:8.16.4
@@ -5159,8 +5161,6 @@ elasticsearch:7.16.3
 elasticsearch:6.8.23
 elasticsearch:7.16.2
 elasticsearch:6.8.22
-elasticsearch:7.16.1
-elasticsearch:6.8.21
 ```
 </details>
 
@@ -5635,6 +5635,8 @@ aerospike:ce-7.0.0.3
 <summary> logstash </summary>
 
 ```sh
+logstash:8.17.3
+logstash:8.16.5
 logstash:7.17.28
 logstash:8.17.2
 logstash:8.16.4
@@ -5733,8 +5735,6 @@ logstash:7.16.3
 logstash:6.8.23
 logstash:7.16.2
 logstash:6.8.22
-logstash:7.16.1
-logstash:6.8.21
 ```
 </details>
 
@@ -6249,6 +6249,8 @@ cassandra:4.0.7
 
 ```sh
 sonarqube:latest
+sonarqube:community
+sonarqube:25.3.0.104237-community
 sonarqube:lts-enterprise
 sonarqube:lts-developer
 sonarqube:lts-datacenter-search
@@ -6259,7 +6261,6 @@ sonarqube:enterprise
 sonarqube:developer
 sonarqube:datacenter-search
 sonarqube:datacenter-app
-sonarqube:community
 sonarqube:9.9.8-enterprise
 sonarqube:9.9.8-developer
 sonarqube:9.9.8-datacenter-search
@@ -6347,7 +6348,6 @@ sonarqube:10.5.1-developer
 sonarqube:10.5.1-datacenter-search
 sonarqube:10.5.1-datacenter-app
 sonarqube:10.5.1-community
-sonarqube:10.5-enterprise
 ```
 </details>
 
@@ -6575,6 +6575,8 @@ ros:ardent
 <summary> kibana </summary>
 
 ```sh
+kibana:8.17.3
+kibana:8.16.5
 kibana:7.17.28
 kibana:8.17.2
 kibana:8.16.4
@@ -6673,8 +6675,6 @@ kibana:7.16.3
 kibana:6.8.23
 kibana:7.16.2
 kibana:6.8.22
-kibana:7.16.1
-kibana:6.8.21
 ```
 </details>
 
