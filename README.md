@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Mar 20 04:50:15 UTC 2025
+Actualizado: Fri Mar 21 04:50:13 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -4128,21 +4128,37 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:lts-alpine3.21
+haproxy:lts-alpine
+haproxy:3.0.9-alpine3.21
+haproxy:3.0.9-alpine
+haproxy:3.0-alpine3.21
+haproxy:3.0-alpine
+haproxy:lts-bookworm
+haproxy:lts
 haproxy:bookworm
+haproxy:alpine3.21
+haproxy:alpine
+haproxy:3.1.6-bookworm
+haproxy:3.1.6-alpine3.21
+haproxy:3.1.6-alpine
+haproxy:3.1.6
+haproxy:3.1-bookworm
+haproxy:3.1-alpine3.21
+haproxy:3.1-alpine
+haproxy:3.1
+haproxy:3.0.9-bookworm
+haproxy:3.0.9
+haproxy:3.0-bookworm
+haproxy:3.0
 haproxy:3.2-dev7-bookworm
 haproxy:3.2-dev7
 haproxy:3.2-dev-bookworm
 haproxy:3.2-dev
 haproxy:3.1.5-bookworm
 haproxy:3.1.5
-haproxy:3.1-bookworm
-haproxy:3.1
-haproxy:lts-bookworm
-haproxy:lts
 haproxy:3.0.8-bookworm
 haproxy:3.0.8
-haproxy:3.0-bookworm
-haproxy:3.0
 haproxy:2.9.14-bookworm
 haproxy:2.9.14
 haproxy:2.9-bookworm
@@ -4169,20 +4185,12 @@ haproxy:3.2-dev-alpine3.21
 haproxy:3.2-dev-alpine
 haproxy:3.2-dev6-bookworm
 haproxy:3.2-dev6
-haproxy:alpine3.21
-haproxy:alpine
 haproxy:3.2-dev6-alpine3.21
 haproxy:3.2-dev6-alpine
 haproxy:3.1.5-alpine3.21
 haproxy:3.1.5-alpine
-haproxy:3.1-alpine3.21
-haproxy:3.1-alpine
-haproxy:lts-alpine3.21
-haproxy:lts-alpine
 haproxy:3.0.8-alpine3.21
 haproxy:3.0.8-alpine
-haproxy:3.0-alpine3.21
-haproxy:3.0-alpine
 haproxy:3.2-dev5-alpine3.21
 haproxy:3.2-dev5-alpine
 haproxy:3.1.3-alpine3.21
@@ -4219,14 +4227,6 @@ haproxy:3.0.7-bookworm
 haproxy:3.0.7
 haproxy:2.9.13-bookworm
 haproxy:2.9.13
-haproxy:2.8.13-bookworm
-haproxy:2.8.13
-haproxy:2.6.20-bookworm
-haproxy:2.6.20
-haproxy:3.2-dev3-alpine3.21
-haproxy:3.2-dev3-alpine
-haproxy:3.1.2-alpine3.21
-haproxy:3.1.2-alpine
 ```
 </details>
 
@@ -4238,20 +4238,24 @@ haproxy:3.1.2-alpine
 ```sh
 memcached:latest
 memcached:bookworm
-memcached:1.6.37-bookworm
-memcached:1.6.37
+memcached:1.6.38-bookworm
+memcached:1.6.38
 memcached:1.6-bookworm
 memcached:1.6
 memcached:1-bookworm
 memcached:1
-memcached:alpine
 memcached:alpine3.21
-memcached:1.6.37-alpine3.21
-memcached:1.6.37-alpine
+memcached:alpine
+memcached:1.6.38-alpine3.21
+memcached:1.6.38-alpine
 memcached:1.6-alpine3.21
 memcached:1.6-alpine
 memcached:1-alpine3.21
 memcached:1-alpine
+memcached:1.6.37-bookworm
+memcached:1.6.37
+memcached:1.6.37-alpine3.21
+memcached:1.6.37-alpine
 memcached:1.6.36-alpine3.21
 memcached:1.6.36-alpine
 memcached:1.6.36-bookworm
@@ -4332,10 +4336,6 @@ memcached:1.6.20-bookworm
 memcached:1.6.20-alpine3.18
 memcached:1.6.20-alpine
 memcached:1.6.20
-memcached:bullseye
-memcached:1.6.20-bullseye
-memcached:1.6-bullseye
-memcached:1-bullseye
 ```
 </details>
 
@@ -4346,15 +4346,20 @@ memcached:1-bullseye
 
 ```sh
 rabbitmq:latest
+rabbitmq:4.1.0-beta.5-management-alpine
+rabbitmq:4.1.0-beta.5-management
+rabbitmq:4.1-rc-management-alpine
+rabbitmq:4.1-rc-management
+rabbitmq:4.1.0-beta.5-alpine
+rabbitmq:4.1.0-beta.5
+rabbitmq:4.1-rc-alpine
+rabbitmq:4.1-rc
 rabbitmq:management-alpine
 rabbitmq:management
 rabbitmq:alpine
 rabbitmq:4.1.0-beta.4-management-alpine
 rabbitmq:4.1.0-beta.4-management
 rabbitmq:4.1.0-beta.4-alpine
-rabbitmq:4.1-rc-management-alpine
-rabbitmq:4.1-rc-management
-rabbitmq:4.1-rc-alpine
 rabbitmq:4.0.7-management-alpine
 rabbitmq:4.0.7-management
 rabbitmq:4.0.7-alpine
@@ -4368,7 +4373,6 @@ rabbitmq:4-management
 rabbitmq:4-alpine
 rabbitmq:4
 rabbitmq:4.1.0-beta.4
-rabbitmq:4.1-rc
 rabbitmq:3.13.7-management-alpine
 rabbitmq:3.13-management-alpine
 rabbitmq:3-management-alpine
@@ -4441,10 +4445,6 @@ rabbitmq:4.0.0-rc.1-management
 rabbitmq:4.0.0-rc.1
 rabbitmq:4.0.0-rc.1-management-alpine
 rabbitmq:4.0.0-rc.1-alpine
-rabbitmq:4.0.0-beta.6-management-alpine
-rabbitmq:4.0.0-beta.6-management
-rabbitmq:4.0.0-beta.6-alpine
-rabbitmq:4.0.0-beta.6
 ```
 </details>
 
@@ -4503,15 +4503,18 @@ oraclelinux:5
 
 ```sh
 odoo:latest
-odoo:16.0-20250311
-odoo:16.0
-odoo:16
-odoo:18.0-20250311
+odoo:18.0-20250320
 odoo:18.0
 odoo:18
-odoo:17.0-20250311
+odoo:17.0-20250320
 odoo:17.0
 odoo:17
+odoo:16.0-20250320
+odoo:16.0
+odoo:16
+odoo:16.0-20250311
+odoo:18.0-20250311
+odoo:17.0-20250311
 odoo:16.0-20250218
 odoo:18.0-20250218
 odoo:17.0-20250218
@@ -4599,9 +4602,6 @@ odoo:11.0
 odoo:11
 odoo:10.0
 odoo:10
-odoo:9
-odoo:9.0
-odoo:8
 ```
 </details>
 
@@ -7411,9 +7411,40 @@ rocket.chat:5.2.2
 
 ```sh
 docker:latest
+docker:windowsservercore-ltsc2025
+docker:windowsservercore-ltsc2022
+docker:windowsservercore-1809
+docker:windowsservercore
 docker:dind-rootless
 docker:dind
 docker:cli
+docker:28.0.2-windowsservercore-ltsc2025
+docker:28.0.2-windowsservercore-ltsc2022
+docker:28.0.2-windowsservercore-1809
+docker:28.0.2-windowsservercore
+docker:28.0.2-dind-rootless
+docker:28.0.2-dind-alpine3.21
+docker:28.0.2-dind
+docker:28.0.2-cli-alpine3.21
+docker:28.0.2-cli
+docker:28.0.2-alpine3.21
+docker:28.0.2
+docker:28.0-windowsservercore-ltsc2025
+docker:28.0-windowsservercore-ltsc2022
+docker:28.0-windowsservercore-1809
+docker:28.0-windowsservercore
+docker:28.0-dind-rootless
+docker:28.0-dind
+docker:28.0-cli
+docker:28.0
+docker:28-windowsservercore-ltsc2025
+docker:28-windowsservercore-ltsc2022
+docker:28-windowsservercore-1809
+docker:28-windowsservercore
+docker:28-dind-rootless
+docker:28-dind
+docker:28-cli
+docker:28
 docker:28.0.1-dind-rootless
 docker:28.0.1-dind-alpine3.21
 docker:28.0.1-dind
@@ -7421,30 +7452,10 @@ docker:28.0.1-cli-alpine3.21
 docker:28.0.1-cli
 docker:28.0.1-alpine3.21
 docker:28.0.1
-docker:28.0-dind-rootless
-docker:28.0-dind
-docker:28.0-cli
-docker:28.0
-docker:28-dind-rootless
-docker:28-dind
-docker:28-cli
-docker:28
-docker:windowsservercore-ltsc2025
-docker:windowsservercore-ltsc2022
-docker:windowsservercore-1809
-docker:windowsservercore
 docker:28.0.1-windowsservercore-ltsc2025
 docker:28.0.1-windowsservercore-ltsc2022
 docker:28.0.1-windowsservercore-1809
 docker:28.0.1-windowsservercore
-docker:28.0-windowsservercore-ltsc2025
-docker:28.0-windowsservercore-ltsc2022
-docker:28.0-windowsservercore-1809
-docker:28.0-windowsservercore
-docker:28-windowsservercore-ltsc2025
-docker:28-windowsservercore-ltsc2022
-docker:28-windowsservercore-1809
-docker:28-windowsservercore
 docker:28.0.0-dind-rootless
 docker:28.0.0-dind-alpine3.21
 docker:28.0.0-dind
@@ -7499,17 +7510,6 @@ docker:28.0.0-rc.1-dind
 docker:28.0.0-rc.1-alpine3.21
 docker:28.0.0-rc.1
 docker:27.5.1-dind-alpine3.21
-docker:27.5.1-dind
-docker:27.5.1-alpine3.21
-docker:27.5.1
-docker:27.5-dind
-docker:27.5
-docker:27-dind
-docker:27
-docker:28.0.0-rc.1-dind-rootless
-docker:27.5.1-dind-rootless
-docker:27.5-dind-rootless
-docker:27-dind-rootless
 ```
 </details>
 
@@ -7842,6 +7842,12 @@ solr:7.7.3
 
 ```sh
 neo4j:latest
+neo4j:4.4.42-enterprise
+neo4j:4.4.42-community
+neo4j:4.4.42
+neo4j:4.4-enterprise
+neo4j:4.4-community
+neo4j:4.4
 neo4j:enterprise-bullseye
 neo4j:enterprise
 neo4j:community-bullseye
@@ -7868,9 +7874,6 @@ neo4j:5
 neo4j:4.4.41-enterprise
 neo4j:4.4.41-community
 neo4j:4.4.41
-neo4j:4.4-enterprise
-neo4j:4.4-community
-neo4j:4.4
 neo4j:2025.02.0-enterprise-bullseye
 neo4j:2025.02.0-enterprise
 neo4j:2025.02.0-community-bullseye
@@ -7938,9 +7941,6 @@ neo4j:2025.01-community
 neo4j:2025.01-bullseye
 neo4j:2025.01
 neo4j:5.26.2-ubi9
-neo4j:5.26.2-enterprise-ubi9
-neo4j:5.26.2-community-ubi9
-neo4j:2025.01.0-ubi9
 ```
 </details>
 
