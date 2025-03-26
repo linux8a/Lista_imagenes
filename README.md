@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Mar 25 04:51:54 UTC 2025
+Actualizado: Wed Mar 26 04:50:20 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -5062,6 +5062,8 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:8.17.4
+elasticsearch:8.16.6
 elasticsearch:8.17.3
 elasticsearch:8.16.5
 elasticsearch:7.17.28
@@ -5160,8 +5162,6 @@ elasticsearch:8.0.0
 elasticsearch:7.17.0
 elasticsearch:7.16.3
 elasticsearch:6.8.23
-elasticsearch:7.16.2
-elasticsearch:6.8.22
 ```
 </details>
 
@@ -5636,6 +5636,8 @@ aerospike:ce-7.0.0.3
 <summary> logstash </summary>
 
 ```sh
+logstash:8.17.4
+logstash:8.16.6
 logstash:8.17.3
 logstash:8.16.5
 logstash:7.17.28
@@ -5734,8 +5736,6 @@ logstash:8.0.0
 logstash:7.17.0
 logstash:7.16.3
 logstash:6.8.23
-logstash:7.16.2
-logstash:6.8.22
 ```
 </details>
 
@@ -6256,6 +6256,14 @@ sonarqube:enterprise
 sonarqube:developer
 sonarqube:datacenter-search
 sonarqube:datacenter-app
+sonarqube:2025.2.0-enterprise
+sonarqube:2025.2.0-developer
+sonarqube:2025.2.0-datacenter-search
+sonarqube:2025.2.0-datacenter-app
+sonarqube:2025.2-enterprise
+sonarqube:2025.2-developer
+sonarqube:2025.2-datacenter-search
+sonarqube:2025.2-datacenter-app
 sonarqube:2025.1.1-enterprise
 sonarqube:2025.1.1-developer
 sonarqube:2025.1.1-datacenter-search
@@ -6343,14 +6351,6 @@ sonarqube:10.6.0-developer
 sonarqube:10.6.0-datacenter-search
 sonarqube:10.6.0-datacenter-app
 sonarqube:10.6.0-community
-sonarqube:10.6-enterprise
-sonarqube:10.6-developer
-sonarqube:10.6-datacenter-search
-sonarqube:10.6-datacenter-app
-sonarqube:10.6-community
-sonarqube:9.9.5-enterprise
-sonarqube:9.9.5-developer
-sonarqube:9.9.5-datacenter-search
 ```
 </details>
 
@@ -6361,12 +6361,33 @@ sonarqube:9.9.5-datacenter-search
 
 ```sh
 couchbase:latest
+couchbase:enterprise-7.6.4
+couchbase:enterprise-7.6.3
+couchbase:enterprise-7.6.2
+couchbase:enterprise-7.6.1
+couchbase:enterprise-7.6.0
+couchbase:enterprise-7.2.5
+couchbase:enterprise-7.2.4
+couchbase:enterprise-7.2.3
+couchbase:enterprise-7.2.2
+couchbase:enterprise-7.2.0
+couchbase:community-7.6.1
+couchbase:community-7.6.0
+couchbase:community-7.2.2
+couchbase:community-7.2.0
+couchbase:7.6.4
+couchbase:7.6.3
+couchbase:7.6.2
+couchbase:7.6.1
+couchbase:7.6.0
+couchbase:7.2.5
+couchbase:7.2.4
+couchbase:7.2.3
+couchbase:7.2.2
+couchbase:7.2.0
 couchbase:enterprise-7.6.5
 couchbase:enterprise
 couchbase:7.6.5
-couchbase:enterprise-7.6.4
-couchbase:7.6.4
-couchbase:enterprise-7.6.3
 couchbase:enterprise-7.2.6
 couchbase:enterprise-7.1.6
 couchbase:enterprise-7.0.5
@@ -6375,38 +6396,17 @@ couchbase:community-7.2.4
 couchbase:community-7.1.1
 couchbase:community-7.0.2
 couchbase:community
-couchbase:7.6.3
 couchbase:7.2.6
 couchbase:7.1.6
 couchbase:7.0.5
-couchbase:enterprise-7.2.5
-couchbase:7.2.5
-couchbase:enterprise-7.6.2
-couchbase:7.6.2
-couchbase:enterprise-7.6.1
-couchbase:community-7.6.1
-couchbase:7.6.1
-couchbase:enterprise-7.2.4
-couchbase:7.2.4
-couchbase:community-7.6.0
-couchbase:enterprise-7.6.0
-couchbase:7.6.0
-couchbase:enterprise-7.2.3
 couchbase:enterprise-6.6.6
-couchbase:community-7.2.2
-couchbase:7.2.3
 couchbase:6.6.6
-couchbase:enterprise-7.2.2
 couchbase:enterprise-7.1.5
-couchbase:7.2.2
 couchbase:7.1.5
 couchbase:enterprise-7.2.1
 couchbase:community-7.2.1
 couchbase:7.2.1
-couchbase:enterprise-7.2.0
 couchbase:enterprise-7.1.4
-couchbase:community-7.2.0
-couchbase:7.2.0
 couchbase:7.1.4
 couchbase:community-6.6.0
 couchbase:enterprise-7.1.3
@@ -6578,6 +6578,8 @@ ros:ardent
 <summary> kibana </summary>
 
 ```sh
+kibana:8.17.4
+kibana:8.16.6
 kibana:8.17.3
 kibana:8.16.5
 kibana:7.17.28
@@ -6676,8 +6678,6 @@ kibana:8.0.0
 kibana:7.17.0
 kibana:7.16.3
 kibana:6.8.23
-kibana:7.16.2
-kibana:6.8.22
 ```
 </details>
 
@@ -7418,17 +7418,17 @@ docker:windowsservercore
 docker:dind-rootless
 docker:dind
 docker:cli
-docker:28.0.2-windowsservercore-ltsc2025
-docker:28.0.2-windowsservercore-ltsc2022
-docker:28.0.2-windowsservercore-1809
-docker:28.0.2-windowsservercore
-docker:28.0.2-dind-rootless
-docker:28.0.2-dind-alpine3.21
-docker:28.0.2-dind
-docker:28.0.2-cli-alpine3.21
-docker:28.0.2-cli
-docker:28.0.2-alpine3.21
-docker:28.0.2
+docker:28.0.4-windowsservercore-ltsc2025
+docker:28.0.4-windowsservercore-ltsc2022
+docker:28.0.4-windowsservercore-1809
+docker:28.0.4-windowsservercore
+docker:28.0.4-dind-rootless
+docker:28.0.4-dind-alpine3.21
+docker:28.0.4-dind
+docker:28.0.4-cli-alpine3.21
+docker:28.0.4-cli
+docker:28.0.4-alpine3.21
+docker:28.0.4
 docker:28.0-windowsservercore-ltsc2025
 docker:28.0-windowsservercore-ltsc2022
 docker:28.0-windowsservercore-1809
@@ -7445,6 +7445,17 @@ docker:28-dind-rootless
 docker:28-dind
 docker:28-cli
 docker:28
+docker:28.0.2-windowsservercore-ltsc2025
+docker:28.0.2-windowsservercore-ltsc2022
+docker:28.0.2-windowsservercore-1809
+docker:28.0.2-windowsservercore
+docker:28.0.2-dind-rootless
+docker:28.0.2-dind-alpine3.21
+docker:28.0.2-dind
+docker:28.0.2-cli-alpine3.21
+docker:28.0.2-cli
+docker:28.0.2-alpine3.21
+docker:28.0.2
 docker:28.0.1-dind-rootless
 docker:28.0.1-dind-alpine3.21
 docker:28.0.1-dind
@@ -7499,17 +7510,6 @@ docker:28.0.0-rc.2-windowsservercore-ltsc2022
 docker:28.0.0-rc.2-windowsservercore-1809
 docker:28.0.0-rc.2-windowsservercore
 docker:28.0.0-rc.2-dind-rootless
-docker:28.0.0-rc.2-dind-alpine3.21
-docker:28.0.0-rc.2-dind
-docker:28.0.0-rc.2-cli-alpine3.21
-docker:28.0.0-rc.2-cli
-docker:28.0.0-rc.2-alpine3.21
-docker:28.0.0-rc.2
-docker:28.0.0-rc.1-dind-alpine3.21
-docker:28.0.0-rc.1-dind
-docker:28.0.0-rc.1-alpine3.21
-docker:28.0.0-rc.1
-docker:27.5.1-dind-alpine3.21
 ```
 </details>
 
