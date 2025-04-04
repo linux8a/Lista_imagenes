@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Apr  3 04:52:08 UTC 2025
+Actualizado: Fri Apr  4 04:51:22 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -329,6 +329,9 @@ fedora:23
 
 ```sh
 registry:latest
+registry:3.0.0
+registry:3.0
+registry:3
 registry:3.0.0-rc.4
 registry:3.0.0-rc.3
 registry:2.8
@@ -4348,6 +4351,21 @@ memcached:1.6.20
 
 ```sh
 rabbitmq:latest
+rabbitmq:management-alpine
+rabbitmq:management
+rabbitmq:alpine
+rabbitmq:4.0.8-management-alpine
+rabbitmq:4.0.8-management
+rabbitmq:4.0.8-alpine
+rabbitmq:4.0.8
+rabbitmq:4.0-management-alpine
+rabbitmq:4.0-management
+rabbitmq:4.0-alpine
+rabbitmq:4.0
+rabbitmq:4-management-alpine
+rabbitmq:4-management
+rabbitmq:4-alpine
+rabbitmq:4
 rabbitmq:4.1.0-rc.1-management-alpine
 rabbitmq:4.1.0-rc.1-management
 rabbitmq:4.1.0-rc.1-alpine
@@ -4359,9 +4377,6 @@ rabbitmq:4.1-rc
 rabbitmq:3.13.7-management-alpine
 rabbitmq:3.13-management-alpine
 rabbitmq:3-management-alpine
-rabbitmq:management-alpine
-rabbitmq:management
-rabbitmq:alpine
 rabbitmq:4.1.0-beta.5-management-alpine
 rabbitmq:4.1.0-beta.5-management
 rabbitmq:4.1.0-beta.5-alpine
@@ -4370,14 +4385,6 @@ rabbitmq:4.0.7-management-alpine
 rabbitmq:4.0.7-management
 rabbitmq:4.0.7-alpine
 rabbitmq:4.0.7
-rabbitmq:4.0-management-alpine
-rabbitmq:4.0-management
-rabbitmq:4.0-alpine
-rabbitmq:4.0
-rabbitmq:4-management-alpine
-rabbitmq:4-management
-rabbitmq:4-alpine
-rabbitmq:4
 rabbitmq:3.13.7-management
 rabbitmq:3.13.7-alpine
 rabbitmq:3.13.7
@@ -4443,10 +4450,6 @@ rabbitmq:4.0.0-rc.2-management-alpine
 rabbitmq:4.0.0-rc.2-management
 rabbitmq:4.0-rc-management-alpine
 rabbitmq:4.0-rc-management
-rabbitmq:4.0.0-rc.2-alpine
-rabbitmq:4.0.0-rc.2
-rabbitmq:4.0-rc-alpine
-rabbitmq:4.0-rc
 ```
 </details>
 
@@ -6065,36 +6068,35 @@ drupal:fpm
 drupal:apache-bullseye
 drupal:apache-bookworm
 drupal:apache
-drupal:11.1.5-php8.4-fpm-bullseye
-drupal:11.1.5-php8.4-fpm-bookworm
-drupal:11.1.5-php8.4-fpm-alpine3.21
-drupal:11.1.5-php8.4-fpm-alpine3.20
-drupal:11.1.5-php8.4-fpm-alpine
-drupal:11.1.5-php8.4-fpm
-drupal:11.1.5-php8.4-apache-bullseye
-drupal:11.1.5-php8.4-apache-bookworm
-drupal:11.1.5-php8.4-apache
-drupal:11.1.5-php8.4
-drupal:11.1.5-php8.3-fpm-bullseye
-drupal:11.1.5-php8.3-fpm-bookworm
-drupal:11.1.5-php8.3-fpm-alpine3.21
-drupal:11.1.5-php8.3-fpm-alpine3.20
-drupal:11.1.5-php8.3-fpm-alpine
-drupal:11.1.5-php8.3-fpm
-drupal:11.1.5-php8.3-apache-bullseye
-drupal:11.1.5-php8.3-apache-bookworm
-drupal:11.1.5-php8.3-apache
-drupal:11.1.5-php8.3
-drupal:11.1.5-fpm-bullseye
-drupal:11.1.5-fpm-bookworm
-drupal:11.1.5-fpm-alpine3.21
-drupal:11.1.5-fpm-alpine3.20
-drupal:11.1.5-fpm-alpine
-drupal:11.1.5-fpm
-drupal:11.1.5-apache-bullseye
-drupal:11.1.5-apache-bookworm
-drupal:11.1.5-apache
-drupal:11.1.5
+drupal:11.1.6-php8.4-fpm-bullseye
+drupal:11.1.6-php8.4-fpm-bookworm
+drupal:11.1.6-php8.4-fpm-alpine3.21
+drupal:11.1.6-php8.4-fpm-alpine
+drupal:11.1.6-php8.4-fpm
+drupal:11.1.6-php8.4-apache-bullseye
+drupal:11.1.6-php8.4-apache-bookworm
+drupal:11.1.6-php8.4-apache
+drupal:11.1.6-php8.4
+drupal:11.1.6-php8.3-fpm-bullseye
+drupal:11.1.6-php8.3-fpm-bookworm
+drupal:11.1.6-php8.3-fpm-alpine3.21
+drupal:11.1.6-php8.3-fpm-alpine3.20
+drupal:11.1.6-php8.3-fpm-alpine
+drupal:11.1.6-php8.3-fpm
+drupal:11.1.6-php8.3-apache-bullseye
+drupal:11.1.6-php8.3-apache-bookworm
+drupal:11.1.6-php8.3-apache
+drupal:11.1.6-php8.3
+drupal:11.1.6-fpm-bullseye
+drupal:11.1.6-fpm-bookworm
+drupal:11.1.6-fpm-alpine3.21
+drupal:11.1.6-fpm-alpine3.20
+drupal:11.1.6-fpm-alpine
+drupal:11.1.6-fpm
+drupal:11.1.6-apache-bullseye
+drupal:11.1.6-apache-bookworm
+drupal:11.1.6-apache
+drupal:11.1.6
 drupal:11.1-php8.4-fpm-bullseye
 drupal:11.1-php8.4-fpm-bookworm
 drupal:11.1-php8.4-fpm-alpine3.21
@@ -6125,16 +6127,17 @@ drupal:11.1-apache-bullseye
 drupal:11.1-apache-bookworm
 drupal:11.1-apache
 drupal:11.1
-drupal:11.0.13-php8.3-fpm-bullseye
-drupal:11.0.13-php8.3-fpm-bookworm
-drupal:11.0.13-php8.3-fpm-alpine3.21
-drupal:11.0.13-php8.3-fpm-alpine3.20
-drupal:11.0.13-php8.3-fpm-alpine
-drupal:11.0.13-php8.3-fpm
-drupal:11.0.13-php8.3-apache-bullseye
-drupal:11.0.13-php8.3-apache-bookworm
-drupal:11.0.13-php8.3-apache
-drupal:11.0.13-php8.3
+drupal:11-php8.4-fpm-bullseye
+drupal:11-php8.4-fpm-bookworm
+drupal:11-php8.4-fpm-alpine3.21
+drupal:11-php8.4-fpm-alpine3.20
+drupal:11-php8.4-fpm-alpine
+drupal:11-php8.4-fpm
+drupal:11-php8.4-apache-bullseye
+drupal:11-php8.4-apache-bookworm
+drupal:11-php8.4-apache
+drupal:11-php8.4
+drupal:11-php8.3-fpm-bullseye
 ```
 </details>
 
