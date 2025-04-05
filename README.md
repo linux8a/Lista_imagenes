@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Apr  4 04:51:22 UTC 2025
+Actualizado: Sat Apr  5 04:50:21 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -4353,27 +4353,27 @@ memcached:1.6.20
 rabbitmq:latest
 rabbitmq:management-alpine
 rabbitmq:management
-rabbitmq:alpine
 rabbitmq:4.0.8-management-alpine
 rabbitmq:4.0.8-management
-rabbitmq:4.0.8-alpine
-rabbitmq:4.0.8
 rabbitmq:4.0-management-alpine
 rabbitmq:4.0-management
-rabbitmq:4.0-alpine
-rabbitmq:4.0
 rabbitmq:4-management-alpine
 rabbitmq:4-management
-rabbitmq:4-alpine
-rabbitmq:4
+rabbitmq:alpine
 rabbitmq:4.1.0-rc.1-management-alpine
 rabbitmq:4.1.0-rc.1-management
 rabbitmq:4.1.0-rc.1-alpine
+rabbitmq:4.1.0-rc.1
 rabbitmq:4.1-rc-management-alpine
 rabbitmq:4.1-rc-management
 rabbitmq:4.1-rc-alpine
-rabbitmq:4.1.0-rc.1
 rabbitmq:4.1-rc
+rabbitmq:4.0.8-alpine
+rabbitmq:4.0.8
+rabbitmq:4.0-alpine
+rabbitmq:4.0
+rabbitmq:4-alpine
+rabbitmq:4
 rabbitmq:3.13.7-management-alpine
 rabbitmq:3.13-management-alpine
 rabbitmq:3-management-alpine
@@ -4459,13 +4459,13 @@ rabbitmq:4.0-rc-management
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:9
 oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
 oraclelinux:8
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
-oraclelinux:9
 oraclelinux:7.9
 oraclelinux:7-slim-fips
 oraclelinux:7-slim
@@ -5751,6 +5751,27 @@ logstash:6.8.23
 
 ```sh
 julia:latest
+julia:rc-windowsservercore-ltsc2025
+julia:rc-windowsservercore
+julia:rc
+julia:1.12.0-beta1-windowsservercore-ltsc2025
+julia:1.12.0-beta1-windowsservercore
+julia:1.12.0-beta1
+julia:1.12-rc-windowsservercore-ltsc2025
+julia:1.12-rc-windowsservercore
+julia:1.12-rc
+julia:rc-windowsservercore-ltsc2022
+julia:rc-windowsservercore-1809
+julia:rc-bullseye
+julia:rc-bookworm
+julia:1.12.0-beta1-windowsservercore-ltsc2022
+julia:1.12.0-beta1-windowsservercore-1809
+julia:1.12.0-beta1-bullseye
+julia:1.12.0-beta1-bookworm
+julia:1.12-rc-windowsservercore-ltsc2022
+julia:1.12-rc-windowsservercore-1809
+julia:1.12-rc-bullseye
+julia:1.12-rc-bookworm
 julia:bullseye
 julia:bookworm
 julia:1.11.4-bullseye
@@ -5829,27 +5850,6 @@ julia:1.11.2-bookworm
 julia:1.10.7-bullseye
 julia:1.10.7-bookworm
 julia:alpine3.21
-julia:alpine3.20
-julia:alpine
-julia:1.11.2-alpine3.21
-julia:1.11.2-alpine3.20
-julia:1.11.2-alpine
-julia:1.11-alpine3.21
-julia:1.11-alpine3.20
-julia:1.11-alpine
-julia:1-alpine3.21
-julia:1-alpine3.20
-julia:1-alpine
-julia:alpine3.19
-julia:1.11.2-alpine3.19
-julia:1.11-alpine3.19
-julia:1-alpine3.19
-julia:1.11.1-bullseye
-julia:1.11.1-bookworm
-julia:1.11.1
-julia:1.11.1-windowsservercore-ltsc2022
-julia:1.11.1-windowsservercore-1809
-julia:1.11.1-windowsservercore
 ```
 </details>
 
@@ -6039,7 +6039,6 @@ rakudo-star:2015.03
 
 ```sh
 drupal:latest
-drupal:php8.4-fpm-bullseye
 drupal:php8.4-fpm-bookworm
 drupal:php8.4-fpm-alpine3.21
 drupal:php8.4-fpm-alpine3.20
@@ -6068,9 +6067,9 @@ drupal:fpm
 drupal:apache-bullseye
 drupal:apache-bookworm
 drupal:apache
-drupal:11.1.6-php8.4-fpm-bullseye
 drupal:11.1.6-php8.4-fpm-bookworm
 drupal:11.1.6-php8.4-fpm-alpine3.21
+drupal:11.1.6-php8.4-fpm-alpine3.20
 drupal:11.1.6-php8.4-fpm-alpine
 drupal:11.1.6-php8.4-fpm
 drupal:11.1.6-php8.4-apache-bullseye
@@ -6097,7 +6096,6 @@ drupal:11.1.6-apache-bullseye
 drupal:11.1.6-apache-bookworm
 drupal:11.1.6-apache
 drupal:11.1.6
-drupal:11.1-php8.4-fpm-bullseye
 drupal:11.1-php8.4-fpm-bookworm
 drupal:11.1-php8.4-fpm-alpine3.21
 drupal:11.1-php8.4-fpm-alpine3.20
@@ -6127,17 +6125,19 @@ drupal:11.1-apache-bullseye
 drupal:11.1-apache-bookworm
 drupal:11.1-apache
 drupal:11.1
-drupal:11-php8.4-fpm-bullseye
-drupal:11-php8.4-fpm-bookworm
-drupal:11-php8.4-fpm-alpine3.21
-drupal:11-php8.4-fpm-alpine3.20
-drupal:11-php8.4-fpm-alpine
-drupal:11-php8.4-fpm
-drupal:11-php8.4-apache-bullseye
-drupal:11-php8.4-apache-bookworm
-drupal:11-php8.4-apache
-drupal:11-php8.4
-drupal:11-php8.3-fpm-bullseye
+drupal:11.0.13-php8.3-fpm-bullseye
+drupal:11.0.13-php8.3-fpm-bookworm
+drupal:11.0.13-php8.3-fpm-alpine3.21
+drupal:11.0.13-php8.3-fpm-alpine3.20
+drupal:11.0.13-php8.3-fpm-alpine
+drupal:11.0.13-php8.3-fpm
+drupal:11.0.13-php8.3-apache-bullseye
+drupal:11.0.13-php8.3-apache-bookworm
+drupal:11.0.13-php8.3-apache
+drupal:11.0.13-php8.3
+drupal:11.0.13-fpm-bullseye
+drupal:11.0.13-fpm-bookworm
+drupal:11.0.13-fpm-alpine3.21
 ```
 </details>
 
