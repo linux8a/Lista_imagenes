@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Apr 22 04:53:01 UTC 2025
+Actualizado: Wed Apr 23 04:53:32 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -857,6 +857,42 @@ nginx:1.26.3-bookworm-perl
 
 ```sh
 node:latest
+node:iron-slim
+node:iron-bullseye-slim
+node:iron-bullseye
+node:iron-bookworm-slim
+node:iron-bookworm
+node:iron-alpine3.21
+node:iron-alpine
+node:iron
+node:20.19.1-slim
+node:20.19.1-bullseye-slim
+node:20.19.1-bullseye
+node:20.19.1-bookworm-slim
+node:20.19.1-bookworm
+node:20.19.1-alpine3.21
+node:20.19.1-alpine
+node:20.19.1
+node:20.19-slim
+node:20.19-bullseye-slim
+node:20.19-bullseye
+node:20.19-bookworm-slim
+node:20.19-bookworm
+node:20.19-alpine3.21
+node:20.19-alpine
+node:20.19
+node:20-slim
+node:20-bullseye-slim
+node:20-bullseye
+node:20-bookworm-slim
+node:20-bookworm
+node:20-alpine3.21
+node:20-alpine
+node:20
+node:iron-alpine3.20
+node:20.19.1-alpine3.20
+node:20.19-alpine3.20
+node:20-alpine3.20
 node:lts-jod
 node:lts-bullseye
 node:lts-bookworm
@@ -864,9 +900,6 @@ node:lts
 node:jod-bullseye
 node:jod-bookworm
 node:jod
-node:iron-bullseye
-node:iron-bookworm
-node:iron
 node:hydrogen-bullseye
 node:hydrogen-bookworm
 node:hydrogen
@@ -891,12 +924,6 @@ node:22
 node:20.19.0-bullseye
 node:20.19.0-bookworm
 node:20.19.0
-node:20.19-bullseye
-node:20.19-bookworm
-node:20.19
-node:20-bullseye
-node:20-bookworm
-node:20
 node:18.20.8-bullseye
 node:18.20.8-bookworm
 node:18.20.8
@@ -918,9 +945,6 @@ node:lts-bookworm-slim
 node:jod-slim
 node:jod-bullseye-slim
 node:jod-bookworm-slim
-node:iron-slim
-node:iron-bullseye-slim
-node:iron-bookworm-slim
 node:hydrogen-slim
 node:hydrogen-bullseye-slim
 node:hydrogen-bookworm-slim
@@ -932,30 +956,6 @@ node:bookworm-slim
 node:23.11.0-slim
 node:23.11.0-bullseye-slim
 node:23.11.0-bookworm-slim
-node:23.11-slim
-node:23.11-bullseye-slim
-node:23.11-bookworm-slim
-node:23-slim
-node:23-bullseye-slim
-node:23-bookworm-slim
-node:22.14.0-slim
-node:22.14.0-bullseye-slim
-node:22.14.0-bookworm-slim
-node:22.14-slim
-node:22.14-bullseye-slim
-node:22.14-bookworm-slim
-node:22-slim
-node:22-bullseye-slim
-node:22-bookworm-slim
-node:20.19.0-slim
-node:20.19.0-bullseye-slim
-node:20.19.0-bookworm-slim
-node:20.19-slim
-node:20.19-bullseye-slim
-node:20.19-bookworm-slim
-node:20-slim
-node:20-bullseye-slim
-node:20-bookworm-slim
 ```
 </details>
 
@@ -1654,24 +1654,24 @@ rails:4.2.1
 
 ```sh
 ruby:latest
-ruby:3.5.0-preview1-slim-bullseye
+ruby:3.5.0-preview1-alpine3.20
+ruby:3.5-rc-alpine3.20
+ruby:3.5.0-preview1-alpine3.21
+ruby:3.5.0-preview1-alpine
+ruby:3.5-rc-alpine3.21
+ruby:3.5-rc-alpine
 ruby:3.5.0-preview1-slim-bookworm
 ruby:3.5.0-preview1-slim
-ruby:3.5.0-preview1-bullseye
 ruby:3.5.0-preview1-bookworm
-ruby:3.5.0-preview1-alpine3.21
-ruby:3.5.0-preview1-alpine3.20
-ruby:3.5.0-preview1-alpine
 ruby:3.5.0-preview1
-ruby:3.5-rc-slim-bullseye
 ruby:3.5-rc-slim-bookworm
 ruby:3.5-rc-slim
-ruby:3.5-rc-bullseye
 ruby:3.5-rc-bookworm
-ruby:3.5-rc-alpine3.21
-ruby:3.5-rc-alpine3.20
-ruby:3.5-rc-alpine
 ruby:3.5-rc
+ruby:3.5.0-preview1-slim-bullseye
+ruby:3.5.0-preview1-bullseye
+ruby:3.5-rc-slim-bullseye
+ruby:3.5-rc-bullseye
 ruby:alpine3.20
 ruby:3.4.3-alpine3.20
 ruby:3.4-alpine3.20
@@ -4134,6 +4134,33 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:lts-bookworm
+haproxy:lts-alpine3.21
+haproxy:lts-alpine
+haproxy:lts
+haproxy:3.0.10-bookworm
+haproxy:3.0.10-alpine3.21
+haproxy:3.0.10-alpine
+haproxy:3.0.10
+haproxy:3.0-bookworm
+haproxy:3.0-alpine3.21
+haproxy:3.0-alpine
+haproxy:3.0
+haproxy:2.6.22-bookworm
+haproxy:2.6.22-alpine3.21
+haproxy:2.6.22-alpine
+haproxy:2.6.22
+haproxy:2.6-alpine3.21
+haproxy:2.6-alpine
+haproxy:2.6
+haproxy:2.4.29-bookworm
+haproxy:2.4.29-alpine3.21
+haproxy:2.4.29-alpine
+haproxy:2.4.29
+haproxy:2.4-bookworm
+haproxy:2.4-alpine3.21
+haproxy:2.4-alpine
+haproxy:2.4
 haproxy:3.2-dev11-bookworm
 haproxy:3.2-dev11-alpine3.21
 haproxy:3.2-dev11-alpine
@@ -4159,18 +4186,12 @@ haproxy:3.2-dev10-bookworm
 haproxy:3.2-dev10
 haproxy:2.4.28-bookworm
 haproxy:2.4.28
-haproxy:2.4-bookworm
-haproxy:2.4
-haproxy:lts-bookworm
-haproxy:lts
 haproxy:3.2-dev9-bookworm
 haproxy:3.2-dev9
 haproxy:3.1.6-bookworm
 haproxy:3.1.6
 haproxy:3.0.9-bookworm
 haproxy:3.0.9
-haproxy:3.0-bookworm
-haproxy:3.0
 haproxy:2.8.14-bookworm
 haproxy:2.8.14
 haproxy:2.8-bookworm
@@ -4178,7 +4199,6 @@ haproxy:2.8
 haproxy:2.6.21-bookworm
 haproxy:2.6.21
 haproxy:2.6-bookworm
-haproxy:2.6
 haproxy:2.2.33-bullseye
 haproxy:2.2.33
 haproxy:2.2-bullseye
@@ -4197,12 +4217,8 @@ haproxy:2.9-bookworm
 haproxy:2.9-alpine3.21
 haproxy:2.9-alpine
 haproxy:2.9
-haproxy:lts-alpine3.21
-haproxy:lts-alpine
 haproxy:3.0.9-alpine3.21
 haproxy:3.0.9-alpine
-haproxy:3.0-alpine3.21
-haproxy:3.0-alpine
 haproxy:3.1.6-alpine3.21
 haproxy:3.1.6-alpine
 haproxy:3.2-dev7-bookworm
@@ -4217,22 +4233,6 @@ haproxy:3.2-dev7-alpine3.21
 haproxy:3.2-dev7-alpine
 haproxy:3.2-dev6-bookworm
 haproxy:3.2-dev6
-haproxy:3.2-dev6-alpine3.21
-haproxy:3.2-dev6-alpine
-haproxy:3.1.5-alpine3.21
-haproxy:3.1.5-alpine
-haproxy:3.0.8-alpine3.21
-haproxy:3.0.8-alpine
-haproxy:3.2-dev5-alpine3.21
-haproxy:3.2-dev5-alpine
-haproxy:3.1.3-alpine3.21
-haproxy:3.1.3-alpine
-haproxy:2.9.14-alpine3.21
-haproxy:2.9.14-alpine
-haproxy:2.8.14-alpine3.21
-haproxy:2.8.14-alpine
-haproxy:2.8-alpine3.21
-haproxy:2.8-alpine
 ```
 </details>
 
@@ -5424,10 +5424,14 @@ celery:3.1.17
 <summary> percona </summary>
 
 ```sh
-percona:psmdb-7.0.15
+percona:psmdb-8.0.4
+percona:psmdb-8.0
+percona:psmdb-7.0.16
 percona:psmdb-7.0
-percona:psmdb-6.0.19
+percona:psmdb-6.0.21
 percona:psmdb-6.0
+percona:psmdb-7.0.15
+percona:psmdb-6.0.19
 percona:psmdb-5.0.29
 percona:psmdb-5.0
 percona:ps-8.0.41-32
@@ -5520,10 +5524,6 @@ percona:psmdb-5.0.3
 percona:psmdb-4.2.17
 percona:psmdb-4.4.9
 percona:psmdb-4.0.27
-percona:psmdb-4.0
-percona:psmdb-5.0.2
-percona:psmdb-4.4.8
-percona:psmdb-4.2.15
 ```
 </details>
 
@@ -7090,6 +7090,9 @@ joomla:4-php8.2
 
 ```sh
 redmine:latest
+redmine:5.1.8-alpine3.20
+redmine:5.1-alpine3.20
+redmine:5-alpine3.20
 redmine:bookworm
 redmine:alpine3.21
 redmine:alpine3.20
@@ -7121,9 +7124,6 @@ redmine:5-bookworm
 redmine:5-alpine3.21
 redmine:5-alpine
 redmine:5
-redmine:5.1.8-alpine3.20
-redmine:5.1-alpine3.20
-redmine:5-alpine3.20
 redmine:6.0.4-alpine3.21
 redmine:6.0.4-alpine3.20
 redmine:6.0.4-alpine
@@ -7308,6 +7308,12 @@ nats:2.10.24-windowsservercore-1809
 
 ```sh
 rocket.chat:latest
+rocket.chat:7.2.5
+rocket.chat:7.2
+rocket.chat:7.1.5
+rocket.chat:7.1
+rocket.chat:7.0.9
+rocket.chat:7.0
 rocket.chat:7.5.1
 rocket.chat:7.5
 rocket.chat:7.4.2
@@ -7317,12 +7323,6 @@ rocket.chat:7.5.0
 rocket.chat:7.4.1
 rocket.chat:7.3.4
 rocket.chat:7.3
-rocket.chat:7.2.5
-rocket.chat:7.2
-rocket.chat:7.1.5
-rocket.chat:7.1
-rocket.chat:7.0.9
-rocket.chat:7.0
 rocket.chat:6.13.1
 rocket.chat:6.13
 rocket.chat:6
