@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Apr 26 04:50:23 UTC 2025
+Actualizado: Sun Apr 27 04:50:16 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -63,6 +63,14 @@ centos:centos5
 
 ```sh
 busybox:latest
+busybox:unstable-glibc
+busybox:stable-glibc
+busybox:glibc
+busybox:1.37.0-glibc
+busybox:1.37-glibc
+busybox:1.36.1-glibc
+busybox:1.36-glibc
+busybox:1-glibc
 busybox:unstable-uclibc
 busybox:uclibc
 busybox:stable-uclibc
@@ -71,20 +79,12 @@ busybox:1.37-uclibc
 busybox:1.36.1-uclibc
 busybox:1.36-uclibc
 busybox:1-uclibc
-busybox:unstable-glibc
 busybox:unstable
-busybox:stable-glibc
 busybox:stable
-busybox:glibc
-busybox:1.37.0-glibc
 busybox:1.37.0
-busybox:1.37-glibc
 busybox:1.37
-busybox:1.36.1-glibc
 busybox:1.36.1
-busybox:1.36-glibc
 busybox:1.36
-busybox:1-glibc
 busybox:1
 busybox:unstable-musl
 busybox:stable-musl
@@ -2690,6 +2690,30 @@ clojure:temurin-17-noble
 <summary> php </summary>
 
 ```sh
+php:8.3.21RC1-zts-alpine3.21
+php:8.3.21RC1-zts-alpine3.20
+php:8.3.21RC1-zts-alpine
+php:8.3.21RC1-fpm-alpine3.20
+php:8.3.21RC1-cli-alpine3.20
+php:8.3.21RC1-alpine3.20
+php:8.3-rc-zts-alpine3.21
+php:8.3-rc-zts-alpine3.20
+php:8.3-rc-zts-alpine
+php:8.3-rc-fpm-alpine3.20
+php:8.3-rc-cli-alpine3.20
+php:8.3-rc-alpine3.20
+php:8.3.21RC1-fpm-alpine3.21
+php:8.3.21RC1-fpm-alpine
+php:8.3.21RC1-cli-alpine3.21
+php:8.3.21RC1-cli-alpine
+php:8.3.21RC1-alpine3.21
+php:8.3.21RC1-alpine
+php:8.3-rc-fpm-alpine3.21
+php:8.3-rc-fpm-alpine
+php:8.3-rc-cli-alpine3.21
+php:8.3-rc-cli-alpine
+php:8.3-rc-alpine3.21
+php:8.3-rc-alpine
 php:8.4.7RC1-zts-alpine3.20
 php:8.4.7RC1-fpm-alpine3.20
 php:8.4-rc-zts-alpine3.20
@@ -2746,50 +2770,26 @@ php:8.4-rc-alpine
 php:8.4-rc
 php:8.3.21RC1-zts-bullseye
 php:8.3.21RC1-zts-bookworm
-php:8.3.21RC1-zts-alpine3.21
-php:8.3.21RC1-zts-alpine3.20
-php:8.3.21RC1-zts-alpine
 php:8.3.21RC1-zts
 php:8.3.21RC1-fpm-bullseye
 php:8.3.21RC1-fpm-bookworm
-php:8.3.21RC1-fpm-alpine3.21
-php:8.3.21RC1-fpm-alpine3.20
-php:8.3.21RC1-fpm-alpine
 php:8.3.21RC1-fpm
 php:8.3.21RC1-cli-bullseye
 php:8.3.21RC1-cli-bookworm
-php:8.3.21RC1-cli-alpine3.21
-php:8.3.21RC1-cli-alpine3.20
-php:8.3.21RC1-cli-alpine
 php:8.3.21RC1-cli
 php:8.3.21RC1-bullseye
 php:8.3.21RC1-bookworm
 php:8.3.21RC1-apache-bullseye
 php:8.3.21RC1-apache-bookworm
 php:8.3.21RC1-apache
-php:8.3.21RC1-alpine3.21
-php:8.3.21RC1-alpine3.20
-php:8.3.21RC1-alpine
 php:8.3.21RC1
 php:8.3-rc-zts-bullseye
 php:8.3-rc-zts-bookworm
-php:8.3-rc-zts-alpine3.21
-php:8.3-rc-zts-alpine3.20
-php:8.3-rc-zts-alpine
 php:8.3-rc-zts
 php:8.3-rc-fpm-bullseye
 php:8.3-rc-fpm-bookworm
-php:8.3-rc-fpm-alpine3.21
-php:8.3-rc-fpm-alpine3.20
-php:8.3-rc-fpm-alpine
 php:8.3-rc-fpm
 php:8.3-rc-cli-bullseye
-php:8.3-rc-cli-bookworm
-php:8.3-rc-cli-alpine3.21
-php:8.3-rc-cli-alpine3.20
-php:8.3-rc-cli-alpine
-php:8.3-rc-cli
-php:8.3-rc-bullseye
 ```
 </details>
 
@@ -4134,13 +4134,13 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
-haproxy:3.2-dev12-bookworm
 haproxy:3.2-dev12-alpine3.21
 haproxy:3.2-dev12-alpine
-haproxy:3.2-dev12
-haproxy:3.2-dev-bookworm
 haproxy:3.2-dev-alpine3.21
 haproxy:3.2-dev-alpine
+haproxy:3.2-dev12-bookworm
+haproxy:3.2-dev12
+haproxy:3.2-dev-bookworm
 haproxy:3.2-dev
 haproxy:2.8.15-alpine3.21
 haproxy:2.8.15-alpine
