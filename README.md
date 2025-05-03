@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri May  2 04:52:47 UTC 2025
+Actualizado: Sat May  3 04:51:44 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -172,6 +172,8 @@ busybox:1.30
 
 ```sh
 ubuntu:latest
+ubuntu:noble-20250415.1
+ubuntu:jammy-20250415.1
 ubuntu:rolling
 ubuntu:plucky-20250415
 ubuntu:plucky
@@ -269,8 +271,6 @@ ubuntu:jammy-20230816
 ubuntu:mantic-20230807.1
 ubuntu:jammy-20230804
 ubuntu:mantic-20230801
-ubuntu:lunar-20230731
-ubuntu:focal-20230801
 ```
 </details>
 
@@ -6715,10 +6715,11 @@ kaazing-gateway:5.0.1.21
 
 ```sh
 arangodb:latest
+arangodb:3.12.4.3
+arangodb:3.12
 arangodb:3.11.13
 arangodb:3.11
 arangodb:3.12.4
-arangodb:3.12
 arangodb:3.12.3
 arangodb:3.11.12
 arangodb:3.11.11
@@ -6813,7 +6814,6 @@ arangodb:3.7.2
 arangodb:3.6.6
 arangodb:3.7.1
 arangodb:3.6.5
-arangodb:3.5.5
 ```
 </details>
 
