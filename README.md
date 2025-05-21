@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue May 20 04:52:33 UTC 2025
+Actualizado: Wed May 21 04:53:28 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -639,6 +639,10 @@ ubuntu-upstart:13.04
 
 ```sh
 buildpack-deps:latest
+buildpack-deps:trixie
+buildpack-deps:testing
+buildpack-deps:trixie-scm
+buildpack-deps:testing-scm
 buildpack-deps:questing-scm
 buildpack-deps:questing
 buildpack-deps:25.10-scm
@@ -658,16 +662,12 @@ buildpack-deps:jammy-curl
 buildpack-deps:24.04-curl
 buildpack-deps:22.04-curl
 buildpack-deps:unstable
-buildpack-deps:trixie
-buildpack-deps:testing
 buildpack-deps:stable
 buildpack-deps:sid
 buildpack-deps:oldstable
 buildpack-deps:bullseye
 buildpack-deps:bookworm
 buildpack-deps:unstable-scm
-buildpack-deps:trixie-scm
-buildpack-deps:testing-scm
 buildpack-deps:stable-scm
 buildpack-deps:sid-scm
 buildpack-deps:scm
@@ -4509,15 +4509,18 @@ oraclelinux:5
 
 ```sh
 odoo:latest
-odoo:18.0-20250428
+odoo:18.0-20250520
 odoo:18.0
 odoo:18
-odoo:17.0-20250428
+odoo:17.0-20250520
 odoo:17.0
 odoo:17
-odoo:16.0-20250428
+odoo:16.0-20250520
 odoo:16.0
 odoo:16
+odoo:18.0-20250428
+odoo:17.0-20250428
+odoo:16.0-20250428
 odoo:18.0-20250415
 odoo:17.0-20250415
 odoo:16.0-20250415
@@ -4605,9 +4608,6 @@ odoo:16.0-20240603
 odoo:15.0-20240603
 odoo:17.0-20240603
 odoo:17.0-20240522
-odoo:16.0-20240522
-odoo:15.0-20240522
-odoo:14.0
 ```
 </details>
 
@@ -6149,6 +6149,12 @@ drupal:11.0-fpm
 
 ```sh
 cassandra:latest
+cassandra:4.1.9-jammy
+cassandra:4.1.9
+cassandra:4.1-jammy
+cassandra:4.1
+cassandra:4-jammy
+cassandra:4
 cassandra:jammy
 cassandra:5.0.4-jammy
 cassandra:5.0.4
@@ -6158,14 +6164,10 @@ cassandra:5-jammy
 cassandra:5
 cassandra:4.1.8-jammy
 cassandra:4.1.8
-cassandra:4.1-jammy
-cassandra:4.1
 cassandra:4.0.17-jammy
 cassandra:4.0.17
 cassandra:4.0-jammy
 cassandra:4.0
-cassandra:4-jammy
-cassandra:4
 cassandra:3.11.19-jammy
 cassandra:3.11.19
 cassandra:3.11-jammy
@@ -6246,8 +6248,6 @@ cassandra:4.0.10
 cassandra:3.11.14
 cassandra:3.0.28
 cassandra:4.1.1
-cassandra:4.0.9
-cassandra:4.0.8
 ```
 </details>
 
@@ -6367,10 +6367,12 @@ sonarqube:10.6.0-datacenter-search
 
 ```sh
 couchbase:latest
+couchbase:enterprise-7.6.6
+couchbase:enterprise
+couchbase:7.6.6
 couchbase:enterprise-7.6.5
 couchbase:enterprise-7.6.4
 couchbase:enterprise-7.6.3
-couchbase:enterprise
 couchbase:7.6.5
 couchbase:7.6.4
 couchbase:7.6.3
@@ -6464,8 +6466,6 @@ couchbase:community-6.5.0
 couchbase:7.0.0-beta
 couchbase:6.6.2
 couchbase:6.6.1
-couchbase:6.6.0
-couchbase:6.5.1
 ```
 </details>
 
