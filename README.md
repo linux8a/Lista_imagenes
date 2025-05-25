@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat May 24 04:51:39 UTC 2025
+Actualizado: Sun May 25 04:52:24 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -7417,6 +7417,10 @@ rocket.chat:6.0
 
 ```sh
 docker:latest
+docker:rc-dind-rootless
+docker:28.2.0-rc.2-dind-rootless
+docker:28-rc-dind-rootless
+docker:28-rc
 docker:rc-windowsservercore-ltsc2025
 docker:rc-windowsservercore-ltsc2022
 docker:rc-windowsservercore-1809
@@ -7428,7 +7432,6 @@ docker:28.2.0-rc.2-windowsservercore-ltsc2025
 docker:28.2.0-rc.2-windowsservercore-ltsc2022
 docker:28.2.0-rc.2-windowsservercore-1809
 docker:28.2.0-rc.2-windowsservercore
-docker:28.2.0-rc.2-dind-rootless
 docker:28.2.0-rc.2-dind-alpine3.21
 docker:28.2.0-rc.2-dind
 docker:28.2.0-rc.2-cli-alpine3.21
@@ -7441,12 +7444,10 @@ docker:28-rc-windowsservercore-1809
 docker:28-rc-windowsservercore
 docker:28-rc-dind
 docker:28-rc-cli
-docker:28-rc
 docker:windowsservercore-ltsc2025
 docker:windowsservercore-ltsc2022
 docker:windowsservercore-1809
 docker:windowsservercore
-docker:rc-dind-rootless
 docker:dind-rootless
 docker:dind
 docker:cli
@@ -7484,7 +7485,6 @@ docker:28-windowsservercore-ltsc2025
 docker:28-windowsservercore-ltsc2022
 docker:28-windowsservercore-1809
 docker:28-windowsservercore
-docker:28-rc-dind-rootless
 docker:28-dind-rootless
 docker:28-dind
 docker:28-cli
