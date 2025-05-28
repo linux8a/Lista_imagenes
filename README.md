@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue May 27 04:54:10 UTC 2025
+Actualizado: Wed May 28 04:53:26 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -1763,6 +1763,32 @@ ruby:3.4.2-slim-bookworm
 
 ```sh
 python:latest
+python:3.14.0b2-alpine3.21
+python:3.14.0b2-alpine3.20
+python:3.14.0b2-alpine
+python:3.14-rc-alpine3.21
+python:3.14-rc-alpine3.20
+python:3.14-rc-alpine
+python:3.14.0b2-windowsservercore-ltsc2025
+python:3.14.0b2-windowsservercore-ltsc2022
+python:3.14.0b2-windowsservercore-1809
+python:3.14.0b2-windowsservercore
+python:3.14.0b2-slim-bullseye
+python:3.14.0b2-slim-bookworm
+python:3.14.0b2-slim
+python:3.14.0b2-bullseye
+python:3.14.0b2-bookworm
+python:3.14.0b2
+python:3.14-rc-windowsservercore-ltsc2025
+python:3.14-rc-windowsservercore-ltsc2022
+python:3.14-rc-windowsservercore-1809
+python:3.14-rc-windowsservercore
+python:3.14-rc-slim-bullseye
+python:3.14-rc-slim-bookworm
+python:3.14-rc-slim
+python:3.14-rc-bullseye
+python:3.14-rc-bookworm
+python:3.14-rc
 python:3.9.22-bookworm
 python:3.9.22
 python:3.9-bookworm
@@ -1778,7 +1804,6 @@ python:bookworm
 python:3.9.22-bullseye
 python:3.9-bullseye
 python:3.14.0b1-bullseye
-python:3.14-rc-bullseye
 python:3.13.3-bullseye
 python:3.13.3-bookworm
 python:3.13.3
@@ -1802,8 +1827,6 @@ python:3-bookworm
 python:3
 python:3.14.0b1-bookworm
 python:3.14.0b1
-python:3.14-rc-bookworm
-python:3.14-rc
 python:3.10.17-slim-bullseye
 python:3.10.17-slim-bookworm
 python:3.10.17-slim
@@ -1820,8 +1843,6 @@ python:3.9-slim-bookworm
 python:3.9-slim
 python:3.14.0b1-slim-bookworm
 python:3.14.0b1-slim
-python:3.14-rc-slim-bookworm
-python:3.14-rc-slim
 python:3.13.3-slim-bookworm
 python:3.13.3-slim
 python:3.13-slim-bookworm
@@ -1838,30 +1859,9 @@ python:3-slim-bookworm
 python:3-slim
 python:slim-bullseye
 python:3.14.0b1-slim-bullseye
-python:3.14-rc-slim-bullseye
 python:3.13.3-slim-bullseye
 python:3.13-slim-bullseye
 python:3.12.10-slim-bullseye
-python:3.12-slim-bullseye
-python:3.11.12-slim-bullseye
-python:3.11-slim-bullseye
-python:3-slim-bullseye
-python:windowsservercore-ltsc2025
-python:windowsservercore-ltsc2022
-python:windowsservercore-1809
-python:windowsservercore
-python:3.14.0b1-windowsservercore-ltsc2025
-python:3.14.0b1-windowsservercore-ltsc2022
-python:3.14.0b1-windowsservercore-1809
-python:3.14.0b1-windowsservercore
-python:3.14-rc-windowsservercore-ltsc2025
-python:3.14-rc-windowsservercore-ltsc2022
-python:3.14-rc-windowsservercore-1809
-python:3.14-rc-windowsservercore
-python:3.13.3-windowsservercore-ltsc2025
-python:3.13.3-windowsservercore-ltsc2022
-python:3.13.3-windowsservercore-1809
-python:3.13.3-windowsservercore
 ```
 </details>
 
@@ -2028,6 +2028,42 @@ hello-world:nanoserver1709
 
 ```sh
 hylang:latest
+hylang:python3.14-rc-windowsservercore-ltsc2025
+hylang:python3.14-rc-windowsservercore-ltsc2022
+hylang:python3.14-rc-windowsservercore-1809
+hylang:python3.14-rc-bullseye
+hylang:python3.14-rc-bookworm
+hylang:python3.14-rc-alpine3.21
+hylang:python3.14-rc-alpine3.20
+hylang:python3.14-rc-alpine
+hylang:python3.14-rc
+hylang:1.1.0-python3.14-rc-windowsservercore-ltsc2025
+hylang:1.1.0-python3.14-rc-windowsservercore-ltsc2022
+hylang:1.1.0-python3.14-rc-windowsservercore-1809
+hylang:1.1.0-python3.14-rc-bullseye
+hylang:1.1.0-python3.14-rc-bookworm
+hylang:1.1.0-python3.14-rc-alpine3.21
+hylang:1.1.0-python3.14-rc-alpine3.20
+hylang:1.1.0-python3.14-rc-alpine
+hylang:1.1.0-python3.14-rc
+hylang:1.1-python3.14-rc-windowsservercore-ltsc2025
+hylang:1.1-python3.14-rc-windowsservercore-ltsc2022
+hylang:1.1-python3.14-rc-windowsservercore-1809
+hylang:1.1-python3.14-rc-bullseye
+hylang:1.1-python3.14-rc-bookworm
+hylang:1.1-python3.14-rc-alpine3.21
+hylang:1.1-python3.14-rc-alpine3.20
+hylang:1.1-python3.14-rc-alpine
+hylang:1.1-python3.14-rc
+hylang:1-python3.14-rc-windowsservercore-ltsc2025
+hylang:1-python3.14-rc-windowsservercore-ltsc2022
+hylang:1-python3.14-rc-windowsservercore-1809
+hylang:1-python3.14-rc-bullseye
+hylang:1-python3.14-rc-bookworm
+hylang:1-python3.14-rc-alpine3.21
+hylang:1-python3.14-rc-alpine3.20
+hylang:1-python3.14-rc-alpine
+hylang:1-python3.14-rc
 hylang:python3.10-bullseye
 hylang:1.1.0-python3.10-bullseye
 hylang:1.1-python3.10-bullseye
@@ -2049,9 +2085,6 @@ hylang:1.1-python3.10
 hylang:1-python3.10-bookworm
 hylang:1-python3.10
 hylang:python3.9-bullseye
-hylang:python3.14-rc-bullseye
-hylang:python3.14-rc-bookworm
-hylang:python3.14-rc
 hylang:python3.13-bullseye
 hylang:python3.13-bookworm
 hylang:python3.13
@@ -2064,9 +2097,6 @@ hylang:python3.11
 hylang:bullseye
 hylang:bookworm
 hylang:1.1.0-python3.9-bullseye
-hylang:1.1.0-python3.14-rc-bullseye
-hylang:1.1.0-python3.14-rc-bookworm
-hylang:1.1.0-python3.14-rc
 hylang:1.1.0-python3.13-bullseye
 hylang:1.1.0-python3.13-bookworm
 hylang:1.1.0-python3.13
@@ -2080,9 +2110,6 @@ hylang:1.1.0-bullseye
 hylang:1.1.0-bookworm
 hylang:1.1.0
 hylang:1.1-python3.9-bullseye
-hylang:1.1-python3.14-rc-bullseye
-hylang:1.1-python3.14-rc-bookworm
-hylang:1.1-python3.14-rc
 hylang:1.1-python3.13-bullseye
 hylang:1.1-python3.13-bookworm
 hylang:1.1-python3.13
@@ -2096,37 +2123,10 @@ hylang:1.1-bullseye
 hylang:1.1-bookworm
 hylang:1.1
 hylang:1-python3.9-bullseye
-hylang:1-python3.14-rc-bullseye
-hylang:1-python3.14-rc-bookworm
-hylang:1-python3.14-rc
 hylang:1-python3.13-bullseye
 hylang:1-python3.13-bookworm
 hylang:1-python3.13
 hylang:1-python3.12-bullseye
-hylang:1-python3.12-bookworm
-hylang:1-python3.12
-hylang:1-python3.11-bullseye
-hylang:1-python3.11-bookworm
-hylang:1-python3.11
-hylang:1-bullseye
-hylang:1-bookworm
-hylang:1
-hylang:pypy3.11-bookworm
-hylang:pypy3.11
-hylang:pypy3.10-bullseye
-hylang:pypy3.10-bookworm
-hylang:pypy3.10
-hylang:pypy-bullseye
-hylang:pypy-bookworm
-hylang:pypy
-hylang:1.1.0-pypy3.11-bookworm
-hylang:1.1.0-pypy3.11
-hylang:1.1.0-pypy3.10-bullseye
-hylang:1.1.0-pypy3.10-bookworm
-hylang:1.1.0-pypy3.10
-hylang:1.1.0-pypy-bullseye
-hylang:1.1.0-pypy-bookworm
-hylang:1.1.0-pypy
 ```
 </details>
 
@@ -2364,10 +2364,20 @@ jenkins:1.570
 
 ```sh
 golang:latest
+golang:tip-alpine3.21
+golang:tip-alpine3.20
+golang:tip-alpine
+golang:tip-20250524-alpine3.21
+golang:tip-20250524-alpine3.20
+golang:tip-20250524-alpine
+golang:tip-bullseye
 golang:tip-bookworm
+golang:tip-20250524-bullseye
+golang:tip-20250524-bookworm
+golang:tip-20250524
+golang:tip
 golang:tip-20250517-bookworm
 golang:tip-20250517
-golang:tip
 golang:bookworm
 golang:1.24.3-bookworm
 golang:1.24.3
@@ -2379,7 +2389,6 @@ golang:1.23-bookworm
 golang:1.23
 golang:1-bookworm
 golang:1
-golang:tip-bullseye
 golang:tip-20250517-bullseye
 golang:bullseye
 golang:1.24.3-bullseye
@@ -2387,9 +2396,6 @@ golang:1.24-bullseye
 golang:1.23.9-bullseye
 golang:1.23-bullseye
 golang:1-bullseye
-golang:tip-alpine3.21
-golang:tip-alpine3.20
-golang:tip-alpine
 golang:tip-20250517-alpine3.21
 golang:tip-20250517-alpine3.20
 golang:tip-20250517-alpine
@@ -2457,12 +2463,6 @@ golang:alpine3.21
 golang:alpine3.20
 golang:alpine
 golang:1.24.3-alpine3.21
-golang:1.24.3-alpine3.20
-golang:1.24.3-alpine
-golang:1.24-alpine3.21
-golang:1.24-alpine3.20
-golang:1.24-alpine
-golang:1.23.9-alpine3.21
 ```
 </details>
 
@@ -5288,12 +5288,14 @@ jetty:12.0-jdk21-alpine
 ```sh
 ghost:latest
 ghost:alpine
-ghost:5.120.2-alpine
-ghost:5.120.2
+ghost:5.120.3-alpine
+ghost:5.120.3
 ghost:5.120-alpine
 ghost:5.120
 ghost:5-alpine
 ghost:5
+ghost:5.120.2-alpine
+ghost:5.120.2
 ghost:5.120.1-alpine
 ghost:5.120.1
 ghost:5.120.0
@@ -5384,8 +5386,6 @@ ghost:5.108.1-alpine
 ghost:5.108.1
 ghost:5.107.2-alpine
 ghost:5.107.2
-ghost:5.107-alpine
-ghost:5.107
 ```
 </details>
 
@@ -5533,6 +5533,10 @@ percona:psmdb-5.0.3
 <summary> aerospike </summary>
 
 ```sh
+aerospike:ee-8.0.0.8_1
+aerospike:ee-8.0.0.8
+aerospike:ce-8.0.0.8_1
+aerospike:ce-8.0.0.8
 aerospike:ee-8.0.0.7_1
 aerospike:ee-8.0.0.7
 aerospike:ce-8.0.0.7_1
@@ -5629,10 +5633,6 @@ aerospike:ce-7.0.0.6
 aerospike:ee-7.0.0.6_1
 aerospike:ee-7.0.0.6
 aerospike:ce-7.0.0.6_1
-aerospike:ee-7.0.0.5_1
-aerospike:ee-7.0.0.5
-aerospike:ce-7.0.0.5_1
-aerospike:ce-7.0.0.5
 ```
 </details>
 
@@ -6258,16 +6258,36 @@ cassandra:4.1.1
 
 ```sh
 sonarqube:latest
+sonarqube:enterprise
+sonarqube:developer
+sonarqube:datacenter-search
+sonarqube:datacenter-app
+sonarqube:2025.3.0-enterprise
+sonarqube:2025.3.0-developer
+sonarqube:2025.3.0-datacenter-search
+sonarqube:2025.3.0-datacenter-app
+sonarqube:2025.3-enterprise
+sonarqube:2025.3-developer
+sonarqube:2025.3-datacenter-search
+sonarqube:2025.3-datacenter-app
+sonarqube:2025.1.2-enterprise
+sonarqube:2025.1.2-developer
+sonarqube:2025.1.2-datacenter-search
+sonarqube:2025.1.2-datacenter-app
+sonarqube:2025.1-enterprise
+sonarqube:2025.1-developer
+sonarqube:2025.1-datacenter-search
+sonarqube:2025.1-datacenter-app
+sonarqube:2025-lta-enterprise
+sonarqube:2025-lta-developer
+sonarqube:2025-lta-datacenter-search
+sonarqube:2025-lta-datacenter-app
 sonarqube:lts-enterprise
 sonarqube:lts-developer
 sonarqube:lts-datacenter-search
 sonarqube:lts-datacenter-app
 sonarqube:lts-community
 sonarqube:lts
-sonarqube:enterprise
-sonarqube:developer
-sonarqube:datacenter-search
-sonarqube:datacenter-app
 sonarqube:community
 sonarqube:9.9.9-enterprise
 sonarqube:9.9.9-datacenter-search
@@ -6297,14 +6317,6 @@ sonarqube:2025.1.1-enterprise
 sonarqube:2025.1.1-developer
 sonarqube:2025.1.1-datacenter-search
 sonarqube:2025.1.1-datacenter-app
-sonarqube:2025.1-enterprise
-sonarqube:2025.1-developer
-sonarqube:2025.1-datacenter-search
-sonarqube:2025.1-datacenter-app
-sonarqube:2025-lta-enterprise
-sonarqube:2025-lta-developer
-sonarqube:2025-lta-datacenter-search
-sonarqube:2025-lta-datacenter-app
 sonarqube:25.4.0.105899-community
 sonarqube:2025.1.0-enterprise
 sonarqube:2025.1.0-developer
@@ -6345,18 +6357,6 @@ sonarqube:10.7.0-datacenter-app
 sonarqube:10.7.0-community
 sonarqube:10.7-enterprise
 sonarqube:10.7-developer
-sonarqube:10.7-datacenter-search
-sonarqube:10.7-datacenter-app
-sonarqube:10.7-community
-sonarqube:10-community
-sonarqube:9.9.6-enterprise
-sonarqube:9.9.6-developer
-sonarqube:9.9.6-datacenter-search
-sonarqube:9.9.6-datacenter-app
-sonarqube:9.9.6-community
-sonarqube:10.6.0-enterprise
-sonarqube:10.6.0-developer
-sonarqube:10.6.0-datacenter-search
 ```
 </details>
 
@@ -7308,8 +7308,10 @@ nats:2.11.1-binary-scratch
 
 ```sh
 rocket.chat:latest
-rocket.chat:7.6.0
+rocket.chat:7.6.1
 rocket.chat:7.6
+rocket.chat:7
+rocket.chat:7.6.0
 rocket.chat:7.5.1
 rocket.chat:7.5
 rocket.chat:7.4.2
@@ -7322,7 +7324,6 @@ rocket.chat:7.1.5
 rocket.chat:7.1
 rocket.chat:7.0.9
 rocket.chat:7.0
-rocket.chat:7
 rocket.chat:6.13.1
 rocket.chat:6.13
 rocket.chat:6
@@ -7406,7 +7407,6 @@ rocket.chat:6.2.0
 rocket.chat:6.1.7
 rocket.chat:6.1
 rocket.chat:6.0.7
-rocket.chat:6.0
 ```
 </details>
 
@@ -7848,6 +7848,33 @@ solr:7.7.3
 
 ```sh
 neo4j:latest
+neo4j:5.26.7-ubi9
+neo4j:5.26.7-enterprise-ubi9
+neo4j:5.26.7-enterprise-bullseye
+neo4j:5.26.7-enterprise
+neo4j:5.26.7-community-ubi9
+neo4j:5.26.7-community-bullseye
+neo4j:5.26.7-community
+neo4j:5.26.7-bullseye
+neo4j:5.26.7
+neo4j:5.26-ubi9
+neo4j:5.26-enterprise-ubi9
+neo4j:5.26-enterprise-bullseye
+neo4j:5.26-enterprise
+neo4j:5.26-community-ubi9
+neo4j:5.26-community-bullseye
+neo4j:5.26-community
+neo4j:5.26-bullseye
+neo4j:5.26
+neo4j:5-ubi9
+neo4j:5-enterprise-ubi9
+neo4j:5-enterprise-bullseye
+neo4j:5-enterprise
+neo4j:5-community-ubi9
+neo4j:5-community-bullseye
+neo4j:5-community
+neo4j:5-bullseye
+neo4j:5
 neo4j:4.4.44-enterprise
 neo4j:4.4.44-community
 neo4j:4.4.44
@@ -7865,18 +7892,6 @@ neo4j:5.26.6-community-bullseye
 neo4j:5.26.6-community
 neo4j:5.26.6-bullseye
 neo4j:5.26.6
-neo4j:5.26-enterprise-bullseye
-neo4j:5.26-enterprise
-neo4j:5.26-community-bullseye
-neo4j:5.26-community
-neo4j:5.26-bullseye
-neo4j:5.26
-neo4j:5-enterprise-bullseye
-neo4j:5-enterprise
-neo4j:5-community-bullseye
-neo4j:5-community
-neo4j:5-bullseye
-neo4j:5
 neo4j:4.4.43-enterprise
 neo4j:4.4.43-community
 neo4j:4.4.43
@@ -7904,12 +7919,6 @@ neo4j:community-ubi9
 neo4j:5.26.6-ubi9
 neo4j:5.26.6-enterprise-ubi9
 neo4j:5.26.6-community-ubi9
-neo4j:5.26-ubi9
-neo4j:5.26-enterprise-ubi9
-neo4j:5.26-community-ubi9
-neo4j:5-ubi9
-neo4j:5-enterprise-ubi9
-neo4j:5-community-ubi9
 neo4j:2025.04.0-ubi9
 neo4j:2025.04.0-enterprise-ubi9
 neo4j:2025.04.0-community-ubi9
@@ -7938,15 +7947,6 @@ neo4j:2025.03-ubi9
 neo4j:2025.03-enterprise-ubi9
 neo4j:2025.03-community-ubi9
 neo4j:2025.03.0-enterprise-bullseye
-neo4j:2025.03.0-enterprise
-neo4j:2025.03.0-community-bullseye
-neo4j:2025.03.0-community
-neo4j:2025.03.0-bullseye
-neo4j:2025.03.0
-neo4j:2025.03-enterprise-bullseye
-neo4j:2025.03-enterprise
-neo4j:2025.03-community-bullseye
-neo4j:2025.03-community
 ```
 </details>
 
