@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed May 28 04:53:26 UTC 2025
+Actualizado: Thu May 29 04:53:59 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -4134,13 +4134,33 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:lts-bookworm
+haproxy:lts-alpine3.21
+haproxy:lts-alpine
+haproxy:lts
 haproxy:bookworm
+haproxy:alpine3.21
+haproxy:alpine
+haproxy:3.3-dev0-bookworm
+haproxy:3.3-dev0-alpine3.21
+haproxy:3.3-dev0-alpine
+haproxy:3.3-dev0
+haproxy:3.3-dev-bookworm
+haproxy:3.3-dev-alpine3.21
+haproxy:3.3-dev-alpine
+haproxy:3.3-dev
+haproxy:3.2.0-bookworm
+haproxy:3.2.0-alpine3.21
+haproxy:3.2.0-alpine
+haproxy:3.2.0
+haproxy:3.2-bookworm
+haproxy:3.2-alpine3.21
+haproxy:3.2-alpine
+haproxy:3.2
 haproxy:3.1.7-bookworm
 haproxy:3.1.7
 haproxy:3.1-bookworm
 haproxy:3.1
-haproxy:lts-bookworm
-haproxy:lts
 haproxy:3.2-dev17-bookworm
 haproxy:3.2-dev17-alpine3.21
 haproxy:3.2-dev17-alpine
@@ -4193,8 +4213,6 @@ haproxy:2.8.15-alpine3.21
 haproxy:2.8.15-alpine
 haproxy:2.8-alpine3.21
 haproxy:2.8-alpine
-haproxy:lts-alpine3.21
-haproxy:lts-alpine
 haproxy:3.0.10-alpine3.21
 haproxy:3.0.10-alpine
 haproxy:3.0-alpine3.21
@@ -4211,28 +4229,10 @@ haproxy:3.2-dev11-bookworm
 haproxy:3.2-dev11-alpine3.21
 haproxy:3.2-dev11-alpine
 haproxy:3.2-dev11
-haproxy:alpine3.21
-haproxy:alpine
 haproxy:3.1.7-alpine3.21
 haproxy:3.1.7-alpine
 haproxy:3.1-alpine3.21
 haproxy:3.1-alpine
-haproxy:3.2-dev10-alpine3.21
-haproxy:3.2-dev10-alpine
-haproxy:3.2-dev10-bookworm
-haproxy:3.2-dev10
-haproxy:2.4.28-bookworm
-haproxy:2.4.28
-haproxy:3.2-dev9-bookworm
-haproxy:3.2-dev9
-haproxy:3.1.6-bookworm
-haproxy:3.1.6
-haproxy:3.0.9-bookworm
-haproxy:3.0.9
-haproxy:2.8.14-bookworm
-haproxy:2.8.14
-haproxy:2.6.21-bookworm
-haproxy:2.6.21
 ```
 </details>
 
@@ -5288,12 +5288,14 @@ jetty:12.0-jdk21-alpine
 ```sh
 ghost:latest
 ghost:alpine
-ghost:5.120.3-alpine
-ghost:5.120.3
+ghost:5.120.4-alpine
+ghost:5.120.4
 ghost:5.120-alpine
 ghost:5.120
 ghost:5-alpine
 ghost:5
+ghost:5.120.3-alpine
+ghost:5.120.3
 ghost:5.120.2-alpine
 ghost:5.120.2
 ghost:5.120.1-alpine
@@ -5384,8 +5386,6 @@ ghost:5.108-alpine
 ghost:5.108
 ghost:5.108.1-alpine
 ghost:5.108.1
-ghost:5.107.2-alpine
-ghost:5.107.2
 ```
 </details>
 
