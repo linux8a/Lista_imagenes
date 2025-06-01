@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat May 31 04:54:34 UTC 2025
+Actualizado: Sun Jun  1 04:57:58 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -863,6 +863,18 @@ node:jod-alpine3.22
 node:jod-alpine
 node:iron-alpine3.22
 node:iron-alpine
+node:22.16.0-alpine3.22
+node:22.16.0-alpine
+node:22.16-alpine3.22
+node:22.16-alpine
+node:22-alpine3.22
+node:22-alpine
+node:20.19.2-alpine3.22
+node:20.19.2-alpine
+node:20.19-alpine3.22
+node:20.19-alpine
+node:20-alpine3.22
+node:20-alpine
 node:current-alpine3.22
 node:current-alpine
 node:alpine3.22
@@ -879,18 +891,6 @@ node:23.11-alpine3.22
 node:23.11-alpine
 node:23-alpine3.22
 node:23-alpine
-node:22.16.0-alpine3.22
-node:22.16.0-alpine
-node:22.16-alpine3.22
-node:22.16-alpine
-node:22-alpine3.22
-node:22-alpine
-node:20.19.2-alpine3.22
-node:20.19.2-alpine
-node:20.19-alpine3.22
-node:20.19-alpine
-node:20-alpine3.22
-node:20-alpine
 node:slim
 node:current-slim
 node:current-bookworm-slim
@@ -1654,6 +1654,14 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:3.3.8-alpine3.22
+ruby:3.3.8-alpine
+ruby:3.3-alpine3.22
+ruby:3.3-alpine
+ruby:3.2.8-alpine3.22
+ruby:3.2.8-alpine
+ruby:3.2-alpine3.22
+ruby:3.2-alpine
 ruby:alpine3.22
 ruby:alpine
 ruby:3.5.0-preview1-alpine3.22
@@ -1664,14 +1672,6 @@ ruby:3.4.4-alpine3.22
 ruby:3.4.4-alpine
 ruby:3.4-alpine3.22
 ruby:3.4-alpine
-ruby:3.3.8-alpine3.22
-ruby:3.3.8-alpine
-ruby:3.3-alpine3.22
-ruby:3.3-alpine
-ruby:3.2.8-alpine3.22
-ruby:3.2.8-alpine
-ruby:3.2-alpine3.22
-ruby:3.2-alpine
 ruby:3-alpine3.22
 ruby:3-alpine
 ruby:3.3.8-bookworm
@@ -1763,12 +1763,17 @@ ruby:3.4.3-alpine3.21
 
 ```sh
 python:latest
-python:alpine3.22
-python:alpine
 python:3.9.22-alpine3.22
 python:3.9.22-alpine
 python:3.9-alpine3.22
 python:3.9-alpine
+python:3.10.17-alpine3.22
+python:3.10.17-alpine
+python:3.10-alpine3.22
+python:3.10-alpine
+python:3-alpine
+python:alpine3.22
+python:alpine
 python:3.14.0b2-alpine3.22
 python:3.14.0b2-alpine
 python:3.14-rc-alpine3.22
@@ -1785,12 +1790,7 @@ python:3.11.12-alpine3.22
 python:3.11.12-alpine
 python:3.11-alpine3.22
 python:3.11-alpine
-python:3.10.17-alpine3.22
-python:3.10.17-alpine
-python:3.10-alpine3.22
-python:3.10-alpine
 python:3-alpine3.22
-python:3-alpine
 python:windowsservercore
 python:3.14.0b2-windowsservercore
 python:3.14.0b2
@@ -2364,38 +2364,38 @@ jenkins:1.570
 
 ```sh
 golang:latest
-golang:windowsservercore
 golang:tip-alpine3.22
 golang:tip-alpine
 golang:tip-20250524-alpine3.22
 golang:tip-20250524-alpine
-golang:nanoserver
 golang:alpine3.22
 golang:alpine
-golang:1.24.3-windowsservercore
-golang:1.24.3-nanoserver
 golang:1.24.3-alpine3.22
 golang:1.24.3-alpine
+golang:1.24-alpine3.22
+golang:1.24-alpine
+golang:1.23.9-alpine3.22
+golang:1.23.9-alpine
+golang:1.23-alpine3.22
+golang:1.23-alpine
+golang:1-alpine3.22
+golang:1-alpine
+golang:windowsservercore
+golang:nanoserver
+golang:1.24.3-windowsservercore
+golang:1.24.3-nanoserver
 golang:1.24.3
 golang:1.24-windowsservercore
 golang:1.24-nanoserver
-golang:1.24-alpine3.22
-golang:1.24-alpine
 golang:1.24
 golang:1.23.9-windowsservercore
 golang:1.23.9-nanoserver
-golang:1.23.9-alpine3.22
-golang:1.23.9-alpine
 golang:1.23.9
 golang:1.23-windowsservercore
 golang:1.23-nanoserver
-golang:1.23-alpine3.22
-golang:1.23-alpine
 golang:1.23
 golang:1-windowsservercore
 golang:1-nanoserver
-golang:1-alpine3.22
-golang:1-alpine
 golang:1
 golang:tip-alpine3.21
 golang:tip-alpine3.20
@@ -4134,6 +4134,14 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:2.6.22-alpine3.22
+haproxy:2.6.22-alpine
+haproxy:2.6-alpine3.22
+haproxy:2.6-alpine
+haproxy:2.4.29-alpine3.22
+haproxy:2.4.29-alpine
+haproxy:2.4-alpine3.22
+haproxy:2.4-alpine
 haproxy:lts-alpine3.22
 haproxy:lts-alpine
 haproxy:alpine3.22
@@ -4158,14 +4166,6 @@ haproxy:2.8.15-alpine3.22
 haproxy:2.8.15-alpine
 haproxy:2.8-alpine3.22
 haproxy:2.8-alpine
-haproxy:2.6.22-alpine3.22
-haproxy:2.6.22-alpine
-haproxy:2.6-alpine3.22
-haproxy:2.6-alpine
-haproxy:2.4.29-alpine3.22
-haproxy:2.4.29-alpine
-haproxy:2.4-alpine3.22
-haproxy:2.4-alpine
 haproxy:lts-bookworm
 haproxy:lts-alpine3.21
 haproxy:lts
@@ -4352,6 +4352,15 @@ memcached:1.6.21
 
 ```sh
 rabbitmq:latest
+rabbitmq:3.13.7-management-alpine
+rabbitmq:3.13-management-alpine
+rabbitmq:3-management-alpine
+rabbitmq:management-alpine
+rabbitmq:4.1.0-management-alpine
+rabbitmq:4.1-management-alpine
+rabbitmq:4.0.9-management-alpine
+rabbitmq:4.0-management-alpine
+rabbitmq:4-management-alpine
 rabbitmq:alpine
 rabbitmq:4.1.0-alpine
 rabbitmq:4.1-alpine
@@ -4361,15 +4370,6 @@ rabbitmq:4-alpine
 rabbitmq:3.13.7-alpine
 rabbitmq:3.13-alpine
 rabbitmq:3-alpine
-rabbitmq:management-alpine
-rabbitmq:4.1.0-management-alpine
-rabbitmq:4.1-management-alpine
-rabbitmq:4.0.9-management-alpine
-rabbitmq:4.0-management-alpine
-rabbitmq:4-management-alpine
-rabbitmq:3.13.7-management-alpine
-rabbitmq:3.13-management-alpine
-rabbitmq:3-management-alpine
 rabbitmq:management
 rabbitmq:4.1.0-management
 rabbitmq:4.1-management
@@ -6043,10 +6043,13 @@ rakudo-star:2015.03
 <summary> drupal </summary>
 
 ```sh
+drupal:11.2.0-beta1-php8.4-fpm-alpine3.20
+drupal:11.2.0-beta1-fpm-alpine3.20
+drupal:11.2-rc-php8.4-fpm-alpine3.20
+drupal:11.2-rc-fpm-alpine3.20
 drupal:11.2.0-beta1-php8.4-fpm-bullseye
 drupal:11.2.0-beta1-php8.4-fpm-bookworm
 drupal:11.2.0-beta1-php8.4-fpm-alpine3.21
-drupal:11.2.0-beta1-php8.4-fpm-alpine3.20
 drupal:11.2.0-beta1-php8.4-fpm-alpine
 drupal:11.2.0-beta1-php8.4-fpm
 drupal:11.2.0-beta1-php8.4-apache-bullseye
@@ -6066,7 +6069,6 @@ drupal:11.2.0-beta1-php8.3
 drupal:11.2.0-beta1-fpm-bullseye
 drupal:11.2.0-beta1-fpm-bookworm
 drupal:11.2.0-beta1-fpm-alpine3.21
-drupal:11.2.0-beta1-fpm-alpine3.20
 drupal:11.2.0-beta1-fpm-alpine
 drupal:11.2.0-beta1-fpm
 drupal:11.2.0-beta1-apache-bullseye
@@ -6076,7 +6078,6 @@ drupal:11.2.0-beta1
 drupal:11.2-rc-php8.4-fpm-bullseye
 drupal:11.2-rc-php8.4-fpm-bookworm
 drupal:11.2-rc-php8.4-fpm-alpine3.21
-drupal:11.2-rc-php8.4-fpm-alpine3.20
 drupal:11.2-rc-php8.4-fpm-alpine
 drupal:11.2-rc-php8.4-fpm
 drupal:11.2-rc-php8.4-apache-bullseye
@@ -6096,7 +6097,6 @@ drupal:11.2-rc-php8.3
 drupal:11.2-rc-fpm-bullseye
 drupal:11.2-rc-fpm-bookworm
 drupal:11.2-rc-fpm-alpine3.21
-drupal:11.2-rc-fpm-alpine3.20
 drupal:11.2-rc-fpm-alpine
 drupal:11.2-rc-fpm
 drupal:11.2-rc-apache-bullseye
