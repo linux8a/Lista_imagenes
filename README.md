@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Jul 10 04:59:35 UTC 2025
+Actualizado: Fri Jul 11 05:01:02 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -4461,11 +4461,13 @@ rabbitmq:4.0.3-alpine
 <summary> oraclelinux </summary>
 
 ```sh
-oraclelinux:9
-oraclelinux:8.10
-oraclelinux:8
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
+oraclelinux:9
+oraclelinux:10-slim
+oraclelinux:10
+oraclelinux:8.10
+oraclelinux:8
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
 oraclelinux:7.9
@@ -4510,15 +4512,18 @@ oraclelinux:5
 
 ```sh
 odoo:latest
-odoo:18.0-20250618
+odoo:18.0-20250710
 odoo:18.0
 odoo:18
-odoo:17.0-20250618
+odoo:17.0-20250710
 odoo:17.0
 odoo:17
-odoo:16.0-20250618
+odoo:16.0-20250710
 odoo:16.0
 odoo:16
+odoo:18.0-20250618
+odoo:17.0-20250618
+odoo:16.0-20250618
 odoo:16.0-20250606
 odoo:18.0-20250606
 odoo:17.0-20250606
@@ -4606,9 +4611,6 @@ odoo:17.0-20240730
 odoo:16.0-20240730
 odoo:15.0-20240730
 odoo:16.0-20240711
-odoo:15.0-20240711
-odoo:17.0-20240711
-odoo:17.0-20240624
 ```
 </details>
 
@@ -5073,6 +5075,9 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:9.0.3
+elasticsearch:8.18.3
+elasticsearch:8.17.8
 elasticsearch:9.0.2
 elasticsearch:8.18.2
 elasticsearch:9.0.1
@@ -5170,9 +5175,6 @@ elasticsearch:7.17.4
 elasticsearch:8.2.0
 elasticsearch:8.1.3
 elasticsearch:7.17.3
-elasticsearch:8.1.2
-elasticsearch:7.17.2
-elasticsearch:8.1.1
 ```
 </details>
 
@@ -5647,6 +5649,9 @@ aerospike:ce-7.0.0.6_1
 <summary> logstash </summary>
 
 ```sh
+logstash:9.0.3
+logstash:8.18.3
+logstash:8.17.8
 logstash:9.0.2
 logstash:8.18.2
 logstash:9.0.1
@@ -5744,9 +5749,6 @@ logstash:7.17.4
 logstash:8.2.0
 logstash:8.1.3
 logstash:7.17.3
-logstash:8.1.2
-logstash:7.17.2
-logstash:8.1.1
 ```
 </details>
 
@@ -6590,6 +6592,9 @@ ros:jade-perception-trusty
 <summary> kibana </summary>
 
 ```sh
+kibana:9.0.3
+kibana:8.18.3
+kibana:8.17.8
 kibana:9.0.2
 kibana:8.18.2
 kibana:9.0.1
@@ -6687,9 +6692,6 @@ kibana:7.17.4
 kibana:8.2.0
 kibana:8.1.3
 kibana:7.17.3
-kibana:8.1.2
-kibana:7.17.2
-kibana:8.1.1
 ```
 </details>
 
@@ -8395,43 +8397,83 @@ piwik:2.16.0
 <summary> elixir </summary>
 
 ```sh
+elixir:otp-26-alpine
+elixir:otp-25-slim
+elixir:otp-25-alpine
+elixir:1.18.4-otp-26-alpine
+elixir:1.18.4-otp-25-slim
+elixir:1.18.4-otp-25-alpine
+elixir:1.18-otp-26-alpine
+elixir:1.18-otp-25-slim
+elixir:1.18-otp-25-alpine
+elixir:1.17.3-otp-26-alpine
+elixir:1.17.3-otp-25-slim
+elixir:1.17.3-otp-25-alpine
+elixir:1.17.3-otp-25
+elixir:1.17-otp-26-alpine
+elixir:1.17-otp-25-slim
+elixir:1.17-otp-25-alpine
+elixir:1.17-otp-25
+elixir:1.16.3-otp-26-alpine
+elixir:1.16.3-otp-25-slim
+elixir:1.16.3-otp-25-alpine
+elixir:1.16.3-otp-25
+elixir:1.16.3-alpine
+elixir:1.16-otp-26-alpine
+elixir:1.16-otp-25-slim
+elixir:1.16-otp-25-alpine
+elixir:1.16-otp-25
+elixir:1.16-alpine
+elixir:1.15.8-otp-26-alpine
+elixir:1.15.8-otp-25-slim
+elixir:1.15.8-otp-25-alpine
+elixir:1.15.8-otp-25
+elixir:1.15.8-alpine
+elixir:1.15-otp-26-alpine
+elixir:1.15-otp-25-slim
+elixir:1.15-otp-25-alpine
+elixir:1.15-otp-25
+elixir:1.15-alpine
+elixir:1.14.5-otp-26-alpine
+elixir:1.14.5-otp-25-slim
+elixir:1.14.5-otp-25-alpine
+elixir:1.14.5-otp-25
+elixir:1.14.5-alpine
+elixir:1.14-otp-26-alpine
+elixir:1.14-otp-25-slim
+elixir:1.14-otp-25-alpine
+elixir:1.14-otp-25
+elixir:1.14-alpine
+elixir:1.13.4-otp-25-slim
+elixir:1.13.4-otp-25-alpine
+elixir:1.13.4-otp-25
+elixir:1.13-otp-25-slim
+elixir:1.13-otp-25-alpine
+elixir:1.13-otp-25
 elixir:otp-27-slim
 elixir:otp-27-alpine
 elixir:otp-27
 elixir:otp-26-slim
-elixir:otp-26-alpine
 elixir:otp-26
-elixir:otp-25-slim
-elixir:otp-25-alpine
 elixir:otp-25
 elixir:1.18.4-otp-27-slim
 elixir:1.18.4-otp-27-alpine
 elixir:1.18.4-otp-27
 elixir:1.18.4-otp-26-slim
-elixir:1.18.4-otp-26-alpine
 elixir:1.18.4-otp-26
-elixir:1.18.4-otp-25-slim
-elixir:1.18.4-otp-25-alpine
 elixir:1.18.4-otp-25
 elixir:1.18-otp-27-slim
 elixir:1.18-otp-27-alpine
 elixir:1.18-otp-27
 elixir:1.18-otp-26-slim
-elixir:1.18-otp-26-alpine
 elixir:1.18-otp-26
-elixir:1.18-otp-25-slim
-elixir:1.18-otp-25-alpine
 elixir:1.18-otp-25
 elixir:1.17.3-slim
 elixir:1.17.3-otp-27-slim
 elixir:1.17.3-otp-27-alpine
 elixir:1.17.3-otp-27
 elixir:1.17.3-otp-26-slim
-elixir:1.17.3-otp-26-alpine
 elixir:1.17.3-otp-26
-elixir:1.17.3-otp-25-slim
-elixir:1.17.3-otp-25-alpine
-elixir:1.17.3-otp-25
 elixir:1.17.3-alpine
 elixir:1.17.3
 elixir:1.17-slim
@@ -8439,62 +8481,22 @@ elixir:1.17-otp-27-slim
 elixir:1.17-otp-27-alpine
 elixir:1.17-otp-27
 elixir:1.17-otp-26-slim
-elixir:1.17-otp-26-alpine
 elixir:1.17-otp-26
-elixir:1.17-otp-25-slim
-elixir:1.17-otp-25-alpine
-elixir:1.17-otp-25
 elixir:1.17-alpine
 elixir:1.17
 elixir:1.16.3-slim
 elixir:1.16.3-otp-26-slim
-elixir:1.16.3-otp-26-alpine
 elixir:1.16.3-otp-26
-elixir:1.16.3-otp-25-slim
-elixir:1.16.3-otp-25-alpine
-elixir:1.16.3-otp-25
-elixir:1.16.3-alpine
 elixir:1.16.3
 elixir:1.16-slim
 elixir:1.16-otp-26-slim
-elixir:1.16-otp-26-alpine
 elixir:1.16-otp-26
-elixir:1.16-otp-25-slim
-elixir:1.16-otp-25-alpine
-elixir:1.16-otp-25
-elixir:1.16-alpine
 elixir:1.16
 elixir:1.15.8-slim
 elixir:1.15.8-otp-26-slim
-elixir:1.15.8-otp-26-alpine
 elixir:1.15.8-otp-26
-elixir:1.15.8-otp-25-slim
-elixir:1.15.8-otp-25-alpine
-elixir:1.15.8-otp-25
-elixir:1.15.8-alpine
 elixir:1.15.8
 elixir:1.15-slim
-elixir:1.15-otp-26-slim
-elixir:1.15-otp-26-alpine
-elixir:1.15-otp-26
-elixir:1.15-otp-25-slim
-elixir:1.15-otp-25-alpine
-elixir:1.15-otp-25
-elixir:1.15-alpine
-elixir:1.15
-elixir:1.14.5-slim
-elixir:1.14.5-otp-26-slim
-elixir:1.14.5-otp-26-alpine
-elixir:1.14.5-otp-26
-elixir:1.14.5-otp-25-slim
-elixir:1.14.5-otp-25-alpine
-elixir:1.14.5-otp-25
-elixir:1.14.5-alpine
-elixir:1.14.5
-elixir:1.14-slim
-elixir:1.14-otp-26-slim
-elixir:1.14-otp-26-alpine
-elixir:1.14-otp-26
 ```
 </details>
 
