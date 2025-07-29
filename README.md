@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Jul 28 05:16:17 UTC 2025
+Actualizado: Tue Jul 29 05:16:45 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -63,14 +63,29 @@ centos:centos5
 
 ```sh
 busybox:latest
+busybox:unstable-musl
 busybox:unstable-glibc
+busybox:unstable
+busybox:stable-musl
 busybox:stable-glibc
+busybox:stable
+busybox:musl
 busybox:glibc
+busybox:1.37.0-musl
 busybox:1.37.0-glibc
+busybox:1.37.0
+busybox:1.37-musl
 busybox:1.37-glibc
+busybox:1.37
+busybox:1.36.1-musl
 busybox:1.36.1-glibc
+busybox:1.36.1
+busybox:1.36-musl
 busybox:1.36-glibc
+busybox:1.36
+busybox:1-musl
 busybox:1-glibc
+busybox:1
 busybox:unstable-uclibc
 busybox:uclibc
 busybox:stable-uclibc
@@ -79,21 +94,6 @@ busybox:1.37-uclibc
 busybox:1.36.1-uclibc
 busybox:1.36-uclibc
 busybox:1-uclibc
-busybox:unstable-musl
-busybox:unstable
-busybox:stable-musl
-busybox:stable
-busybox:musl
-busybox:1.37.0-musl
-busybox:1.37.0
-busybox:1.37-musl
-busybox:1.37
-busybox:1.36.1-musl
-busybox:1.36.1
-busybox:1.36-musl
-busybox:1.36
-busybox:1-musl
-busybox:1
 busybox:1.35.0-uclibc
 busybox:1.35.0-musl
 busybox:1.35.0-glibc
@@ -2366,10 +2366,19 @@ jenkins:1.570
 golang:latest
 golang:tip-bullseye
 golang:tip-bookworm
+golang:tip-alpine3.22
+golang:tip-alpine3.21
+golang:tip-alpine
+golang:tip-20250726-bullseye
+golang:tip-20250726-bookworm
+golang:tip-20250726-alpine3.22
+golang:tip-20250726-alpine3.21
+golang:tip-20250726-alpine
+golang:tip-20250726
+golang:tip
 golang:tip-20250720-bullseye
 golang:tip-20250720-bookworm
 golang:tip-20250720
-golang:tip
 golang:bullseye
 golang:bookworm
 golang:1.25rc2-bullseye
@@ -2393,10 +2402,7 @@ golang:1.23
 golang:1-bullseye
 golang:1-bookworm
 golang:1
-golang:tip-alpine3.21
 golang:tip-20250720-alpine3.21
-golang:tip-alpine3.22
-golang:tip-alpine
 golang:tip-20250720-alpine3.22
 golang:tip-20250720-alpine
 golang:tip-20250711-alpine3.22
@@ -2457,12 +2463,6 @@ golang:1.24-windowsservercore-ltsc2025
 golang:1.24-windowsservercore-ltsc2022
 golang:1.24-windowsservercore
 golang:1.24-nanoserver-ltsc2025
-golang:1.24-nanoserver-ltsc2022
-golang:1.24-nanoserver
-golang:1.23.11-windowsservercore-ltsc2025
-golang:1.23.11-windowsservercore-ltsc2022
-golang:1.23.11-windowsservercore
-golang:1.23.11-nanoserver-ltsc2025
 ```
 </details>
 
@@ -4135,13 +4135,19 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:3.3-dev5-alpine3.22
+haproxy:3.3-dev5-alpine
+haproxy:3.3-dev-alpine3.22
+haproxy:3.3-dev-alpine
+haproxy:3.3-dev5-bookworm
+haproxy:3.3-dev5
+haproxy:3.3-dev-bookworm
+haproxy:3.3-dev
 haproxy:lts-bookworm
 haproxy:lts
 haproxy:bookworm
 haproxy:3.3-dev3-bookworm
 haproxy:3.3-dev3
-haproxy:3.3-dev-bookworm
-haproxy:3.3-dev
 haproxy:3.2.3-bookworm
 haproxy:3.2.3
 haproxy:3.2-bookworm
@@ -4192,8 +4198,6 @@ haproxy:alpine3.22
 haproxy:alpine
 haproxy:3.3-dev3-alpine3.22
 haproxy:3.3-dev3-alpine
-haproxy:3.3-dev-alpine3.22
-haproxy:3.3-dev-alpine
 haproxy:3.2.3-alpine3.22
 haproxy:3.2.3-alpine
 haproxy:3.2-alpine3.22
@@ -4230,10 +4234,6 @@ haproxy:lts-alpine3.21
 haproxy:alpine3.21
 haproxy:3.3-dev0-alpine3.21
 haproxy:3.3-dev-alpine3.21
-haproxy:3.2.0-alpine3.21
-haproxy:3.2-alpine3.21
-haproxy:3.1.7-bookworm
-haproxy:3.1.7-alpine3.21
 ```
 </details>
 
@@ -5294,17 +5294,17 @@ jetty:9.4.57-jre21
 
 ```sh
 ghost:latest
-ghost:6.0.0-rc.0-alpine
 ghost:6.0.0-rc.0
 ghost:5.130.2
 ghost:5.130
 ghost:5
-ghost:6.0.0-alpha.2
 ghost:alpine
-ghost:6.0.0-alpha.2-alpine
 ghost:5.130.2-alpine
 ghost:5.130-alpine
 ghost:5-alpine
+ghost:6.0.0-rc.0-alpine
+ghost:6.0.0-alpha.2
+ghost:6.0.0-alpha.2-alpine
 ghost:6.0.0-alpha.1-alpine
 ghost:6.0.0-alpha.1
 ghost:5.130.1-alpine
@@ -7316,11 +7316,13 @@ nats:2.11.2-windowsservercore-1809
 
 ```sh
 rocket.chat:latest
-rocket.chat:7.8.2
+rocket.chat:7.8.3
 rocket.chat:7.8
-rocket.chat:7.7.6
+rocket.chat:7.7.7
 rocket.chat:7.7
 rocket.chat:7
+rocket.chat:7.8.2
+rocket.chat:7.7.6
 rocket.chat:7.8.1
 rocket.chat:7.7.5
 rocket.chat:7.6.4
@@ -7413,8 +7415,6 @@ rocket.chat:6.6.3
 rocket.chat:6.5.4
 rocket.chat:6.4.9
 rocket.chat:6.4
-rocket.chat:6.6.2
-rocket.chat:6.6.1
 ```
 </details>
 
@@ -8111,10 +8111,12 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:5.0-20250720
+photon:5.0-20250727
 photon:5.0
-photon:4.0-20250720
+photon:4.0-20250727
 photon:4.0
+photon:5.0-20250720
+photon:4.0-20250720
 photon:4.0-20250707
 photon:5.0-20250629
 photon:4.0-20250629
@@ -8208,8 +8210,6 @@ photon:5.0-20240519
 photon:4.0-20240519
 photon:3.0-20240519
 photon:4.0-20240512
-photon:5.0-20240506
-photon:4.0-20240507
 ```
 </details>
 
