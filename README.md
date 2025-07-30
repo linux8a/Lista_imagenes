@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Jul 29 05:16:45 UTC 2025
+Actualizado: Wed Jul 30 05:15:38 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -966,12 +966,6 @@ node:24-alpine3.22
 
 ```sh
 mysql:latest
-mysql:8.0.43-oraclelinux9
-mysql:8.0.43-oracle
-mysql:8.0.43
-mysql:8.0-oraclelinux9
-mysql:8.0-oracle
-mysql:8.0
 mysql:oraclelinux9
 mysql:oracle
 mysql:lts-oraclelinux9
@@ -995,13 +989,19 @@ mysql:8.4.6
 mysql:8.4-oraclelinux9
 mysql:8.4-oracle
 mysql:8.4
+mysql:8.0.43-oraclelinux9
+mysql:8.0.43-oracle
+mysql:8.0.43
+mysql:8.0-oraclelinux9
+mysql:8.0-oracle
+mysql:8.0
+mysql:8-oraclelinux9
+mysql:8-oracle
+mysql:8
 mysql:8.0.43-debian
 mysql:8.0.43-bookworm
 mysql:8.0-debian
 mysql:8.0-bookworm
-mysql:8-oraclelinux9
-mysql:8-oracle
-mysql:8
 mysql:8.0.42-debian
 mysql:8.0.42-bookworm
 mysql:9.3.0-oraclelinux9
@@ -3410,6 +3410,9 @@ glassfish:4.0-jdk7
 
 ```sh
 maven:latest
+maven:3.9.11-amazoncorretto-24-al2023
+maven:3.9-amazoncorretto-24-al2023
+maven:3-amazoncorretto-24-al2023
 maven:3.9.11-ibm-semeru-21-noble
 maven:3.9.11-ibm-semeru-17-noble
 maven:3.9.11-ibm-semeru-11-noble
@@ -3506,9 +3509,6 @@ maven:3-amazoncorretto-11
 maven:3-amazoncorretto
 maven:3.9.11-amazoncorretto-8-al2023
 maven:3.9.11-amazoncorretto-8-alpine
-maven:3.9.11-amazoncorretto-24-alpine
-maven:3.9.11-amazoncorretto-21-alpine
-maven:3.9.11-amazoncorretto-17-alpine
 ```
 </details>
 
@@ -3796,16 +3796,6 @@ r-base:3.1.3
 
 ```sh
 mariadb:latest
-mariadb:10.6.22-ubi9
-mariadb:10.6.22-ubi
-mariadb:10.6-ubi9
-mariadb:10.6-ubi
-mariadb:10.11.13-ubi9
-mariadb:10.11.13-ubi
-mariadb:10.11-ubi9
-mariadb:10.11-ubi
-mariadb:10-ubi9
-mariadb:10-ubi
 mariadb:lts-ubi9
 mariadb:lts-ubi
 mariadb:12.0.1-ubi9-rc
@@ -3822,6 +3812,16 @@ mariadb:11.4-ubi9
 mariadb:11.4-ubi
 mariadb:11-ubi9
 mariadb:11-ubi
+mariadb:10.6.22-ubi9
+mariadb:10.6.22-ubi
+mariadb:10.6-ubi9
+mariadb:10.6-ubi
+mariadb:10.11.13-ubi9
+mariadb:10.11.13-ubi
+mariadb:10.11-ubi9
+mariadb:10.11-ubi
+mariadb:10-ubi9
+mariadb:10-ubi
 mariadb:noble
 mariadb:lts-noble
 mariadb:lts
@@ -4244,21 +4244,25 @@ haproxy:3.3-dev-alpine3.21
 
 ```sh
 memcached:latest
+memcached:bookworm
 memcached:alpine3.22
 memcached:alpine
-memcached:1.6.38-alpine3.22
-memcached:1.6.38-alpine
+memcached:1.6.39-bookworm
+memcached:1.6.39-alpine3.22
+memcached:1.6.39-alpine
+memcached:1.6.39
+memcached:1.6-bookworm
 memcached:1.6-alpine3.22
 memcached:1.6-alpine
-memcached:1-alpine3.22
-memcached:1-alpine
-memcached:bookworm
-memcached:1.6.38-bookworm
-memcached:1.6.38
-memcached:1.6-bookworm
 memcached:1.6
 memcached:1-bookworm
+memcached:1-alpine3.22
+memcached:1-alpine
 memcached:1
+memcached:1.6.38-alpine3.22
+memcached:1.6.38-alpine
+memcached:1.6.38-bookworm
+memcached:1.6.38
 memcached:alpine3.21
 memcached:1.6.38-alpine3.21
 memcached:1.6-alpine3.21
@@ -4339,10 +4343,6 @@ memcached:alpine3.18
 memcached:1.6.22-alpine3.18
 memcached:1.6-alpine3.18
 memcached:1-alpine3.18
-memcached:1.6.21-alpine3.18
-memcached:1.6.21-alpine
-memcached:1.6.21-bookworm
-memcached:1.6.21
 ```
 </details>
 
@@ -4465,11 +4465,11 @@ oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
 oraclelinux:8
-oraclelinux:10-slim
-oraclelinux:10
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
 oraclelinux:9
+oraclelinux:10-slim
+oraclelinux:10
 oraclelinux:7.9
 oraclelinux:7-slim-fips
 oraclelinux:7-slim
@@ -5540,6 +5540,10 @@ percona:ps-8.0.26-16
 <summary> aerospike </summary>
 
 ```sh
+aerospike:ee-8.0.0.9_1
+aerospike:ee-8.0.0.9
+aerospike:ce-8.0.0.9_1
+aerospike:ce-8.0.0.9
 aerospike:ee-8.0.0.8_1
 aerospike:ee-8.0.0.8
 aerospike:ce-8.0.0.8_1
@@ -5636,10 +5640,6 @@ aerospike:ee-7.0.0.7_1
 aerospike:ee-7.0.0.7
 aerospike:ce-7.0.0.7_1
 aerospike:ce-7.0.0.7
-aerospike:ce-7.0.0.6
-aerospike:ee-7.0.0.6_1
-aerospike:ee-7.0.0.6
-aerospike:ce-7.0.0.6_1
 ```
 </details>
 
@@ -6266,16 +6266,24 @@ cassandra:3.11.14
 
 ```sh
 sonarqube:latest
+sonarqube:enterprise
+sonarqube:developer
+sonarqube:datacenter-search
+sonarqube:datacenter-app
+sonarqube:2025.4.0-enterprise
+sonarqube:2025.4.0-developer
+sonarqube:2025.4.0-datacenter-search
+sonarqube:2025.4.0-datacenter-app
+sonarqube:2025.4-enterprise
+sonarqube:2025.4-developer
+sonarqube:2025.4-datacenter-search
+sonarqube:2025.4-datacenter-app
 sonarqube:lts-enterprise
 sonarqube:lts-developer
 sonarqube:lts-datacenter-search
 sonarqube:lts-datacenter-app
 sonarqube:lts-community
 sonarqube:lts
-sonarqube:enterprise
-sonarqube:developer
-sonarqube:datacenter-search
-sonarqube:datacenter-app
 sonarqube:community
 sonarqube:9.9.9-enterprise
 sonarqube:9.9.9-datacenter-search
@@ -6357,14 +6365,6 @@ sonarqube:10.8-datacenter-app
 sonarqube:10-enterprise
 sonarqube:10-developer
 sonarqube:10-datacenter-search
-sonarqube:10-datacenter-app
-sonarqube:24.12.0.100206-community
-sonarqube:10.8.0-enterprise
-sonarqube:10.8.0-developer
-sonarqube:10.8.0-datacenter-search
-sonarqube:10.8.0-datacenter-app
-sonarqube:9.9.7-enterprise
-sonarqube:9.9.7-developer
 ```
 </details>
 
@@ -7425,12 +7425,36 @@ rocket.chat:6.4
 
 ```sh
 docker:latest
-docker:windowsservercore-ltsc2025
-docker:windowsservercore-ltsc2022
-docker:windowsservercore
 docker:dind-rootless
 docker:dind
 docker:cli
+docker:28.3.3-dind-rootless
+docker:28.3.3-dind-alpine3.22
+docker:28.3.3-dind
+docker:28.3.3-cli-alpine3.22
+docker:28.3.3-cli
+docker:28.3.3-alpine3.22
+docker:28.3.3
+docker:28.3-dind-rootless
+docker:28.3-dind
+docker:28.3-cli
+docker:28.3
+docker:28-dind-rootless
+docker:28-dind
+docker:28-cli
+docker:28
+docker:windowsservercore-ltsc2025
+docker:windowsservercore-ltsc2022
+docker:windowsservercore
+docker:28.3.3-windowsservercore-ltsc2025
+docker:28.3.3-windowsservercore-ltsc2022
+docker:28.3.3-windowsservercore
+docker:28.3-windowsservercore-ltsc2025
+docker:28.3-windowsservercore-ltsc2022
+docker:28.3-windowsservercore
+docker:28-windowsservercore-ltsc2025
+docker:28-windowsservercore-ltsc2022
+docker:28-windowsservercore
 docker:28.3.2-windowsservercore-ltsc2025
 docker:28.3.2-windowsservercore-ltsc2022
 docker:28.3.2-windowsservercore
@@ -7441,20 +7465,6 @@ docker:28.3.2-cli-alpine3.22
 docker:28.3.2-cli
 docker:28.3.2-alpine3.22
 docker:28.3.2
-docker:28.3-windowsservercore-ltsc2025
-docker:28.3-windowsservercore-ltsc2022
-docker:28.3-windowsservercore
-docker:28.3-dind-rootless
-docker:28.3-dind
-docker:28.3-cli
-docker:28.3
-docker:28-windowsservercore-ltsc2025
-docker:28-windowsservercore-ltsc2022
-docker:28-windowsservercore
-docker:28-dind-rootless
-docker:28-dind
-docker:28-cli
-docker:28
 docker:28.3.1-windowsservercore-ltsc2025
 docker:28.3.1-windowsservercore-ltsc2022
 docker:28.3.1-windowsservercore
@@ -7514,16 +7524,6 @@ docker:28-rc-windowsservercore-ltsc2025
 docker:28-rc-windowsservercore-ltsc2022
 docker:28-rc-windowsservercore
 docker:28-rc-dind
-docker:28-rc-cli
-docker:28-rc
-docker:28.3.0-rc.1-dind-rootless
-docker:28.3.0-rc.1-dind-alpine3.22
-docker:28.3.0-rc.1-dind
-docker:28.3.0-rc.1-cli-alpine3.22
-docker:28.3.0-rc.1-cli
-docker:28.3.0-rc.1-alpine3.22
-docker:28.3.0-rc.1
-docker:28.3.0-rc.1-windowsservercore-ltsc2025
 ```
 </details>
 
@@ -7856,6 +7856,27 @@ solr:8.0.0
 
 ```sh
 neo4j:latest
+neo4j:ubi9
+neo4j:enterprise-ubi9
+neo4j:community-ubi9
+neo4j:5.26.9-ubi9
+neo4j:5.26.9-enterprise-ubi9
+neo4j:5.26.9-community-ubi9
+neo4j:5.26-ubi9
+neo4j:5.26-enterprise-ubi9
+neo4j:5.26-community-ubi9
+neo4j:5-ubi9
+neo4j:5-enterprise-ubi9
+neo4j:5-community-ubi9
+neo4j:2025.06.2-ubi9
+neo4j:2025.06.2-enterprise-ubi9
+neo4j:2025.06.2-community-ubi9
+neo4j:2025.06-ubi9
+neo4j:2025.06-enterprise-ubi9
+neo4j:2025.06-community-ubi9
+neo4j:2025-ubi9
+neo4j:2025-enterprise-ubi9
+neo4j:2025-community-ubi9
 neo4j:enterprise-bullseye
 neo4j:enterprise
 neo4j:community-bullseye
@@ -7903,27 +7924,6 @@ neo4j:2025-community-bullseye
 neo4j:2025-community
 neo4j:2025-bullseye
 neo4j:2025
-neo4j:ubi9
-neo4j:enterprise-ubi9
-neo4j:community-ubi9
-neo4j:5.26.9-ubi9
-neo4j:5.26.9-enterprise-ubi9
-neo4j:5.26.9-community-ubi9
-neo4j:5.26-ubi9
-neo4j:5.26-enterprise-ubi9
-neo4j:5.26-community-ubi9
-neo4j:5-ubi9
-neo4j:5-enterprise-ubi9
-neo4j:5-community-ubi9
-neo4j:2025.06.2-ubi9
-neo4j:2025.06.2-enterprise-ubi9
-neo4j:2025.06.2-community-ubi9
-neo4j:2025.06-ubi9
-neo4j:2025.06-enterprise-ubi9
-neo4j:2025.06-community-ubi9
-neo4j:2025-ubi9
-neo4j:2025-enterprise-ubi9
-neo4j:2025-community-ubi9
 neo4j:5.26.8-ubi9
 neo4j:5.26.8-enterprise-ubi9
 neo4j:5.26.8-community-ubi9
