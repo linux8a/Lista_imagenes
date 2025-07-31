@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed Jul 30 05:15:38 UTC 2025
+Actualizado: Thu Jul 31 05:04:47 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -4461,6 +4461,8 @@ rabbitmq:4.0.3-alpine
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:10-slim
+oraclelinux:10
 oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
@@ -4468,8 +4470,6 @@ oraclelinux:8
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
 oraclelinux:9
-oraclelinux:10-slim
-oraclelinux:10
 oraclelinux:7.9
 oraclelinux:7-slim-fips
 oraclelinux:7-slim
@@ -7316,11 +7316,13 @@ nats:2.11.2-windowsservercore-1809
 
 ```sh
 rocket.chat:latest
+rocket.chat:7.9.0
+rocket.chat:7.9
+rocket.chat:7
 rocket.chat:7.8.3
 rocket.chat:7.8
 rocket.chat:7.7.7
 rocket.chat:7.7
-rocket.chat:7
 rocket.chat:7.8.2
 rocket.chat:7.7.6
 rocket.chat:7.8.1
@@ -7413,8 +7415,6 @@ rocket.chat:6.6.6
 rocket.chat:6.5.5
 rocket.chat:6.6.3
 rocket.chat:6.5.4
-rocket.chat:6.4.9
-rocket.chat:6.4
 ```
 </details>
 
