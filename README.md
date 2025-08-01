@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Jul 31 05:04:47 UTC 2025
+Actualizado: Fri Aug  1 05:19:29 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -5075,6 +5075,8 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:9.1.0
+elasticsearch:8.19.0
 elasticsearch:9.0.4
 elasticsearch:8.18.4
 elasticsearch:8.17.9
@@ -5173,8 +5175,6 @@ elasticsearch:8.3.1
 elasticsearch:7.17.5
 elasticsearch:8.2.3
 elasticsearch:8.2.2
-elasticsearch:8.2.1
-elasticsearch:7.17.4
 ```
 </details>
 
@@ -5294,14 +5294,18 @@ jetty:9.4.57-jre21
 
 ```sh
 ghost:latest
+ghost:alpine
+ghost:6.0.0-rc.2-alpine
+ghost:6.0.0-rc.2
+ghost:5.130.3-alpine
+ghost:5.130.3
+ghost:5.130-alpine
+ghost:5.130
+ghost:5-alpine
+ghost:5
 ghost:6.0.0-rc.0
 ghost:5.130.2
-ghost:5.130
-ghost:5
-ghost:alpine
 ghost:5.130.2-alpine
-ghost:5.130-alpine
-ghost:5-alpine
 ghost:6.0.0-rc.0-alpine
 ghost:6.0.0-alpha.2
 ghost:6.0.0-alpha.2-alpine
@@ -5389,10 +5393,6 @@ ghost:5.116-alpine
 ghost:5.116
 ghost:5.116.1
 ghost:5.116.1-alpine
-ghost:5.115.1-alpine
-ghost:5.115.1
-ghost:5.115-alpine
-ghost:5.115
 ```
 </details>
 
@@ -5649,6 +5649,8 @@ aerospike:ce-7.0.0.7
 <summary> logstash </summary>
 
 ```sh
+logstash:9.1.0
+logstash:8.19.0
 logstash:9.0.4
 logstash:8.18.4
 logstash:8.17.9
@@ -5747,8 +5749,6 @@ logstash:8.3.1
 logstash:7.17.5
 logstash:8.2.3
 logstash:8.2.2
-logstash:8.2.1
-logstash:7.17.4
 ```
 </details>
 
@@ -6270,14 +6270,18 @@ sonarqube:enterprise
 sonarqube:developer
 sonarqube:datacenter-search
 sonarqube:datacenter-app
-sonarqube:2025.4.0-enterprise
-sonarqube:2025.4.0-developer
-sonarqube:2025.4.0-datacenter-search
-sonarqube:2025.4.0-datacenter-app
+sonarqube:2025.4.1-enterprise
+sonarqube:2025.4.1-developer
+sonarqube:2025.4.1-datacenter-search
+sonarqube:2025.4.1-datacenter-app
 sonarqube:2025.4-enterprise
 sonarqube:2025.4-developer
 sonarqube:2025.4-datacenter-search
 sonarqube:2025.4-datacenter-app
+sonarqube:2025.4.0-enterprise
+sonarqube:2025.4.0-developer
+sonarqube:2025.4.0-datacenter-search
+sonarqube:2025.4.0-datacenter-app
 sonarqube:lts-enterprise
 sonarqube:lts-developer
 sonarqube:lts-datacenter-search
@@ -6361,10 +6365,6 @@ sonarqube:10.8.1-datacenter-app
 sonarqube:10.8-enterprise
 sonarqube:10.8-developer
 sonarqube:10.8-datacenter-search
-sonarqube:10.8-datacenter-app
-sonarqube:10-enterprise
-sonarqube:10-developer
-sonarqube:10-datacenter-search
 ```
 </details>
 
@@ -6592,6 +6592,9 @@ ros:jade-perception-trusty
 <summary> kibana </summary>
 
 ```sh
+kibana:9.1.0
+kibana:8.19.0
+kibana:7.17.28
 kibana:9.0.4
 kibana:8.18.4
 kibana:8.17.9
@@ -6607,7 +6610,6 @@ kibana:8.18.0
 kibana:8.17.5
 kibana:8.17.4
 kibana:8.16.6
-kibana:7.17.28
 kibana:8.17.3
 kibana:8.16.5
 kibana:8.17.2
@@ -6690,8 +6692,6 @@ kibana:8.3.1
 kibana:7.17.5
 kibana:8.2.3
 kibana:8.2.2
-kibana:8.2.1
-kibana:7.17.4
 ```
 </details>
 
