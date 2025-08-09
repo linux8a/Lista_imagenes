@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Aug  8 05:16:02 UTC 2025
+Actualizado: Sat Aug  9 04:56:42 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -2137,19 +2137,23 @@ hylang:python3.10-bullseye
 
 ```sh
 gcc:latest
+gcc:bookworm
+gcc:15.2.0-bookworm
+gcc:15.2.0
+gcc:15.2-bookworm
+gcc:15.2
+gcc:15-bookworm
+gcc:15
 gcc:12.5.0-bookworm
 gcc:12.5.0
 gcc:12.5-bookworm
 gcc:12.5
 gcc:12-bookworm
 gcc:12
-gcc:bookworm
 gcc:15.1.0-bookworm
 gcc:15.1.0
 gcc:15.1-bookworm
 gcc:15.1
-gcc:15-bookworm
-gcc:15
 gcc:14.3.0-bookworm
 gcc:14.3.0
 gcc:14.3-bookworm
@@ -2232,10 +2236,6 @@ gcc:11.3.0-bullseye
 gcc:11.3.0
 gcc:11.3-bullseye
 gcc:11.3
-gcc:12.2.0-bullseye
-gcc:12.2.0
-gcc:12.2-bullseye
-gcc:12.2
 ```
 </details>
 
@@ -2690,6 +2690,60 @@ clojure:temurin-24-bullseye-slim
 <summary> php </summary>
 
 ```sh
+php:8.5.0alpha4-zts-alpine3.22
+php:8.5.0alpha4-zts-alpine
+php:8.5.0alpha4-fpm-alpine3.22
+php:8.5.0alpha4-fpm-alpine3.21
+php:8.5.0alpha4-fpm-alpine
+php:8.5-rc-zts-alpine3.22
+php:8.5-rc-zts-alpine
+php:8.5-rc-fpm-alpine3.22
+php:8.5-rc-fpm-alpine3.21
+php:8.5-rc-fpm-alpine
+php:8.5.0alpha4-zts-bullseye
+php:8.5.0alpha4-zts-bookworm
+php:8.5.0alpha4-zts-alpine3.21
+php:8.5.0alpha4-zts
+php:8.5.0alpha4-fpm-bullseye
+php:8.5.0alpha4-fpm-bookworm
+php:8.5.0alpha4-fpm
+php:8.5.0alpha4-cli-bullseye
+php:8.5.0alpha4-cli-bookworm
+php:8.5.0alpha4-cli-alpine3.22
+php:8.5.0alpha4-cli-alpine3.21
+php:8.5.0alpha4-cli-alpine
+php:8.5.0alpha4-cli
+php:8.5.0alpha4-bullseye
+php:8.5.0alpha4-bookworm
+php:8.5.0alpha4-apache-bullseye
+php:8.5.0alpha4-apache-bookworm
+php:8.5.0alpha4-apache
+php:8.5.0alpha4-alpine3.22
+php:8.5.0alpha4-alpine3.21
+php:8.5.0alpha4-alpine
+php:8.5.0alpha4
+php:8.5-rc-zts-bullseye
+php:8.5-rc-zts-bookworm
+php:8.5-rc-zts-alpine3.21
+php:8.5-rc-zts
+php:8.5-rc-fpm-bullseye
+php:8.5-rc-fpm-bookworm
+php:8.5-rc-fpm
+php:8.5-rc-cli-bullseye
+php:8.5-rc-cli-bookworm
+php:8.5-rc-cli-alpine3.22
+php:8.5-rc-cli-alpine3.21
+php:8.5-rc-cli-alpine
+php:8.5-rc-cli
+php:8.5-rc-bullseye
+php:8.5-rc-bookworm
+php:8.5-rc-apache-bullseye
+php:8.5-rc-apache-bookworm
+php:8.5-rc-apache
+php:8.5-rc-alpine3.22
+php:8.5-rc-alpine3.21
+php:8.5-rc-alpine
+php:8.5-rc
 php:8.2.29-zts-alpine3.21
 php:8.2-zts-alpine3.21
 php:8.1.33-fpm-alpine3.21
@@ -2736,60 +2790,6 @@ php:8.2.29-cli-alpine3.22
 php:8.2.29-cli-alpine
 php:8.2.29-alpine3.22
 php:8.2.29-alpine
-php:8.2-cli-alpine3.22
-php:8.2-cli-alpine
-php:8.2-alpine3.22
-php:8.2-alpine
-php:8.3.24-zts-alpine3.22
-php:8.3.24-zts-alpine
-php:8.3.24-fpm-alpine3.22
-php:8.3.24-fpm-alpine3.21
-php:8.3.24-fpm-alpine
-php:8.3.24-cli-alpine3.21
-php:8.3.24-alpine3.21
-php:8.3-zts-alpine3.22
-php:8.3-zts-alpine
-php:8.3-fpm-alpine3.22
-php:8.3-fpm-alpine3.21
-php:8.3-fpm-alpine
-php:8.3-cli-alpine3.21
-php:8.3-alpine3.21
-php:zts-alpine3.21
-php:fpm-alpine3.21
-php:8.4.11-zts-alpine3.21
-php:8.4.11-fpm-alpine3.21
-php:8.4-zts-alpine3.21
-php:8.4-fpm-alpine3.21
-php:8.3.24-cli-alpine3.22
-php:8.3.24-cli-alpine
-php:8.3.24-alpine3.22
-php:8.3.24-alpine
-php:8.3-cli-alpine3.22
-php:8.3-cli-alpine
-php:8.3-alpine3.22
-php:8.3-alpine
-php:8-zts-alpine3.21
-php:8-fpm-alpine3.21
-php:zts-alpine3.22
-php:zts-alpine
-php:fpm-alpine3.22
-php:fpm-alpine
-php:cli-alpine3.21
-php:alpine3.21
-php:8.4.11-zts-alpine3.22
-php:8.4.11-zts-alpine
-php:8.4.11-fpm-alpine3.22
-php:8.4.11-fpm-alpine
-php:8.4.11-cli-alpine3.21
-php:8.4.11-alpine3.21
-php:8.4-zts-alpine3.22
-php:8.4-zts-alpine
-php:8.4-fpm-alpine3.22
-php:8.4-fpm-alpine
-php:8.4-cli-alpine3.21
-php:8.4-alpine3.21
-php:8-zts-alpine3.22
-php:8-zts-alpine
 ```
 </details>
 
@@ -4353,6 +4353,14 @@ memcached:1-alpine3.18
 
 ```sh
 rabbitmq:latest
+rabbitmq:4.2.0-beta.1
+rabbitmq:4.2-rc
+rabbitmq:4.2.0-beta.1-management-alpine
+rabbitmq:4.2.0-beta.1-management
+rabbitmq:4.2.0-beta.1-alpine
+rabbitmq:4.2-rc-management-alpine
+rabbitmq:4.2-rc-management
+rabbitmq:4.2-rc-alpine
 rabbitmq:management-alpine
 rabbitmq:4.1.3-management-alpine
 rabbitmq:4.1-management-alpine
@@ -4444,14 +4452,6 @@ rabbitmq:4.0.4-management-alpine
 rabbitmq:4.0.4-alpine
 rabbitmq:4.0.4-management
 rabbitmq:4.0.4
-rabbitmq:4.1.0-beta.2-management-alpine
-rabbitmq:4.1.0-beta.2-management
-rabbitmq:4.1.0-beta.2-alpine
-rabbitmq:4.1.0-beta.2
-rabbitmq:4.1.0-beta.1-management
-rabbitmq:4.0.3-management
-rabbitmq:4.0.3
-rabbitmq:4.1.0-beta.1-management-alpine
 ```
 </details>
 
