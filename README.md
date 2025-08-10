@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Aug  9 04:56:42 UTC 2025
+Actualizado: Sun Aug 10 05:02:06 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -2690,6 +2690,12 @@ clojure:temurin-24-bullseye-slim
 <summary> php </summary>
 
 ```sh
+php:8.5.0alpha4-cli-alpine3.21
+php:8.5.0alpha4-alpine3.21
+php:8.5-rc-cli-alpine3.21
+php:8.5-rc-alpine3.21
+php:8.5.0alpha4-zts-alpine3.21
+php:8.5-rc-zts-alpine3.21
 php:8.5.0alpha4-zts-alpine3.22
 php:8.5.0alpha4-zts-alpine
 php:8.5.0alpha4-fpm-alpine3.22
@@ -2702,7 +2708,6 @@ php:8.5-rc-fpm-alpine3.21
 php:8.5-rc-fpm-alpine
 php:8.5.0alpha4-zts-bullseye
 php:8.5.0alpha4-zts-bookworm
-php:8.5.0alpha4-zts-alpine3.21
 php:8.5.0alpha4-zts
 php:8.5.0alpha4-fpm-bullseye
 php:8.5.0alpha4-fpm-bookworm
@@ -2710,7 +2715,6 @@ php:8.5.0alpha4-fpm
 php:8.5.0alpha4-cli-bullseye
 php:8.5.0alpha4-cli-bookworm
 php:8.5.0alpha4-cli-alpine3.22
-php:8.5.0alpha4-cli-alpine3.21
 php:8.5.0alpha4-cli-alpine
 php:8.5.0alpha4-cli
 php:8.5.0alpha4-bullseye
@@ -2719,12 +2723,10 @@ php:8.5.0alpha4-apache-bullseye
 php:8.5.0alpha4-apache-bookworm
 php:8.5.0alpha4-apache
 php:8.5.0alpha4-alpine3.22
-php:8.5.0alpha4-alpine3.21
 php:8.5.0alpha4-alpine
 php:8.5.0alpha4
 php:8.5-rc-zts-bullseye
 php:8.5-rc-zts-bookworm
-php:8.5-rc-zts-alpine3.21
 php:8.5-rc-zts
 php:8.5-rc-fpm-bullseye
 php:8.5-rc-fpm-bookworm
@@ -2732,7 +2734,6 @@ php:8.5-rc-fpm
 php:8.5-rc-cli-bullseye
 php:8.5-rc-cli-bookworm
 php:8.5-rc-cli-alpine3.22
-php:8.5-rc-cli-alpine3.21
 php:8.5-rc-cli-alpine
 php:8.5-rc-cli
 php:8.5-rc-bullseye
@@ -2741,7 +2742,6 @@ php:8.5-rc-apache-bullseye
 php:8.5-rc-apache-bookworm
 php:8.5-rc-apache
 php:8.5-rc-alpine3.22
-php:8.5-rc-alpine3.21
 php:8.5-rc-alpine
 php:8.5-rc
 php:8.2.29-zts-alpine3.21
@@ -4353,14 +4353,14 @@ memcached:1-alpine3.18
 
 ```sh
 rabbitmq:latest
-rabbitmq:4.2.0-beta.1
-rabbitmq:4.2-rc
 rabbitmq:4.2.0-beta.1-management-alpine
 rabbitmq:4.2.0-beta.1-management
 rabbitmq:4.2.0-beta.1-alpine
 rabbitmq:4.2-rc-management-alpine
 rabbitmq:4.2-rc-management
 rabbitmq:4.2-rc-alpine
+rabbitmq:4.2.0-beta.1
+rabbitmq:4.2-rc
 rabbitmq:management-alpine
 rabbitmq:4.1.3-management-alpine
 rabbitmq:4.1-management-alpine
