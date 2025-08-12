@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Aug 11 05:05:20 UTC 2025
+Actualizado: Tue Aug 12 04:56:03 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -4461,6 +4461,8 @@ rabbitmq:4.0.4
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:10-slim
+oraclelinux:10
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
 oraclelinux:9
@@ -4468,8 +4470,6 @@ oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
 oraclelinux:8
-oraclelinux:10-slim
-oraclelinux:10
 oraclelinux:7.9
 oraclelinux:7-slim-fips
 oraclelinux:7-slim
@@ -5075,6 +5075,8 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:9.1.1
+elasticsearch:8.19.1
 elasticsearch:9.1.0
 elasticsearch:9.0.4
 elasticsearch:8.19.0
@@ -5173,8 +5175,6 @@ elasticsearch:8.3.3
 elasticsearch:8.3.2
 elasticsearch:8.3.1
 elasticsearch:7.17.5
-elasticsearch:8.2.3
-elasticsearch:8.2.2
 ```
 </details>
 
@@ -5649,6 +5649,8 @@ aerospike:ce-7.0.0.8
 <summary> logstash </summary>
 
 ```sh
+logstash:9.1.1
+logstash:8.19.1
 logstash:9.1.0
 logstash:9.0.4
 logstash:8.19.0
@@ -5747,8 +5749,6 @@ logstash:8.3.3
 logstash:8.3.2
 logstash:8.3.1
 logstash:7.17.5
-logstash:8.2.3
-logstash:8.2.2
 ```
 </details>
 
@@ -6592,6 +6592,8 @@ ros:jade-perception-trusty
 <summary> kibana </summary>
 
 ```sh
+kibana:9.1.1
+kibana:8.19.1
 kibana:9.1.0
 kibana:9.0.4
 kibana:8.19.0
@@ -6690,8 +6692,6 @@ kibana:8.3.3
 kibana:8.3.2
 kibana:8.3.1
 kibana:7.17.5
-kibana:8.2.3
-kibana:8.2.2
 ```
 </details>
 
@@ -8111,11 +8111,13 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:5.0-20250803
+photon:5.0-20250810
 photon:5.0
+photon:4.0-20250810
+photon:4.0
+photon:5.0-20250803
 photon:5.0-20250727
 photon:4.0-20250727
-photon:4.0
 photon:5.0-20250720
 photon:4.0-20250720
 photon:4.0-20250707
@@ -8208,8 +8210,6 @@ photon:5.0-20240526
 photon:4.0-20240526
 photon:3.0-20240526
 photon:5.0-20240519
-photon:4.0-20240519
-photon:3.0-20240519
 ```
 </details>
 
