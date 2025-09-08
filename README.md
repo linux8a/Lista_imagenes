@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Sep  7 04:50:02 UTC 2025
+Actualizado: Mon Sep  8 04:50:39 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -1184,6 +1184,24 @@ wordpress:cli
 
 ```sh
 postgres:latest
+postgres:15.14-trixie
+postgres:15.14
+postgres:15-trixie
+postgres:15
+postgres:trixie
+postgres:17.6-trixie
+postgres:17.6
+postgres:17-trixie
+postgres:17
+postgres:16.10-trixie
+postgres:16.10
+postgres:16-trixie
+postgres:16
+postgres:18rc1-alpine3.22
+postgres:18rc1-alpine3.21
+postgres:18rc1-alpine
+postgres:18rc1-trixie
+postgres:18rc1
 postgres:15.14-bookworm
 postgres:15-bookworm
 postgres:14.19-bookworm
@@ -1193,16 +1211,8 @@ postgres:13-bookworm
 postgres:bookworm
 postgres:17.6-bookworm
 postgres:17-bookworm
-postgres:16.10-trixie
 postgres:16.10-bookworm
-postgres:16.10
-postgres:16-trixie
 postgres:16-bookworm
-postgres:16
-postgres:15.14-trixie
-postgres:15.14
-postgres:15-trixie
-postgres:15
 postgres:14.19-trixie
 postgres:14.19
 postgres:14-trixie
@@ -1211,17 +1221,7 @@ postgres:13.22-trixie
 postgres:13.22
 postgres:13-trixie
 postgres:13
-postgres:trixie
-postgres:18rc1-trixie
 postgres:18rc1-bookworm
-postgres:18rc1-alpine3.22
-postgres:18rc1-alpine3.21
-postgres:18rc1-alpine
-postgres:18rc1
-postgres:17.6-trixie
-postgres:17.6
-postgres:17-trixie
-postgres:17
 postgres:13.22-alpine3.22
 postgres:13.22-alpine3.21
 postgres:13.22-alpine
