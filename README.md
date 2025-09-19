@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Sep 18 04:49:57 UTC 2025
+Actualizado: Fri Sep 19 04:50:19 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -1076,6 +1076,25 @@ mysql:8.0.38-oraclelinux9
 
 ```sh
 wordpress:latest
+wordpress:fpm-alpine
+wordpress:fpm
+wordpress:cli-2.12.0
+wordpress:cli-2.12
+wordpress:cli-2
+wordpress:cli
+wordpress:apache
+wordpress:6.8.2-fpm-alpine
+wordpress:6.8.2-fpm
+wordpress:6.8.2-apache
+wordpress:6.8.2
+wordpress:6.8-fpm-alpine
+wordpress:6.8-fpm
+wordpress:6.8-apache
+wordpress:6.8
+wordpress:6-fpm-alpine
+wordpress:6-fpm
+wordpress:6-apache
+wordpress:6
 wordpress:php8.4-fpm
 wordpress:php8.4-apache
 wordpress:php8.4
@@ -1086,8 +1105,6 @@ wordpress:php8.2-fpm
 wordpress:php8.2-apache
 wordpress:php8.2
 wordpress:php8.1-fpm
-wordpress:fpm
-wordpress:apache
 wordpress:6.8.2-php8.4-fpm
 wordpress:6.8.2-php8.4-apache
 wordpress:6.8.2-php8.4
@@ -1098,9 +1115,6 @@ wordpress:6.8.2-php8.2-fpm
 wordpress:6.8.2-php8.2-apache
 wordpress:6.8.2-php8.2
 wordpress:6.8.2-php8.1-fpm
-wordpress:6.8.2-fpm
-wordpress:6.8.2-apache
-wordpress:6.8.2
 wordpress:6.8-php8.4-fpm
 wordpress:6.8-php8.4-apache
 wordpress:6.8-php8.4
@@ -1111,9 +1125,6 @@ wordpress:6.8-php8.2-fpm
 wordpress:6.8-php8.2-apache
 wordpress:6.8-php8.2
 wordpress:6.8-php8.1-fpm
-wordpress:6.8-fpm
-wordpress:6.8-apache
-wordpress:6.8
 wordpress:6-php8.4-fpm
 wordpress:6-php8.4-apache
 wordpress:6-php8.4
@@ -1124,9 +1135,6 @@ wordpress:6-php8.2-fpm
 wordpress:6-php8.2-apache
 wordpress:6-php8.2
 wordpress:6-php8.1-fpm
-wordpress:6-fpm
-wordpress:6-apache
-wordpress:6
 wordpress:php8.1-apache
 wordpress:php8.1
 wordpress:6.8.2-php8.1-apache
@@ -1153,28 +1161,20 @@ wordpress:6-php8.4-fpm-alpine
 wordpress:6-php8.3-fpm-alpine
 wordpress:php8.2-fpm-alpine
 wordpress:php8.1-fpm-alpine
-wordpress:fpm-alpine
 wordpress:6.8.2-php8.2-fpm-alpine
 wordpress:6.8.2-php8.1-fpm-alpine
-wordpress:6.8.2-fpm-alpine
 wordpress:6.8-php8.2-fpm-alpine
 wordpress:6.8-php8.1-fpm-alpine
-wordpress:6.8-fpm-alpine
 wordpress:6-php8.2-fpm-alpine
 wordpress:6-php8.1-fpm-alpine
-wordpress:6-fpm-alpine
 wordpress:cli-php8.2
 wordpress:cli-php8.1
 wordpress:cli-2.12.0-php8.2
 wordpress:cli-2.12.0-php8.1
-wordpress:cli-2.12.0
 wordpress:cli-2.12-php8.2
 wordpress:cli-2.12-php8.1
-wordpress:cli-2.12
 wordpress:cli-2-php8.2
 wordpress:cli-2-php8.1
-wordpress:cli-2
-wordpress:cli
 ```
 </details>
 
@@ -1764,6 +1764,30 @@ ruby:3.5.0-preview1-bullseye
 
 ```sh
 python:latest
+python:3.14.0rc3-alpine3.22
+python:3.14.0rc3-alpine3.21
+python:3.14.0rc3-alpine
+python:3.14-rc-alpine3.22
+python:3.14-rc-alpine3.21
+python:3.14-rc-alpine
+python:3.14.0rc3-windowsservercore-ltsc2025
+python:3.14.0rc3-windowsservercore-ltsc2022
+python:3.14.0rc3-windowsservercore
+python:3.14.0rc3-trixie
+python:3.14.0rc3-slim-trixie
+python:3.14.0rc3-slim-bookworm
+python:3.14.0rc3-slim
+python:3.14.0rc3-bookworm
+python:3.14.0rc3
+python:3.14-rc-windowsservercore-ltsc2025
+python:3.14-rc-windowsservercore-ltsc2022
+python:3.14-rc-windowsservercore
+python:3.14-rc-trixie
+python:3.14-rc-slim-trixie
+python:3.14-rc-slim-bookworm
+python:3.14-rc-slim
+python:3.14-rc-bookworm
+python:3.14-rc
 python:3.9.23-trixie
 python:3.9.23
 python:3.9-trixie
@@ -1789,8 +1813,6 @@ python:3-trixie
 python:3
 python:3.14.0rc2-trixie
 python:3.14.0rc2
-python:3.14-rc-trixie
-python:3.14-rc
 python:3.9.23-slim-trixie
 python:3.9.23-slim
 python:3.9-slim-trixie
@@ -1817,17 +1839,12 @@ python:3-slim-trixie
 python:3-slim
 python:3.14.0rc2-slim-trixie
 python:3.14.0rc2-slim
-python:3.14-rc-slim-trixie
-python:3.14-rc-slim
 python:windowsservercore-ltsc2025
 python:windowsservercore-ltsc2022
 python:windowsservercore
 python:3.14.0rc2-windowsservercore-ltsc2025
 python:3.14.0rc2-windowsservercore-ltsc2022
 python:3.14.0rc2-windowsservercore
-python:3.14-rc-windowsservercore-ltsc2025
-python:3.14-rc-windowsservercore-ltsc2022
-python:3.14-rc-windowsservercore
 python:3.13.7-windowsservercore-ltsc2025
 python:3.13.7-windowsservercore-ltsc2022
 python:3.13.7-windowsservercore
@@ -1846,23 +1863,6 @@ python:3.12.11-bookworm
 python:3.12-bookworm
 python:3.11.13-bookworm
 python:3.11-bookworm
-python:3.10.18-bookworm
-python:3.10-bookworm
-python:3-bookworm
-python:3.14.0rc2-bookworm
-python:3.14-rc-bookworm
-python:3.9.23-slim-bookworm
-python:3.9-slim-bookworm
-python:3.13.7-slim-bookworm
-python:3.13-slim-bookworm
-python:3.12.11-slim-bookworm
-python:3.12-slim-bookworm
-python:3.11.13-slim-bookworm
-python:3.11-slim-bookworm
-python:3.10.18-slim-bookworm
-python:3.10-slim-bookworm
-python:3-slim-bookworm
-python:slim-bookworm
 ```
 </details>
 
@@ -2029,39 +2029,64 @@ hello-world:nanoserver1709
 
 ```sh
 hylang:latest
+hylang:python3.14-rc-trixie
+hylang:python3.14-rc-alpine3.22
+hylang:python3.14-rc-alpine
+hylang:1.1.0-python3.14-rc-trixie
+hylang:1.1.0-python3.14-rc-alpine3.22
+hylang:1.1.0-python3.14-rc-alpine
+hylang:1.1-python3.14-rc-trixie
+hylang:1.1-python3.14-rc-alpine3.22
+hylang:1.1-python3.14-rc-alpine
+hylang:1-python3.14-rc-trixie
+hylang:1-python3.14-rc-alpine3.22
+hylang:1-python3.14-rc-alpine
+hylang:python3.14-rc-windowsservercore-ltsc2025
+hylang:python3.14-rc-windowsservercore-ltsc2022
+hylang:python3.14-rc-bookworm
+hylang:python3.14-rc-alpine3.21
+hylang:python3.14-rc
+hylang:1.1.0-python3.14-rc-windowsservercore-ltsc2025
+hylang:1.1.0-python3.14-rc-windowsservercore-ltsc2022
+hylang:1.1.0-python3.14-rc-bookworm
+hylang:1.1.0-python3.14-rc-alpine3.21
+hylang:1.1.0-python3.14-rc
+hylang:1.1-python3.14-rc-windowsservercore-ltsc2025
+hylang:1.1-python3.14-rc-windowsservercore-ltsc2022
+hylang:1.1-python3.14-rc-bookworm
+hylang:1.1-python3.14-rc-alpine3.21
+hylang:1.1-python3.14-rc
+hylang:1-python3.14-rc-windowsservercore-ltsc2025
+hylang:1-python3.14-rc-windowsservercore-ltsc2022
+hylang:1-python3.14-rc-bookworm
+hylang:1-python3.14-rc-alpine3.21
+hylang:1-python3.14-rc
 hylang:trixie
 hylang:python3.9-trixie
-hylang:python3.14-rc-trixie
 hylang:python3.13-trixie
 hylang:python3.12-trixie
 hylang:python3.11-trixie
 hylang:python3.10-trixie
 hylang:1.1.0-trixie
 hylang:1.1.0-python3.9-trixie
-hylang:1.1.0-python3.14-rc-trixie
 hylang:1.1.0-python3.13-trixie
 hylang:1.1.0-python3.12-trixie
 hylang:1.1.0-python3.11-trixie
 hylang:1.1.0-python3.10-trixie
 hylang:1.1-trixie
 hylang:1.1-python3.9-trixie
-hylang:1.1-python3.14-rc-trixie
 hylang:1.1-python3.13-trixie
 hylang:1.1-python3.12-trixie
 hylang:1.1-python3.11-trixie
 hylang:1.1-python3.10-trixie
 hylang:1-trixie
 hylang:1-python3.9-trixie
-hylang:1-python3.14-rc-trixie
 hylang:1-python3.13-trixie
 hylang:1-python3.12-trixie
 hylang:1-python3.11-trixie
 hylang:1-python3.10-trixie
 hylang:windowsservercore-ltsc2025
 hylang:windowsservercore-ltsc2022
-hylang:python3.14-rc-windowsservercore-ltsc2025
-hylang:python3.14-rc-windowsservercore-ltsc2022
-hylang:python3.14-rc
 hylang:python3.13-windowsservercore-ltsc2025
 hylang:python3.13-windowsservercore-ltsc2022
 hylang:python3.13
@@ -2073,9 +2098,6 @@ hylang:pypy-windowsservercore-ltsc2022
 hylang:pypy
 hylang:1.1.0-windowsservercore-ltsc2025
 hylang:1.1.0-windowsservercore-ltsc2022
-hylang:1.1.0-python3.14-rc-windowsservercore-ltsc2025
-hylang:1.1.0-python3.14-rc-windowsservercore-ltsc2022
-hylang:1.1.0-python3.14-rc
 hylang:1.1.0-python3.13-windowsservercore-ltsc2025
 hylang:1.1.0-python3.13-windowsservercore-ltsc2022
 hylang:1.1.0-python3.13
@@ -2088,9 +2110,6 @@ hylang:1.1.0-pypy
 hylang:1.1.0
 hylang:1.1-windowsservercore-ltsc2025
 hylang:1.1-windowsservercore-ltsc2022
-hylang:1.1-python3.14-rc-windowsservercore-ltsc2025
-hylang:1.1-python3.14-rc-windowsservercore-ltsc2022
-hylang:1.1-python3.14-rc
 hylang:1.1-python3.13-windowsservercore-ltsc2025
 hylang:1.1-python3.13-windowsservercore-ltsc2022
 hylang:1.1-python3.13
@@ -2103,31 +2122,12 @@ hylang:1.1-pypy
 hylang:1.1
 hylang:1-windowsservercore-ltsc2025
 hylang:1-windowsservercore-ltsc2022
-hylang:1-python3.14-rc-windowsservercore-ltsc2025
-hylang:1-python3.14-rc-windowsservercore-ltsc2022
-hylang:1-python3.14-rc
 hylang:1-python3.13-windowsservercore-ltsc2025
 hylang:1-python3.13-windowsservercore-ltsc2022
 hylang:1-python3.13
 hylang:1-pypy3.11-windowsservercore-ltsc2025
 hylang:1-pypy3.11-windowsservercore-ltsc2022
 hylang:1-pypy3.11
-hylang:1-pypy-windowsservercore-ltsc2025
-hylang:1-pypy-windowsservercore-ltsc2022
-hylang:1-pypy
-hylang:1
-hylang:python3.9-bookworm
-hylang:python3.9
-hylang:python3.14-rc-bookworm
-hylang:python3.13-bookworm
-hylang:python3.12-bookworm
-hylang:python3.12
-hylang:python3.11-bookworm
-hylang:python3.11
-hylang:python3.10-bookworm
-hylang:python3.10
-hylang:bookworm
-hylang:1.1.0-python3.9-bookworm
 ```
 </details>
 
@@ -3411,6 +3411,38 @@ glassfish:4.0-jdk7
 
 ```sh
 maven:latest
+maven:4.0.0-rc-4-eclipse-temurin-17-noble
+maven:4.0.0-rc-4-eclipse-temurin-17
+maven:3.9.11-amazoncorretto-8-debian-trixie
+maven:3.9.11-amazoncorretto-8-debian
+maven:3.9.11-amazoncorretto-24-debian-trixie
+maven:3.9.11-amazoncorretto-24-debian
+maven:3.9.11-amazoncorretto-21-debian-trixie
+maven:3.9.11-amazoncorretto-21-debian
+maven:3.9.11-amazoncorretto-17-debian-trixie
+maven:3.9.11-amazoncorretto-17-debian
+maven:3.9.11-amazoncorretto-11-debian-trixie
+maven:3.9.11-amazoncorretto-11-debian
+maven:3.9-amazoncorretto-8-debian-trixie
+maven:3.9-amazoncorretto-8-debian
+maven:3.9-amazoncorretto-24-debian-trixie
+maven:3.9-amazoncorretto-24-debian
+maven:3.9-amazoncorretto-21-debian-trixie
+maven:3.9-amazoncorretto-21-debian
+maven:3.9-amazoncorretto-17-debian-trixie
+maven:3.9-amazoncorretto-17-debian
+maven:3.9-amazoncorretto-11-debian-trixie
+maven:3.9-amazoncorretto-11-debian
+maven:3-amazoncorretto-8-debian-trixie
+maven:3-amazoncorretto-8-debian
+maven:3-amazoncorretto-24-debian-trixie
+maven:3-amazoncorretto-24-debian
+maven:3-amazoncorretto-21-debian-trixie
+maven:3-amazoncorretto-21-debian
+maven:3-amazoncorretto-17-debian-trixie
+maven:3-amazoncorretto-17-debian
+maven:3-amazoncorretto-11-debian-trixie
+maven:3-amazoncorretto-11-debian
 maven:eclipse-temurin
 maven:3.9.11-eclipse-temurin-24-noble
 maven:3.9.11-eclipse-temurin-24
@@ -3478,38 +3510,6 @@ maven:3-eclipse-temurin-8
 maven:3-eclipse-temurin-11-noble
 maven:3-eclipse-temurin-11
 maven:amazoncorretto
-maven:3.9.11-sapmachine-11
-maven:3.9.11-eclipse-temurin-8-alpine
-maven:3.9.11-eclipse-temurin-24-alpine
-maven:3.9.11-eclipse-temurin-21-alpine
-maven:3.9.11-eclipse-temurin-17-alpine
-maven:3.9.11-eclipse-temurin-11-alpine
-maven:3.9.11-amazoncorretto-8-alpine
-maven:3.9.11-amazoncorretto-8-al2023
-maven:3.9.11-amazoncorretto-8
-maven:3.9.11-amazoncorretto-24-alpine
-maven:3.9.11-amazoncorretto-24-al2023
-maven:3.9.11-amazoncorretto-24
-maven:3.9.11-amazoncorretto-21-alpine
-maven:3.9.11-amazoncorretto-21-al2023
-maven:3.9.11-amazoncorretto-21
-maven:3.9.11-amazoncorretto-17-alpine
-maven:3.9.11-amazoncorretto-17-al2023
-maven:3.9.11-amazoncorretto-17
-maven:3.9.11-amazoncorretto-11-alpine
-maven:3.9.11-amazoncorretto-11-al2023
-maven:3.9.11-amazoncorretto-11
-maven:3.9.11-amazoncorretto
-maven:3.9-sapmachine-11
-maven:3.9-eclipse-temurin-8-alpine
-maven:3.9-eclipse-temurin-24-alpine
-maven:3.9-eclipse-temurin-21-alpine
-maven:3.9-eclipse-temurin-17-alpine
-maven:3.9-eclipse-temurin-11-alpine
-maven:3.9-amazoncorretto-8-alpine
-maven:3.9-amazoncorretto-8-al2023
-maven:3.9-amazoncorretto-8
-maven:3.9-amazoncorretto-24-alpine
 ```
 </details>
 
@@ -4513,12 +4513,17 @@ oraclelinux:5
 
 ```sh
 odoo:latest
-odoo:18.0-20250909
+odoo:19.0-20250918
+odoo:19.0
+odoo:19
+odoo:18.0-20250918
 odoo:18.0
 odoo:18
-odoo:17.0-20250909
+odoo:17.0-20250918
 odoo:17.0
 odoo:17
+odoo:18.0-20250909
+odoo:17.0-20250909
 odoo:16.0-20250909
 odoo:16.0
 odoo:16
@@ -4607,11 +4612,6 @@ odoo:15
 odoo:17.0-20240924
 odoo:17.0-20240912
 odoo:16.0-20240912
-odoo:15.0-20240912
-odoo:16.0-20240904
-odoo:15.0-20240904
-odoo:17.0-20240904
-odoo:17.0-20240826
 ```
 </details>
 
@@ -5080,6 +5080,8 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:9.1.4
+elasticsearch:8.19.4
 elasticsearch:9.0.7
 elasticsearch:8.18.7
 elasticsearch:8.19.3
@@ -5178,8 +5180,6 @@ elasticsearch:8.6.1
 elasticsearch:8.6.0
 elasticsearch:8.5.3
 elasticsearch:7.17.8
-elasticsearch:8.5.2
-elasticsearch:8.5.1
 ```
 </details>
 
@@ -5654,6 +5654,8 @@ aerospike:ee-7.0.0.9
 <summary> logstash </summary>
 
 ```sh
+logstash:9.1.4
+logstash:8.19.4
 logstash:9.0.7
 logstash:8.18.7
 logstash:8.19.3
@@ -5752,8 +5754,6 @@ logstash:8.6.1
 logstash:8.6.0
 logstash:8.5.3
 logstash:7.17.8
-logstash:8.5.2
-logstash:8.5.1
 ```
 </details>
 
@@ -6597,6 +6597,8 @@ ros:jade-perception-trusty
 <summary> kibana </summary>
 
 ```sh
+kibana:9.1.4
+kibana:8.19.4
 kibana:9.0.7
 kibana:8.18.7
 kibana:8.19.3
@@ -6695,8 +6697,6 @@ kibana:8.6.1
 kibana:8.6.0
 kibana:8.5.3
 kibana:7.17.8
-kibana:8.5.2
-kibana:8.5.1
 ```
 </details>
 
