@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Sep 20 04:49:53 UTC 2025
+Actualizado: Sun Sep 21 04:49:57 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -6052,6 +6052,14 @@ rakudo-star:2015.03
 <summary> drupal </summary>
 
 ```sh
+drupal:10.4.8-php8.3-fpm-trixie
+drupal:10.4.8-php8.3-fpm
+drupal:10.4.8-fpm-trixie
+drupal:10.4.8-fpm
+drupal:10.4-php8.3-fpm-trixie
+drupal:10.4-php8.3-fpm
+drupal:10.4-fpm-trixie
+drupal:10.4-fpm
 drupal:10.5.3-php8.4-fpm-trixie
 drupal:10.5.3-php8.4-fpm-alpine
 drupal:10.5.3-php8.4-fpm
@@ -6106,22 +6114,18 @@ drupal:10.4.8-php8.4-fpm
 drupal:10.4.8-php8.4-apache-trixie
 drupal:10.4.8-php8.4-apache
 drupal:10.4.8-php8.4
-drupal:10.4.8-php8.3-fpm-trixie
 drupal:10.4.8-php8.3-fpm-bookworm
 drupal:10.4.8-php8.3-fpm-alpine3.22
 drupal:10.4.8-php8.3-fpm-alpine3.21
 drupal:10.4.8-php8.3-fpm-alpine
-drupal:10.4.8-php8.3-fpm
 drupal:10.4.8-php8.3-apache-trixie
 drupal:10.4.8-php8.3-apache-bookworm
 drupal:10.4.8-php8.3-apache
 drupal:10.4.8-php8.3
-drupal:10.4.8-fpm-trixie
 drupal:10.4.8-fpm-bookworm
 drupal:10.4.8-fpm-alpine3.22
 drupal:10.4.8-fpm-alpine3.21
 drupal:10.4.8-fpm-alpine
-drupal:10.4.8-fpm
 drupal:10.4.8-apache-trixie
 drupal:10.4.8-apache-bookworm
 drupal:10.4.8-apache
@@ -6134,22 +6138,18 @@ drupal:10.4-php8.4-fpm
 drupal:10.4-php8.4-apache-trixie
 drupal:10.4-php8.4-apache
 drupal:10.4-php8.4
-drupal:10.4-php8.3-fpm-trixie
 drupal:10.4-php8.3-fpm-bookworm
 drupal:10.4-php8.3-fpm-alpine3.22
 drupal:10.4-php8.3-fpm-alpine3.21
 drupal:10.4-php8.3-fpm-alpine
-drupal:10.4-php8.3-fpm
 drupal:10.4-php8.3-apache-trixie
 drupal:10.4-php8.3-apache-bookworm
 drupal:10.4-php8.3-apache
 drupal:10.4-php8.3
-drupal:10.4-fpm-trixie
 drupal:10.4-fpm-bookworm
 drupal:10.4-fpm-alpine3.22
 drupal:10.4-fpm-alpine3.21
 drupal:10.4-fpm-alpine
-drupal:10.4-fpm
 drupal:10.4-apache-trixie
 drupal:10.4-apache-bookworm
 ```
