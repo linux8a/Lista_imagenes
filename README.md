@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Oct 17 04:49:54 UTC 2025
+Actualizado: Sat Oct 18 04:50:05 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -967,10 +967,6 @@ node:jod-alpine3.22
 
 ```sh
 mysql:latest
-mysql:8.0.43-debian
-mysql:8.0.43-bookworm
-mysql:8.0-debian
-mysql:8.0-bookworm
 mysql:oraclelinux9
 mysql:oracle
 mysql:lts-oraclelinux9
@@ -1003,6 +999,10 @@ mysql:8.0
 mysql:8-oraclelinux9
 mysql:8-oracle
 mysql:8
+mysql:8.0.43-debian
+mysql:8.0.43-bookworm
+mysql:8.0-debian
+mysql:8.0-bookworm
 mysql:8.0.42-debian
 mysql:8.0.42-bookworm
 mysql:9.3.0-oraclelinux9
@@ -4462,15 +4462,15 @@ rabbitmq:4.0.7
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:9-slim-fips
+oraclelinux:9-slim
+oraclelinux:9
 oraclelinux:10-slim
 oraclelinux:10
-oraclelinux:9
 oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
 oraclelinux:8
-oraclelinux:9-slim-fips
-oraclelinux:9-slim
 oraclelinux:7.9
 oraclelinux:7-slim-fips
 oraclelinux:7-slim
@@ -5300,12 +5300,16 @@ jetty:11.0.26-jre11-eclipse-temurin
 ```sh
 ghost:latest
 ghost:alpine
+ghost:6.4.0-alpine
+ghost:6.4.0
+ghost:6.4-alpine
+ghost:6.4
+ghost:6-alpine
+ghost:6
 ghost:6.3.1-alpine
 ghost:6.3.1
 ghost:6.3-alpine
 ghost:6.3
-ghost:6-alpine
-ghost:6
 ghost:6.3.0
 ghost:6.3.0-alpine
 ghost:6.2.0-alpine
@@ -5394,10 +5398,6 @@ ghost:5.125.1-alpine
 ghost:5.125.1
 ghost:5.125-alpine
 ghost:5.125
-ghost:5.123.0
-ghost:5.123
-ghost:5.123.0-alpine
-ghost:5.123-alpine
 ```
 </details>
 
