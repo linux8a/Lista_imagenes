@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Oct 23 04:50:12 UTC 2025
+Actualizado: Fri Oct 24 04:50:08 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -1655,6 +1655,26 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:3.3.9-slim-trixie
+ruby:3.3.9-slim
+ruby:3.3-slim-trixie
+ruby:3.3-slim
+ruby:3.2.9-slim-trixie
+ruby:3.2.9-slim
+ruby:3.2-slim-trixie
+ruby:3.2-slim
+ruby:slim-trixie
+ruby:slim
+ruby:3.4.7-slim-trixie
+ruby:3.4.7-slim
+ruby:3.4-slim-trixie
+ruby:3.4-slim
+ruby:3-slim-trixie
+ruby:3-slim
+ruby:3.5.0-preview1-slim-trixie
+ruby:3.5.0-preview1-slim
+ruby:3.5-rc-slim-trixie
+ruby:3.5-rc-slim
 ruby:bookworm
 ruby:3.5.0-preview1-bookworm
 ruby:3.5-rc-bookworm
@@ -1684,36 +1704,16 @@ ruby:3.2-trixie
 ruby:3.2
 ruby:3-trixie
 ruby:3
-ruby:slim-trixie
 ruby:slim-bookworm
-ruby:slim
-ruby:3.5.0-preview1-slim-trixie
 ruby:3.5.0-preview1-slim-bookworm
-ruby:3.5.0-preview1-slim
-ruby:3.5-rc-slim-trixie
 ruby:3.5-rc-slim-bookworm
-ruby:3.5-rc-slim
-ruby:3.4.7-slim-trixie
 ruby:3.4.7-slim-bookworm
-ruby:3.4.7-slim
-ruby:3.4-slim-trixie
 ruby:3.4-slim-bookworm
-ruby:3.4-slim
-ruby:3.3.9-slim-trixie
 ruby:3.3.9-slim-bookworm
-ruby:3.3.9-slim
-ruby:3.3-slim-trixie
 ruby:3.3-slim-bookworm
-ruby:3.3-slim
-ruby:3.2.9-slim-trixie
 ruby:3.2.9-slim-bookworm
-ruby:3.2.9-slim
-ruby:3.2-slim-trixie
 ruby:3.2-slim-bookworm
-ruby:3.2-slim
-ruby:3-slim-trixie
 ruby:3-slim-bookworm
-ruby:3-slim
 ruby:3.3.9-alpine3.22
 ruby:3.3.9-alpine
 ruby:3.3-alpine3.22
@@ -1764,6 +1764,38 @@ ruby:3.4.5-slim-trixie
 
 ```sh
 python:latest
+python:3.9.24-slim-trixie
+python:3.9.24-slim
+python:3.9-slim-trixie
+python:3.9-slim
+python:3.11.14-slim-trixie
+python:3.11.14-slim
+python:3.11-slim-trixie
+python:3.11-slim
+python:3.10.19-slim-trixie
+python:3.10.19-slim
+python:3.10-slim-trixie
+python:3.10-slim
+python:3.13.9-slim-trixie
+python:3.13.9-slim
+python:3.13-slim-trixie
+python:3.13-slim
+python:3.12.12-slim-trixie
+python:3.12.12-slim
+python:3.12-slim-trixie
+python:3.12-slim
+python:slim-trixie
+python:slim
+python:3.15.0a1-slim-trixie
+python:3.15.0a1-slim
+python:3.15-rc-slim-trixie
+python:3.15-rc-slim
+python:3.14.0-slim-trixie
+python:3.14.0-slim
+python:3.14-slim-trixie
+python:3.14-slim
+python:3-slim-trixie
+python:3-slim
 python:3.15.0a1-bookworm
 python:3.15-rc-bookworm
 python:3.9-bookworm
@@ -1813,52 +1845,20 @@ python:3-trixie
 python:3
 python:3.9.24-slim-bookworm
 python:3.9-slim-bookworm
-python:3.11.14-slim-trixie
 python:3.11.14-slim-bookworm
-python:3.11.14-slim
-python:3.11-slim-trixie
 python:3.11-slim-bookworm
-python:3.11-slim
-python:3.10.19-slim-trixie
 python:3.10.19-slim-bookworm
-python:3.10.19-slim
-python:3.10-slim-trixie
 python:3.10-slim-bookworm
-python:3.10-slim
-python:slim-trixie
 python:slim-bookworm
-python:slim
-python:3.9.24-slim-trixie
-python:3.9.24-slim
-python:3.9-slim-trixie
-python:3.9-slim
-python:3.15.0a1-slim-trixie
 python:3.15.0a1-slim-bookworm
-python:3.15.0a1-slim
-python:3.15-rc-slim-trixie
 python:3.15-rc-slim-bookworm
-python:3.15-rc-slim
-python:3.14.0-slim-trixie
 python:3.14.0-slim-bookworm
-python:3.14.0-slim
-python:3.14-slim-trixie
 python:3.14-slim-bookworm
-python:3.14-slim
-python:3.13.9-slim-trixie
 python:3.13.9-slim-bookworm
-python:3.13.9-slim
-python:3.13-slim-trixie
 python:3.13-slim-bookworm
-python:3.13-slim
-python:3.12.12-slim-trixie
 python:3.12.12-slim-bookworm
-python:3.12.12-slim
-python:3.12-slim-trixie
 python:3.12-slim-bookworm
-python:3.12-slim
-python:3-slim-trixie
 python:3-slim-bookworm
-python:3-slim
 python:3.13.9-alpine3.22
 python:3.13.9-alpine3.21
 python:3.13.9-alpine
@@ -2138,6 +2138,18 @@ hylang:1.1-pypy-trixie
 
 ```sh
 gcc:latest
+gcc:14.3.0-trixie
+gcc:14.3.0
+gcc:14.3-trixie
+gcc:14.3
+gcc:14-trixie
+gcc:14
+gcc:13.4.0-bookworm
+gcc:13.4.0
+gcc:13.4-bookworm
+gcc:13.4
+gcc:13-bookworm
+gcc:13
 gcc:trixie
 gcc:15.2.0-trixie
 gcc:15.2.0
@@ -2151,18 +2163,6 @@ gcc:12.5-bookworm
 gcc:12.5
 gcc:12-bookworm
 gcc:12
-gcc:13.4.0-bookworm
-gcc:13.4.0
-gcc:13.4-bookworm
-gcc:13.4
-gcc:13-bookworm
-gcc:13
-gcc:14.3.0-trixie
-gcc:14.3.0
-gcc:14.3-trixie
-gcc:14.3
-gcc:14-trixie
-gcc:14
 gcc:bookworm
 gcc:15.2.0-bookworm
 gcc:15.2-bookworm
@@ -2582,6 +2582,18 @@ neurodebian:wily
 <summary> clojure </summary>
 
 ```sh
+clojure:temurin-21-lein-trixie-slim
+clojure:temurin-21-lein-trixie
+clojure:temurin-21-lein-2.12.0-trixie-slim
+clojure:temurin-21-lein-2.12.0-trixie
+clojure:temurin-17-trixie-slim
+clojure:temurin-17-trixie
+clojure:temurin-17-tools-deps-trixie-slim
+clojure:temurin-17-tools-deps-trixie
+clojure:temurin-17-tools-deps-1.12.3.1577-trixie-slim
+clojure:temurin-17-tools-deps-1.12.3.1577-trixie
+clojure:temurin-17-lein-trixie-slim
+clojure:temurin-17-lein-2.12.0-trixie-slim
 clojure:tools-deps-trixie-slim
 clojure:tools-deps-trixie
 clojure:tools-deps-bookworm-slim
@@ -2628,33 +2640,21 @@ clojure:temurin-21-tools-deps-1.12.3.1577-bookworm-slim
 clojure:temurin-21-tools-deps-1.12.3.1577-bookworm
 clojure:temurin-21-tools-deps-1.12.3.1577
 clojure:temurin-21-tools-deps
-clojure:temurin-21-lein-trixie-slim
-clojure:temurin-21-lein-trixie
 clojure:temurin-21-lein-bookworm-slim
 clojure:temurin-21-lein-bookworm
-clojure:temurin-21-lein-2.12.0-trixie-slim
-clojure:temurin-21-lein-2.12.0-trixie
 clojure:temurin-21-lein-2.12.0-bookworm-slim
 clojure:temurin-21-lein-2.12.0-bookworm
 clojure:temurin-21-lein-2.12.0
 clojure:temurin-21-lein
 clojure:temurin-21-bookworm-slim
 clojure:temurin-21-bookworm
-clojure:temurin-17-trixie-slim
-clojure:temurin-17-trixie
-clojure:temurin-17-tools-deps-trixie-slim
-clojure:temurin-17-tools-deps-trixie
 clojure:temurin-17-tools-deps-bookworm-slim
 clojure:temurin-17-tools-deps-bookworm
-clojure:temurin-17-tools-deps-1.12.3.1577-trixie-slim
-clojure:temurin-17-tools-deps-1.12.3.1577-trixie
 clojure:temurin-17-tools-deps-1.12.3.1577-bookworm-slim
 clojure:temurin-17-tools-deps-1.12.3.1577-bookworm
-clojure:temurin-17-lein-trixie-slim
 clojure:temurin-17-lein-trixie
 clojure:temurin-17-lein-bookworm-slim
 clojure:temurin-17-lein-bookworm
-clojure:temurin-17-lein-2.12.0-trixie-slim
 clojure:temurin-17-lein-2.12.0-trixie
 clojure:temurin-17-lein-2.12.0-bookworm-slim
 clojure:temurin-17-lein-2.12.0-bookworm
@@ -5080,6 +5080,9 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:9.2.0
+elasticsearch:9.1.6
+elasticsearch:8.19.6
 elasticsearch:9.1.5
 elasticsearch:9.0.8
 elasticsearch:8.19.5
@@ -5177,9 +5180,6 @@ elasticsearch:8.8.1
 elasticsearch:8.8.0
 elasticsearch:8.7.1
 elasticsearch:7.17.10
-elasticsearch:8.7.0
-elasticsearch:8.6.2
-elasticsearch:7.17.9
 ```
 </details>
 
@@ -5299,13 +5299,15 @@ jetty:12-jdk17-eclipse-temurin
 
 ```sh
 ghost:latest
-ghost:6.5.0
-ghost:6.5
-ghost:6
 ghost:alpine
-ghost:6.5.0-alpine
+ghost:6.5.1-alpine
+ghost:6.5.1
 ghost:6.5-alpine
+ghost:6.5
 ghost:6-alpine
+ghost:6
+ghost:6.5.0
+ghost:6.5.0-alpine
 ghost:6.4.0
 ghost:6.4
 ghost:5.130.5
@@ -5396,8 +5398,6 @@ ghost:5.126.1-alpine
 ghost:5.126.1
 ghost:5.126-alpine
 ghost:5.126
-ghost:5.126.0-alpine
-ghost:5.126.0
 ```
 </details>
 
@@ -5654,6 +5654,9 @@ aerospike:ee-7.0.0.9
 <summary> logstash </summary>
 
 ```sh
+logstash:9.2.0
+logstash:9.1.6
+logstash:8.19.6
 logstash:9.1.5
 logstash:9.0.8
 logstash:8.19.5
@@ -5751,9 +5754,6 @@ logstash:8.8.1
 logstash:8.8.0
 logstash:8.7.1
 logstash:7.17.10
-logstash:8.7.0
-logstash:8.6.2
-logstash:7.17.9
 ```
 </details>
 
@@ -5984,9 +5984,12 @@ alpine:3.16.0
 rakudo-star:latest
 rakudo-star:trixie
 rakudo-star:bookworm
+rakudo-star:alpine
+rakudo-star:2025.10-trixie
+rakudo-star:2025.10-bookworm
+rakudo-star:2025.10-alpine
 rakudo-star:2025.08.1-trixie
 rakudo-star:2025.08.1-bookworm
-rakudo-star:alpine
 rakudo-star:2025.08.1-alpine
 rakudo-star:2025.08.1
 rakudo-star:2025.04
@@ -6602,6 +6605,9 @@ ros:jade-perception-trusty
 <summary> kibana </summary>
 
 ```sh
+kibana:9.2.0
+kibana:9.1.6
+kibana:8.19.6
 kibana:9.1.5
 kibana:9.0.8
 kibana:8.19.5
@@ -6699,9 +6705,6 @@ kibana:8.9.1
 kibana:8.8.1
 kibana:8.8.0
 kibana:8.7.1
-kibana:7.17.10
-kibana:8.7.0
-kibana:8.6.2
 ```
 </details>
 
