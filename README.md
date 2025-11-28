@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Nov 27 04:53:20 UTC 2025
+Actualizado: Fri Nov 28 04:52:37 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -7983,6 +7983,14 @@ neo4j:2025.09-enterprise-bullseye
 
 ```sh
 erlang:latest
+erlang:26.2.5.16-slim
+erlang:26.2.5.16
+erlang:26.2.5-slim
+erlang:26.2.5
+erlang:26.2-slim
+erlang:26.2
+erlang:26-slim
+erlang:26
 erlang:slim
 erlang:alpine
 erlang:28.2.0.0-slim
@@ -8009,18 +8017,10 @@ erlang:27.3
 erlang:27-slim
 erlang:27-alpine
 erlang:27
-erlang:26.2.5.16-slim
 erlang:26.2.5.16-alpine
-erlang:26.2.5.16
-erlang:26.2.5-slim
 erlang:26.2.5-alpine
-erlang:26.2.5
-erlang:26.2-slim
 erlang:26.2-alpine
-erlang:26.2
-erlang:26-slim
 erlang:26-alpine
-erlang:26
 erlang:26.2.5.15
 erlang:28.1.0.0
 erlang:28.1.0
@@ -8418,6 +8418,35 @@ piwik:2.16.0
 
 ```sh
 elixir:latest
+elixir:slim
+elixir:otp-28-slim
+elixir:otp-28-alpine
+elixir:otp-28
+elixir:otp-27-slim
+elixir:otp-27-alpine
+elixir:otp-27
+elixir:otp-26-slim
+elixir:otp-26-alpine
+elixir:otp-26
+elixir:alpine
+elixir:1.19.3-slim
+elixir:1.19.3-otp-28-slim
+elixir:1.19.3-otp-28-alpine
+elixir:1.19.3-otp-28
+elixir:1.19.3-otp-27-slim
+elixir:1.19.3-otp-27-alpine
+elixir:1.19.3-otp-27
+elixir:1.19.3-otp-26-slim
+elixir:1.19.3-otp-26-alpine
+elixir:1.19.3-otp-26
+elixir:1.19.3-alpine
+elixir:1.19.3
+elixir:1.19-slim
+elixir:1.19-otp-28-slim
+elixir:1.19-otp-28-alpine
+elixir:1.19-otp-28
+elixir:1.19-otp-27-slim
+elixir:1.19-otp-27-alpine
 elixir:1.19-otp-27
 elixir:1.19-otp-26-slim
 elixir:1.19-otp-26-alpine
@@ -8488,35 +8517,6 @@ elixir:1.15-slim
 elixir:1.15-otp-26-slim
 elixir:1.15-otp-26-alpine
 elixir:1.15-otp-26
-elixir:1.15-alpine
-elixir:1.15
-elixir:otp-28
-elixir:otp-27
-elixir:otp-26
-elixir:1.19.3-otp-28
-elixir:1.19.3-otp-27
-elixir:1.19.3-otp-26
-elixir:1.19.3
-elixir:1.19-otp-28
-elixir:otp-26-slim
-elixir:1.19.3-otp-26-slim
-elixir:1.18.4-otp-25
-elixir:1.18-otp-25
-elixir:1.17.3-otp-25
-elixir:1.17-otp-25
-elixir:1.16.3-otp-25
-elixir:1.16.3-otp-24
-elixir:1.16-otp-25
-elixir:1.16-otp-24
-elixir:1.15.8-otp-25
-elixir:1.15.8-otp-24
-elixir:1.15-otp-25
-elixir:1.15-otp-24
-elixir:slim
-elixir:otp-28-slim
-elixir:otp-27-slim
-elixir:1.19.3-slim
-elixir:1.19.3-otp-28-slim
 ```
 </details>
 
