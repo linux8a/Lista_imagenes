@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Dec 25 05:00:13 UTC 2025
+Actualizado: Fri Dec 26 04:58:49 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -1655,6 +1655,26 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:4.0.0-trixie
+ruby:4.0.0-slim-trixie
+ruby:4.0.0-slim-bookworm
+ruby:4.0.0-slim
+ruby:4.0.0-bookworm
+ruby:4.0.0-alpine3.23
+ruby:4.0.0-alpine3.22
+ruby:4.0.0-alpine
+ruby:4.0.0
+ruby:4.0-trixie
+ruby:4.0-slim-trixie
+ruby:4.0-slim-bookworm
+ruby:4.0-slim
+ruby:4.0-bookworm
+ruby:4.0-alpine3.23
+ruby:4.0-alpine3.22
+ruby:4.0-alpine
+ruby:4.0
+ruby:4-trixie
+ruby:4
 ruby:4.0.0-preview3-alpine3.23
 ruby:4.0.0-preview3-alpine3.22
 ruby:4.0.0-preview3-alpine
@@ -1734,26 +1754,6 @@ ruby:3.2.9-alpine3.22
 ruby:3.2-alpine3.22
 ruby:3.3.10-alpine3.22
 ruby:3.3-alpine3.22
-ruby:3.2.9-slim-trixie
-ruby:3.2.9-slim
-ruby:3.2-slim-trixie
-ruby:3.2-slim
-ruby:3.4.7-alpine3.22
-ruby:3.3.10-slim-trixie
-ruby:3.3.10-slim
-ruby:3.3-slim-trixie
-ruby:3.3-slim
-ruby:3.4.7-alpine3.23
-ruby:3.4.7-alpine
-ruby:4.0.0-preview2-alpine3.22
-ruby:3.4.7-slim-trixie
-ruby:3.4.7-slim
-ruby:4.0.0-preview2-slim-trixie
-ruby:4.0.0-preview2-slim
-ruby:4.0.0-preview2-bookworm
-ruby:3.4.7-bookworm
-ruby:3.3.10-bookworm
-ruby:3.3-bookworm
 ```
 </details>
 
