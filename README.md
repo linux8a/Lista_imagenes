@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Dec 26 04:58:49 UTC 2025
+Actualizado: Sat Dec 27 04:57:24 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -1655,23 +1655,28 @@ rails:4.2.1
 
 ```sh
 ruby:latest
-ruby:4.0.0-trixie
-ruby:4.0.0-slim-trixie
-ruby:4.0.0-slim-bookworm
-ruby:4.0.0-slim
-ruby:4.0.0-bookworm
+ruby:alpine
 ruby:4.0.0-alpine3.23
 ruby:4.0.0-alpine3.22
 ruby:4.0.0-alpine
-ruby:4.0.0
-ruby:4.0-trixie
-ruby:4.0-slim-trixie
-ruby:4.0-slim-bookworm
-ruby:4.0-slim
-ruby:4.0-bookworm
 ruby:4.0-alpine3.23
 ruby:4.0-alpine3.22
 ruby:4.0-alpine
+ruby:slim
+ruby:4.0.0-slim-trixie
+ruby:4.0.0-slim
+ruby:4.0-slim-trixie
+ruby:4.0-slim
+ruby:trixie
+ruby:slim-bookworm
+ruby:bookworm
+ruby:4.0.0-trixie
+ruby:4.0.0-slim-bookworm
+ruby:4.0.0-bookworm
+ruby:4.0.0
+ruby:4.0-trixie
+ruby:4.0-slim-bookworm
+ruby:4.0-bookworm
 ruby:4.0
 ruby:4-trixie
 ruby:4
@@ -1698,7 +1703,6 @@ ruby:3.2.9-alpine
 ruby:3.2-alpine3.23
 ruby:3.2-alpine
 ruby:alpine3.23
-ruby:alpine
 ruby:3.4.8-alpine3.23
 ruby:3.4.8-alpine
 ruby:3.4-alpine3.23
@@ -1715,9 +1719,7 @@ ruby:alpine3.22
 ruby:3.4.8-alpine3.22
 ruby:3.4-alpine3.22
 ruby:3-alpine3.22
-ruby:trixie
 ruby:slim-trixie
-ruby:slim
 ruby:3.4.8-trixie
 ruby:3.4.8-slim-trixie
 ruby:3.4.8-slim
@@ -1730,8 +1732,6 @@ ruby:3-trixie
 ruby:3-slim-trixie
 ruby:3-slim
 ruby:3
-ruby:slim-bookworm
-ruby:bookworm
 ruby:3.4.8-slim-bookworm
 ruby:3.4.8-bookworm
 ruby:3.4-slim-bookworm
