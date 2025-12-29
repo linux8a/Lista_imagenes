@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Dec 28 05:03:18 UTC 2025
+Actualizado: Mon Dec 29 05:16:22 UTC 2025
 ## centos
 <details>
 <summary> centos </summary>
@@ -1655,6 +1655,16 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:slim-trixie
+ruby:alpine3.23
+ruby:alpine3.22
+ruby:4-slim-trixie
+ruby:4-slim-bookworm
+ruby:4-slim
+ruby:4-bookworm
+ruby:4-alpine3.23
+ruby:4-alpine3.22
+ruby:4-alpine
 ruby:alpine
 ruby:4.0.0-alpine3.23
 ruby:4.0.0-alpine3.22
@@ -1702,7 +1712,6 @@ ruby:3.2.9-alpine3.23
 ruby:3.2.9-alpine
 ruby:3.2-alpine3.23
 ruby:3.2-alpine
-ruby:alpine3.23
 ruby:3.4.8-alpine3.23
 ruby:3.4.8-alpine
 ruby:3.4-alpine3.23
@@ -1715,11 +1724,9 @@ ruby:4.0-rc-slim-bookworm
 ruby:4.0-rc-bookworm
 ruby:4.0.0-preview2-alpine3.23
 ruby:4.0.0-preview2-alpine
-ruby:alpine3.22
 ruby:3.4.8-alpine3.22
 ruby:3.4-alpine3.22
 ruby:3-alpine3.22
-ruby:slim-trixie
 ruby:3.4.8-trixie
 ruby:3.4.8-slim-trixie
 ruby:3.4.8-slim
@@ -1747,13 +1754,6 @@ ruby:3.4.7
 ruby:3.3.10-trixie
 ruby:3.3.10
 ruby:3.3-trixie
-ruby:3.3
-ruby:4.0.0-preview2-trixie
-ruby:4.0.0-preview2
-ruby:3.2.9-alpine3.22
-ruby:3.2-alpine3.22
-ruby:3.3.10-alpine3.22
-ruby:3.3-alpine3.22
 ```
 </details>
 
@@ -4137,6 +4137,14 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:2.8.18-trixie
+haproxy:2.8.18-alpine3.23
+haproxy:2.8.18-alpine
+haproxy:2.8.18
+haproxy:2.8-trixie
+haproxy:2.8-alpine3.23
+haproxy:2.8-alpine
+haproxy:2.8
 haproxy:3.1.12-trixie
 haproxy:3.1.12-alpine3.23
 haproxy:3.1.12-alpine
@@ -4168,10 +4176,6 @@ haproxy:2.8.17-trixie
 haproxy:2.8.17-alpine3.23
 haproxy:2.8.17-alpine
 haproxy:2.8.17
-haproxy:2.8-trixie
-haproxy:2.8-alpine3.23
-haproxy:2.8-alpine
-haproxy:2.8
 haproxy:3.0.13-alpine3.23
 haproxy:3.0.13-alpine
 haproxy:2.6.23-alpine3.23
@@ -4232,10 +4236,6 @@ haproxy:3.4-dev0-trixie
 haproxy:3.4-dev0
 haproxy:3.3.0-trixie
 haproxy:3.3.0
-haproxy:3.2.9-trixie
-haproxy:3.2.9
-haproxy:3.0.12-alpine3.23
-haproxy:3.0.12-alpine
 ```
 </details>
 
@@ -4463,6 +4463,8 @@ rabbitmq:4.1.1-alpine
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:10-slim
+oraclelinux:10
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
 oraclelinux:9
@@ -4470,8 +4472,6 @@ oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
 oraclelinux:8
-oraclelinux:10-slim
-oraclelinux:10
 oraclelinux:7.9
 oraclelinux:7-slim-fips
 oraclelinux:7-slim
@@ -5876,6 +5876,8 @@ julia:1.12.0-rc3-windowsservercore-ltsc2022
 
 ```sh
 alpine:latest
+alpine:edge
+alpine:20251224
 alpine:3.23.2
 alpine:3.23
 alpine:3
@@ -5898,7 +5900,6 @@ alpine:3.20.6
 alpine:3.19.7
 alpine:3.18.12
 alpine:3.18
-alpine:edge
 alpine:3.21.2
 alpine:3.20.5
 alpine:3.19.6
@@ -5974,7 +5975,6 @@ alpine:3.13
 alpine:20221110
 alpine:20220715
 alpine:3.15.5
-alpine:3.14.7
 ```
 </details>
 
@@ -5985,10 +5985,13 @@ alpine:3.14.7
 
 ```sh
 rakudo-star:latest
-rakudo-star:alpine
-rakudo-star:2025.10-alpine
 rakudo-star:trixie
 rakudo-star:bookworm
+rakudo-star:alpine
+rakudo-star:2025.12-trixie
+rakudo-star:2025.12-bookworm
+rakudo-star:2025.12-alpine
+rakudo-star:2025.10-alpine
 rakudo-star:2025.10-trixie
 rakudo-star:2025.10-bookworm
 rakudo-star:2025.08.1-trixie
@@ -8135,8 +8138,9 @@ nuxeo:8.1
 
 ```sh
 photon:latest
-photon:5.0-20251206
+photon:5.0-20251221
 photon:5.0
+photon:5.0-20251206
 photon:4.0-20251207
 photon:4.0
 photon:5.0-20251113
@@ -8233,7 +8237,6 @@ photon:5.0-20240707
 photon:5.0-20240701
 photon:4.0-20240701
 photon:3.0-20240701
-photon:5.0-20240623
 ```
 </details>
 
@@ -8642,10 +8645,12 @@ lightstreamer:7.4.4
 
 ```sh
 orientdb:latest
-orientdb:3.2.47-tp3
-orientdb:3.2.47
+orientdb:3.2.48-tp3
+orientdb:3.2.48
 orientdb:3.2-tp3
 orientdb:3.2
+orientdb:3.2.47-tp3
+orientdb:3.2.47
 orientdb:3.2.46-tp3
 orientdb:3.2.46
 orientdb:3.2.45-tp3
@@ -8739,8 +8744,6 @@ orientdb:3.2.8-tp3
 orientdb:3.2.8
 orientdb:3.1.18-tp3
 orientdb:3.1.18
-orientdb:3.0.42-tp3
-orientdb:3.0.42
 ```
 </details>
 
