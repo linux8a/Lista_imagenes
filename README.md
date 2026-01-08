@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Wed Jan  7 05:03:04 UTC 2026
+Actualizado: Thu Jan  8 05:01:48 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -63,25 +63,25 @@ centos:centos5
 
 ```sh
 busybox:latest
-busybox:unstable-uclibc
 busybox:unstable-musl
+busybox:musl
+busybox:1.37.0-musl
+busybox:1.37-musl
+busybox:1-musl
+busybox:unstable-uclibc
 busybox:uclibc
 busybox:stable-uclibc
 busybox:stable-musl
-busybox:stable
-busybox:musl
 busybox:1.37.0-uclibc
-busybox:1.37.0-musl
 busybox:1.37-uclibc
-busybox:1.37-musl
 busybox:1.36.1-uclibc
 busybox:1.36.1-musl
-busybox:1.36.1
 busybox:1.36-uclibc
 busybox:1.36-musl
-busybox:1.36
 busybox:1-uclibc
-busybox:1-musl
+busybox:stable
+busybox:1.36.1
+busybox:1.36
 busybox:unstable
 busybox:1.37.0
 busybox:1.37
@@ -4137,13 +4137,19 @@ django:1.8.1-python2
 
 ```sh
 haproxy:latest
+haproxy:3.4-dev2-trixie
+haproxy:3.4-dev2-alpine3.23
+haproxy:3.4-dev2-alpine
+haproxy:3.4-dev2
+haproxy:3.4-dev-trixie
+haproxy:3.4-dev-alpine3.23
+haproxy:3.4-dev-alpine
+haproxy:3.4-dev
 haproxy:trixie
 haproxy:lts-trixie
 haproxy:lts
 haproxy:3.4-dev1-trixie
 haproxy:3.4-dev1
-haproxy:3.4-dev-trixie
-haproxy:3.4-dev
 haproxy:3.3.1-trixie
 haproxy:3.3.1
 haproxy:3.3-trixie
@@ -4208,8 +4214,6 @@ haproxy:3.2-alpine3.23
 haproxy:3.2-alpine
 haproxy:3.4-dev1-alpine3.23
 haproxy:3.4-dev1-alpine
-haproxy:3.4-dev-alpine3.23
-haproxy:3.4-dev-alpine
 haproxy:3.3.0-alpine3.23
 haproxy:3.3.0-alpine
 haproxy:3.2.9-alpine3.23
@@ -4232,10 +4236,6 @@ haproxy:3.0.12-trixie
 haproxy:3.0.12
 haproxy:2.8.16-trixie
 haproxy:2.8.16
-haproxy:3.4-dev0-trixie
-haproxy:3.4-dev0
-haproxy:3.3.0-trixie
-haproxy:3.3.0
 ```
 </details>
 
@@ -4356,13 +4356,21 @@ memcached:1.6.24
 ```sh
 rabbitmq:latest
 rabbitmq:management-alpine
+rabbitmq:management
 rabbitmq:4.2.2-management-alpine
+rabbitmq:4.2.2-management
 rabbitmq:4.2-management-alpine
+rabbitmq:4.2-management
 rabbitmq:4.1.7-management-alpine
+rabbitmq:4.1.7-management
 rabbitmq:4.1-management-alpine
+rabbitmq:4.1-management
 rabbitmq:4.0.9-management-alpine
+rabbitmq:4.0.9-management
 rabbitmq:4.0-management-alpine
+rabbitmq:4.0-management
 rabbitmq:4-management-alpine
+rabbitmq:4-management
 rabbitmq:alpine
 rabbitmq:4.2.2-alpine
 rabbitmq:4.2-alpine
@@ -4371,16 +4379,8 @@ rabbitmq:4.1-alpine
 rabbitmq:4.0.9-alpine
 rabbitmq:4.0-alpine
 rabbitmq:4-alpine
-rabbitmq:management
-rabbitmq:4.2.2-management
-rabbitmq:4.2-management
-rabbitmq:4.1.7-management
 rabbitmq:4.1.7
-rabbitmq:4.1-management
 rabbitmq:4.1
-rabbitmq:4.0.9-management
-rabbitmq:4.0-management
-rabbitmq:4-management
 rabbitmq:4.2.2
 rabbitmq:4.2
 rabbitmq:4
@@ -7008,6 +7008,9 @@ gazebo:gzserver4
 
 ```sh
 joomla:latest
+joomla:5.4.2-php8.2-fpm
+joomla:5.4-php8.2-fpm
+joomla:5-php8.2-fpm
 joomla:php8.3-fpm-alpine
 joomla:php8.3-fpm
 joomla:php8.3-apache
@@ -7036,7 +7039,6 @@ joomla:5.4.2-php8.3-fpm
 joomla:5.4.2-php8.3-apache
 joomla:5.4.2-php8.3
 joomla:5.4.2-php8.2-fpm-alpine
-joomla:5.4.2-php8.2-fpm
 joomla:5.4.2-php8.2-apache
 joomla:5.4.2-apache
 joomla:5.4.2
@@ -7045,7 +7047,6 @@ joomla:5.4-php8.3-fpm
 joomla:5.4-php8.3-apache
 joomla:5.4-php8.3
 joomla:5.4-php8.2-fpm-alpine
-joomla:5.4-php8.2-fpm
 joomla:5.4-php8.2-apache
 joomla:5.4-apache
 joomla:5.4
@@ -7054,7 +7055,6 @@ joomla:5-php8.3-fpm
 joomla:5-php8.3-apache
 joomla:5-php8.3
 joomla:5-php8.2-fpm-alpine
-joomla:5-php8.2-fpm
 joomla:5-php8.2-apache
 joomla:5-apache
 joomla:5
@@ -7117,6 +7117,21 @@ joomla:4.4-php8.1-fpm-alpine
 
 ```sh
 redmine:latest
+redmine:5.1.11-trixie
+redmine:5.1.11-alpine3.23
+redmine:5.1.11-alpine3.22
+redmine:5.1.11-alpine
+redmine:5.1.11
+redmine:5.1-trixie
+redmine:5.1-alpine3.23
+redmine:5.1-alpine3.22
+redmine:5.1-alpine
+redmine:5.1
+redmine:5-trixie
+redmine:5-alpine3.23
+redmine:5-alpine3.22
+redmine:5-alpine
+redmine:5
 redmine:6.0.8-alpine3.23
 redmine:6.0.8-alpine3.22
 redmine:6.0.8-alpine
@@ -7152,24 +7167,9 @@ redmine:6.0-bookworm
 redmine:6-trixie
 redmine:6-bookworm
 redmine:6
-redmine:5.1.11-trixie
 redmine:5.1.11-bookworm
-redmine:5.1.11-alpine3.23
-redmine:5.1.11-alpine3.22
-redmine:5.1.11-alpine
-redmine:5.1.11
-redmine:5.1-trixie
 redmine:5.1-bookworm
-redmine:5.1-alpine3.23
-redmine:5.1-alpine3.22
-redmine:5.1-alpine
-redmine:5.1
-redmine:5-trixie
 redmine:5-bookworm
-redmine:5-alpine3.23
-redmine:5-alpine3.22
-redmine:5-alpine
-redmine:5
 redmine:6.0.7-trixie
 redmine:6.0.7
 redmine:6.1.0-trixie
