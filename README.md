@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Feb  1 05:47:18 UTC 2026
+Actualizado: Mon Feb  2 05:49:59 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -1655,6 +1655,8 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:3.2.10-alpine3.22
+ruby:3.2-alpine3.22
 ruby:3.3.10-alpine3.22
 ruby:3.3-alpine3.22
 ruby:3.2.10-alpine3.23
@@ -1686,8 +1688,6 @@ ruby:4.0-alpine
 ruby:4-alpine3.23
 ruby:4-alpine3.22
 ruby:4-alpine
-ruby:3.2.10-alpine3.22
-ruby:3.2-alpine3.22
 ruby:3.3.10-trixie
 ruby:3.3.10
 ruby:3.3-trixie
@@ -2029,12 +2029,6 @@ hello-world:nanoserver1709
 
 ```sh
 hylang:latest
-hylang:python3.14-alpine3.23
-hylang:python3.14-alpine3.22
-hylang:python3.14-alpine
-hylang:python3.13-alpine3.23
-hylang:python3.13-alpine3.22
-hylang:python3.13-alpine
 hylang:python3.12-alpine3.23
 hylang:python3.12-alpine3.22
 hylang:python3.12-alpine
@@ -2044,15 +2038,6 @@ hylang:python3.11-alpine
 hylang:python3.10-alpine3.23
 hylang:python3.10-alpine3.22
 hylang:python3.10-alpine
-hylang:alpine3.23
-hylang:alpine3.22
-hylang:alpine
-hylang:1.2.0-python3.14-alpine3.23
-hylang:1.2.0-python3.14-alpine3.22
-hylang:1.2.0-python3.14-alpine
-hylang:1.2.0-python3.13-alpine3.23
-hylang:1.2.0-python3.13-alpine3.22
-hylang:1.2.0-python3.13-alpine
 hylang:1.2.0-python3.12-alpine3.23
 hylang:1.2.0-python3.12-alpine3.22
 hylang:1.2.0-python3.12-alpine
@@ -2062,15 +2047,6 @@ hylang:1.2.0-python3.11-alpine
 hylang:1.2.0-python3.10-alpine3.23
 hylang:1.2.0-python3.10-alpine3.22
 hylang:1.2.0-python3.10-alpine
-hylang:1.2.0-alpine3.23
-hylang:1.2.0-alpine3.22
-hylang:1.2.0-alpine
-hylang:1.2-python3.14-alpine3.23
-hylang:1.2-python3.14-alpine3.22
-hylang:1.2-python3.14-alpine
-hylang:1.2-python3.13-alpine3.23
-hylang:1.2-python3.13-alpine3.22
-hylang:1.2-python3.13-alpine
 hylang:1.2-python3.12-alpine3.23
 hylang:1.2-python3.12-alpine3.22
 hylang:1.2-python3.12-alpine
@@ -2080,15 +2056,6 @@ hylang:1.2-python3.11-alpine
 hylang:1.2-python3.10-alpine3.23
 hylang:1.2-python3.10-alpine3.22
 hylang:1.2-python3.10-alpine
-hylang:1.2-alpine3.23
-hylang:1.2-alpine3.22
-hylang:1.2-alpine
-hylang:1-python3.14-alpine3.23
-hylang:1-python3.14-alpine3.22
-hylang:1-python3.14-alpine
-hylang:1-python3.13-alpine3.23
-hylang:1-python3.13-alpine3.22
-hylang:1-python3.13-alpine
 hylang:1-python3.12-alpine3.23
 hylang:1-python3.12-alpine3.22
 hylang:1-python3.12-alpine
@@ -2098,6 +2065,39 @@ hylang:1-python3.11-alpine
 hylang:1-python3.10-alpine3.23
 hylang:1-python3.10-alpine3.22
 hylang:1-python3.10-alpine
+hylang:python3.14-alpine3.23
+hylang:python3.14-alpine3.22
+hylang:python3.14-alpine
+hylang:python3.13-alpine3.23
+hylang:python3.13-alpine3.22
+hylang:python3.13-alpine
+hylang:alpine3.23
+hylang:alpine3.22
+hylang:alpine
+hylang:1.2.0-python3.14-alpine3.23
+hylang:1.2.0-python3.14-alpine3.22
+hylang:1.2.0-python3.14-alpine
+hylang:1.2.0-python3.13-alpine3.23
+hylang:1.2.0-python3.13-alpine3.22
+hylang:1.2.0-python3.13-alpine
+hylang:1.2.0-alpine3.23
+hylang:1.2.0-alpine3.22
+hylang:1.2.0-alpine
+hylang:1.2-python3.14-alpine3.23
+hylang:1.2-python3.14-alpine3.22
+hylang:1.2-python3.14-alpine
+hylang:1.2-python3.13-alpine3.23
+hylang:1.2-python3.13-alpine3.22
+hylang:1.2-python3.13-alpine
+hylang:1.2-alpine3.23
+hylang:1.2-alpine3.22
+hylang:1.2-alpine
+hylang:1-python3.14-alpine3.23
+hylang:1-python3.14-alpine3.22
+hylang:1-python3.14-alpine
+hylang:1-python3.13-alpine3.23
+hylang:1-python3.13-alpine3.22
+hylang:1-python3.13-alpine
 hylang:1-alpine3.23
 hylang:1-alpine3.22
 hylang:1-alpine
@@ -2365,6 +2365,12 @@ jenkins:1.570
 
 ```sh
 golang:latest
+golang:tip-alpine3.23
+golang:tip-alpine3.22
+golang:tip-alpine
+golang:tip-20260124-alpine3.23
+golang:tip-20260124-alpine3.22
+golang:tip-20260124-alpine
 golang:alpine3.23
 golang:alpine3.22
 golang:alpine
@@ -2389,12 +2395,6 @@ golang:1.24-alpine
 golang:1-alpine3.23
 golang:1-alpine3.22
 golang:1-alpine
-golang:tip-alpine3.23
-golang:tip-alpine3.22
-golang:tip-alpine
-golang:tip-20260124-alpine3.23
-golang:tip-20260124-alpine3.22
-golang:tip-20260124-alpine
 golang:tip-trixie
 golang:tip-20260124-trixie
 golang:tip-20260124
@@ -4355,6 +4355,14 @@ memcached:1.6.24
 
 ```sh
 rabbitmq:latest
+rabbitmq:management-alpine
+rabbitmq:4.2.3-management-alpine
+rabbitmq:4.2-management-alpine
+rabbitmq:4.1.8-management-alpine
+rabbitmq:4.1-management-alpine
+rabbitmq:4.0.9-management-alpine
+rabbitmq:4.0-management-alpine
+rabbitmq:4-management-alpine
 rabbitmq:4.0.9-alpine
 rabbitmq:4.0-alpine
 rabbitmq:alpine
@@ -4365,14 +4373,6 @@ rabbitmq:4.1-alpine
 rabbitmq:4.0.9-management
 rabbitmq:4.0-management
 rabbitmq:4-alpine
-rabbitmq:management-alpine
-rabbitmq:4.2.3-management-alpine
-rabbitmq:4.2-management-alpine
-rabbitmq:4.1.8-management-alpine
-rabbitmq:4.1-management-alpine
-rabbitmq:4.0.9-management-alpine
-rabbitmq:4.0-management-alpine
-rabbitmq:4-management-alpine
 rabbitmq:management
 rabbitmq:4.2.3-management
 rabbitmq:4.2-management
@@ -5302,20 +5302,26 @@ jetty:12.1.5-jdk21-alpine-amazoncorretto
 
 ```sh
 ghost:latest
-ghost:bookworm
 ghost:alpine3.23
 ghost:alpine
-ghost:6.14.0-bookworm
 ghost:6.14.0-alpine3.23
 ghost:6.14.0-alpine
-ghost:6.14.0
-ghost:6.14-bookworm
 ghost:6.14-alpine3.23
 ghost:6.14-alpine
-ghost:6.14
-ghost:6-bookworm
 ghost:6-alpine3.23
 ghost:6-alpine
+ghost:5.130.6-alpine3.23
+ghost:5.130.6-alpine
+ghost:5.130-alpine3.23
+ghost:5.130-alpine
+ghost:5-alpine3.23
+ghost:5-alpine
+ghost:bookworm
+ghost:6.14.0-bookworm
+ghost:6.14.0
+ghost:6.14-bookworm
+ghost:6.14
+ghost:6-bookworm
 ghost:6
 ghost:6.13.2-bookworm
 ghost:6.13.2-alpine3.23
@@ -5343,12 +5349,6 @@ ghost:6.12.1-alpine3.23
 ghost:6.12.1-alpine
 ghost:6.12-alpine3.23
 ghost:6.12-alpine
-ghost:5.130.6-alpine3.23
-ghost:5.130.6-alpine
-ghost:5.130-alpine3.23
-ghost:5.130-alpine
-ghost:5-alpine3.23
-ghost:5-alpine
 ghost:6.12.0-bookworm
 ghost:6.12.0
 ghost:6.12.0-alpine3.23
@@ -7117,23 +7117,23 @@ joomla:4.4-php8.1-fpm-alpine
 
 ```sh
 redmine:latest
-redmine:alpine3.23
-redmine:alpine3.22
-redmine:alpine
-redmine:6.1.1-alpine3.23
-redmine:6.1.1-alpine3.22
-redmine:6.1.1-alpine
-redmine:6.1-alpine3.23
-redmine:6.1-alpine3.22
-redmine:6.1-alpine
-redmine:6.0.8-alpine3.23
 redmine:6.0.8-alpine3.22
+redmine:6.0-alpine3.22
+redmine:alpine3.22
+redmine:6.1.1-alpine3.22
+redmine:6.1-alpine3.22
+redmine:6.0.8-alpine3.23
 redmine:6.0.8-alpine
 redmine:6.0-alpine3.23
-redmine:6.0-alpine3.22
 redmine:6.0-alpine
-redmine:6-alpine3.23
 redmine:6-alpine3.22
+redmine:alpine3.23
+redmine:alpine
+redmine:6.1.1-alpine3.23
+redmine:6.1.1-alpine
+redmine:6.1-alpine3.23
+redmine:6.1-alpine
+redmine:6-alpine3.23
 redmine:6-alpine
 redmine:5.1.11-alpine3.23
 redmine:5.1.11-alpine3.22
