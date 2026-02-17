@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon Feb 16 05:54:44 UTC 2026
+Actualizado: Tue Feb 17 05:45:50 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -5306,6 +5306,18 @@ ghost:latest
 ghost:bookworm
 ghost:alpine3.23
 ghost:alpine
+ghost:6.19.1-bookworm
+ghost:6.19.1-alpine3.23
+ghost:6.19.1-alpine
+ghost:6.19.1
+ghost:6.19-bookworm
+ghost:6.19-alpine3.23
+ghost:6.19-alpine
+ghost:6.19
+ghost:6-bookworm
+ghost:6-alpine3.23
+ghost:6-alpine
+ghost:6
 ghost:6.18.2-bookworm
 ghost:6.18.2-alpine3.23
 ghost:6.18.2-alpine
@@ -5314,10 +5326,6 @@ ghost:6.18-bookworm
 ghost:6.18-alpine3.23
 ghost:6.18-alpine
 ghost:6.18
-ghost:6-bookworm
-ghost:6-alpine3.23
-ghost:6-alpine
-ghost:6
 ghost:6.18.0-bookworm
 ghost:6.18.0-alpine3.23
 ghost:6.18.0-alpine
@@ -5394,14 +5402,6 @@ ghost:6.11.0-bookworm
 ghost:6.11.0-alpine3.23
 ghost:6.11.0-alpine
 ghost:6.11.0
-ghost:6.11-bookworm
-ghost:6.11-alpine3.23
-ghost:6.11-alpine
-ghost:6.11
-ghost:6.10.3-bookworm
-ghost:6.10.3
-ghost:6.10-bookworm
-ghost:6.10
 ```
 </details>
 
