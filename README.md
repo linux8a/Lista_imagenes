@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Feb 19 05:45:17 UTC 2026
+Actualizado: Fri Feb 20 05:40:51 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -4145,46 +4145,66 @@ haproxy:lts-alpine
 haproxy:lts
 haproxy:alpine3.23
 haproxy:alpine
-haproxy:3.3.3-trixie
-haproxy:3.3.3-alpine3.23
-haproxy:3.3.3-alpine
-haproxy:3.3.3
+haproxy:3.4-dev5-alpine3.23
+haproxy:3.4-dev5-alpine
+haproxy:3.4-dev-alpine3.23
+haproxy:3.4-dev-alpine
+haproxy:3.3.4-trixie
+haproxy:3.3.4-alpine3.23
+haproxy:3.3.4-alpine
+haproxy:3.3.4
 haproxy:3.3-trixie
 haproxy:3.3-alpine3.23
 haproxy:3.3-alpine
 haproxy:3.3
-haproxy:3.2.12-trixie
-haproxy:3.2.12-alpine3.23
-haproxy:3.2.12-alpine
-haproxy:3.2.12
+haproxy:3.2.13-trixie
+haproxy:3.2.13-alpine3.23
+haproxy:3.2.13-alpine
+haproxy:3.2.13
 haproxy:3.2-trixie
 haproxy:3.2-alpine3.23
 haproxy:3.2-alpine
 haproxy:3.2
-haproxy:3.1.14-trixie
-haproxy:3.1.14-alpine3.23
-haproxy:3.1.14-alpine
-haproxy:3.1.14
+haproxy:3.1.15-trixie
+haproxy:3.1.15-alpine3.23
+haproxy:3.1.15-alpine
+haproxy:3.1.15
 haproxy:3.1-trixie
 haproxy:3.1-alpine3.23
 haproxy:3.1-alpine
 haproxy:3.1
-haproxy:3.0.16-trixie
-haproxy:3.0.16-alpine3.23
-haproxy:3.0.16-alpine
-haproxy:3.0.16
+haproxy:3.0.17-trixie
+haproxy:3.0.17-alpine3.23
+haproxy:3.0.17-alpine
+haproxy:3.0.17
 haproxy:3.0-trixie
 haproxy:3.0-alpine3.23
 haproxy:3.0-alpine
 haproxy:3.0
+haproxy:3.4-dev5-trixie
+haproxy:3.4-dev5
+haproxy:3.4-dev-trixie
+haproxy:3.4-dev
+haproxy:3.3.3-trixie
+haproxy:3.3.3-alpine3.23
+haproxy:3.3.3-alpine
+haproxy:3.3.3
+haproxy:3.2.12-trixie
+haproxy:3.2.12-alpine3.23
+haproxy:3.2.12-alpine
+haproxy:3.2.12
+haproxy:3.1.14-trixie
+haproxy:3.1.14-alpine3.23
+haproxy:3.1.14-alpine
+haproxy:3.1.14
+haproxy:3.0.16-trixie
+haproxy:3.0.16-alpine3.23
+haproxy:3.0.16-alpine
+haproxy:3.0.16
 haproxy:3.4-dev4-trixie
 haproxy:3.4-dev4-alpine3.23
 haproxy:3.4-dev4-alpine
 haproxy:3.4-dev4
-haproxy:3.4-dev-trixie
-haproxy:3.4-dev-alpine3.23
-haproxy:3.4-dev-alpine
-haproxy:3.4-dev
 haproxy:3.1.13-trixie
 haproxy:3.1.13
 haproxy:3.0.15-trixie
@@ -4217,26 +4237,6 @@ haproxy:2.6.23-alpine3.23
 haproxy:2.6.23-alpine
 haproxy:2.6-alpine3.23
 haproxy:2.6-alpine
-haproxy:3.3.2-alpine3.23
-haproxy:3.3.2-alpine
-haproxy:3.2.10-alpine3.23
-haproxy:3.2.10-alpine
-haproxy:3.1.12-alpine3.23
-haproxy:3.1.12-alpine
-haproxy:3.0.14-alpine3.23
-haproxy:3.0.14-alpine
-haproxy:2.8.18-alpine3.23
-haproxy:2.8.18-alpine
-haproxy:2.8-alpine3.23
-haproxy:2.8-alpine
-haproxy:2.4.30-alpine3.23
-haproxy:2.4.30-alpine
-haproxy:2.4-alpine3.23
-haproxy:2.4-alpine
-haproxy:3.4-dev3-alpine3.23
-haproxy:3.4-dev3-alpine
-haproxy:3.3.1-alpine3.23
-haproxy:3.3.1-alpine
 ```
 </details>
 
@@ -4464,13 +4464,13 @@ rabbitmq:4.2.0-beta.1
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:9-slim-fips
+oraclelinux:9-slim
+oraclelinux:9
 oraclelinux:8.10
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
 oraclelinux:8
-oraclelinux:9-slim-fips
-oraclelinux:9-slim
-oraclelinux:9
 oraclelinux:10
 oraclelinux:10-slim
 oraclelinux:7.9
@@ -5440,10 +5440,12 @@ celery:3.1.17
 <summary> percona </summary>
 
 ```sh
-percona:psmdb-8.0.17
+percona:psmdb-8.0.19
 percona:psmdb-8.0
-percona:psmdb-7.0.28
+percona:psmdb-7.0.30
 percona:psmdb-7.0
+percona:psmdb-8.0.17
+percona:psmdb-7.0.28
 percona:psmdb-6.0.27
 percona:psmdb-6.0
 percona:ps-8.0.45-35
@@ -5538,8 +5540,6 @@ percona:8.0.28-20-centos
 percona:8.0.28-20
 percona:psmdb-4.4.14
 percona:psmdb-4.2.20
-percona:psmdb-5.0.8
-percona:ps-8.0.28-19
 ```
 </details>
 
@@ -7339,9 +7339,13 @@ nats:2.12.1-windowsservercore-ltsc2022
 
 ```sh
 rocket.chat:latest
+rocket.chat:8.1.0
+rocket.chat:8.1
+rocket.chat:8
+rocket.chat:7.12.4
+rocket.chat:7.12
 rocket.chat:8.0.1
 rocket.chat:8.0
-rocket.chat:8
 rocket.chat:7.9.7
 rocket.chat:7.9
 rocket.chat:7.8.4
@@ -7349,7 +7353,6 @@ rocket.chat:7.8
 rocket.chat:7.13.3
 rocket.chat:7.13
 rocket.chat:7.12.3
-rocket.chat:7.12
 rocket.chat:7.11.3
 rocket.chat:7.11
 rocket.chat:7.10.7
@@ -7435,9 +7438,6 @@ rocket.chat:7.0.7
 rocket.chat:6.11.3
 rocket.chat:6.11
 rocket.chat:7.3.1
-rocket.chat:7.2.2
-rocket.chat:7.1.2
-rocket.chat:7.0.6
 ```
 </details>
 
