@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Mar 14 05:34:47 UTC 2026
+Actualizado: Sun Mar 15 05:55:03 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -4357,6 +4357,20 @@ memcached:1.6.25
 
 ```sh
 rabbitmq:latest
+rabbitmq:management-alpine
+rabbitmq:management
+rabbitmq:4.2.4-management-alpine
+rabbitmq:4.2.4-management
+rabbitmq:4.2-management-alpine
+rabbitmq:4.2-management
+rabbitmq:4.1.8-management-alpine
+rabbitmq:4.1.8-management
+rabbitmq:4.1-management-alpine
+rabbitmq:4.1-management
+rabbitmq:4.0.9-management
+rabbitmq:4.0-management
+rabbitmq:4-management-alpine
+rabbitmq:4-management
 rabbitmq:alpine
 rabbitmq:4.2.4-alpine
 rabbitmq:4.2.4
@@ -4372,22 +4386,8 @@ rabbitmq:4.0-alpine
 rabbitmq:4.0
 rabbitmq:4-alpine
 rabbitmq:4
-rabbitmq:management-alpine
-rabbitmq:management
-rabbitmq:4.2.4-management-alpine
-rabbitmq:4.2.4-management
-rabbitmq:4.2-management-alpine
-rabbitmq:4.2-management
-rabbitmq:4.1.8-management-alpine
-rabbitmq:4.1.8-management
-rabbitmq:4.1-management-alpine
-rabbitmq:4.1-management
 rabbitmq:4.0.9-management-alpine
-rabbitmq:4.0.9-management
 rabbitmq:4.0-management-alpine
-rabbitmq:4.0-management
-rabbitmq:4-management-alpine
-rabbitmq:4-management
 rabbitmq:4.2.3-management-alpine
 rabbitmq:4.2.3-management
 rabbitmq:4.2.3-alpine
@@ -6073,15 +6073,30 @@ rakudo-star:2015.03
 ```sh
 drupal:latest
 drupal:php8.5-fpm-trixie
+drupal:php8.5-fpm
+drupal:php8.5-apache-trixie
+drupal:php8.5-apache
+drupal:php8.5
+drupal:11.3.5-php8.5-fpm-trixie
+drupal:11.3.5-php8.5-fpm
+drupal:11.3.5-php8.5-apache-trixie
+drupal:11.3.5-php8.5-apache
+drupal:11.3.5-php8.5
+drupal:11.3-php8.5-fpm-trixie
+drupal:11.3-php8.5-fpm
+drupal:11.3-php8.5-apache-trixie
+drupal:11.3-php8.5-apache
+drupal:11.3-php8.5
+drupal:11-php8.5-fpm-trixie
+drupal:11-php8.5-fpm
+drupal:11-php8.5-apache-trixie
+drupal:11-php8.5-apache
+drupal:11-php8.5
 drupal:php8.5-fpm-bookworm
 drupal:php8.5-fpm-alpine3.23
 drupal:php8.5-fpm-alpine3.22
 drupal:php8.5-fpm-alpine
-drupal:php8.5-fpm
-drupal:php8.5-apache-trixie
 drupal:php8.5-apache-bookworm
-drupal:php8.5-apache
-drupal:php8.5
 drupal:php8.4-fpm-trixie
 drupal:php8.4-fpm-bookworm
 drupal:php8.4-fpm-alpine3.23
@@ -6101,16 +6116,11 @@ drupal:fpm
 drupal:apache-trixie
 drupal:apache-bookworm
 drupal:apache
-drupal:11.3.5-php8.5-fpm-trixie
 drupal:11.3.5-php8.5-fpm-bookworm
 drupal:11.3.5-php8.5-fpm-alpine3.23
 drupal:11.3.5-php8.5-fpm-alpine3.22
 drupal:11.3.5-php8.5-fpm-alpine
-drupal:11.3.5-php8.5-fpm
-drupal:11.3.5-php8.5-apache-trixie
 drupal:11.3.5-php8.5-apache-bookworm
-drupal:11.3.5-php8.5-apache
-drupal:11.3.5-php8.5
 drupal:11.3.5-php8.4-fpm-trixie
 drupal:11.3.5-php8.4-fpm-bookworm
 drupal:11.3.5-php8.4-fpm-alpine3.23
@@ -6131,16 +6141,11 @@ drupal:11.3.5-apache-trixie
 drupal:11.3.5-apache-bookworm
 drupal:11.3.5-apache
 drupal:11.3.5
-drupal:11.3-php8.5-fpm-trixie
 drupal:11.3-php8.5-fpm-bookworm
 drupal:11.3-php8.5-fpm-alpine3.23
 drupal:11.3-php8.5-fpm-alpine3.22
 drupal:11.3-php8.5-fpm-alpine
-drupal:11.3-php8.5-fpm
-drupal:11.3-php8.5-apache-trixie
 drupal:11.3-php8.5-apache-bookworm
-drupal:11.3-php8.5-apache
-drupal:11.3-php8.5
 drupal:11.3-php8.4-fpm-trixie
 drupal:11.3-php8.4-fpm-bookworm
 drupal:11.3-php8.4-fpm-alpine3.23
@@ -6166,11 +6171,6 @@ drupal:11.2.10-php8.4-fpm-bookworm
 drupal:11.2.10-php8.4-fpm-alpine3.23
 drupal:11.2.10-php8.4-fpm-alpine3.22
 drupal:11.2.10-php8.4-fpm-alpine
-drupal:11.2.10-php8.4-fpm
-drupal:11.2.10-php8.4-apache-trixie
-drupal:11.2.10-php8.4-apache-bookworm
-drupal:11.2.10-php8.4-apache
-drupal:11.2.10-php8.4
 ```
 </details>
 
