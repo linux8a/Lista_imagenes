@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Mar 28 05:43:48 UTC 2026
+Actualizado: Sun Mar 29 06:01:49 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -1656,24 +1656,24 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:3.2.11-alpine3.23
+ruby:3.2.11-alpine
+ruby:3.2-alpine3.23
+ruby:3.2-alpine
+ruby:3.2.11-alpine3.22
+ruby:3.2-alpine3.22
 ruby:3.2.11-trixie
 ruby:3.2.11-slim-trixie
-ruby:3.2.11-slim-bookworm
 ruby:3.2.11-slim
-ruby:3.2.11-bookworm
-ruby:3.2.11-alpine3.23
-ruby:3.2.11-alpine3.22
-ruby:3.2.11-alpine
 ruby:3.2.11
 ruby:3.2-trixie
 ruby:3.2-slim-trixie
-ruby:3.2-slim-bookworm
 ruby:3.2-slim
-ruby:3.2-bookworm
-ruby:3.2-alpine3.23
-ruby:3.2-alpine3.22
-ruby:3.2-alpine
 ruby:3.2
+ruby:3.2.11-slim-bookworm
+ruby:3.2.11-bookworm
+ruby:3.2-slim-bookworm
+ruby:3.2-bookworm
 ruby:3.3.11-alpine3.22
 ruby:3.3-alpine3.22
 ruby:3.3.11-alpine3.23
@@ -2692,6 +2692,10 @@ clojure:temurin-25-tools-deps-1.12.4.1618-bookworm-slim
 <summary> php </summary>
 
 ```sh
+php:8.5.5RC1-zts-alpine3.22
+php:8.5.5RC1-fpm-alpine3.22
+php:8.5-rc-zts-alpine3.22
+php:8.5-rc-fpm-alpine3.22
 php:8.5.5RC1-zts-alpine3.23
 php:8.5.5RC1-zts-alpine
 php:8.5.5RC1-fpm-alpine3.23
@@ -2720,11 +2724,9 @@ php:8.5-rc-cli-alpine
 php:8.5-rc-alpine3.23
 php:8.5-rc-alpine
 php:8.5.5RC1-zts-bookworm
-php:8.5.5RC1-zts-alpine3.22
 php:8.5.5RC1-trixie
 php:8.5.5RC1-fpm-trixie
 php:8.5.5RC1-fpm-bookworm
-php:8.5.5RC1-fpm-alpine3.22
 php:8.5.5RC1-cli-trixie
 php:8.5.5RC1-cli-bookworm
 php:8.5.5RC1-cli
@@ -2734,10 +2736,8 @@ php:8.5.5RC1-apache-bookworm
 php:8.5.5RC1-apache
 php:8.5.5RC1
 php:8.5-rc-zts-bookworm
-php:8.5-rc-zts-alpine3.22
 php:8.5-rc-trixie
 php:8.5-rc-fpm-bookworm
-php:8.5-rc-fpm-alpine3.22
 php:8.5-rc-cli-trixie
 php:8.5-rc-cli-bookworm
 php:8.5-rc-cli
@@ -4357,14 +4357,14 @@ memcached:1.6.25
 
 ```sh
 rabbitmq:latest
+rabbitmq:4.3.0-rc.0-management-alpine
+rabbitmq:4.3-rc-management-alpine
+rabbitmq:4.3.0-rc.0-management
+rabbitmq:4.3-rc-management
 rabbitmq:4.3.0-rc.0-alpine
 rabbitmq:4.3.0-rc.0
 rabbitmq:4.3-rc-alpine
 rabbitmq:4.3-rc
-rabbitmq:4.3.0-rc.0-management
-rabbitmq:4.3-rc-management
-rabbitmq:4.3.0-rc.0-management-alpine
-rabbitmq:4.3-rc-management-alpine
 rabbitmq:management-alpine
 rabbitmq:management
 rabbitmq:4.2.5-management-alpine
@@ -7122,24 +7122,26 @@ joomla:5.4.0-php8.3-apache
 
 ```sh
 redmine:latest
-redmine:5.1.12-trixie
-redmine:5.1.12-bookworm
 redmine:5.1.12-alpine3.23
-redmine:5.1.12-alpine3.22
 redmine:5.1.12-alpine
+redmine:5.1-alpine3.23
+redmine:5.1-alpine
+redmine:5-alpine3.23
+redmine:5-alpine
+redmine:5.1.12-alpine3.22
+redmine:5.1-alpine3.22
+redmine:5-alpine3.22
+redmine:5.1.12-trixie
 redmine:5.1.12
 redmine:5.1-trixie
-redmine:5.1-bookworm
-redmine:5.1-alpine3.23
-redmine:5.1-alpine3.22
-redmine:5.1-alpine
 redmine:5.1
 redmine:5-trixie
-redmine:5-bookworm
-redmine:5-alpine3.23
-redmine:5-alpine3.22
-redmine:5-alpine
 redmine:5
+redmine:6.0.9-alpine3.22
+redmine:6.0-alpine3.22
+redmine:5.1.12-bookworm
+redmine:5.1-bookworm
+redmine:5-bookworm
 redmine:6.0.9-alpine3.23
 redmine:6.0.9-alpine
 redmine:6.0-alpine3.23
@@ -7149,9 +7151,7 @@ redmine:6.0.9
 redmine:6.0-trixie
 redmine:6.0
 redmine:6.0.9-bookworm
-redmine:6.0.9-alpine3.22
 redmine:6.0-bookworm
-redmine:6.0-alpine3.22
 redmine:trixie
 redmine:6.1.2-trixie
 redmine:6.1.2
