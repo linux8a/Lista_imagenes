@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri May  1 07:15:56 UTC 2026
+Actualizado: Sat May  2 06:29:39 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -1518,23 +1518,38 @@ mongo:latest
 mongo:8.0.21-windowsservercore-ltsc2025
 mongo:8.0.21-windowsservercore-ltsc2022
 mongo:8.0.21-windowsservercore
-mongo:8.0.21-noble
 mongo:8.0.21-nanoserver-ltsc2022
 mongo:8.0.21-nanoserver
 mongo:8.0.21
-mongo:8.0-noble
+mongo:8.0-windowsservercore-ltsc2025
+mongo:8.0-windowsservercore-ltsc2022
+mongo:8.0-windowsservercore
+mongo:8.0-nanoserver-ltsc2022
+mongo:8.0-nanoserver
 mongo:8.0
 mongo:7.0.32-windowsservercore-ltsc2025
 mongo:7.0.32-windowsservercore-ltsc2022
 mongo:7.0.32-windowsservercore
 mongo:7.0.32-nanoserver-ltsc2022
 mongo:7.0.32-nanoserver
-mongo:7.0.32-jammy
 mongo:7.0.32
-mongo:7.0-jammy
+mongo:7.0-windowsservercore-ltsc2025
+mongo:7.0-windowsservercore-ltsc2022
+mongo:7.0-windowsservercore
+mongo:7.0-nanoserver-ltsc2022
+mongo:7.0-nanoserver
 mongo:7.0
-mongo:7-jammy
+mongo:7-windowsservercore-ltsc2025
+mongo:7-windowsservercore-ltsc2022
+mongo:7-windowsservercore
+mongo:7-nanoserver-ltsc2022
+mongo:7-nanoserver
 mongo:7
+mongo:8.0.21-noble
+mongo:8.0-noble
+mongo:7.0.32-jammy
+mongo:7.0-jammy
+mongo:7-jammy
 mongo:windowsservercore-ltsc2025
 mongo:windowsservercore-ltsc2022
 mongo:windowsservercore
@@ -1599,21 +1614,6 @@ mongo:8.3.0-rc5-windowsservercore-ltsc2022
 mongo:8.3.0-rc5-windowsservercore
 mongo:8.3.0-rc5-nanoserver-ltsc2022
 mongo:8.3.0-rc5-nanoserver
-mongo:8.3-rc-windowsservercore-ltsc2025
-mongo:8.3-rc-windowsservercore-ltsc2022
-mongo:8.3-rc-windowsservercore
-mongo:8.3-rc-nanoserver-ltsc2022
-mongo:8.3-rc-nanoserver
-mongo:8.2.7-rc0-windowsservercore-ltsc2025
-mongo:8.2.7-rc0-windowsservercore-ltsc2022
-mongo:8.2.7-rc0-windowsservercore
-mongo:8.2.7-rc0-nanoserver-ltsc2022
-mongo:8.2.7-rc0-nanoserver
-mongo:8.2.6-windowsservercore-ltsc2025
-mongo:8.2.6-windowsservercore-ltsc2022
-mongo:8.2.6-windowsservercore
-mongo:8.2.6-nanoserver-ltsc2022
-mongo:8.2.6-nanoserver
 ```
 </details>
 
@@ -4468,15 +4468,15 @@ rabbitmq:4.1.5-alpine
 <summary> oraclelinux </summary>
 
 ```sh
-oraclelinux:9-slim-fips
-oraclelinux:9-slim
 oraclelinux:9
 oraclelinux:8.10
+oraclelinux:8
+oraclelinux:10
+oraclelinux:9-slim-fips
+oraclelinux:9-slim
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
-oraclelinux:8
 oraclelinux:10-slim
-oraclelinux:10
 oraclelinux:7.9
 oraclelinux:7-slim-fips
 oraclelinux:7-slim
@@ -4813,8 +4813,6 @@ iojs:2.4-slim
 
 ```sh
 websphere-liberty:latest
-websphere-liberty:25.0.0.9-full-java17-openj9
-websphere-liberty:25.0.0.12-full-java17-openj9
 websphere-liberty:kernel-java17-openj9
 websphere-liberty:kernel-java11-openj9
 websphere-liberty:full-java17-openj9
@@ -4823,12 +4821,14 @@ websphere-liberty:26.0.0.3-kernel-java17-openj9
 websphere-liberty:26.0.0.3-kernel-java11-openj9
 websphere-liberty:26.0.0.3-full-java17-openj9
 websphere-liberty:26.0.0.3-full-java11-openj9
-websphere-liberty:25.0.0.9-kernel-java17-openj9
 websphere-liberty:25.0.0.9-kernel-java11-openj9
 websphere-liberty:25.0.0.9-full-java11-openj9
-websphere-liberty:25.0.0.12-kernel-java17-openj9
 websphere-liberty:25.0.0.12-kernel-java11-openj9
 websphere-liberty:25.0.0.12-full-java11-openj9
+websphere-liberty:25.0.0.9-full-java17-openj9
+websphere-liberty:25.0.0.12-full-java17-openj9
+websphere-liberty:25.0.0.9-kernel-java17-openj9
+websphere-liberty:25.0.0.12-kernel-java17-openj9
 websphere-liberty:kernel-java8-ibmjava
 websphere-liberty:kernel
 websphere-liberty:full-java8-ibmjava
@@ -5772,7 +5772,11 @@ logstash:7.17.18
 
 ```sh
 julia:latest
+julia:rc-windowsservercore-ltsc2025
+julia:rc-windowsservercore-ltsc2022
+julia:rc-windowsservercore
 julia:rc-trixie
+julia:rc-bookworm
 julia:rc
 julia:1.13.0-rc1-windowsservercore-ltsc2025
 julia:1.13.0-rc1-windowsservercore-ltsc2022
@@ -5780,7 +5784,11 @@ julia:1.13.0-rc1-windowsservercore
 julia:1.13.0-rc1-trixie
 julia:1.13.0-rc1-bookworm
 julia:1.13.0-rc1
+julia:1.13-rc-windowsservercore-ltsc2025
+julia:1.13-rc-windowsservercore-ltsc2022
+julia:1.13-rc-windowsservercore
 julia:1.13-rc-trixie
+julia:1.13-rc-bookworm
 julia:1.13-rc
 julia:1.11.9-trixie
 julia:1.11.9-bookworm
@@ -5795,12 +5803,10 @@ julia:1.10-trixie
 julia:1.10-bookworm
 julia:1.10
 julia:trixie
-julia:rc-bookworm
 julia:bookworm
 julia:1.13.0-beta3-trixie
 julia:1.13.0-beta3-bookworm
 julia:1.13.0-beta3
-julia:1.13-rc-bookworm
 julia:1.12.6-trixie
 julia:1.12.6-bookworm
 julia:1.12.6
@@ -5813,12 +5819,8 @@ julia:1
 julia:windowsservercore-ltsc2025
 julia:windowsservercore-ltsc2022
 julia:windowsservercore
-julia:rc-windowsservercore-ltsc2025
-julia:rc-windowsservercore
 julia:1.13.0-beta3-windowsservercore-ltsc2025
 julia:1.13.0-beta3-windowsservercore
-julia:1.13-rc-windowsservercore-ltsc2025
-julia:1.13-rc-windowsservercore
 julia:1.12.6-windowsservercore-ltsc2025
 julia:1.12.6-windowsservercore-ltsc2022
 julia:1.12.6-windowsservercore
@@ -5840,9 +5842,7 @@ julia:1.10-windowsservercore
 julia:1-windowsservercore-ltsc2025
 julia:1-windowsservercore-ltsc2022
 julia:1-windowsservercore
-julia:rc-windowsservercore-ltsc2022
 julia:1.13.0-beta3-windowsservercore-ltsc2022
-julia:1.13-rc-windowsservercore-ltsc2022
 julia:1.12.5-trixie
 julia:1.12.5-bookworm
 julia:1.12.5
