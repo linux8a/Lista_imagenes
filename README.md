@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Mon May 25 08:46:27 UTC 2026
+Actualizado: Tue May 26 08:21:35 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -1659,6 +1659,23 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:3.4.9-trixie
+ruby:3.4.9
+ruby:3.4-trixie
+ruby:3.4
+ruby:3.3.11-trixie
+ruby:3.3.11
+ruby:3.3-trixie
+ruby:3.3
+ruby:3-trixie
+ruby:3
+ruby:trixie
+ruby:4.0.5-trixie
+ruby:4.0.5
+ruby:4.0-trixie
+ruby:4.0
+ruby:4-trixie
+ruby:4
 ruby:alpine3.22
 ruby:4.0.5-alpine3.22
 ruby:4.0-alpine3.22
@@ -1702,23 +1719,6 @@ ruby:3.4-bookworm
 ruby:3.3.11-bookworm
 ruby:3.3-bookworm
 ruby:3-bookworm
-ruby:trixie
-ruby:4.0.5-trixie
-ruby:4.0.5
-ruby:4.0-trixie
-ruby:4.0
-ruby:4-trixie
-ruby:4
-ruby:3.4.9-trixie
-ruby:3.4.9
-ruby:3.4-trixie
-ruby:3.4
-ruby:3.3.11-trixie
-ruby:3.3.11
-ruby:3.3-trixie
-ruby:3.3
-ruby:3-trixie
-ruby:3
 ruby:4.0.4-slim-bookworm
 ruby:3.4.9-slim-bookworm
 ruby:3.4-slim-bookworm
@@ -1768,6 +1768,32 @@ ruby:3-alpine
 
 ```sh
 python:latest
+python:3.11.15-trixie
+python:3.11.15
+python:3.11-trixie
+python:3.11
+python:3.10.20-trixie
+python:3.10.20
+python:3.10-trixie
+python:3.10
+python:3.13.13-trixie
+python:3.13.13
+python:3.13-trixie
+python:3.13
+python:3.12.13-trixie
+python:3.12.13
+python:3.12-trixie
+python:3.12
+python:trixie
+python:3.15.0b1
+python:3.15-rc-trixie
+python:3.15-rc
+python:3.14.5-trixie
+python:3.14.5
+python:3.14-trixie
+python:3.14
+python:3-trixie
+python:3
 python:3.15.0b1-trixie
 python:3.10.20-slim-trixie
 python:3.10.20-slim
@@ -1797,32 +1823,6 @@ python:3.15.0b1-slim-trixie
 python:3.15.0b1-slim
 python:3.15-rc-slim-trixie
 python:3.15-rc-slim
-python:3.13.13-trixie
-python:3.13.13
-python:3.13-trixie
-python:3.13
-python:3.12.13-trixie
-python:3.12.13
-python:3.12-trixie
-python:3.12
-python:3.11.15-trixie
-python:3.11.15
-python:3.11-trixie
-python:3.11
-python:3.10.20-trixie
-python:3.10.20
-python:3.10-trixie
-python:3.10
-python:trixie
-python:3.15.0b1
-python:3.15-rc-trixie
-python:3.15-rc
-python:3.14.5-trixie
-python:3.14.5
-python:3.14-trixie
-python:3.14
-python:3-trixie
-python:3
 python:bookworm
 python:3.15.0b1-bookworm
 python:3.15-rc-bookworm
