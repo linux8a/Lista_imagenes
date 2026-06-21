@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Jun 20 08:13:00 UTC 2026
+Actualizado: Sun Jun 21 08:47:45 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -753,6 +753,22 @@ buildpack-deps:18.04-scm
 
 ```sh
 nginx:latest
+nginx:stable-alpine3.23-perl
+nginx:stable-alpine-perl
+nginx:mainline-alpine3.23-perl
+nginx:mainline-alpine-perl
+nginx:alpine3.23-perl
+nginx:alpine-perl
+nginx:1.31.2-alpine3.23-perl
+nginx:1.31.2-alpine-perl
+nginx:1.31-alpine3.23-perl
+nginx:1.31-alpine-perl
+nginx:1.30.3-alpine3.23-perl
+nginx:1.30.3-alpine-perl
+nginx:1.30-alpine3.23-perl
+nginx:1.30-alpine-perl
+nginx:1-alpine3.23-perl
+nginx:1-alpine-perl
 nginx:stable-alpine3.23
 nginx:stable-alpine
 nginx:1.30.3-alpine3.23
@@ -816,22 +832,6 @@ nginx:1.31-trixie
 nginx:1.31
 nginx:1-trixie
 nginx:1
-nginx:stable-alpine3.23-perl
-nginx:stable-alpine-perl
-nginx:mainline-alpine3.23-perl
-nginx:mainline-alpine-perl
-nginx:alpine3.23-perl
-nginx:alpine-perl
-nginx:1.31.2-alpine3.23-perl
-nginx:1.31.2-alpine-perl
-nginx:1.31-alpine3.23-perl
-nginx:1.31-alpine-perl
-nginx:1.30.3-alpine3.23-perl
-nginx:1.30.3-alpine-perl
-nginx:1.30-alpine3.23-perl
-nginx:1.30-alpine-perl
-nginx:1-alpine3.23-perl
-nginx:1-alpine-perl
 nginx:trixie-otel
 nginx:stable-trixie-otel
 nginx:stable-otel
@@ -1080,6 +1080,10 @@ mysql:8.0.41-debian
 
 ```sh
 wordpress:latest
+wordpress:cli-php8.5
+wordpress:cli-2.12.0-php8.5
+wordpress:cli-2.12-php8.5
+wordpress:cli-2-php8.5
 wordpress:cli-php8.4
 wordpress:cli-php8.3
 wordpress:cli-2.12.0-php8.4
@@ -1116,10 +1120,6 @@ wordpress:7-php8.4-fpm-alpine
 wordpress:7-php8.3-fpm-alpine
 wordpress:7-php8.2-fpm-alpine
 wordpress:7-fpm-alpine
-wordpress:cli-php8.5
-wordpress:cli-2.12.0-php8.5
-wordpress:cli-2.12-php8.5
-wordpress:cli-2-php8.5
 wordpress:php8.5-apache
 wordpress:php8.5
 wordpress:php8.4-fpm
@@ -1768,6 +1768,10 @@ ruby:3.4-alpine3.22
 
 ```sh
 python:latest
+python:3.10.20-trixie
+python:3.10.20
+python:3.10-trixie
+python:3.10
 python:3.12.13-alpine3.24
 python:3.12.13-alpine
 python:3.12-alpine3.24
@@ -1854,12 +1858,8 @@ python:3.12.13-bookworm
 python:3.12-bookworm
 python:3.11.15-bookworm
 python:3.11-bookworm
-python:3.10.20-trixie
 python:3.10.20-bookworm
-python:3.10.20
-python:3.10-trixie
 python:3.10-bookworm
-python:3.10
 python:3-bookworm
 python:bookworm
 python:3.15.0b2-bookworm
@@ -2369,6 +2369,8 @@ jenkins:1.570
 
 ```sh
 golang:latest
+golang:tip-alpine3.23
+golang:tip-20260613-alpine3.23
 golang:tip-alpine3.24
 golang:tip-alpine
 golang:tip-20260613-alpine3.24
@@ -2414,9 +2416,7 @@ golang:tip-20260613-trixie
 golang:tip-20260613
 golang:tip
 golang:tip-bookworm
-golang:tip-alpine3.23
 golang:tip-20260613-bookworm
-golang:tip-20260613-alpine3.23
 golang:1.25.11-trixie
 golang:1.25.11
 golang:1.25-trixie
@@ -4361,6 +4361,13 @@ memcached:1-alpine3.19
 
 ```sh
 rabbitmq:latest
+rabbitmq:management
+rabbitmq:4.3.2-management
+rabbitmq:4.3.2
+rabbitmq:4.3-management
+rabbitmq:4.3
+rabbitmq:4-management
+rabbitmq:4
 rabbitmq:management-alpine
 rabbitmq:4.3.2-management-alpine
 rabbitmq:4.3-management-alpine
@@ -4377,13 +4384,6 @@ rabbitmq:4.2.8-management-alpine
 rabbitmq:4.2-management-alpine
 rabbitmq:4.2.8-alpine
 rabbitmq:4.2-alpine
-rabbitmq:management
-rabbitmq:4.3.2-management
-rabbitmq:4.3.2
-rabbitmq:4.3-management
-rabbitmq:4.3
-rabbitmq:4-management
-rabbitmq:4
 rabbitmq:4.3.1-management-alpine
 rabbitmq:4.2.7-management-alpine
 rabbitmq:4.2.7-management
