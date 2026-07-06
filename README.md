@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Jul  5 07:48:13 UTC 2026
+Actualizado: Mon Jul  6 08:49:58 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -2695,6 +2695,18 @@ clojure:temurin-21-jammy
 <summary> php </summary>
 
 ```sh
+php:8.4.23-zts-alpine3.23
+php:8.4-zts-alpine3.23
+php:8.3.32-trixie
+php:8.3.32-cli-trixie
+php:8.3.32-cli
+php:8.3.32
+php:8.3-trixie
+php:8.3-cli-trixie
+php:8.3-cli
+php:8.3
+php:8.2.32-fpm-alpine3.23
+php:8.2-fpm-alpine3.23
 php:8.2.32-zts-alpine3.23
 php:8.2.32-cli-alpine3.23
 php:8.2.32-alpine3.23
@@ -2783,18 +2795,6 @@ php:8.4-zts-alpine3.24
 php:8.4-zts-alpine
 php:8.4-cli-alpine3.23
 php:8.4-alpine3.23
-php:8.4.23-zts-trixie
-php:8.4.23-zts
-php:8.4.23-fpm-trixie
-php:8.4.23-fpm-alpine3.24
-php:8.4.23-fpm-alpine
-php:8.4.23-fpm
-php:8.4.23-cli-alpine3.24
-php:8.4.23-cli-alpine
-php:8.4.23-alpine3.24
-php:8.4.23-alpine
-php:8.4-zts-trixie
-php:8.4-zts
 ```
 </details>
 
