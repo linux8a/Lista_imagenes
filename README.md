@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Jul 10 08:03:10 UTC 2026
+Actualizado: Sat Jul 11 06:58:05 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -4253,21 +4253,25 @@ haproxy:3.3.10
 
 ```sh
 memcached:latest
+memcached:trixie
 memcached:alpine3.24
 memcached:alpine
-memcached:1.6.44-alpine3.24
-memcached:1.6.44-alpine
+memcached:1.6.45-trixie
+memcached:1.6.45-alpine3.24
+memcached:1.6.45-alpine
+memcached:1.6.45
+memcached:1.6-trixie
 memcached:1.6-alpine3.24
 memcached:1.6-alpine
-memcached:1-alpine3.24
-memcached:1-alpine
-memcached:trixie
-memcached:1.6.44-trixie
-memcached:1.6.44
-memcached:1.6-trixie
 memcached:1.6
 memcached:1-trixie
+memcached:1-alpine3.24
+memcached:1-alpine
 memcached:1
+memcached:1.6.44-alpine3.24
+memcached:1.6.44-alpine
+memcached:1.6.44-trixie
+memcached:1.6.44
 memcached:1.6.43-trixie
 memcached:1.6.43-alpine3.24
 memcached:1.6.43-alpine
@@ -4348,10 +4352,6 @@ memcached:1.6.29-bookworm
 memcached:1.6.29
 memcached:1.6.29-alpine3.20
 memcached:1.6.29-alpine
-memcached:1.6.28-alpine3.20
-memcached:1.6.28-alpine
-memcached:1.6.28-bookworm
-memcached:1.6.28
 ```
 </details>
 
@@ -5312,10 +5312,10 @@ ghost:latest
 ghost:bookworm
 ghost:alpine3.23
 ghost:alpine
-ghost:6.52.0-bookworm
-ghost:6.52.0-alpine3.23
-ghost:6.52.0-alpine
-ghost:6.52.0
+ghost:6.52.1-bookworm
+ghost:6.52.1-alpine3.23
+ghost:6.52.1-alpine
+ghost:6.52.1
 ghost:6.52-bookworm
 ghost:6.52-alpine3.23
 ghost:6.52-alpine
@@ -5324,6 +5324,10 @@ ghost:6-bookworm
 ghost:6-alpine3.23
 ghost:6-alpine
 ghost:6
+ghost:6.52.0-bookworm
+ghost:6.52.0-alpine3.23
+ghost:6.52.0-alpine
+ghost:6.52.0
 ghost:6.51.0-bookworm
 ghost:6.51.0
 ghost:6.51-bookworm
@@ -5404,10 +5408,6 @@ ghost:6.41.1-bookworm
 ghost:6.41.1-alpine3.23
 ghost:6.41.1-alpine
 ghost:6.41.1
-ghost:6.41-bookworm
-ghost:6.41-alpine3.23
-ghost:6.41-alpine
-ghost:6.41
 ```
 </details>
 
