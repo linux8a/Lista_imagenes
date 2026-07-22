@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Tue Jul 21 07:19:21 UTC 2026
+Actualizado: Wed Jul 22 07:20:42 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -1082,8 +1082,6 @@ mysql:8.0.41-debian
 wordpress:latest
 wordpress:php8.5-fpm-alpine
 wordpress:php8.5-fpm
-wordpress:php8.5-apache
-wordpress:php8.5
 wordpress:php8.4-fpm-alpine
 wordpress:php8.4-fpm
 wordpress:php8.4-apache
@@ -1179,6 +1177,8 @@ wordpress:beta-7-apache
 wordpress:beta-7
 wordpress:beta
 wordpress:apache
+wordpress:7.0.2-php8.5-fpm-alpine
+wordpress:7.0.2-php8.5-fpm
 ```
 </details>
 
@@ -1298,6 +1298,10 @@ postgres:18.3
 
 ```sh
 redis:latest
+redis:8.10-rc2-trixie
+redis:8.10-rc2-alpine3.23
+redis:8.10-rc2-alpine
+redis:8.10-rc2
 redis:trixie
 redis:8.8.0-trixie
 redis:8.8.0
@@ -1393,10 +1397,6 @@ redis:8.6.2-trixie
 redis:8.6.2
 redis:8.4.2-trixie
 redis:8.4.2
-redis:8.2.5-bookworm
-redis:8.2.5
-redis:8.0.6-bookworm
-redis:8.0.6
 ```
 </details>
 
@@ -1659,6 +1659,23 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:3.4.10-trixie
+ruby:3.4.10
+ruby:3.4-trixie
+ruby:3.4
+ruby:3.3.12-trixie
+ruby:3.3.12
+ruby:3.3-trixie
+ruby:3.3
+ruby:3-trixie
+ruby:3
+ruby:trixie
+ruby:4.0.6-trixie
+ruby:4.0.6
+ruby:4.0-trixie
+ruby:4.0
+ruby:4-trixie
+ruby:4
 ruby:3.3.12-alpine3.24
 ruby:3.3.12-alpine3.23
 ruby:3.3.12-alpine
@@ -1691,18 +1708,14 @@ ruby:4.0-slim-trixie
 ruby:4.0-slim
 ruby:4-slim-trixie
 ruby:4-slim
-ruby:3.3.12-trixie
 ruby:3.3.12-slim-trixie
 ruby:3.3.12-slim-bookworm
 ruby:3.3.12-slim
 ruby:3.3.12-bookworm
-ruby:3.3.12
-ruby:3.3-trixie
 ruby:3.3-slim-trixie
 ruby:3.3-slim-bookworm
 ruby:3.3-slim
 ruby:3.3-bookworm
-ruby:3.3
 ruby:3.3.11-bookworm
 ruby:bookworm
 ruby:4.0.6-bookworm
@@ -1711,25 +1724,12 @@ ruby:4-bookworm
 ruby:3.4.10-bookworm
 ruby:3.4-bookworm
 ruby:3-bookworm
-ruby:trixie
 ruby:slim-bookworm
-ruby:4.0.6-trixie
 ruby:4.0.6-slim-bookworm
-ruby:4.0.6
-ruby:4.0-trixie
 ruby:4.0-slim-bookworm
-ruby:4.0
-ruby:4-trixie
 ruby:4-slim-bookworm
-ruby:4
-ruby:3.4.10-trixie
-ruby:3.4.10
-ruby:3.4-trixie
-ruby:3.4
 ruby:3.3.11-trixie
 ruby:3.3.11
-ruby:3-trixie
-ruby:3
 ruby:3.4.10-slim-bookworm
 ruby:3.4-slim-bookworm
 ruby:3.3.11-slim-bookworm
@@ -1768,6 +1768,20 @@ ruby:3.4.9-alpine3.23
 
 ```sh
 python:latest
+python:3.15.0b4-slim-trixie
+python:3.15.0b4-slim
+python:3.15.0b4-alpine3.24
+python:3.15.0b4-alpine3.23
+python:3.15.0b4-alpine
+python:3.15-rc-slim-trixie
+python:3.15-rc-slim
+python:3.15-rc-alpine3.24
+python:3.15-rc-alpine3.23
+python:3.15-rc-alpine
+python:3.15.0b4-trixie
+python:3.15.0b4
+python:3.15-rc-trixie
+python:3.15-rc
 python:3.11.15-trixie
 python:3.11.15
 python:3.11-trixie
@@ -1778,27 +1792,13 @@ python:3.10-trixie
 python:3.10
 python:3.15.0b4-windowsservercore-ltsc2022
 python:3.15.0b4-windowsservercore
-python:3.15.0b4-trixie
-python:3.15.0b4-slim-trixie
 python:3.15.0b4-slim-bookworm
-python:3.15.0b4-slim
 python:3.15.0b4-bookworm
-python:3.15.0b4-alpine3.24
-python:3.15.0b4-alpine3.23
-python:3.15.0b4-alpine
-python:3.15.0b4
 python:3.15-rc-windowsservercore-ltsc2025
 python:3.15-rc-windowsservercore-ltsc2022
 python:3.15-rc-windowsservercore
-python:3.15-rc-trixie
-python:3.15-rc-slim-trixie
 python:3.15-rc-slim-bookworm
-python:3.15-rc-slim
 python:3.15-rc-bookworm
-python:3.15-rc-alpine3.24
-python:3.15-rc-alpine3.23
-python:3.15-rc-alpine
-python:3.15-rc
 python:3.14.6-trixie
 python:3.14.6
 python:3.14-trixie
@@ -2369,18 +2369,18 @@ jenkins:1.570
 
 ```sh
 golang:latest
-golang:tip-trixie
-golang:tip-bookworm
-golang:tip-alpine3.24
 golang:tip-alpine3.23
+golang:tip-20260719-alpine3.23
+golang:tip-trixie
+golang:tip-alpine3.24
 golang:tip-alpine
 golang:tip-20260719-trixie
-golang:tip-20260719-bookworm
 golang:tip-20260719-alpine3.24
-golang:tip-20260719-alpine3.23
 golang:tip-20260719-alpine
 golang:tip-20260719
 golang:tip
+golang:tip-bookworm
+golang:tip-20260719-bookworm
 golang:tip-20260710-trixie
 golang:tip-20260710
 golang:trixie
@@ -2695,6 +2695,12 @@ clojure:temurin-17-tools-deps-bookworm
 <summary> php </summary>
 
 ```sh
+php:8.4.24RC1-cli-alpine3.23
+php:8.4.24RC1-alpine3.23
+php:8.4-rc-cli-alpine3.23
+php:8.4-rc-alpine3.23
+php:8.6.0alpha2-fpm-alpine3.23
+php:8.6-rc-fpm-alpine3.23
 php:8.4.24RC1-zts-alpine3.23
 php:8.4.24RC1-fpm-alpine3.23
 php:8.4-rc-zts-alpine3.23
@@ -2789,12 +2795,6 @@ php:8.6.0alpha2-zts-trixie
 php:8.6.0alpha2-zts
 php:8.6.0alpha2-fpm-trixie
 php:8.6.0alpha2-fpm
-php:8.6.0alpha2-cli-alpine3.24
-php:8.6.0alpha2-cli-alpine
-php:8.6.0alpha2-alpine3.24
-php:8.6.0alpha2-alpine
-php:8.6-rc-zts-trixie
-php:8.6-rc-zts
 ```
 </details>
 
@@ -3810,12 +3810,8 @@ mariadb:lts-ubi10
 mariadb:lts-ubi
 mariadb:13.0.1-ubi10-rc
 mariadb:13.0.1-ubi-rc
-mariadb:13.0.1-resolute-rc
-mariadb:13.0.1-rc
 mariadb:13.0-ubi10-rc
 mariadb:13.0-ubi-rc
-mariadb:13.0-resolute-rc
-mariadb:13.0-rc
 mariadb:12.3.2-ubi10
 mariadb:12.3.2-ubi
 mariadb:12.3-ubi10
@@ -3842,6 +3838,10 @@ mariadb:10.11-ubi9
 mariadb:10.11-ubi
 mariadb:10-ubi9
 mariadb:10-ubi
+mariadb:13.0.1-resolute-rc
+mariadb:13.0.1-rc
+mariadb:13.0-resolute-rc
+mariadb:13.0-rc
 mariadb:noble
 mariadb:lts-noble
 mariadb:lts
@@ -4363,17 +4363,18 @@ memcached:1.6.29-alpine
 
 ```sh
 rabbitmq:latest
+rabbitmq:4.3.3
+rabbitmq:4.3
+rabbitmq:4
 rabbitmq:management-alpine
 rabbitmq:management
 rabbitmq:alpine
 rabbitmq:4.3.3-management-alpine
 rabbitmq:4.3.3-management
 rabbitmq:4.3.3-alpine
-rabbitmq:4.3.3
 rabbitmq:4.3-management-alpine
 rabbitmq:4.3-management
 rabbitmq:4.3-alpine
-rabbitmq:4.3
 rabbitmq:4.2.9-management-alpine
 rabbitmq:4.2.9-management
 rabbitmq:4.2.9-alpine
@@ -4385,7 +4386,6 @@ rabbitmq:4.2
 rabbitmq:4-management-alpine
 rabbitmq:4-management
 rabbitmq:4-alpine
-rabbitmq:4
 rabbitmq:4.3.2-management-alpine
 rabbitmq:4.3.2-management
 rabbitmq:4.2.8-management-alpine
@@ -4471,6 +4471,8 @@ rabbitmq:4.1.6-management
 <summary> oraclelinux </summary>
 
 ```sh
+oraclelinux:10-slim
+oraclelinux:10
 oraclelinux:9-slim-fips
 oraclelinux:9-slim
 oraclelinux:9
@@ -4478,8 +4480,6 @@ oraclelinux:8.10
 oraclelinux:8
 oraclelinux:8-slim-fips
 oraclelinux:8-slim
-oraclelinux:10-slim
-oraclelinux:10
 oraclelinux:7.9
 oraclelinux:7-slim-fips
 oraclelinux:7-slim
@@ -5091,6 +5091,9 @@ swarm:0.2.0-rc2
 <summary> elasticsearch </summary>
 
 ```sh
+elasticsearch:9.4.4
+elasticsearch:9.3.8
+elasticsearch:8.19.19
 elasticsearch:9.4.3
 elasticsearch:9.3.7
 elasticsearch:8.19.18
@@ -5188,9 +5191,6 @@ elasticsearch:7.17.24
 elasticsearch:8.15.1
 elasticsearch:8.15.0
 elasticsearch:7.17.23
-elasticsearch:8.14.3
-elasticsearch:8.14.2
-elasticsearch:7.17.22
 ```
 </details>
 
@@ -5665,6 +5665,9 @@ aerospike:ce-7.2.0.1_1
 <summary> logstash </summary>
 
 ```sh
+logstash:9.4.4
+logstash:9.3.8
+logstash:8.19.19
 logstash:9.4.3
 logstash:9.3.7
 logstash:8.19.18
@@ -5762,9 +5765,6 @@ logstash:7.17.24
 logstash:8.15.1
 logstash:8.15.0
 logstash:7.17.23
-logstash:8.14.3
-logstash:8.14.2
-logstash:7.17.22
 ```
 </details>
 
@@ -6631,6 +6631,9 @@ ros:kinetic-robot
 <summary> kibana </summary>
 
 ```sh
+kibana:9.4.4
+kibana:9.3.8
+kibana:8.19.19
 kibana:9.4.3
 kibana:9.3.7
 kibana:8.19.18
@@ -6728,9 +6731,6 @@ kibana:8.15.2
 kibana:7.17.24
 kibana:8.15.1
 kibana:8.15.0
-kibana:7.17.23
-kibana:8.14.3
-kibana:8.14.2
 ```
 </details>
 
@@ -7137,18 +7137,12 @@ joomla:6.1.0-rc1-php8.3-apache
 
 ```sh
 redmine:latest
-redmine:6.0.10-bookworm
-redmine:6.0-bookworm
-redmine:6.0.10-trixie
 redmine:6.0.10-alpine3.24
 redmine:6.0.10-alpine3.23
 redmine:6.0.10-alpine
-redmine:6.0.10
-redmine:6.0-trixie
 redmine:6.0-alpine3.24
 redmine:6.0-alpine3.23
 redmine:6.0-alpine
-redmine:6.0
 redmine:trixie
 redmine:6.1.3-trixie
 redmine:6.1.3
@@ -7156,6 +7150,12 @@ redmine:6.1-trixie
 redmine:6.1
 redmine:6-trixie
 redmine:6
+redmine:6.0.10-bookworm
+redmine:6.0-bookworm
+redmine:6.0.10-trixie
+redmine:6.0.10
+redmine:6.0-trixie
+redmine:6.0
 redmine:bookworm
 redmine:6.1.3-bookworm
 redmine:6.1-bookworm
@@ -7591,6 +7591,11 @@ tomee:jre25-ubuntu
 tomee:jre25-plus
 tomee:jre25-plume
 tomee:jre25-microprofile
+tomee:jre25-alpine-webprofile
+tomee:jre25-alpine-plus
+tomee:jre25-alpine-plume
+tomee:jre25-alpine-microprofile
+tomee:jre25-alpine
 tomee:jre25-Temurin-webprofile
 tomee:jre25-Temurin-ubuntu-webprofile
 tomee:jre25-Temurin-ubuntu-plus
@@ -7600,6 +7605,11 @@ tomee:jre25-Temurin-ubuntu
 tomee:jre25-Temurin-plus
 tomee:jre25-Temurin-plume
 tomee:jre25-Temurin-microprofile
+tomee:jre25-Temurin-alpine-webprofile
+tomee:jre25-Temurin-alpine-plus
+tomee:jre25-Temurin-alpine-plume
+tomee:jre25-Temurin-alpine-microprofile
+tomee:jre25-Temurin-alpine
 tomee:jre25-Temurin
 tomee:jre25-Semeru-webprofile
 tomee:jre25-Semeru-ubuntu-webprofile
@@ -7621,6 +7631,11 @@ tomee:jre21-ubuntu
 tomee:jre21-plus
 tomee:jre21-plume
 tomee:jre21-microprofile
+tomee:jre21-alpine-webprofile
+tomee:jre21-alpine-plus
+tomee:jre21-alpine-plume
+tomee:jre21-alpine-microprofile
+tomee:jre21-alpine
 tomee:jre21-Temurin-webprofile
 tomee:jre21-Temurin-ubuntu-webprofile
 tomee:jre21-Temurin-ubuntu-plus
@@ -7630,6 +7645,11 @@ tomee:jre21-Temurin-ubuntu
 tomee:jre21-Temurin-plus
 tomee:jre21-Temurin-plume
 tomee:jre21-Temurin-microprofile
+tomee:jre21-Temurin-alpine-webprofile
+tomee:jre21-Temurin-alpine-plus
+tomee:jre21-Temurin-alpine-plume
+tomee:jre21-Temurin-alpine-microprofile
+tomee:jre21-Temurin-alpine
 tomee:jre21-Temurin
 tomee:jre21-Semeru-webprofile
 tomee:jre21-Semeru-ubuntu-webprofile
@@ -7651,27 +7671,7 @@ tomee:jre17-ubuntu
 tomee:jre17-plus
 tomee:jre17-plume
 tomee:jre17-microprofile
-tomee:jre17-Temurin-webprofile
-tomee:jre17-Temurin-ubuntu-webprofile
-tomee:jre17-Temurin-ubuntu-plus
-tomee:jre17-Temurin-ubuntu-plume
-tomee:jre17-Temurin-ubuntu-microprofile
-tomee:jre17-Temurin-ubuntu
-tomee:jre17-Temurin-plus
-tomee:jre17-Temurin-plume
-tomee:jre17-Temurin-microprofile
-tomee:jre17-Temurin
-tomee:jre17-Semeru-webprofile
-tomee:jre17-Semeru-ubuntu-webprofile
-tomee:jre17-Semeru-ubuntu-plus
-tomee:jre17-Semeru-ubuntu-plume
-tomee:jre17-Semeru-ubuntu-microprofile
-tomee:jre17-Semeru-ubuntu
-tomee:jre17-Semeru-plus
-tomee:jre17-Semeru-plume
-tomee:jre17-Semeru-microprofile
-tomee:jre17-Semeru
-tomee:jre17
+tomee:jre17-alpine-webprofile
 ```
 </details>
 
@@ -7912,6 +7912,27 @@ solr:8.2.0
 
 ```sh
 neo4j:latest
+neo4j:ubi10
+neo4j:enterprise-ubi10
+neo4j:community-ubi10
+neo4j:5.26.28-ubi10
+neo4j:5.26.28-enterprise-ubi10
+neo4j:5.26.28-community-ubi10
+neo4j:5.26-ubi10
+neo4j:5.26-enterprise-ubi10
+neo4j:5.26-community-ubi10
+neo4j:5-ubi10
+neo4j:5-enterprise-ubi10
+neo4j:5-community-ubi10
+neo4j:2026.06.0-ubi10
+neo4j:2026.06.0-enterprise-ubi10
+neo4j:2026.06.0-community-ubi10
+neo4j:2026.06-ubi10
+neo4j:2026.06-enterprise-ubi10
+neo4j:2026.06-community-ubi10
+neo4j:2026-ubi10
+neo4j:2026-enterprise-ubi10
+neo4j:2026-community-ubi10
 neo4j:trixie
 neo4j:enterprise-trixie
 neo4j:enterprise
@@ -7959,27 +7980,6 @@ neo4j:2026-enterprise
 neo4j:2026-community-trixie
 neo4j:2026-community
 neo4j:2026
-neo4j:ubi10
-neo4j:enterprise-ubi10
-neo4j:community-ubi10
-neo4j:5.26.28-ubi10
-neo4j:5.26.28-enterprise-ubi10
-neo4j:5.26.28-community-ubi10
-neo4j:5.26-ubi10
-neo4j:5.26-enterprise-ubi10
-neo4j:5.26-community-ubi10
-neo4j:5-ubi10
-neo4j:5-enterprise-ubi10
-neo4j:5-community-ubi10
-neo4j:2026.06.0-ubi10
-neo4j:2026.06.0-enterprise-ubi10
-neo4j:2026.06.0-community-ubi10
-neo4j:2026.06-ubi10
-neo4j:2026.06-enterprise-ubi10
-neo4j:2026.06-community-ubi10
-neo4j:2026-ubi10
-neo4j:2026-enterprise-ubi10
-neo4j:2026-community-ubi10
 neo4j:2026.05.0-trixie
 neo4j:2026.05.0-enterprise-trixie
 neo4j:2026.05.0-enterprise
