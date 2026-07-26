@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Jul 25 07:02:27 UTC 2026
+Actualizado: Sun Jul 26 07:18:44 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -1298,6 +1298,18 @@ postgres:18.3
 
 ```sh
 redis:latest
+redis:7.4.10-bookworm
+redis:7.4.10-alpine3.21
+redis:7.4.10-alpine
+redis:7.4.10
+redis:7.4-bookworm
+redis:7.4-alpine3.21
+redis:7.4-alpine
+redis:7.4
+redis:7-bookworm
+redis:7-alpine3.21
+redis:7-alpine
+redis:7
 redis:trixie
 redis:8.8.1-trixie
 redis:8.8.1
@@ -1371,12 +1383,8 @@ redis:8.2.7-bookworm
 redis:8.2.7
 redis:7.4.9-bookworm
 redis:7.4.9
-redis:7.4-bookworm
-redis:7.4
 redis:7.2.14-bookworm
 redis:7.2.14
-redis:7-bookworm
-redis:7
 redis:6.2.22-bookworm
 redis:6.2.22
 redis:8.8.0-alpine3.23
@@ -1389,14 +1397,6 @@ redis:8.2.7-alpine3.22
 redis:8.2.7-alpine
 redis:8.8-rc1-trixie
 redis:8.8-rc1-alpine3.23
-redis:8.8-rc1-alpine
-redis:8.8-rc1
-redis:8.6.3-trixie
-redis:8.6.3
-redis:8.4.3-trixie
-redis:8.4.3
-redis:8.2.6-bookworm
-redis:8.2.6
 ```
 </details>
 
