@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Aug  7 05:59:22 UTC 2026
+Actualizado: Sat Aug  8 05:25:37 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -1659,6 +1659,14 @@ rails:4.2.1
 
 ```sh
 ruby:latest
+ruby:slim-trixie
+ruby:slim
+ruby:4.0.6-slim-trixie
+ruby:4.0.6-slim
+ruby:4.0-slim-trixie
+ruby:4.0-slim
+ruby:4-slim-trixie
+ruby:4-slim
 ruby:trixie
 ruby:4.0.6-trixie
 ruby:4.0.6
@@ -1685,14 +1693,6 @@ ruby:3.4-bookworm
 ruby:3.3.12-bookworm
 ruby:3.3-bookworm
 ruby:3-bookworm
-ruby:slim-trixie
-ruby:slim
-ruby:4.0.6-slim-trixie
-ruby:4.0.6-slim
-ruby:4.0-slim-trixie
-ruby:4.0-slim
-ruby:4-slim-trixie
-ruby:4-slim
 ruby:3.4.10-slim-trixie
 ruby:3.4.10-slim
 ruby:3.4-slim-trixie
@@ -1768,6 +1768,22 @@ ruby:3.4.9-alpine3.23
 
 ```sh
 python:latest
+python:3.11.15-slim-trixie
+python:3.11.15-slim
+python:3.11-slim-trixie
+python:3.11-slim
+python:3.10.20-slim-trixie
+python:3.10.20-slim
+python:3.10-slim-trixie
+python:3.10-slim
+python:3.13.14-slim-trixie
+python:3.13.14-slim
+python:3.13-slim-trixie
+python:3.13-slim
+python:3.12.13-slim-trixie
+python:3.12.13-slim
+python:3.12-slim-trixie
+python:3.12-slim
 python:3.14.7-alpine3.24
 python:3.14.7-alpine
 python:3.14.7
@@ -1851,22 +1867,6 @@ python:3.15-rc-alpine3.24
 python:3.15-rc-alpine3.23
 python:3.15-rc-alpine
 python:3.14.7-windowsservercore-ltsc2025
-python:3.14.7-windowsservercore-ltsc2022
-python:3.14.7-windowsservercore
-python:3.14-windowsservercore-ltsc2025
-python:3.14-windowsservercore-ltsc2022
-python:3.13.14-bookworm
-python:3.13-bookworm
-python:3.12.13-bookworm
-python:3.12-bookworm
-python:3.11.15-bookworm
-python:3.11-bookworm
-python:3.10.20-bookworm
-python:3.10-bookworm
-python:3.11.15-slim-trixie
-python:3.11.15-slim
-python:3.11-slim-trixie
-python:3.11-slim
 ```
 </details>
 
@@ -1905,6 +1905,22 @@ ubuntu-debootstrap:10.04.4
 
 ```sh
 perl:latest
+perl:devel-slim-trixie
+perl:devel-slim-threaded-trixie
+perl:devel-slim-threaded
+perl:devel-slim
+perl:5.45.1-slim-trixie
+perl:5.45.1-slim-threaded-trixie
+perl:5.45.1-slim-threaded
+perl:5.45.1-slim
+perl:5.45-slim-trixie
+perl:5.45-slim-threaded-trixie
+perl:5.45-slim-threaded
+perl:5.45-slim
+perl:5.40.5-slim-threaded-trixie
+perl:5.40.5-slim-threaded
+perl:5.40-slim-threaded-trixie
+perl:5.40-slim-threaded
 perl:5.42.3-slim-threaded-trixie
 perl:5.42.3-slim-threaded
 perl:5.42-slim-threaded-trixie
@@ -1988,22 +2004,6 @@ perl:5.42-trixie
 perl:5.42-threaded-trixie
 perl:5.42-threaded-bookworm
 perl:5.42-threaded
-perl:5.42-bookworm
-perl:5.42
-perl:5.40.5-threaded-bookworm
-perl:5.40.5-bookworm
-perl:5.40-threaded-bookworm
-perl:5.40-bookworm
-perl:5-trixie
-perl:5-threaded-trixie
-perl:5-threaded
-perl:5
-perl:threaded-bookworm
-perl:stable-threaded-bookworm
-perl:stable-bookworm
-perl:bookworm
-perl:5.44.0-threaded-bookworm
-perl:5.44.0-bookworm
 ```
 </details>
 
@@ -4363,6 +4363,24 @@ memcached:1.6.29-alpine
 
 ```sh
 rabbitmq:latest
+rabbitmq:management-alpine
+rabbitmq:management
+rabbitmq:4.3.4-management-alpine
+rabbitmq:4.3.4-management
+rabbitmq:4.3-management-alpine
+rabbitmq:4.3-management
+rabbitmq:4.2.9-management-alpine
+rabbitmq:4.2.9-management
+rabbitmq:4.2-management-alpine
+rabbitmq:4.2-management
+rabbitmq:4.1.8-management-alpine
+rabbitmq:4.1.8-management
+rabbitmq:4.1-management-alpine
+rabbitmq:4.1-management
+rabbitmq:4.0.9-management-alpine
+rabbitmq:4.0-management-alpine
+rabbitmq:4-management-alpine
+rabbitmq:4-management
 rabbitmq:4.1.8-alpine
 rabbitmq:4.1-alpine
 rabbitmq:4.0.9-alpine
@@ -4380,28 +4398,10 @@ rabbitmq:4.3-alpine
 rabbitmq:4.3
 rabbitmq:4-alpine
 rabbitmq:4
-rabbitmq:management-alpine
-rabbitmq:management
-rabbitmq:4.3.4-management-alpine
-rabbitmq:4.3.4-management
-rabbitmq:4.3-management-alpine
-rabbitmq:4.3-management
-rabbitmq:4.2.9-management-alpine
-rabbitmq:4.2.9-management
-rabbitmq:4.2-management-alpine
-rabbitmq:4.2-management
-rabbitmq:4.1.8-management-alpine
-rabbitmq:4.1.8-management
-rabbitmq:4.1-management-alpine
-rabbitmq:4.1-management
-rabbitmq:4.0.9-management-alpine
 rabbitmq:4.0.9-management
 rabbitmq:4.0.9
-rabbitmq:4.0-management-alpine
 rabbitmq:4.0-management
 rabbitmq:4.0
-rabbitmq:4-management-alpine
-rabbitmq:4-management
 rabbitmq:4.3.3-management-alpine
 rabbitmq:4.3.3-management
 rabbitmq:4.3.3-alpine
