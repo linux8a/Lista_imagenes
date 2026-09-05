@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Sep  4 09:03:31 UTC 2026
+Actualizado: Sat Sep  5 08:36:06 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -7465,13 +7465,40 @@ rocket.chat:7.2.6
 
 ```sh
 docker:latest
+docker:dind-rootless
+docker:dind
+docker:29.8.0-dind-rootless
+docker:29.8.0-dind-alpine3.24
+docker:29.8.0-dind
+docker:29.8.0-alpine3.24
+docker:29.8.0
+docker:29.8-dind-rootless
+docker:29.8-dind
+docker:29.8
+docker:29-dind-rootless
+docker:29-dind
+docker:29
+docker:windowsservercore-ltsc2025
+docker:windowsservercore-ltsc2022
+docker:windowsservercore
+docker:cli
+docker:29.8.0-windowsservercore-ltsc2025
+docker:29.8.0-windowsservercore-ltsc2022
+docker:29.8.0-windowsservercore
+docker:29.8.0-cli-alpine3.24
+docker:29.8.0-cli
+docker:29.8-windowsservercore-ltsc2025
+docker:29.8-windowsservercore-ltsc2022
+docker:29.8-windowsservercore
+docker:29.8-cli
+docker:29-windowsservercore-ltsc2025
+docker:29-windowsservercore-ltsc2022
+docker:29-windowsservercore
+docker:29-cli
 docker:rc-dind-rootless
 docker:rc-dind
 docker:rc-cli
 docker:rc
-docker:dind-rootless
-docker:dind
-docker:cli
 docker:29.8.0-rc.1-dind-rootless
 docker:29.8.0-rc.1-dind-alpine3.24
 docker:29.8.0-rc.1-dind
@@ -7494,13 +7521,6 @@ docker:29-rc-dind-rootless
 docker:29-rc-dind
 docker:29-rc-cli
 docker:29-rc
-docker:29-dind-rootless
-docker:29-dind
-docker:29-cli
-docker:29
-docker:windowsservercore-ltsc2025
-docker:windowsservercore-ltsc2022
-docker:windowsservercore
 docker:rc-windowsservercore-ltsc2025
 docker:rc-windowsservercore-ltsc2022
 docker:rc-windowsservercore
@@ -7513,9 +7533,6 @@ docker:29.7.2-windowsservercore
 docker:29.7-windowsservercore-ltsc2025
 docker:29.7-windowsservercore-ltsc2022
 docker:29.7-windowsservercore
-docker:29-windowsservercore-ltsc2025
-docker:29-windowsservercore-ltsc2022
-docker:29-windowsservercore
 docker:29-rc-windowsservercore-ltsc2025
 docker:29-rc-windowsservercore-ltsc2022
 docker:29-rc-windowsservercore
@@ -7547,23 +7564,6 @@ docker:29.7.0-rc.1-dind-alpine3.24
 docker:29.7.0-rc.1-dind
 docker:29.7.0-rc.1-cli-alpine3.24
 docker:29.7.0-rc.1-cli
-docker:29.7.0-rc.1-alpine3.24
-docker:29.7.0-rc.1
-docker:29.6.2-windowsservercore-ltsc2025
-docker:29.6.2-windowsservercore-ltsc2022
-docker:29.6.2-windowsservercore
-docker:29.6.2-dind-rootless
-docker:29.6.2-dind-alpine3.24
-docker:29.6.2-dind
-docker:29.6.2-alpine3.24
-docker:29.6.2
-docker:29.6-windowsservercore-ltsc2025
-docker:29.6-windowsservercore-ltsc2022
-docker:29.6-windowsservercore
-docker:29.6-dind-rootless
-docker:29.6-dind
-docker:29.6
-docker:29.6.2-cli-alpine3.24
 ```
 </details>
 
