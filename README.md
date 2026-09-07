@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Sep  6 08:56:14 UTC 2026
+Actualizado: Mon Sep  7 09:44:35 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -2143,18 +2143,18 @@ hylang:1.3-python3.11-alpine
 
 ```sh
 gcc:latest
-gcc:14.4.0-trixie
-gcc:14.4.0
-gcc:14.4-trixie
-gcc:14.4
-gcc:14-trixie
-gcc:14
 gcc:12.5.0-bookworm
 gcc:12.5.0
 gcc:12.5-bookworm
 gcc:12.5
 gcc:12-bookworm
 gcc:12
+gcc:14.4.0-trixie
+gcc:14.4.0
+gcc:14.4-trixie
+gcc:14.4
+gcc:14-trixie
+gcc:14
 gcc:trixie
 gcc:16.2.0-trixie
 gcc:16.2.0
