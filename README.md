@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Thu Sep 10 09:11:05 UTC 2026
+Actualizado: Fri Sep 11 09:08:56 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -5312,36 +5312,36 @@ jetty:12.1.12-amazoncorretto
 ```sh
 ghost:latest
 ghost:next-bookworm
-ghost:next-alpine3.23
-ghost:next-alpine
 ghost:next
 ghost:bookworm
 ghost:alpine3.23
 ghost:alpine
 ghost:6.63.0-next-bookworm
-ghost:6.63.0-next-alpine3.23
-ghost:6.63.0-next-alpine
 ghost:6.63.0-next
 ghost:6.63.0-bookworm
 ghost:6.63.0-alpine3.23
 ghost:6.63.0-alpine
 ghost:6.63.0
 ghost:6.63-next-bookworm
-ghost:6.63-next-alpine3.23
-ghost:6.63-next-alpine
 ghost:6.63-next
 ghost:6.63-bookworm
 ghost:6.63-alpine3.23
 ghost:6.63-alpine
 ghost:6.63
 ghost:6-next-bookworm
-ghost:6-next-alpine3.23
-ghost:6-next-alpine
 ghost:6-next
 ghost:6-bookworm
 ghost:6-alpine3.23
 ghost:6-alpine
 ghost:6
+ghost:next-alpine3.23
+ghost:next-alpine
+ghost:6.63.0-next-alpine3.23
+ghost:6.63.0-next-alpine
+ghost:6.63-next-alpine3.23
+ghost:6.63-next-alpine
+ghost:6-next-alpine3.23
+ghost:6-next-alpine
 ghost:6.62.0-next-bookworm
 ghost:6.62.0-next-alpine3.23
 ghost:6.62.0-next-alpine
@@ -5779,6 +5779,26 @@ julia:latest
 julia:windowsservercore-ltsc2025
 julia:windowsservercore-ltsc2022
 julia:windowsservercore
+julia:trixie
+julia:bookworm
+julia:1.13.0-windowsservercore-ltsc2025
+julia:1.13.0-windowsservercore-ltsc2022
+julia:1.13.0-windowsservercore
+julia:1.13.0-trixie
+julia:1.13.0-bookworm
+julia:1.13.0
+julia:1.13-windowsservercore-ltsc2025
+julia:1.13-windowsservercore-ltsc2022
+julia:1.13-windowsservercore
+julia:1.13-trixie
+julia:1.13-bookworm
+julia:1.13
+julia:1-windowsservercore-ltsc2025
+julia:1-windowsservercore-ltsc2022
+julia:1-windowsservercore
+julia:1-trixie
+julia:1-bookworm
+julia:1
 julia:rc-windowsservercore-ltsc2025
 julia:rc-windowsservercore-ltsc2022
 julia:rc-windowsservercore
@@ -5815,10 +5835,6 @@ julia:1.10-windowsservercore-ltsc2025
 julia:1.10-windowsservercore-ltsc2022
 julia:1.10-windowsservercore
 julia:1.10
-julia:1-windowsservercore-ltsc2025
-julia:1-windowsservercore-ltsc2022
-julia:1-windowsservercore
-julia:1
 julia:rc-trixie
 julia:rc-bookworm
 julia:1.13.0-rc4-trixie
@@ -5829,8 +5845,6 @@ julia:1.11.9-trixie
 julia:1.11.9-bookworm
 julia:1.11-trixie
 julia:1.11-bookworm
-julia:trixie
-julia:bookworm
 julia:1.13.0-rc3-trixie
 julia:1.13.0-rc3-bookworm
 julia:1.13.0-rc3
@@ -5842,8 +5856,6 @@ julia:1.10.12-trixie
 julia:1.10.12-bookworm
 julia:1.10-trixie
 julia:1.10-bookworm
-julia:1-trixie
-julia:1-bookworm
 julia:1.13.0-rc3-windowsservercore-ltsc2025
 julia:1.13.0-rc3-windowsservercore-ltsc2022
 julia:1.13.0-rc3-windowsservercore
@@ -5863,18 +5875,6 @@ julia:1.10.11-bookworm
 julia:1.10.11
 julia:1.13.0-rc1-windowsservercore-ltsc2025
 julia:1.13.0-rc1-windowsservercore
-julia:1.13.0-rc1
-julia:1.12.6-windowsservercore-ltsc2025
-julia:1.12.6-windowsservercore-ltsc2022
-julia:1.12.6-windowsservercore
-julia:1.10.11-windowsservercore-ltsc2025
-julia:1.13.0-rc1-trixie
-julia:1.13.0-rc1-bookworm
-julia:1.13.0-rc1-windowsservercore-ltsc2022
-julia:1.13.0-beta3-trixie
-julia:1.13.0-beta3-bookworm
-julia:1.13.0-beta3
-julia:1.13.0-beta3-windowsservercore-ltsc2025
 ```
 </details>
 
