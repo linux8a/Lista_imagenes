@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Fri Sep 11 09:08:56 UTC 2026
+Actualizado: Sat Sep 12 08:50:01 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -5557,6 +5557,10 @@ percona:ps-8.0.33-25
 <summary> aerospike </summary>
 
 ```sh
+aerospike:ee-8.1.2.5_1
+aerospike:ee-8.1.2.5
+aerospike:ce-8.1.2.5_1
+aerospike:ce-8.1.2.5
 aerospike:ee-8.1.2.4_1
 aerospike:ee-8.1.2.4
 aerospike:ce-8.1.2.4_1
@@ -5653,10 +5657,6 @@ aerospike:ce-7.2.0.4_1
 aerospike:ce-7.2.0.4
 aerospike:ee-7.2.0.3_1
 aerospike:ee-7.2.0.3
-aerospike:ce-7.2.0.3_1
-aerospike:ce-7.2.0.3
-aerospike:ee-7.2.0.1_2
-aerospike:ee-7.2.0.1
 ```
 </details>
 
@@ -7914,8 +7914,46 @@ solr:8.2.0
 ```sh
 neo4j:latest
 neo4j:ubi10
+neo4j:trixie
 neo4j:enterprise-ubi10
+neo4j:enterprise-trixie
+neo4j:enterprise
 neo4j:community-ubi10
+neo4j:community-trixie
+neo4j:community
+neo4j:4.4.48-enterprise
+neo4j:4.4.48-community
+neo4j:4.4.48
+neo4j:4.4-enterprise
+neo4j:4.4-community
+neo4j:4.4
+neo4j:2026.08.1-ubi10
+neo4j:2026.08.1-trixie
+neo4j:2026.08.1-enterprise-ubi10
+neo4j:2026.08.1-enterprise-trixie
+neo4j:2026.08.1-enterprise
+neo4j:2026.08.1-community-ubi10
+neo4j:2026.08.1-community-trixie
+neo4j:2026.08.1-community
+neo4j:2026.08.1
+neo4j:2026.08-ubi10
+neo4j:2026.08-trixie
+neo4j:2026.08-enterprise-ubi10
+neo4j:2026.08-enterprise-trixie
+neo4j:2026.08-enterprise
+neo4j:2026.08-community-ubi10
+neo4j:2026.08-community-trixie
+neo4j:2026.08-community
+neo4j:2026.08
+neo4j:2026-ubi10
+neo4j:2026-trixie
+neo4j:2026-enterprise-ubi10
+neo4j:2026-enterprise-trixie
+neo4j:2026-enterprise
+neo4j:2026-community-ubi10
+neo4j:2026-community-trixie
+neo4j:2026-community
+neo4j:2026
 neo4j:5.26.30-ubi10
 neo4j:5.26.30-enterprise-ubi10
 neo4j:5.26.30-community-ubi10
@@ -7931,14 +7969,6 @@ neo4j:2026.07.1-community-ubi10
 neo4j:2026.07-ubi10
 neo4j:2026.07-enterprise-ubi10
 neo4j:2026.07-community-ubi10
-neo4j:2026-ubi10
-neo4j:2026-enterprise-ubi10
-neo4j:2026-community-ubi10
-neo4j:trixie
-neo4j:enterprise-trixie
-neo4j:enterprise
-neo4j:community-trixie
-neo4j:community
 neo4j:5.26.30-trixie
 neo4j:5.26.30-enterprise-trixie
 neo4j:5.26.30-enterprise
@@ -7969,18 +7999,6 @@ neo4j:2026.07-enterprise
 neo4j:2026.07-community-trixie
 neo4j:2026.07-community
 neo4j:2026.07
-neo4j:2026-trixie
-neo4j:2026-enterprise-trixie
-neo4j:2026-enterprise
-neo4j:2026-community-trixie
-neo4j:2026-community
-neo4j:2026
-neo4j:4.4.48-enterprise
-neo4j:4.4.48-community
-neo4j:4.4.48
-neo4j:4.4-enterprise
-neo4j:4.4-community
-neo4j:4.4
 neo4j:5.26.29-ubi10
 neo4j:5.26.29-trixie
 neo4j:5.26.29-enterprise-ubi10
@@ -7994,24 +8012,6 @@ neo4j:5.26.28-community
 neo4j:2026.06.0-trixie
 neo4j:2026.06.0-enterprise
 neo4j:2026.06.0-community
-neo4j:2026.06.0
-neo4j:2026.06-trixie
-neo4j:2026.06-enterprise-trixie
-neo4j:2026.06-enterprise
-neo4j:2026.06-community-trixie
-neo4j:2026.06-community
-neo4j:2026.06
-neo4j:5.26.28-trixie
-neo4j:5.26.28-enterprise-trixie
-neo4j:5.26.28-enterprise
-neo4j:5.26.28-community-trixie
-neo4j:5.26.28
-neo4j:2026.06.0-enterprise-trixie
-neo4j:2026.06.0-community-trixie
-neo4j:5.26.28-ubi10
-neo4j:5.26.28-enterprise-ubi10
-neo4j:5.26.28-community-ubi10
-neo4j:2026.06.0-ubi10
 ```
 </details>
 
