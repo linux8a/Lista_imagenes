@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sun Oct 18 09:05:54 UTC 2026
+Actualizado: Mon Oct 19 10:17:53 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -755,6 +755,25 @@ buildpack-deps:22.10-scm
 
 ```sh
 nginx:latest
+nginx:trixie-perl
+nginx:perl
+nginx:mainline-trixie-perl
+nginx:mainline-perl
+nginx:1.31.7-trixie-perl
+nginx:1.31.7-perl
+nginx:1.31-trixie-perl
+nginx:1.31-perl
+nginx:1-trixie-perl
+nginx:1-perl
+nginx:trixie
+nginx:mainline-trixie
+nginx:mainline
+nginx:1.31.7-trixie
+nginx:1.31.7
+nginx:1.31-trixie
+nginx:1.31
+nginx:1-trixie
+nginx:1
 nginx:stable-alpine3.24-perl
 nginx:stable-alpine-perl
 nginx:mainline-alpine3.24-perl
@@ -815,45 +834,26 @@ nginx:1.31-alpine3.24-slim
 nginx:1.31-alpine-slim
 nginx:1-alpine3.24-slim
 nginx:1-alpine-slim
-nginx:trixie-perl
 nginx:trixie-otel
-nginx:trixie
 nginx:stable-trixie-otel
 nginx:stable-otel
 nginx:stable-alpine3.24-otel
 nginx:stable-alpine-otel
-nginx:perl
 nginx:otel
-nginx:mainline-trixie-perl
 nginx:mainline-trixie-otel
-nginx:mainline-trixie
-nginx:mainline-perl
 nginx:mainline-otel
 nginx:mainline-alpine3.24-otel
 nginx:mainline-alpine-otel
-nginx:mainline
 nginx:alpine3.24-otel
 nginx:alpine-otel
-nginx:1.31.7-trixie-perl
 nginx:1.31.7-trixie-otel
-nginx:1.31.7-trixie
-nginx:1.31.7-perl
 nginx:1.31.7-otel
 nginx:1.31.7-alpine3.24-otel
 nginx:1.31.7-alpine-otel
-nginx:1.31.7
-nginx:1.31-trixie-perl
 nginx:1.31-trixie-otel
-nginx:1.31-trixie
-nginx:1.31-perl
 nginx:1.31-otel
 nginx:1.31-alpine3.24-otel
 nginx:1.31-alpine-otel
-nginx:1.31
-nginx:1.30.6-trixie-otel
-nginx:1.30.6-otel
-nginx:1.30.6-alpine3.24-otel
-nginx:1.30.6-alpine-otel
 ```
 </details>
 
