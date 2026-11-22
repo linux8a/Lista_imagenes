@@ -1,5 +1,5 @@
 # Lista de imagenes docker con sus tags
-Actualizado: Sat Nov 21 13:00:56 UTC 2026
+Actualizado: Sun Nov 22 12:52:14 UTC 2026
 ## centos
 <details>
 <summary> centos </summary>
@@ -1191,6 +1191,32 @@ wordpress:php8.3
 
 ```sh
 postgres:latest
+postgres:15.20-trixie
+postgres:15.20
+postgres:15-trixie
+postgres:15
+postgres:16.16-alpine3.24
+postgres:16.16-alpine3.23
+postgres:16.16-alpine
+postgres:16-alpine3.24
+postgres:16-alpine3.23
+postgres:16-alpine
+postgres:17.12-alpine3.24
+postgres:17.12-alpine3.23
+postgres:17.12-alpine
+postgres:17-alpine3.24
+postgres:17-alpine3.23
+postgres:17-alpine
+postgres:18.7-alpine3.23
+postgres:18-alpine3.23
+postgres:17.12-trixie
+postgres:17.12
+postgres:17-trixie
+postgres:17
+postgres:18.7-alpine3.24
+postgres:18.7-alpine
+postgres:18-alpine3.24
+postgres:18-alpine
 postgres:trixie
 postgres:bookworm
 postgres:alpine3.24
@@ -1216,47 +1242,21 @@ postgres:18-bookworm
 postgres:18
 postgres:19rc2-trixie
 postgres:19rc2
-postgres:18.7-alpine3.23
-postgres:18-alpine3.23
-postgres:17.12-trixie
-postgres:17.12-alpine3.24
-postgres:17.12-alpine3.23
-postgres:17.12-alpine
-postgres:17.12
-postgres:17-trixie
-postgres:17-alpine3.24
-postgres:17-alpine3.23
-postgres:17-alpine
-postgres:17
 postgres:16.16-trixie
-postgres:16.16-alpine3.24
-postgres:16.16-alpine3.23
-postgres:16.16-alpine
 postgres:16.16
 postgres:16-trixie
-postgres:16-alpine3.24
-postgres:16-alpine3.23
-postgres:16-alpine
 postgres:16
-postgres:15.20-trixie
 postgres:15.20-alpine3.24
 postgres:15.20-alpine3.23
 postgres:15.20-alpine
-postgres:15.20
-postgres:15-trixie
 postgres:15-bookworm
 postgres:15-alpine3.24
 postgres:15-alpine3.23
 postgres:15-alpine
-postgres:15
 postgres:19rc2-bookworm
 postgres:19rc2-alpine3.24
 postgres:19rc2-alpine3.23
 postgres:19rc2-alpine
-postgres:18.7-alpine3.24
-postgres:18.7-alpine
-postgres:18-alpine3.24
-postgres:18-alpine
 postgres:17.12-bookworm
 postgres:17-bookworm
 postgres:16.16-bookworm
@@ -1661,8 +1661,14 @@ rails:4.2.1
 
 ```sh
 ruby:latest
-ruby:3.3.14-alpine3.23
-ruby:3.3-alpine3.23
+ruby:alpine3.24
+ruby:alpine
+ruby:4.0.10-alpine3.24
+ruby:4.0.10-alpine
+ruby:4.0-alpine3.24
+ruby:4.0-alpine
+ruby:4-alpine3.24
+ruby:4-alpine
 ruby:slim-trixie
 ruby:slim
 ruby:4.0.10-slim-trixie
@@ -1671,6 +1677,8 @@ ruby:4.0-slim-trixie
 ruby:4.0-slim
 ruby:4-slim-trixie
 ruby:4-slim
+ruby:3.3.14-alpine3.23
+ruby:3.3-alpine3.23
 ruby:3.4.13-trixie
 ruby:3.4.13-slim-trixie
 ruby:3.4.13-slim-bookworm
@@ -1715,32 +1723,24 @@ ruby:3-alpine3.23
 ruby:3-alpine
 ruby:3
 ruby:4.0.10-alpine3.23
-ruby:4.0.10-alpine
 ruby:4.0.10
 ruby:4.0-trixie
 ruby:4.0-slim-bookworm
 ruby:4.0-bookworm
-ruby:4.0-alpine3.24
 ruby:4.0-alpine3.23
-ruby:4.0-alpine
 ruby:4.0
 ruby:4-trixie
 ruby:4-slim-bookworm
 ruby:4-bookworm
-ruby:4-alpine3.24
 ruby:4-alpine3.23
-ruby:4-alpine
 ruby:4
 ruby:trixie
 ruby:slim-bookworm
 ruby:bookworm
-ruby:alpine3.24
 ruby:alpine3.23
-ruby:alpine
 ruby:4.0.10-trixie
 ruby:4.0.10-slim-bookworm
 ruby:4.0.10-bookworm
-ruby:4.0.10-alpine3.24
 ruby:4.0.9-alpine3.24
 ruby:4.0.9-alpine
 ruby:3.4.12-trixie
@@ -2697,6 +2697,16 @@ clojure:temurin-17-tools-deps-trixie-slim
 <summary> php </summary>
 
 ```sh
+php:8.2.36-zts-alpine3.24
+php:8.2.36-zts-alpine
+php:8.2.36-fpm-alpine3.23
+php:8.2.36-cli-alpine3.23
+php:8.2.36-alpine3.23
+php:8.2-zts-alpine3.24
+php:8.2-zts-alpine
+php:8.2-fpm-alpine3.23
+php:8.2-cli-alpine3.23
+php:8.2-alpine3.23
 php:8.2.36-fpm-trixie
 php:8.2.36-fpm
 php:8.2.36-cli-alpine3.24
@@ -2787,16 +2797,6 @@ php:8.4-cli-alpine3.24
 php:8.4-cli-alpine
 php:8.4-alpine3.24
 php:8.4-alpine
-php:8.5.13-zts-alpine3.23
-php:8.5-zts-alpine3.23
-php:8.4.28-trixie
-php:8.4.28-cli-trixie
-php:8.4.28-cli
-php:8.4.28-apache-trixie
-php:8.4.28-apache
-php:8.4.28
-php:8.4-trixie
-php:8.4-cli-trixie
 ```
 </details>
 
